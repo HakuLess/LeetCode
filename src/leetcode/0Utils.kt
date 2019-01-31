@@ -8,6 +8,10 @@ inline fun Int.print() {
     println("Int is " + this)
 }
 
+inline fun Long.print() {
+    println("Long is " + this)
+}
+
 inline fun ListNode?.print() {
     var node = this
     while (node != null) {
