@@ -2,10 +2,10 @@ package leetcode
 
 fun main(args: Array<String>) {
     val intArray = intArrayOf(7,1,5,3,6,4)
-    maxProfit(intArray).print()
+    maxProfitFake(intArray).print()
 }
 
-fun maxProfit(prices: IntArray): Int {
+fun maxProfitFake(prices: IntArray): Int {
     var result = 0
 
     val upArray = IntArray(prices.size)
