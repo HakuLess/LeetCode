@@ -12,6 +12,13 @@ inline fun Long.print() {
     println("Long is " + this)
 }
 
+fun TNode.print() {
+    println("level: ${this.level}, value: ${this.`val`}")
+    for (child in this.child) {
+        child.print()
+    }
+}
+
 inline fun ListNode?.print() {
     var node = this
     while (node != null) {
