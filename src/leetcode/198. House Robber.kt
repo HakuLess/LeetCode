@@ -2,7 +2,7 @@ package leetcode
 
 import kotlin.math.max
 
-fun rob(nums: IntArray): Int {
+fun rob3(nums: IntArray): Int {
     return when {
         nums.isEmpty() -> 0
         nums.size == 1 -> nums[0]
