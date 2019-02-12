@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/976. Largest Perimeter Triangle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/977. Squares of a Sorted Array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/990. Satisfiability of Equality Equations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/953. Verifying an Alien Dictionary.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/961. N-Repeated Element in Size 2N Array.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/965. Univalued Binary Tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/970. Powerful Integers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/992. Subarrays with K Different Integers.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,7 +37,7 @@
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="17" />
-          <entry key="kt" value="120" />
+          <entry key="kt" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -43,17 +45,17 @@
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="17" />
-          <entry key="Kotlin" value="120" />
+          <entry key="Kotlin" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="19828" />
+          <entry key="kt" value="22481" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="19828" />
+          <entry key="Kotlin" value="22481" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -62,28 +64,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/990. Satisfiability of Equality Equations.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/46. Permutations.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            <state relative-caret-position="382">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="8" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/977. Squares of a Sorted Array.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/992. Subarrays with K Different Integers.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="422">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/976. Largest Perimeter Triangle.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/953. Verifying an Alien Dictionary.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="396">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -93,6 +95,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
               <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9521" column="26" selection-start-line="9521" selection-start-column="26" selection-end-line="9521" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -119,6 +130,7 @@
       <find>g==</find>
       <find>g</find>
       <find>a==</find>
+      <find>list&lt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,12 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/Trees.Binary Tree Inorder Traversal.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/Trees.Binary Tree Zigzag Level Order Traversal.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/Trees.Construct Binary Tree from Preorder and Inorder Traversal.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/Trees.Kth Smallest Element in a BST.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/0Utils.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/Trees.Word Ladder.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/Trees.Binary Tree Maximum Path Sum.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/24. Swap Nodes in Pairs.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/38. Count and Say.kt" />
@@ -178,6 +184,12 @@
         <option value="$PROJECT_DIR$/src/leetcode/991. Broken Calculator.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/990. Satisfiability of Equality Equations.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/977. Squares of a Sorted Array.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/976. Largest Perimeter Triangle.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/970. Powerful Integers.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/965. Univalued Binary Tree.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/961. N-Repeated Element in Size 2N Array.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/992. Subarrays with K Different Integers.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/953. Verifying an Alien Dictionary.kt" />
       </list>
     </option>
   </component>
@@ -221,7 +233,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549944544974" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549965790383" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -248,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode._990__Satisfiability_of_Equality_EquationsKt">
+  <component name="RunManager" selected="Kotlin.leetcode._953__Verifying_an_Alien_DictionaryKt">
     <configuration name="leetcode._507__Perfect_NumberKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -257,32 +269,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode._507__Perfect_NumberKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode._539__Minimum_Time_DifferenceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._539__Minimum_Time_DifferenceKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode._541__Reverse_String_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._541__Reverse_String_IIKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -301,6 +287,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode._953__Verifying_an_Alien_DictionaryKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._953__Verifying_an_Alien_DictionaryKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="leetcode._990__Satisfiability_of_Equality_EquationsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -314,20 +313,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode._992__Subarrays_with_K_Different_IntegersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._992__Subarrays_with_K_Different_IntegersKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode._539__Minimum_Time_DifferenceKt" />
-      <item itemvalue="Kotlin.leetcode._541__Reverse_String_IIKt" />
       <item itemvalue="Kotlin.leetcode._507__Perfect_NumberKt" />
       <item itemvalue="Kotlin.leetcode._728__Self_Dividing_NumbersKt" />
       <item itemvalue="Kotlin.leetcode._990__Satisfiability_of_Equality_EquationsKt" />
+      <item itemvalue="Kotlin.leetcode._992__Subarrays_with_K_Different_IntegersKt" />
+      <item itemvalue="Kotlin.leetcode._953__Verifying_an_Alien_DictionaryKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode._953__Verifying_an_Alien_DictionaryKt" />
+        <item itemvalue="Kotlin.leetcode._992__Subarrays_with_K_Different_IntegersKt" />
         <item itemvalue="Kotlin.leetcode._990__Satisfiability_of_Equality_EquationsKt" />
         <item itemvalue="Kotlin.leetcode._728__Self_Dividing_NumbersKt" />
         <item itemvalue="Kotlin.leetcode._507__Perfect_NumberKt" />
-        <item itemvalue="Kotlin.leetcode._541__Reverse_String_IIKt" />
-        <item itemvalue="Kotlin.leetcode._539__Minimum_Time_DifferenceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +360,7 @@
     <frame x="143" y="59" width="1759" height="929" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21490973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21490973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,7 +369,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,41 +392,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/343. Integer Break.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/462. Minimum Moves to Equal Array Elements II.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/453. Minimum Moves to Equal Array Elements.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/754. Reach a Number.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/70. Climbing Stairs.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/746. Min Cost Climbing Stairs.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -457,13 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25542">
-          <caret line="1167" column="35" selection-start-line="1167" selection-start-column="35" selection-end-line="1167" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -513,13 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-124">
           <caret line="624" column="12" selection-start-line="624" selection-start-column="12" selection-end-line="624" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/46. Permutations.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -721,13 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/990. Satisfiability of Equality Equations.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -744,8 +700,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/976. Largest Perimeter Triangle.kt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/970. Powerful Integers.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/965. Univalued Binary Tree.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="2" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/961. N-Repeated Element in Size 2N Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/46. Permutations.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="8" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9521" column="26" selection-start-line="9521" selection-start-column="26" selection-end-line="9521" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/992. Subarrays with K Different Integers.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/953. Verifying an Alien Dictionary.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
