@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/22. Generate Parentheses.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/287. Find the Duplicate Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/347. Top K Frequent Elements.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/437. Path Sum III.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/538. Convert BST to Greater Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/78. Subsets.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/942. DI String Match.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,7 +33,7 @@
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="20" />
-          <entry key="kt" value="187" />
+          <entry key="kt" value="188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -46,17 +41,17 @@
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="20" />
-          <entry key="Kotlin" value="187" />
+          <entry key="Kotlin" value="188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="33084" />
+          <entry key="kt" value="33515" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="33084" />
+          <entry key="Kotlin" value="33515" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -91,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/22. Generate Parentheses.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="44">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/942. DI String Match.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -182,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/539. Minimum Time Difference.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/541. Reverse String II.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/557. Reverse Words in a String III.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/507. Perfect Number.kt" />
@@ -233,6 +236,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/287. Find the Duplicate Number.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/347. Top K Frequent Elements.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/22. Generate Parentheses.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/942. DI String Match.kt" />
       </list>
     </option>
   </component>
@@ -276,7 +280,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550138978908" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550144499884" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -303,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode._347__Top_K_Frequent_ElementsKt">
+  <component name="RunManager" selected="Kotlin.leetcode._942__DI_String_MatchKt">
     <configuration name="leetcode._347__Top_K_Frequent_ElementsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -343,19 +347,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode._55__Jump_GameKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._55__Jump_GameKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="leetcode._78__SubsetsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -369,20 +360,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode._942__DI_String_MatchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._942__DI_String_MatchKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode._55__Jump_GameKt" />
       <item itemvalue="Kotlin.leetcode._406__Queue_Reconstruction_by_HeightKt" />
       <item itemvalue="Kotlin.leetcode._437__Path_Sum_IIIKt" />
       <item itemvalue="Kotlin.leetcode._78__SubsetsKt" />
       <item itemvalue="Kotlin.leetcode._347__Top_K_Frequent_ElementsKt" />
+      <item itemvalue="Kotlin.leetcode._942__DI_String_MatchKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode._942__DI_String_MatchKt" />
         <item itemvalue="Kotlin.leetcode._347__Top_K_Frequent_ElementsKt" />
         <item itemvalue="Kotlin.leetcode._78__SubsetsKt" />
         <item itemvalue="Kotlin.leetcode._437__Path_Sum_IIIKt" />
         <item itemvalue="Kotlin.leetcode._406__Queue_Reconstruction_by_HeightKt" />
-        <item itemvalue="Kotlin.leetcode._55__Jump_GameKt" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +407,7 @@
     <frame x="241" y="44" width="1759" height="929" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21490973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21490973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -412,7 +416,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,13 +439,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/922. Sort Array By Parity II.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/938. Range Sum of BST.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -793,8 +790,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/22. Generate Parentheses.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/942. DI String Match.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
         </state>
       </provider>
     </entry>
