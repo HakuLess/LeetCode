@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/27. Remove Element.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/995. Minimum Number of K Consecutive Bit Flips.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/996. Number of Squareful Arrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/200. Number of Islands.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/622. Design Circular Queue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/752. Open the Lock.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,26 +34,26 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="23" />
-          <entry key="kt" value="213" />
+          <entry key="java" value="24" />
+          <entry key="kt" value="216" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="23" />
-          <entry key="Kotlin" value="213" />
+          <entry key="JAVA" value="24" />
+          <entry key="Kotlin" value="216" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="39394" />
+          <entry key="kt" value="41097" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="39394" />
+          <entry key="Kotlin" value="41097" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -79,11 +79,51 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/996. Number of Squareful Arrays.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="418">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/622. Design Circular Queue.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/200. Number of Islands.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/752. Open the Lock.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="334" column="19" selection-start-line="334" selection-start-column="19" selection-end-line="334" selection-end-column="19" />
+              <folding>
+                <element signature="e#12211#12212#0" expanded="true" />
+                <element signature="e#12242#12243#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,6 +179,8 @@
       <find>permu</find>
       <find>isSqrt</find>
       <find>print</find>
+      <find>PriorityQueue</find>
+      <find>Queue</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,9 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/953. Verifying an Alien Dictionary.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/908. Smallest Range I.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/910. Smallest Range II.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/905. Sort Array By Parity.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/938. Range Sum of BST.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/922. Sort Array By Parity II.kt" />
@@ -198,6 +237,9 @@
         <option value="$PROJECT_DIR$/src/leetcode/27. Remove Element.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/995. Minimum Number of K Consecutive Bit Flips.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/996. Number of Squareful Arrays.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/622. Design Circular Queue.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/200. Number of Islands.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/752. Open the Lock.kt" />
       </list>
     </option>
   </component>
@@ -241,7 +283,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550476101423" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550484640404" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -366,9 +408,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="123" y="59" width="1759" height="929" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21723936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21723936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -377,7 +418,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,27 +441,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/238. Product of Array Except Self.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/300. Longest Increasing Subsequence.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="434" column="17" selection-start-line="434" selection-start-column="13" selection-end-line="434" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/88. Merge Sorted Array.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -610,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="673" column="9" lean-forward="true" selection-start-line="673" selection-start-column="9" selection-end-line="673" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/883. Projection Area of 3D Shapes.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -746,8 +759,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/996. Number of Squareful Arrays.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="418">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/622. Design Circular Queue.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="334" column="19" selection-start-line="334" selection-start-column="19" selection-end-line="334" selection-end-column="19" />
+          <folding>
+            <element signature="e#12211#12212#0" expanded="true" />
+            <element signature="e#12242#12243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/200. Number of Islands.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/752. Open the Lock.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
         </state>
       </provider>
     </entry>
