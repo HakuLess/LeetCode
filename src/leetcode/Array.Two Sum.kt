@@ -5,12 +5,12 @@ fun main(args: Array<String>) {
     twoSum(intArray, 22).print()
 }
 
-fun twoSum(nums: IntArray, target: Int): IntArray {
-    nums.forEachIndexed { index, value ->
-        val last = nums.lastIndexOf(target - value)
-        if (last > index) {
-            return intArrayOf(index, last)
-        }
-    }
-    return intArrayOf()
-}
+//fun twoSum(nums: IntArray, target: Int): IntArray {
+//    nums.forEachIndexed { index, value ->
+//        val last = nums.lastIndexOf(target - value)
+//        if (last > index) {
+//            return intArrayOf(index, last)
+//        }
+//    }
+//    return intArrayOf()
+//}

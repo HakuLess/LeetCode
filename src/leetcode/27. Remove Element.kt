@@ -2,12 +2,13 @@ package leetcode
 
 fun removeElement(nums: IntArray, `val`: Int): Int {
 
-    val ans = nums.filter {
-        it != `val`
+    var index = 0
+    for (i in 0 until nums.size) {
+        if (nums[i] != `val`) {
+            nums[index] = nums[i]
+            index++
+        }
     }
 
-    for (i in 0 until ans.size) {
-        nums[i] = ans[i]
-    }
-    return ans.size
+    return index
 }
