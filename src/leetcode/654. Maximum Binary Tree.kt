@@ -26,33 +26,33 @@ class TreeNode(var `val`: Int = 0) {
     var right: TreeNode? = null
 }
 
-fun constructMaximumBinaryTree(nums: IntArray): TreeNode? {
-    if (nums.isEmpty()) {
-        return null
-    }
-    var max = -1
-    var index = -1
-    for (i in nums.indices) {
-        if (nums[i] > max) {
-            max = nums[i]
-            index = i
-        }
-    }
-
-    val curNode = TreeNode(max)
-    val leftNums = IntArray(index)
-    val rightNums = IntArray(nums.size - index - 1)
-
-    for (i in nums.indices) {
-        if (i < index) {
-            leftNums[i] = nums[i]
-        } else if (i > index){
-            rightNums[i - index - 1] = nums[i]
-        }
-    }
-
-    curNode.left = constructMaximumBinaryTree(leftNums)
-    curNode.right = constructMaximumBinaryTree(rightNums)
-
-    return curNode
-}
+//fun constructMaximumBinaryTree(nums: IntArray): TreeNode? {
+//    if (nums.isEmpty()) {
+//        return null
+//    }
+//    var max = -1
+//    var index = -1
+//    for (i in nums.indices) {
+//        if (nums[i] > max) {
+//            max = nums[i]
+//            index = i
+//        }
+//    }
+//
+//    val curNode = TreeNode(max)
+//    val leftNums = IntArray(index)
+//    val rightNums = IntArray(nums.size - index - 1)
+//
+//    for (i in nums.indices) {
+//        if (i < index) {
+//            leftNums[i] = nums[i]
+//        } else if (i > index){
+//            rightNums[i - index - 1] = nums[i]
+//        }
+//    }
+//
+//    curNode.left = constructMaximumBinaryTree(leftNums)
+//    curNode.right = constructMaximumBinaryTree(rightNums)
+//
+//    return curNode
+//}
