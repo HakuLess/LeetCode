@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/1001. Grid Illumination.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/997. Find the Town Judge.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/998. Maximum Binary Tree II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/999. Available Captures for Rook.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/154. Find Minimum in Rotated Sorted Array II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/34. Find First and Last Position of Element in Sorted Array.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/81. Search in Rotated Sorted Array II.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/654. Maximum Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/654. Maximum Binary Tree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Trees.Binary Tree Inorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Trees.Binary Tree Inorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/153. Find Minimum in Rotated Sorted Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/153. Find Minimum in Rotated Sorted Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/33. Search in Rotated Sorted Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/33. Search in Rotated Sorted Array.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +37,7 @@
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="26" />
-          <entry key="kt" value="289" />
+          <entry key="kt" value="298" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -46,17 +45,17 @@
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="26" />
-          <entry key="Kotlin" value="289" />
+          <entry key="Kotlin" value="298" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="58839" />
+          <entry key="kt" value="60433" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="58839" />
+          <entry key="Kotlin" value="60433" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -65,40 +64,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/997. Find the Town Judge.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/33. Search in Rotated Sorted Array.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="2" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="611">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/999. Available Captures for Rook.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/81. Search in Rotated Sorted Array II.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="70" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/998. Maximum Binary Tree II.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#18#72#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="682">
+              <caret line="31" column="16" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="31" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/1001. Grid Illumination.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/34. Find First and Last Position of Element in Sorted Array.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="185">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/154. Find Minimum in Rotated Sorted Array II.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -113,28 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/144. Binary Tree Preorder Traversal.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/153. Find Minimum in Rotated Sorted Array.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Trees.Binary Tree Inorder Traversal.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-start-column="2" selection-end-line="11" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/654. Maximum Binary Tree.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+            <state relative-caret-position="418">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -188,9 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/225. Implement Stack using Queues.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/394. Decode String.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/733. Flood Fill.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/542. 01 Matrix.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/841. Keys and Rooms.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/707. Design Linked List.kt" />
@@ -213,12 +188,10 @@
         <option value="$PROJECT_DIR$/src/leetcode/106. Construct Binary Tree from Inorder and Postorder Traversal.kt" />
         <option value="$PROJECT_DIR$/src/704. Binary Search.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/69. Sqrt(x).kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/33. Search in Rotated Sorted Array.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/946. Validate Stack Sequences.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/933. Number of Recent Calls.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/566. Reshape the Matrix.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/162. Find Peak Element.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/153. Find Minimum in Rotated Sorted Array.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/876. Middle of the Linked List.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/897. Increasing Order Search Tree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/821. Shortest Distance to a Character.kt" />
@@ -239,13 +212,18 @@
         <option value="$PROJECT_DIR$/src/leetcode/Trees.Binary Tree Inorder Traversal.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/998. Maximum Binary Tree II.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/1001. Grid Illumination.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/153. Find Minimum in Rotated Sorted Array.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/154. Find Minimum in Rotated Sorted Array II.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/33. Search in Rotated Sorted Array.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/81. Search in Rotated Sorted Array II.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/Search for a Range.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="123" />
+    <option name="x" value="412" />
     <option name="y" value="59" />
-    <option name="width" value="1759" />
+    <option name="width" value="1470" />
     <option name="height" value="929" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -281,8 +259,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;number&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/200. Number of Islands.kt&#10;treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550981926928" />
+    <property name="SearchEverywhereHistoryKey" value="Search in Rotated Sorted Array&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/33. Search in Rotated Sorted Array.kt&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;number&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/200. Number of Islands.kt&#10;treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551067178707" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -309,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode._1001__Grid_IlluminationKt">
+  <component name="RunManager" selected="Kotlin.leetcode._33__Search_in_Rotated_Sorted_ArrayKt">
     <configuration name="leetcode._1001__Grid_IlluminationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -318,6 +296,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode._1001__Grid_IlluminationKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode._154__Find_Minimum_in_Rotated_Sorted_Array_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._154__Find_Minimum_in_Rotated_Sorted_Array_IIKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -336,27 +327,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode._279__Perfect_SquaresKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode._33__Search_in_Rotated_Sorted_ArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._279__Perfect_SquaresKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode._996__Number_of_Squareful_ArraysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._996__Number_of_Squareful_ArraysKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._33__Search_in_Rotated_Sorted_ArrayKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -376,19 +354,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode._996__Number_of_Squareful_ArraysKt" />
-      <item itemvalue="Kotlin.leetcode._279__Perfect_SquaresKt" />
       <item itemvalue="Kotlin.leetcode._209__Minimum_Size_Subarray_SumKt" />
       <item itemvalue="Kotlin.leetcode._997__Find_the_Town_JudgeKt" />
       <item itemvalue="Kotlin.leetcode._1001__Grid_IlluminationKt" />
+      <item itemvalue="Kotlin.leetcode._154__Find_Minimum_in_Rotated_Sorted_Array_IIKt" />
+      <item itemvalue="Kotlin.leetcode._33__Search_in_Rotated_Sorted_ArrayKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode._33__Search_in_Rotated_Sorted_ArrayKt" />
+        <item itemvalue="Kotlin.leetcode._154__Find_Minimum_in_Rotated_Sorted_Array_IIKt" />
         <item itemvalue="Kotlin.leetcode._1001__Grid_IlluminationKt" />
         <item itemvalue="Kotlin.leetcode._997__Find_the_Town_JudgeKt" />
         <item itemvalue="Kotlin.leetcode._209__Minimum_Size_Subarray_SumKt" />
-        <item itemvalue="Kotlin.leetcode._279__Perfect_SquaresKt" />
-        <item itemvalue="Kotlin.leetcode._996__Number_of_Squareful_ArraysKt" />
       </list>
     </recent_temporary>
   </component>
@@ -406,10 +384,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="123" y="59" width="1759" height="929" extended-state="0" />
-    <editor active="true" />
+    <frame x="412" y="59" width="1470" height="929" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21956901" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2640056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -418,7 +395,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,27 +418,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/844. Backspace String Compare.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/724. Find Pivot Index.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/747. Largest Number At Least Twice of Others.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/498. Diagonal Traverse.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -602,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/33. Search in Rotated Sorted Array.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/69. Sqrt(x).kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -625,15 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/162. Find Peak Element.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/153. Find Minimum in Rotated Sorted Array.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="198">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -728,13 +670,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/563. Binary Tree Tilt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/563. Binary Tree Tilt.kt" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/784. Letter Case Permutation.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -787,6 +723,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/1001. Grid Illumination.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -794,10 +737,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/1001. Grid Illumination.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/154. Find Minimum in Rotated Sorted Array II.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="154">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/81. Search in Rotated Sorted Array II.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/33. Search in Rotated Sorted Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/153. Find Minimum in Rotated Sorted Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/34. Find First and Last Position of Element in Sorted Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
