@@ -1,10 +1,17 @@
 package leetcode
 
 fun findPeakElement(nums: IntArray): Int {
-    for (i in 0 until nums.size - 1) {
-        if (nums[i] > nums[i + 1]) {
-            return i
-        }
+    return search(nums, 0, nums.size - 1)
+}
+
+fun search(nums: IntArray, l: Int, r: Int): Int {
+    if (l == r) {
+        return l
     }
-    return nums.lastIndex
+    val mid = l + (r - l) / 2
+    return if (nums[mid] > nums[mid + 1]) {
+        search(nums, l, mid)
+    } else {
+        search(nums, mid + 1, r)
+    }
 }

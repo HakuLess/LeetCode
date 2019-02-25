@@ -1,5 +1,7 @@
 package leetcode
 
+import java.util.*
+
 inline fun String.print() {
     println("String is " + this)
 }
@@ -45,4 +47,10 @@ inline fun IntArray.print() {
 
 inline fun Boolean.print() {
     println(this)
+}
+
+inline fun TreeMap<Int, Int>.print() {
+    this.forEach { t, u ->
+        kotlin.io.println("key: $t, value: $u")
+    }
 }
