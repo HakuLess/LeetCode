@@ -1,7 +1,7 @@
 package leetcode
 
 fun main(args: Array<String>) {
-    searchInsert(intArrayOf(1, 3, 5, 6), 0).print()
+    searchInsert(intArrayOf(1, 3), 3).print()
 }
 
 fun searchInsert(nums: IntArray, target: Int): Int {
@@ -13,7 +13,7 @@ fun searchInsert(nums: IntArray, target: Int): Int {
         return 0
     }
 
-    if (target >= nums[end - 1]) {
+    if (target > nums[end - 1]) {
         return end
     }
 
