@@ -1,13 +1,14 @@
 package leetcode
 
 fun main(args: Array<String>) {
-    isHappy(10001).print()
+    isHappy(2).print()
 }
 
-var source = arrayListOf<Int>()
+var source = hashSetOf<Int>()
+
 fun isHappy(n: Int): Boolean {
     if (n in source) {
-        return true
+        return false
     }
     source.add(n)
     var res = n
