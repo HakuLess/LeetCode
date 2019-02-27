@@ -5,7 +5,7 @@ package leetcode
  */
 fun main(args: Array<String>) {
     val source = arrayListOf(-1, 0, 1, 2, -1, -4).toIntArray()
-    threeSum(source)
+    threeSum(source).print()
 }
 
 fun threeSum(nums: IntArray): List<List<Int>> {
