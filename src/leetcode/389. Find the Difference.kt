@@ -7,8 +7,14 @@ fun findTheDifference(s: String, t: String): Char {
     }
 
     for (i in 0 until t.length) {
-        map[s[i]] = map.getOrDefault(t[i], 0) - 1
+        map[t[i]] = map.getOrDefault(t[i], 0) - 1
     }
 
-    return t.last()
+    for (i in map) {
+        if (i.value < 0) {
+            return i.key
+        }
+    }
+
+    return ' '
 }
