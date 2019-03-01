@@ -1,6 +1,6 @@
 package leetcode
 
-//todo 
+//todo
 class Solution210 {
 
     private var answer = arrayListOf<Int>()
