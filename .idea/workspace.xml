@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/113. Path Sum II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/216. Combination Sum III.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/240. Search a 2D Matrix II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/377. Combination Sum IV.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/40. Combination Sum II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/45. Jump Game II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/59. Spiral Matrix II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/74. Search a 2D Matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/82. Remove Duplicates from Sorted List II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/83. Remove Duplicates from Sorted List.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/885. Spiral Matrix III.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/95. Unique Binary Search Trees II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/96. Unique Binary Search Trees.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/139. Word Break.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/140. Word Break II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/199. Binary Tree Right Side View.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/201. Bitwise AND of Numbers Range.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/203. Remove Linked List Elements.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/207. Course Schedule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/210. Course Schedule II.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/336. Palindrome Pairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/336. Palindrome Pairs.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,26 +41,26 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="41" />
-          <entry key="kt" value="378" />
+          <entry key="java" value="42" />
+          <entry key="kt" value="386" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="41" />
-          <entry key="Kotlin" value="378" />
+          <entry key="JAVA" value="42" />
+          <entry key="Kotlin" value="386" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="78424" />
+          <entry key="kt" value="80649" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="78424" />
+          <entry key="Kotlin" value="80649" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -76,37 +69,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/83. Remove Duplicates from Sorted List.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/201. Bitwise AND of Numbers Range.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="242">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/82. Remove Duplicates from Sorted List II.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/203. Remove Linked List Elements.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/96. Unique Binary Search Trees.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/207. Course Schedule.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="15" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="382">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="20" selection-end-line="37" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/95. Unique Binary Search Trees II.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/210. Course Schedule II.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="1078">
+              <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="543" column="19" selection-start-line="543" selection-start-column="19" selection-end-line="543" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Maps.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="303" column="42" selection-start-line="303" selection-start-column="42" selection-end-line="303" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -122,7 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>g</find>
       <find>a==</find>
       <find>list&lt;</find>
       <find>seil</find>
@@ -152,6 +162,7 @@
       <find>offer</find>
       <find>levelor</find>
       <find>binary</find>
+      <find>pre</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,13 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/162. Find Peak Element.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/4. Median of Two Sorted Arrays.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/50. Pow(x, n).kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/367. Valid Perfect Square.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/744. Find Smallest Letter Greater Than Target.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/0Utils.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/719. Find K-th Smallest Pair Distance.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/410. Split Array Largest Sum.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/363. Max Sum of Rectangle No Larger Than K.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/35. Search Insert Position.kt" />
@@ -211,6 +215,13 @@
         <option value="$PROJECT_DIR$/src/leetcode/82. Remove Duplicates from Sorted List II.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/96. Unique Binary Search Trees.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/95. Unique Binary Search Trees II.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/139. Word Break.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/140. Word Break II.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/199. Binary Tree Right Side View.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/201. Bitwise AND of Numbers Range.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/203. Remove Linked List Elements.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/207. Course Schedule.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/210. Course Schedule II.kt" />
       </list>
     </option>
   </component>
@@ -254,7 +265,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;findpeak&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/162. Find Peak Element.kt&#10;Search in Rotated Sorted Array&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/33. Search in Rotated Sorted Array.kt&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;number&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/200. Number of Islands.kt&#10;treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551412745962" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551431163409" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -418,58 +429,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/NavigableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="153" column="6" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/220. Contains Duplicate III.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Trees.Binary Tree Level Order Traversal.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="6" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/110. Balanced Binary Tree.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Hashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5461">
-          <caret line="134" column="13" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/202.Happy Number.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/167. Two Sum II - Input array is sorted.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/15. 3Sum.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/205. Isomorphic Strings.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -529,13 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="1104" column="28" selection-start-line="1104" selection-start-column="13" selection-end-line="1104" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Maps.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="303" column="42" selection-start-line="303" selection-start-column="42" selection-end-line="303" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -775,8 +727,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/95. Unique Binary Search Trees II.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="294">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/139. Word Break.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="2" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/140. Word Break II.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#18#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/199. Binary Tree Right Side View.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/201. Bitwise AND of Numbers Range.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/203. Remove Linked List Elements.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Maps.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="303" column="42" selection-start-line="303" selection-start-column="42" selection-end-line="303" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="543" column="19" selection-start-line="543" selection-start-column="19" selection-end-line="543" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/207. Course Schedule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="20" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/210. Course Schedule II.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
         </state>
       </provider>
     </entry>
