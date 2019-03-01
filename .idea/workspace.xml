@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/208. Implement Trie (Prefix Tree).kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/211. Add and Search Word - Data structure design.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/212. Word Search II.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/336. Palindrome Pairs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/421. Maximum XOR of Two Numbers in an Array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/648. Replace Words.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/677. Map Sum Pairs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/79. Word Search.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/113. Path Sum II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/216. Combination Sum III.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/240. Search a 2D Matrix II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/377. Combination Sum IV.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/40. Combination Sum II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/45. Jump Game II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/59. Spiral Matrix II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/74. Search a 2D Matrix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/82. Remove Duplicates from Sorted List II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/83. Remove Duplicates from Sorted List.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/885. Spiral Matrix III.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/95. Unique Binary Search Trees II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/96. Unique Binary Search Trees.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/389. Find the Difference.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/389. Find the Difference.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/336. Palindrome Pairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/336. Palindrome Pairs.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,26 +48,26 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="40" />
-          <entry key="kt" value="362" />
+          <entry key="java" value="41" />
+          <entry key="kt" value="378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="40" />
-          <entry key="Kotlin" value="362" />
+          <entry key="JAVA" value="41" />
+          <entry key="Kotlin" value="378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="73843" />
+          <entry key="kt" value="78424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="73843" />
+          <entry key="Kotlin" value="78424" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -71,55 +76,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/208. Implement Trie (Prefix Tree).kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/83. Remove Duplicates from Sorted List.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="66">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="19" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/677. Map Sum Pairs.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/82. Remove Duplicates from Sorted List II.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="264">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/79. Word Search.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/96. Unique Binary Search Trees.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/212. Word Search II.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="352">
+              <caret line="16" column="15" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="16" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/336. Palindrome Pairs.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/95. Unique Binary Search Trees II.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="52">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -173,19 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/563. Binary Tree Tilt.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/997. Find the Town Judge.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/999. Available Captures for Rook.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/654. Maximum Binary Tree.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/Trees.Binary Tree Inorder Traversal.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/998. Maximum Binary Tree II.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/1001. Grid Illumination.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/153. Find Minimum in Rotated Sorted Array.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/154. Find Minimum in Rotated Sorted Array II.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/33. Search in Rotated Sorted Array.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/81. Search in Rotated Sorted Array II.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/Search for a Range.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/658. Find K Closest Elements.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/162. Find Peak Element.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/4. Median of Two Sorted Arrays.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/50. Pow(x, n).kt" />
@@ -224,6 +198,19 @@
         <option value="$PROJECT_DIR$/src/leetcode/79. Word Search.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/212. Word Search II.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/336. Palindrome Pairs.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/40. Combination Sum II.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/216. Combination Sum III.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/377. Combination Sum IV.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/113. Path Sum II.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/45. Jump Game II.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/59. Spiral Matrix II.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/885. Spiral Matrix III.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/74. Search a 2D Matrix.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/240. Search a 2D Matrix II.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/83. Remove Duplicates from Sorted List.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/82. Remove Duplicates from Sorted List II.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/96. Unique Binary Search Trees.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/95. Unique Binary Search Trees II.kt" />
       </list>
     </option>
   </component>
@@ -267,7 +254,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;findpeak&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/162. Find Peak Element.kt&#10;Search in Rotated Sorted Array&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/33. Search in Rotated Sorted Array.kt&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;number&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/200. Number of Islands.kt&#10;treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551339438277" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551412745962" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -294,41 +281,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode._79__Word_SearchKt">
-    <configuration name="leetcode._15__3SumKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.leetcode._45__Jump_Game_IIKt">
+    <configuration name="leetcode._377__Combination_Sum_IVKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._15__3SumKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode._202_Happy_NumberKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._202_Happy_NumberKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode._220__Contains_Duplicate_IIIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._220__Contains_Duplicate_IIIKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._377__Combination_Sum_IVKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -342,6 +303,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode._3__Longest_Substring_Without_Repeating_CharactersKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode._40__Combination_Sum_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._40__Combination_Sum_IIKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode._45__Jump_Game_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._45__Jump_Game_IIKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -361,19 +348,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode._220__Contains_Duplicate_IIIKt" />
-      <item itemvalue="Kotlin.leetcode._202_Happy_NumberKt" />
-      <item itemvalue="Kotlin.leetcode._15__3SumKt" />
       <item itemvalue="Kotlin.leetcode._3__Longest_Substring_Without_Repeating_CharactersKt" />
       <item itemvalue="Kotlin.leetcode._79__Word_SearchKt" />
+      <item itemvalue="Kotlin.leetcode._40__Combination_Sum_IIKt" />
+      <item itemvalue="Kotlin.leetcode._377__Combination_Sum_IVKt" />
+      <item itemvalue="Kotlin.leetcode._45__Jump_Game_IIKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode._45__Jump_Game_IIKt" />
+        <item itemvalue="Kotlin.leetcode._377__Combination_Sum_IVKt" />
+        <item itemvalue="Kotlin.leetcode._40__Combination_Sum_IIKt" />
         <item itemvalue="Kotlin.leetcode._79__Word_SearchKt" />
         <item itemvalue="Kotlin.leetcode._3__Longest_Substring_Without_Repeating_CharactersKt" />
-        <item itemvalue="Kotlin.leetcode._15__3SumKt" />
-        <item itemvalue="Kotlin.leetcode._202_Happy_NumberKt" />
-        <item itemvalue="Kotlin.leetcode._220__Contains_Duplicate_IIIKt" />
       </list>
     </recent_temporary>
   </component>
@@ -431,133 +418,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/363. Max Sum of Rectangle No Larger Than K.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/410. Split Array Largest Sum.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/35. Search Insert Position.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="4836" column="22" selection-start-line="4836" selection-start-column="22" selection-end-line="4836" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/94. Binary Tree Inorder Traversal.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/344. Reverse String.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/475. Heaters.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/509. Fibonacci Number.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/173. Binary Search Tree Iterator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#18#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/450. Delete Node in a BST.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
-          <folding>
-            <element signature="e#5776#5777#0" expanded="true" />
-            <element signature="e#5809#5810#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/703. Kth Largest Element in a Stream.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="651" column="17" selection-start-line="651" selection-start-column="17" selection-end-line="651" selection-end-column="17" />
-          <folding>
-            <element signature="e#4375#4376#0" expanded="true" />
-            <element signature="e#4427#4428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="1614" column="43" selection-start-line="1614" selection-start-column="43" selection-end-line="1614" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/219. Contains Duplicate II.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="424" column="22" lean-forward="true" selection-start-line="424" selection-start-column="22" selection-end-line="424" selection-end-column="22" />
-          <folding>
-            <element signature="e#15795#15796#0" expanded="true" />
-            <element signature="e#15831#15832#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/NavigableMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -773,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/677. Map Sum Pairs.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -803,8 +656,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/336. Palindrome Pairs.kt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/39. Combination Sum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/377. Combination Sum IV.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/113. Path Sum II.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/216. Combination Sum III.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/40. Combination Sum II.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/45. Jump Game II.kt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/59. Spiral Matrix II.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="46" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/885. Spiral Matrix III.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="1903" column="22" lean-forward="true" selection-start-line="1903" selection-start-column="22" selection-end-line="1903" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/generated/_ArraysJvm.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="226" column="35" lean-forward="true" selection-start-line="226" selection-start-column="35" selection-end-line="226" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/74. Search a 2D Matrix.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/240. Search a 2D Matrix II.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/83. Remove Duplicates from Sorted List.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/82. Remove Duplicates from Sorted List II.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/96. Unique Binary Search Trees.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/95. Unique Binary Search Trees II.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
