@@ -12,15 +12,7 @@ fun main(args: Array<String>) {
 }
 
 class Solution1003 {
-
     fun isValid(S: String): Boolean {
-//        if (S.length < 3) {
-//            return false
-//        }
-//
-//        if (S[0] != 'a' || S[1] == 'c') {
-//            return false
-//        }
 
         val stack = Stack<Char>()
 
