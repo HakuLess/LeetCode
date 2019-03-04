@@ -54,3 +54,8 @@ inline fun TreeMap<Int, Int>.print() {
         kotlin.io.println("key: $t, value: $u")
     }
 }
+
+class Interval(
+        var start: Int = 0,
+        var end: Int = 0
+)
