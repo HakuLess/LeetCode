@@ -1,81 +1,110 @@
 package leetcode
 
 class Solution {
+
     fun threeSumMulti(A: IntArray, target: Int): Int {
-        val map = hashMapOf<Int, Int>()
-        A.sort()
-        A.forEach {
-            var item = map.getOrDefault(it, 0)
-            item++
-            map[it] = item
+        val MOD = 1000000007
+
+        // Initializing as long saves us the trouble of
+        // managing count[x] * count[y] * count[z] overflowing later.
+        val count = LongArray(101)
+        var uniq = 0
+        for (x in A) {
+            count[x]++
+            if (count[x] == 1L)
+                uniq++
         }
 
-        var sum = 0
-        threeSum(A, target).forEach { list ->
-            var item = 1
-            println()
-            val temp = HashMap(map)
-            list.forEach {
-                println("$it ${temp[it]}")
-                var value = temp[it]!!
-                item *= value
-                value--
-                temp[it] = value
-            }
-            sum += item
-            sum %= 1000000007
-        }
-        return sum
-    }
-
-    fun cal(array: List<Int>, map: HashMap<Int, Int>): Int {
-        val leftMap = HashMap<Int, Int>()
-        array.forEach {
-            var item = leftMap.getOrDefault(it, 0)
-            item++
-            leftMap[it] = item
-        }
+        val keys = IntArray(uniq)
+        var t = 0
+        for (i in 0..100)
+            if (count[i] > 0)
+                keys[t++] = i
 
         var ans: Long = 0
-        leftMap.forEach { key, value ->
-            val r = map[key]!!
-            ans += C(r, value)
-            ans %= 1000000007
-        }
-        return (ans % 1000000007).toInt()
-    }
+        // Now, let's do a 3sum on "keys", for i <= j <= k.
+        // We will use count to add the correct contribution to ans.
 
-    private fun C(a: Int, b: Int): Int {
-        var sum = 1
-        for (i in a - b + 1..a) {
-            sum *= i
-        }
-        for (i in 1..b) {
-            sum /= i
-        }
-        return sum
-    }
-
-    fun threeSum(nums: IntArray, target: Int): List<List<Int>> {
-        val result = hashSetOf<List<Int>>()
-        val sorted = nums.sorted()
-
-        sorted.forEachIndexed { index, value ->
-            var left = index + 1
-            var right = sorted.size - 1
-            while (left < right) {
+        for (i in keys.indices) {
+            val x = keys[i]
+            val t = target - x
+            var j = i
+            var k = keys.size - 1
+            while (j <= k) {
+                val y = keys[j]
+                val z = keys[k]
                 when {
-                    sorted[left] + sorted[right] < target - value -> left++
-                    sorted[left] + sorted[right] == target - value -> {
-                        result.add(arrayListOf(sorted[left], sorted[right], value).sorted())
-                        left++
-                        right--
+                    y + z < t -> j++
+                    y + z > t -> k--
+                    else -> {  // # x+y+z == T, now calc the size of the contribution
+                        ans += if (j in (i + 1)..(k - 1)) {
+                            count[x] * count[y] * count[z]
+                        } else if (i == j && j < k) {
+                            count[x] * (count[x] - 1) / 2 * count[z]
+                        } else if (i < j && j == k) {
+                            count[x] * count[y] * (count[y] - 1) / 2
+                        } else {  // i == j == k
+                            count[x] * (count[x] - 1) * (count[x] - 2) / 6
+                        }
+
+                        ans %= MOD.toLong()
+                        j++
+                        k--
                     }
-                    else -> right--
                 }
             }
         }
 
-        return result.toMutableList()
+        return ans.toInt()
     }
+
+//    fun threeSumMulti(A: IntArray, target: Int): Int {
+//        val MOD = 1000000007
+//        val map = hashMapOf<Int, Long>()
+//        A.sort()
+//        A.forEach {
+//            var item = map.getOrDefault(it, 0)
+//            item++
+//            map[it] = item
+//        }
+//
+//        var sum = 0L
+//        threeSum(A, target).forEach { list ->
+//            sum += if (list[0] == list[1] && list[1] == list[2]) {
+//                map[list[0]]!! * (map[list[1]]!! - 1) * (map[list[2]]!! - 2) / 6
+//            } else if (list[0] == list[1]) {
+//                map[list[0]]!! * (map[list[1]]!! - 1) * (map[list[2]]!!) / 2
+//            } else if (list[1] == list[2]) {
+//                map[list[0]]!! * (map[list[1]]!! - 1) * (map[list[2]]!!) / 2
+//            } else {
+//                map[list[0]]!! * map[list[1]]!! * map[list[2]]!!
+//            }
+////            sum %= 1000000007
+//            sum %= MOD.toLong()
+//        }
+//        return sum.toInt()
+//    }
+//
+//    fun threeSum(nums: IntArray, target: Int): List<List<Int>> {
+//        val result = hashSetOf<List<Int>>()
+//        val sorted = nums.sorted()
+//
+//        sorted.forEachIndexed { index, value ->
+//            var left = index + 1
+//            var right = sorted.size - 1
+//            while (left < right) {
+//                when {
+//                    sorted[left] + sorted[right] < target - value -> left++
+//                    sorted[left] + sorted[right] == target - value -> {
+//                        result.add(arrayListOf(sorted[left], sorted[right], value).sorted())
+//                        left++
+//                        right--
+//                    }
+//                    else -> right--
+//                }
+//            }
+//        }
+//
+//        return result.toMutableList()
+//    }
 }
