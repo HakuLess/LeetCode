@@ -1,6 +1,6 @@
 package leetcode
 
-class Solution {
+class Solution345 {
     fun reverseVowels(s: String): String {
         val vowels = charArrayOf('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U')
         var start = 0
