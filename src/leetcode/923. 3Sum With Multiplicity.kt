@@ -1,6 +1,6 @@
 package leetcode
 
-class Solution {
+class Solution923 {
 
     fun threeSumMulti(A: IntArray, target: Int): Int {
         val MOD = 1000000007

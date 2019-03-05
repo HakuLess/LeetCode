@@ -1,6 +1,6 @@
 import java.util.*
 
-class Solution {
+class Solution752 {
     fun openLock(deadends: Array<String>, target: String): Int {
         if ("0000" in deadends) {
             return -1
