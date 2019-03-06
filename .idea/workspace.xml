@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/974. Subarray Sums Divisible by K.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/962. Maximum Width Ramp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/969. Pancake Sorting.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,26 +36,26 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="46" />
-          <entry key="kt" value="461" />
+          <entry key="java" value="48" />
+          <entry key="kt" value="463" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="46" />
-          <entry key="Kotlin" value="461" />
+          <entry key="JAVA" value="48" />
+          <entry key="Kotlin" value="463" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="99486" />
+          <entry key="kt" value="100380" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="99486" />
+          <entry key="Kotlin" value="100380" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -63,55 +64,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/239. Sliding Window Maximum.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/969. Pancake Sorting.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/263. Ugly Number.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/643. Maximum Average Subarray I.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="44">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/974. Subarray Sums Divisible by K.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/962. Maximum Width Ramp.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="404">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <element signature="e#18#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/345. Reverse Vowels of a String.kt">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="241">
+              <caret line="423" column="21" selection-start-line="423" selection-start-column="21" selection-end-line="423" selection-end-column="21" />
+              <folding>
+                <element signature="e#5776#5777#0" expanded="true" />
+                <element signature="e#5809#5810#0" expanded="true" />
+                <element signature="e#25598#25599#0" expanded="true" />
+                <element signature="e#25650#25651#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/199. Binary Tree Right Side View.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/201. Bitwise AND of Numbers Range.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/203. Remove Linked List Elements.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/207. Course Schedule.kt" />
@@ -216,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/643. Maximum Average Subarray I.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/974. Subarray Sums Divisible by K.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/969. Pancake Sorting.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/962. Maximum Width Ramp.kt" />
       </list>
     </option>
   </component>
@@ -259,7 +242,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;findpeak&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/162. Find Peak Element.kt&#10;Search in Rotated Sorted Array&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/33. Search in Rotated Sorted Array.kt&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;number&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/200. Number of Islands.kt&#10;treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551855635188" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551862600282" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -286,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode._239__Sliding_Window_MaximumKt">
+  <component name="RunManager" selected="Kotlin.leetcode._962__Maximum_Width_RampKt">
     <configuration name="leetcode._239__Sliding_Window_MaximumKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -326,46 +309,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode._930__Binary_Subarrays_With_SumKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode._962__Maximum_Width_RampKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._930__Binary_Subarrays_With_SumKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._962__Maximum_Width_RampKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode._978__Longest_Turbulent_SubarrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode._969__Pancake_SortingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._978__Longest_Turbulent_SubarrayKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._969__Pancake_SortingKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode._978__Longest_Turbulent_SubarrayKt" />
-      <item itemvalue="Kotlin.leetcode._930__Binary_Subarrays_With_SumKt" />
       <item itemvalue="Kotlin.leetcode._925__Long_Pressed_NameKt" />
       <item itemvalue="Kotlin.leetcode._763__Partition_LabelsKt" />
       <item itemvalue="Kotlin.leetcode._239__Sliding_Window_MaximumKt" />
+      <item itemvalue="Kotlin.leetcode._969__Pancake_SortingKt" />
+      <item itemvalue="Kotlin.leetcode._962__Maximum_Width_RampKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode._962__Maximum_Width_RampKt" />
+        <item itemvalue="Kotlin.leetcode._969__Pancake_SortingKt" />
         <item itemvalue="Kotlin.leetcode._239__Sliding_Window_MaximumKt" />
         <item itemvalue="Kotlin.leetcode._763__Partition_LabelsKt" />
         <item itemvalue="Kotlin.leetcode._925__Long_Pressed_NameKt" />
-        <item itemvalue="Kotlin.leetcode._930__Binary_Subarrays_With_SumKt" />
-        <item itemvalue="Kotlin.leetcode._978__Longest_Turbulent_SubarrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -423,27 +406,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/1002. Find Common Characters.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/1000. Minimum Cost to Merge Stones.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib.jar!/kotlin/collections/CollectionsKt.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="115" column="49" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/988. Smallest String Starting From Leaf.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -731,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/239. Sliding Window Maximum.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -766,17 +721,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/969. Pancake Sorting.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/974. Subarray Sums Divisible by K.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/974. Subarray Sums Divisible by K.kt">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="178">
+          <caret line="1032" column="19" selection-start-line="1032" selection-start-column="19" selection-end-line="1032" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/969. Pancake Sorting.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="423" column="21" selection-start-line="423" selection-start-column="21" selection-end-line="423" selection-end-column="21" />
+          <folding>
+            <element signature="e#5776#5777#0" expanded="true" />
+            <element signature="e#5809#5810#0" expanded="true" />
+            <element signature="e#25598#25599#0" expanded="true" />
+            <element signature="e#25650#25651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/962. Maximum Width Ramp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="e#18#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
