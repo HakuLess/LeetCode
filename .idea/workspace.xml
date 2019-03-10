@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/leetcode/486. Predict the Winner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/486. Predict the Winner.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/1005. Maximize Sum Of Array After K Negations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/1006. Clumsy Factorial.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/1007. Minimum Domino Rotations For Equal Row.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/1008. Construct Binary Search Tree from Preorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +39,7 @@
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="48" />
-          <entry key="kt" value="499" />
+          <entry key="kt" value="507" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -43,17 +47,17 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="48" />
-          <entry key="Kotlin" value="499" />
+          <entry key="Kotlin" value="507" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="110256" />
+          <entry key="kt" value="112542" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="110256" />
+          <entry key="Kotlin" value="112542" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -62,37 +66,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/646. Maximum Length of Pair Chain.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/1006. Clumsy Factorial.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="262">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/638. Shopping Offers.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/1008. Construct Binary Search Tree from Preorder Traversal.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="330">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/1007. Minimum Domino Rotations For Equal Row.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/486. Predict the Winner.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/1005. Maximize Sum Of Array After K Negations.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -146,10 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/925. Long Pressed Name.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/904. Fruit Into Baskets.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/752. Open the Lock.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/923. 3Sum With Multiplicity.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/881. Boats to Save People.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/845. Longest Mountain in Array.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/838. Push Dominoes.kt" />
@@ -197,6 +197,10 @@
         <option value="$PROJECT_DIR$/src/leetcode/646. Maximum Length of Pair Chain.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/638. Shopping Offers.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/486. Predict the Winner.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/1005. Maximize Sum Of Array After K Negations.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/1007. Minimum Domino Rotations For Equal Row.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/1008. Construct Binary Search Tree from Preorder Traversal.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/1006. Clumsy Factorial.kt" />
       </list>
     </option>
   </component>
@@ -240,7 +244,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;findpeak&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/162. Find Peak Element.kt&#10;Search in Rotated Sorted Array&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/33. Search in Rotated Sorted Array.kt&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;number&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/200. Number of Islands.kt&#10;treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552183812029" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552190623630" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -267,15 +271,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode._486__Predict_the_WinnerKt">
-    <configuration name="leetcode._165__Compare_Version_NumbersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.leetcode._1006__Clumsy_FactorialKt">
+    <configuration name="leetcode._1005__Maximize_Sum_Of_Array_After_K_NegationsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._165__Compare_Version_NumbersKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._1005__Maximize_Sum_Of_Array_After_K_NegationsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode._1006__Clumsy_FactorialKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._1006__Clumsy_FactorialKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode._1007__Minimum_Domino_Rotations_For_Equal_RowKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._1007__Minimum_Domino_Rotations_For_Equal_RowKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -294,19 +324,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode._583__Delete_Operation_for_Two_StringsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._583__Delete_Operation_for_Two_StringsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="leetcode._646__Maximum_Length_of_Pair_ChainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -320,33 +337,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode._907__Sum_of_Subarray_MinimumsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._907__Sum_of_Subarray_MinimumsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode._165__Compare_Version_NumbersKt" />
-      <item itemvalue="Kotlin.leetcode._907__Sum_of_Subarray_MinimumsKt" />
-      <item itemvalue="Kotlin.leetcode._583__Delete_Operation_for_Two_StringsKt" />
       <item itemvalue="Kotlin.leetcode._646__Maximum_Length_of_Pair_ChainKt" />
       <item itemvalue="Kotlin.leetcode._486__Predict_the_WinnerKt" />
+      <item itemvalue="Kotlin.leetcode._1005__Maximize_Sum_Of_Array_After_K_NegationsKt" />
+      <item itemvalue="Kotlin.leetcode._1006__Clumsy_FactorialKt" />
+      <item itemvalue="Kotlin.leetcode._1007__Minimum_Domino_Rotations_For_Equal_RowKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode._1006__Clumsy_FactorialKt" />
+        <item itemvalue="Kotlin.leetcode._1007__Minimum_Domino_Rotations_For_Equal_RowKt" />
+        <item itemvalue="Kotlin.leetcode._1005__Maximize_Sum_Of_Array_After_K_NegationsKt" />
         <item itemvalue="Kotlin.leetcode._486__Predict_the_WinnerKt" />
         <item itemvalue="Kotlin.leetcode._646__Maximum_Length_of_Pair_ChainKt" />
-        <item itemvalue="Kotlin.leetcode._583__Delete_Operation_for_Two_StringsKt" />
-        <item itemvalue="Kotlin.leetcode._907__Sum_of_Subarray_MinimumsKt" />
-        <item itemvalue="Kotlin.leetcode._165__Compare_Version_NumbersKt" />
       </list>
     </recent_temporary>
   </component>
@@ -365,9 +369,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="412" y="59" width="1470" height="929" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2640056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2640056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -376,7 +379,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,34 +407,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/524. Longest Word in Dictionary through Deleting.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/86. Partition List.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/632. Smallest Range.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/80. Remove Duplicates from Sorted Array II.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/42. Trapping Rain Water.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36">
@@ -744,17 +719,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/646. Maximum Length of Pair Chain.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/638. Shopping Offers.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/486. Predict the Winner.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/646. Maximum Length of Pair Chain.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -765,10 +747,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/486. Predict the Winner.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/1006. Clumsy Factorial.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="262">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/1008. Construct Binary Search Tree from Preorder Traversal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/1007. Minimum Domino Rotations For Equal Row.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/1005. Maximize Sum Of Array After K Negations.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
