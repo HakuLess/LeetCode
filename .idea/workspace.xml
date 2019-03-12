@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/414. Third Maximum Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/516. Longest Palindromic Subsequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/64. Minimum Path Sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/718. Maximum Length of Repeated Subarray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/740. Delete and Earn.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/813. Largest Sum of Averages.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/873. Length of Longest Fibonacci Subsequence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/312. Burst Balloons.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/1000. Minimum Cost to Merge Stones.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/1000. Minimum Cost to Merge Stones.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +38,7 @@
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="48" />
-          <entry key="kt" value="523" />
+          <entry key="kt" value="526" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -50,17 +46,17 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="48" />
-          <entry key="Kotlin" value="523" />
+          <entry key="Kotlin" value="526" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="116695" />
+          <entry key="kt" value="118730" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="116695" />
+          <entry key="Kotlin" value="118730" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -69,37 +65,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/516. Longest Palindromic Subsequence.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/813. Largest Sum of Averages.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="252">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/740. Delete and Earn.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/1000. Minimum Cost to Merge Stones.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="132">
+              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/718. Maximum Length of Repeated Subarray.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/312. Burst Balloons.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="454">
+              <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/813. Largest Sum of Averages.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="334">
+              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -153,9 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/632. Smallest Range.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/42. Trapping Rain Water.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/567. Permutation in String.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/76. Minimum Window Substring.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/239. Sliding Window Maximum.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/345. Reverse Vowels of a String.kt" />
@@ -204,13 +197,16 @@
         <option value="$PROJECT_DIR$/src/leetcode/740. Delete and Earn.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/718. Maximum Length of Repeated Subarray.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/813. Largest Sum of Averages.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/312. Burst Balloons.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/1000. Minimum Cost to Merge Stones.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="448" />
-    <option name="y" value="49" />
-    <option name="width" value="1470" />
+    <option name="x" value="363" />
+    <option name="y" value="45" />
+    <option name="width" value="1557" />
     <option name="height" value="929" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -247,7 +243,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;findpeak&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/162. Find Peak Element.kt&#10;Search in Rotated Sorted Array&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/33. Search in Rotated Sorted Array.kt&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;number&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/200. Number of Islands.kt&#10;treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552298479621" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552369562241" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -274,28 +270,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode._516__Longest_Palindromic_SubsequenceKt">
-    <configuration name="leetcode._1006__Clumsy_FactorialKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.leetcode._309__Best_Time_to_Buy_and_Sell_Stock_with_CooldownKt">
+    <configuration name="leetcode._1000__Minimum_Cost_to_Merge_StonesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._1006__Clumsy_FactorialKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._1000__Minimum_Cost_to_Merge_StonesKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode._486__Predict_the_WinnerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode._309__Best_Time_to_Buy_and_Sell_Stock_with_CooldownKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._486__Predict_the_WinnerKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._309__Best_Time_to_Buy_and_Sell_Stock_with_CooldownKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode._312__Burst_BalloonsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._312__Burst_BalloonsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -309,19 +318,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode._516__Longest_Palindromic_SubsequenceKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode._650__2_Keys_KeyboardKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._650__2_Keys_KeyboardKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -341,19 +337,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode._486__Predict_the_WinnerKt" />
-      <item itemvalue="Kotlin.leetcode._1006__Clumsy_FactorialKt" />
-      <item itemvalue="Kotlin.leetcode._650__2_Keys_KeyboardKt" />
       <item itemvalue="Kotlin.leetcode._873__Length_of_Longest_Fibonacci_SubsequenceKt" />
       <item itemvalue="Kotlin.leetcode._516__Longest_Palindromic_SubsequenceKt" />
+      <item itemvalue="Kotlin.leetcode._1000__Minimum_Cost_to_Merge_StonesKt" />
+      <item itemvalue="Kotlin.leetcode._312__Burst_BalloonsKt" />
+      <item itemvalue="Kotlin.leetcode._309__Best_Time_to_Buy_and_Sell_Stock_with_CooldownKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode._309__Best_Time_to_Buy_and_Sell_Stock_with_CooldownKt" />
+        <item itemvalue="Kotlin.leetcode._312__Burst_BalloonsKt" />
+        <item itemvalue="Kotlin.leetcode._1000__Minimum_Cost_to_Merge_StonesKt" />
         <item itemvalue="Kotlin.leetcode._516__Longest_Palindromic_SubsequenceKt" />
         <item itemvalue="Kotlin.leetcode._873__Length_of_Longest_Fibonacci_SubsequenceKt" />
-        <item itemvalue="Kotlin.leetcode._650__2_Keys_KeyboardKt" />
-        <item itemvalue="Kotlin.leetcode._486__Predict_the_WinnerKt" />
-        <item itemvalue="Kotlin.leetcode._1006__Clumsy_FactorialKt" />
       </list>
     </recent_temporary>
   </component>
@@ -371,10 +367,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="448" y="49" width="1470" height="929" extended-state="0" />
+    <frame x="363" y="45" width="1557" height="929" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26750702" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1980198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -383,7 +379,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33691755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,27 +407,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="729" column="33" selection-start-line="729" selection-start-column="33" selection-end-line="729" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/962. Maximum Width Ramp.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/58. Length of Last Word.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/73. Set Matrix Zeroes.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -757,8 +732,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/813. Largest Sum of Averages.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="252">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/312. Burst Balloons.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/1000. Minimum Cost to Merge Stones.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
         </state>
       </provider>
     </entry>
