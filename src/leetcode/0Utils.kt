@@ -2,6 +2,26 @@ package leetcode
 
 import java.util.*
 
+inline fun Array<DoubleArray>.print() {
+    this.forEach {
+        it.forEach {
+            print("$it, ")
+        }
+        println()
+    }
+    println()
+}
+
+inline fun Array<IntArray>.print() {
+    this.forEach {
+        it.forEach {
+            print("$it, ")
+        }
+        println()
+    }
+    println()
+}
+
 inline fun String.print() {
     println("String is " + this)
 }
@@ -11,6 +31,10 @@ inline fun Int.print() {
 }
 
 inline fun Long.print() {
+    println("Long is " + this)
+}
+
+inline fun Double.print() {
     println("Long is " + this)
 }
 
