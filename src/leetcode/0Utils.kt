@@ -22,6 +22,16 @@ inline fun Array<IntArray>.print() {
     println()
 }
 
+inline fun Array<BooleanArray>.print() {
+    this.forEach {
+        it.forEach {
+            print("$it, ")
+        }
+        println()
+    }
+    println()
+}
+
 inline fun ArrayList<Pair<Int, Int>>.print() {
     this.forEach {
         println("${it.first}, ${it.second}")
