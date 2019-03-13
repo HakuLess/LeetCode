@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/688. Knight Probability in Chessboard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/698. Partition to K Equal Sum Subsets.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/764. Largest Plus Sign.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/120. Triangle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/416. Partition Equal Subset Sum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/474. Ones and Zeroes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/935. Knight Dialer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/0Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/0Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +40,7 @@
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="48" />
-          <entry key="kt" value="533" />
+          <entry key="kt" value="539" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -48,17 +48,17 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="48" />
-          <entry key="Kotlin" value="533" />
+          <entry key="Kotlin" value="539" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="121244" />
+          <entry key="kt" value="123159" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="121244" />
+          <entry key="Kotlin" value="123159" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -67,19 +67,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/764. Largest Plus Sign.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/474. Ones and Zeroes.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="418">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/935. Knight Dialer.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1078">
+              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/698. Partition to K Equal Sum Subsets.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/120. Triangle.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+            <state relative-caret-position="454">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/0Utils.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -95,8 +122,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>levelOrder</find>
-      <find>leftCount</find>
       <find>preorder</find>
       <find>preordertr</find>
       <find>inordert</find>
@@ -125,7 +150,12 @@
       <find>8, 0, 0, 1</find>
       <find>14, 4: 208 642 722 911</find>
       <find>row</find>
+      <find>17</find>
+      <find>toLong</find>
     </findStrings>
+    <replaceStrings>
+      <replace>toInt</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,10 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/643. Maximum Average Subarray I.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/974. Subarray Sums Divisible by K.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/969. Pancake Sorting.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/962. Maximum Width Ramp.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/58. Length of Last Word.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/73. Set Matrix Zeroes.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/90. Subsets II.kt" />
@@ -181,9 +207,13 @@
         <option value="$PROJECT_DIR$/src/leetcode/1000. Minimum Cost to Merge Stones.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/688. Knight Probability in Chessboard.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/0Utils.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/764. Largest Plus Sign.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/698. Partition to K Equal Sum Subsets.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/416. Partition Equal Subset Sum.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/0Utils.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/474. Ones and Zeroes.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/935. Knight Dialer.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/120. Triangle.kt" />
       </list>
     </option>
   </component>
@@ -227,7 +257,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;findpeak&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/162. Find Peak Element.kt&#10;Search in Rotated Sorted Array&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/33. Search in Rotated Sorted Array.kt&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;number&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/200. Number of Islands.kt&#10;treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552381401224" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552443734410" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -254,41 +284,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode._698__Partition_to_K_Equal_Sum_SubsetsKt">
-    <configuration name="leetcode._309__Best_Time_to_Buy_and_Sell_Stock_with_CooldownKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.leetcode._120__TriangleKt">
+    <configuration name="leetcode._120__TriangleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._309__Best_Time_to_Buy_and_Sell_Stock_with_CooldownKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._120__TriangleKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode._312__Burst_BalloonsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode._474__Ones_and_ZeroesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._312__Burst_BalloonsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode._688__Knight_Probability_in_ChessboardKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._688__Knight_Probability_in_ChessboardKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._474__Ones_and_ZeroesKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -320,20 +337,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode._935__Knight_DialerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._935__Knight_DialerKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode._312__Burst_BalloonsKt" />
-      <item itemvalue="Kotlin.leetcode._309__Best_Time_to_Buy_and_Sell_Stock_with_CooldownKt" />
-      <item itemvalue="Kotlin.leetcode._688__Knight_Probability_in_ChessboardKt" />
       <item itemvalue="Kotlin.leetcode._764__Largest_Plus_SignKt" />
       <item itemvalue="Kotlin.leetcode._698__Partition_to_K_Equal_Sum_SubsetsKt" />
+      <item itemvalue="Kotlin.leetcode._474__Ones_and_ZeroesKt" />
+      <item itemvalue="Kotlin.leetcode._935__Knight_DialerKt" />
+      <item itemvalue="Kotlin.leetcode._120__TriangleKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode._120__TriangleKt" />
+        <item itemvalue="Kotlin.leetcode._935__Knight_DialerKt" />
+        <item itemvalue="Kotlin.leetcode._474__Ones_and_ZeroesKt" />
         <item itemvalue="Kotlin.leetcode._698__Partition_to_K_Equal_Sum_SubsetsKt" />
         <item itemvalue="Kotlin.leetcode._764__Largest_Plus_SignKt" />
-        <item itemvalue="Kotlin.leetcode._688__Knight_Probability_in_ChessboardKt" />
-        <item itemvalue="Kotlin.leetcode._309__Best_Time_to_Buy_and_Sell_Stock_with_CooldownKt" />
-        <item itemvalue="Kotlin.leetcode._312__Burst_BalloonsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +393,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33691755" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33691755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,34 +421,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/129. Sum Root to Leaf Numbers.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/130. Surrounded Regions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/151. Reverse Words in a String.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/628. Maximum Product of Three Numbers.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/TextH.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -698,13 +700,6 @@
         <state relative-caret-position="-46" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
@@ -719,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/0Utils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/764. Largest Plus Sign.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -735,8 +723,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/698. Partition to K Equal Sum Subsets.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+        <state relative-caret-position="152">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/416. Partition Equal Subset Sum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/474. Ones and Zeroes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/0Utils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/935. Knight Dialer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/120. Triangle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>

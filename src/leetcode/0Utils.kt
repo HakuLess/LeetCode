@@ -22,6 +22,13 @@ inline fun Array<IntArray>.print() {
     println()
 }
 
+inline fun ArrayList<Pair<Int, Int>>.print() {
+    this.forEach {
+        println("${it.first}, ${it.second}")
+    }
+    println()
+}
+
 inline fun String.print() {
     println("String is " + this)
 }
