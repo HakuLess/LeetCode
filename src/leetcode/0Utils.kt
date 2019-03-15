@@ -2,6 +2,12 @@ package leetcode
 
 import java.util.*
 
+fun TreeNode?.depth(): Int = if (this == null) {
+    0
+} else {
+    1 + maxOf(left.depth(), right.depth())
+}
+
 inline fun Array<DoubleArray>.print() {
     this.forEach {
         it.forEach {
