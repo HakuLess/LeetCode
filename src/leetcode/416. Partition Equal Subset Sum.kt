@@ -2,7 +2,8 @@ package leetcode
 
 fun main(args: Array<String>) {
     val s = Solution416()
-    s.canPartition(intArrayOf(1, 3, 5, 5)).print()
+//    s.canPartition(intArrayOf(1, 3, 5, 5)).print()
+    s.canPartition(intArrayOf(100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100)).print()
 }
 
 class Solution416 {
@@ -15,24 +16,44 @@ class Solution416 {
     }
 
     private fun dp(nums: IntArray, target: Int): Boolean {
-        val dp = Array(nums.size + 1) { BooleanArray(target + 1) { false } }
-        dp[0][0] = true
-        for (i in 1..nums.size) {
-            for (j in 0..target) {
-                // if we don't pick nums[i]
-                dp[i][j] = dp[i - 1][j]
-
-                // if we pick nums[i]
-                if (j - nums[i - 1] >= 0) {
-                    if (dp[i - 1][j - nums[i - 1]]) {
-                        dp[i][j] = true
-                    }
+        val dp = arrayListOf<Int>()
+        dp.add(0)
+        for (i in 0 until nums.size) {
+            val size = dp.size
+            for (j in 0 until size) {
+                if (dp[j] + nums[i] == target) {
+                    return true
+                } else if (dp[j] + nums[i] < target &&
+                        dp[j] + nums[i] !in dp) {
+                    dp.add(dp[j] + nums[i])
                 }
             }
-        }
 
-        dp.print()
-        return dp[nums.size][target]
+            dp.forEach {
+                print("$it, ")
+            }
+            println()
+            dp.distinct()
+        }
+        return false
+//        val dp = Array(nums.size + 1) { BooleanArray(target + 1) { false } }
+//        dp[0][0] = true
+//        for (i in 1..nums.size) {
+//            for (j in 0..target) {
+//                // if we don't pick nums[i]
+//                dp[i][j] = dp[i - 1][j]
+//
+//                // if we pick nums[i]
+//                if (j - nums[i - 1] >= 0) {
+//                    if (dp[i - 1][j - nums[i - 1]]) {
+//                        dp[i][j] = true
+//                    }
+//                }
+//            }
+//        }
+//
+//        dp.print()
+//        return dp[nums.size][target]
     }
 
 //    fun canPartition(nums: IntArray): Boolean {
