@@ -1,6 +1,7 @@
 package leetcode
 
 import java.util.*
+import kotlin.collections.HashMap
 
 fun TreeNode?.depth(): Int = if (this == null) {
     0
@@ -14,6 +15,13 @@ inline fun Array<DoubleArray>.print() {
             print("$it, ")
         }
         println()
+    }
+    println()
+}
+
+inline fun HashMap<String, Int>.print() {
+    this.forEach {
+        println("${it.key} : ${it.value}")
     }
     println()
 }
