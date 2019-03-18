@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/1012. Complement of Base 10 Integer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/1013. Pairs of Songs With Total Durations Divisible by 60.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/1014. Capacity To Ship Packages Within D Days.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/1015. Numbers With 1 Repeated Digit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/378. Kth Smallest Element in a Sorted Matrix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/665. Non-decreasing Array.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,7 +37,7 @@
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="56" />
-          <entry key="kt" value="607" />
+          <entry key="kt" value="613" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -47,17 +45,17 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="56" />
-          <entry key="Kotlin" value="607" />
+          <entry key="Kotlin" value="613" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="140205" />
+          <entry key="kt" value="141580" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="140205" />
+          <entry key="Kotlin" value="141580" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -65,14 +63,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/1015. Numbers With 1 Repeated Digit.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/665. Non-decreasing Array.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
-              <folding>
-                <element signature="e#18#69#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="902">
+              <caret line="41" selection-start-line="41" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/378. Kth Smallest Element in a Sorted Matrix.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -80,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -138,8 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/718. Maximum Length of Repeated Subarray.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/813. Largest Sum of Averages.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/312. Burst Balloons.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/1000. Minimum Cost to Merge Stones.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/309. Best Time to Buy and Sell Stock with Cooldown.kt" />
@@ -189,6 +191,8 @@
         <option value="$PROJECT_DIR$/src/leetcode/1014. Capacity To Ship Packages Within D Days.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/1015. Numbers With 1 Repeated Digit.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/665. Non-decreasing Array.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/378. Kth Smallest Element in a Sorted Matrix.kt" />
       </list>
     </option>
   </component>
@@ -232,7 +236,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;findpeak&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/162. Find Peak Element.kt&#10;Search in Rotated Sorted Array&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/33. Search in Rotated Sorted Array.kt&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;number&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/200. Number of Islands.kt&#10;treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552798647894" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552879651377" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -259,20 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode._1015__Numbers_With_1_Repeated_DigitKt">
-    <configuration name="leetcode._1012__Complement_of_Base_10_IntegerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._1012__Complement_of_Base_10_IntegerKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.leetcode._378__Kth_Smallest_Element_in_a_Sorted_MatrixKt">
     <configuration name="leetcode._1013__Pairs_of_Songs_With_Total_Durations_Divisible_by_60Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -312,33 +303,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode._416__Partition_Equal_Subset_SumKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode._378__Kth_Smallest_Element_in_a_Sorted_MatrixKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._416__Partition_Equal_Subset_SumKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._378__Kth_Smallest_Element_in_a_Sorted_MatrixKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode._665__Non_decreasing_ArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._665__Non_decreasing_ArrayKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode._416__Partition_Equal_Subset_SumKt" />
-      <item itemvalue="Kotlin.leetcode._1012__Complement_of_Base_10_IntegerKt" />
       <item itemvalue="Kotlin.leetcode._1013__Pairs_of_Songs_With_Total_Durations_Divisible_by_60Kt" />
       <item itemvalue="Kotlin.leetcode._1014__Capacity_To_Ship_Packages_Within_D_DaysKt" />
       <item itemvalue="Kotlin.leetcode._1015__Numbers_With_1_Repeated_DigitKt" />
+      <item itemvalue="Kotlin.leetcode._665__Non_decreasing_ArrayKt" />
+      <item itemvalue="Kotlin.leetcode._378__Kth_Smallest_Element_in_a_Sorted_MatrixKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode._378__Kth_Smallest_Element_in_a_Sorted_MatrixKt" />
+        <item itemvalue="Kotlin.leetcode._665__Non_decreasing_ArrayKt" />
         <item itemvalue="Kotlin.leetcode._1015__Numbers_With_1_Repeated_DigitKt" />
         <item itemvalue="Kotlin.leetcode._1014__Capacity_To_Ship_Packages_Within_D_DaysKt" />
         <item itemvalue="Kotlin.leetcode._1013__Pairs_of_Songs_With_Total_Durations_Divisible_by_60Kt" />
-        <item itemvalue="Kotlin.leetcode._1012__Complement_of_Base_10_IntegerKt" />
-        <item itemvalue="Kotlin.leetcode._416__Partition_Equal_Subset_SumKt" />
       </list>
     </recent_temporary>
   </component>
@@ -396,26 +400,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/697. Degree of an Array.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="1392" column="18" selection-start-line="1392" selection-start-column="18" selection-end-line="1392" selection-end-column="18" />
-          <folding>
-            <element signature="e#53092#53093#0" expanded="true" />
-            <element signature="e#53130#53131#0" expanded="true" />
-            <element signature="e#53959#53960#0" expanded="true" />
-            <element signature="e#54033#54034#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -754,25 +738,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/1014. Capacity To Ship Packages Within D Days.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="693">
           <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/1015. Numbers With 1 Repeated Digit.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+        <state relative-caret-position="352">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="e#18#69#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/665. Non-decreasing Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" selection-start-line="41" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/378. Kth Smallest Element in a Sorted Matrix.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
