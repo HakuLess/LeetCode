@@ -19,6 +19,13 @@ inline fun Array<DoubleArray>.print() {
     println()
 }
 
+inline fun Stack<Char>.print() {
+    this.forEach {
+        print("$it, ")
+    }
+    println()
+}
+
 inline fun HashMap<String, Int>.print() {
     this.forEach {
         println("${it.key} : ${it.value}")

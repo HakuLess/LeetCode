@@ -20,15 +20,30 @@ class Solution1022 {
         if (K % 5 == 0 || K % 2 == 0) {
             return -1
         }
-        var sum = BigInteger.valueOf(1L)
-        for (i in 0 until 30000) {
+        var sum = 1
+        for (i in 0 until 100000) {
 //            println(sum)
-            if (sum % BigInteger.valueOf(K.toLong()) == BigInteger.ZERO) {
+            if (sum % K == 0) {
                 return i + 1
             }
-            sum = sum.multiply(BigInteger.valueOf(10)).add(BigInteger.valueOf(1))
+            sum = (sum * 10 + 1) % K
         }
 
         return -1
     }
+//    fun smallestRepunitDivByK(K: Int): Int {
+//        if (K % 5 == 0 || K % 2 == 0) {
+//            return -1
+//        }
+//        var sum = BigInteger.valueOf(1L)
+//        for (i in 0 until 100000) {
+////            println(sum)
+//            if (sum % BigInteger.valueOf(K.toLong()) == BigInteger.ZERO) {
+//                return i + 1
+//            }
+//            sum = sum.multiply(BigInteger.valueOf(10)).add(BigInteger.valueOf(1))
+//        }
+//
+//        return -1
+//    }
 }
