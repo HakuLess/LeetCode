@@ -107,6 +107,13 @@ inline fun IntArray.print() {
     println()
 }
 
+inline fun BooleanArray.print() {
+    this.forEach {
+        print("$it, ")
+    }
+    println()
+}
+
 inline fun Boolean.print() {
     println(this)
 }
