@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/678. Valid Parenthesis String.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/735. Asteroid Collision.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/749. Contain Virus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/501. Find Mode in Binary Search Tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/520. Detect Capital.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/594. Longest Harmonious Subsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/HaKu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/HaKu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/0Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/0Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/1022. Smallest Integer Divisible by K.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/1022. Smallest Integer Divisible by K.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +39,7 @@
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="58" />
-          <entry key="kt" value="632" />
+          <entry key="kt" value="636" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -48,17 +47,17 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="58" />
-          <entry key="Kotlin" value="632" />
+          <entry key="Kotlin" value="636" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="147176" />
+          <entry key="kt" value="148182" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="147176" />
+          <entry key="Kotlin" value="148182" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -66,29 +65,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/678. Valid Parenthesis String.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/0Utils.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/594. Longest Harmonious Subsequence.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/520. Detect Capital.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/501. Find Mode in Binary Search Tree.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/text/CharJVM.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -145,9 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/575. Distribute Candies.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/697. Degree of an Array.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/686. Repeated String Match.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/671. Second Minimum Node In a Binary Tree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/655. Print Binary Tree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/661. Image Smoother.kt" />
@@ -196,12 +201,15 @@
         <option value="$PROJECT_DIR$/src/leetcode/749. Contain Virus.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/0Utils.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/678. Valid Parenthesis String.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/594. Longest Harmonious Subsequence.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/520. Detect Capital.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/501. Find Mode in Binary Search Tree.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="363" />
-    <option name="y" value="45" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="206" />
+    <option name="y" value="27" />
     <option name="width" value="1557" />
     <option name="height" value="929" />
   </component>
@@ -239,7 +247,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;findpeak&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/162. Find Peak Element.kt&#10;Search in Rotated Sorted Array&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/33. Search in Rotated Sorted Array.kt&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;number&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/200. Number of Islands.kt&#10;treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553502150117" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553998152111" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -266,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode._678__Valid_Parenthesis_StringKt">
+  <component name="RunManager" selected="Kotlin.leetcode._520__Detect_CapitalKt">
     <configuration name="leetcode._1022__Smallest_Integer_Divisible_by_KKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -280,14 +288,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode._1023__Binary_String_With_Substrings_Representing_1_To_NKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode._520__Detect_CapitalKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._1023__Binary_String_With_Substrings_Representing_1_To_NKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._520__Detect_CapitalKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode._594__Longest_Harmonious_SubsequenceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._594__Longest_Harmonious_SubsequenceKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -301,19 +322,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode._678__Valid_Parenthesis_StringKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode._735__Asteroid_CollisionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._735__Asteroid_CollisionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -334,18 +342,18 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.leetcode._1022__Smallest_Integer_Divisible_by_KKt" />
-      <item itemvalue="Kotlin.leetcode._1023__Binary_String_With_Substrings_Representing_1_To_NKt" />
-      <item itemvalue="Kotlin.leetcode._735__Asteroid_CollisionKt" />
       <item itemvalue="Kotlin.leetcode._749__Contain_VirusKt" />
       <item itemvalue="Kotlin.leetcode._678__Valid_Parenthesis_StringKt" />
+      <item itemvalue="Kotlin.leetcode._594__Longest_Harmonious_SubsequenceKt" />
+      <item itemvalue="Kotlin.leetcode._520__Detect_CapitalKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode._520__Detect_CapitalKt" />
+        <item itemvalue="Kotlin.leetcode._594__Longest_Harmonious_SubsequenceKt" />
         <item itemvalue="Kotlin.leetcode._678__Valid_Parenthesis_StringKt" />
         <item itemvalue="Kotlin.leetcode._749__Contain_VirusKt" />
         <item itemvalue="Kotlin.leetcode._1022__Smallest_Integer_Divisible_by_KKt" />
-        <item itemvalue="Kotlin.leetcode._735__Asteroid_CollisionKt" />
-        <item itemvalue="Kotlin.leetcode._1023__Binary_String_With_Substrings_Representing_1_To_NKt" />
       </list>
     </recent_temporary>
   </component>
@@ -363,10 +371,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="363" y="45" width="1557" height="929" extended-state="1" />
+    <frame x="206" y="27" width="1557" height="929" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20858085" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20858085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,7 +383,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33691755" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33691755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,34 +411,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/783. Minimum Distance Between BST Nodes.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/791. Custom Sort String.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringLatin1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="179" column="22" selection-start-line="179" selection-start-column="22" selection-end-line="179" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringUTF16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="326" column="22" selection-start-line="326" selection-start-column="22" selection-end-line="326" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -743,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/0Utils.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -759,8 +732,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/678. Valid Parenthesis String.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="440">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/594. Longest Harmonious Subsequence.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/text/CharJVM.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/520. Detect Capital.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/501. Find Mode in Binary Search Tree.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
         </state>
       </provider>
     </entry>
