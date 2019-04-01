@@ -4,8 +4,9 @@ import java.lang.StringBuilder
 
 fun main(args: Array<String>) {
     val s = Solution1028()
-    s.baseNeg3(5).print()
+//    s.baseNeg3(5).print()
 //    s.baseNeg2(2).print()
+    s.baseNeg2(6).print()
 //    s.baseNeg2(3).print()
 //    s.baseNeg2(4).print()
 //    s.baseNeg2(0).print()
@@ -14,18 +15,22 @@ fun main(args: Array<String>) {
 
 class Solution1028 {
 
-    fun baseNeg3(N: Int): String {
+    fun baseNeg2(N: Int): String {
+        return baseNegK(N, -2)
+    }
+
+    fun baseNegK(N: Int, K: Int): String {
         var n = N
         if (n == 0) return "0"
         val sb = StringBuilder()
 
         while (n != 0) {
-            var r = n % 3
-            n /= -3
+            var r = n % K
+            n /= K
             println("$r, $n")
 
             if (r < 0) {
-                r -= -3
+                r -= K
                 n++
             }
             sb.append(r)
