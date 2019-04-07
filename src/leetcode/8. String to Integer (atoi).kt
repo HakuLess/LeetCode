@@ -1,5 +1,7 @@
 package leetcode
 
+import java.lang.StringBuilder
+
 //todo not finished
 fun main(args: Array<String>) {
     val s = Solution8()
@@ -11,12 +13,40 @@ fun main(args: Array<String>) {
 
 class Solution8 {
     fun myAtoi(str: String): Int {
-        if (str.isEmpty()) {
+        var signed = false
+        val s = StringBuilder()
+        var plus = true
+        val res = str.trim()
+        for (i in 0 until res.length) {
+            if (res[i] == '+' || res[i] == '-') {
+                if (signed || i != 0) {
+                    break
+                } else {
+                    signed = true
+                    s.append(res[i])
+                    if (res[i] == '-') {
+                        plus = false
+                    }
+                }
+            } else if (res[i] in '0'..'9') {
+                s.append(res[i])
+            } else {
+                break
+            }
+        }
+
+        if (s.isEmpty() || s.none { it in '0'..'9' }) {
             return 0
         }
-        if (str[0] !in '0'..'9' && str[0] != '+' && str[1] != '-') {
-            return 0
+
+        return try {
+            Integer.parseInt(s.toString())
+        } catch (ex: Exception) {
+            if (plus) {
+                2147483647
+            } else {
+                -2147483648
+            }
         }
-        return Integer.parseInt(str.trim())
     }
 }
