@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/17. Letter Combinations of a Phone Number.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/10. Regular Expression Matching.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/19. Remove Nth Node From End of List.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,7 +20,7 @@
     <session id="-1408988555">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.17" value="1" />
@@ -37,7 +38,7 @@
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="59" />
-          <entry key="kt" value="666" />
+          <entry key="kt" value="670" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -45,17 +46,17 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="59" />
-          <entry key="Kotlin" value="666" />
+          <entry key="Kotlin" value="670" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="156830" />
+          <entry key="kt" value="157571" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="156830" />
+          <entry key="Kotlin" value="157571" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -64,28 +65,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/5019. Video Stitching.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/10. Regular Expression Matching.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state relative-caret-position="360">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/17. Letter Combinations of a Phone Number.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/19. Remove Nth Node From End of List.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/46. Permutations.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/5018. Camelcase Matching.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="251">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -151,8 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/797. All Paths From Source to Target.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/819. Most Common Word.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/842. Split Array into Fibonacci Sequence.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/830. Positions of Large Groups.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/849. Maximize Distance to Closest Person.kt" />
@@ -202,6 +201,8 @@
         <option value="$PROJECT_DIR$/src/leetcode/5016. Remove Outermost Parentheses.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/5019. Video Stitching.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/17. Letter Combinations of a Phone Number.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/10. Regular Expression Matching.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/19. Remove Nth Node From End of List.kt" />
       </list>
     </option>
   </component>
@@ -245,7 +246,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;findpeak&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/162. Find Peak Element.kt&#10;Search in Rotated Sorted Array&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/33. Search in Rotated Sorted Array.kt&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;number&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/200. Number of Islands.kt&#10;treeset&#9;PSI&#9;JAVA://java.util.TreeSet&#10;treenode&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554724675811" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554878800826" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -272,7 +273,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode._17__Letter_Combinations_of_a_Phone_NumberKt">
+  <component name="RunManager" selected="Kotlin.leetcode._10__Regular_Expression_MatchingKt">
+    <configuration name="leetcode._10__Regular_Expression_MatchingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._10__Regular_Expression_MatchingKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="leetcode._17__Letter_Combinations_of_a_Phone_NumberKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -325,33 +339,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode._8__String_to_Integer__atoi_Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._8__String_to_Integer__atoi_Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode._8__String_to_Integer__atoi_Kt" />
       <item itemvalue="Kotlin.leetcode._5018__Camelcase_MatchingKt" />
       <item itemvalue="Kotlin.leetcode._5016__Remove_Outermost_ParenthesesKt" />
       <item itemvalue="Kotlin.leetcode._5019__Video_StitchingKt" />
       <item itemvalue="Kotlin.leetcode._17__Letter_Combinations_of_a_Phone_NumberKt" />
+      <item itemvalue="Kotlin.leetcode._10__Regular_Expression_MatchingKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode._10__Regular_Expression_MatchingKt" />
         <item itemvalue="Kotlin.leetcode._17__Letter_Combinations_of_a_Phone_NumberKt" />
         <item itemvalue="Kotlin.leetcode._5019__Video_StitchingKt" />
         <item itemvalue="Kotlin.leetcode._5016__Remove_Outermost_ParenthesesKt" />
         <item itemvalue="Kotlin.leetcode._5018__Camelcase_MatchingKt" />
-        <item itemvalue="Kotlin.leetcode._8__String_to_Integer__atoi_Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +382,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33691755" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33691755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,20 +410,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/1012. Complement of Base 10 Integer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/1013. Pairs of Songs With Total Durations Divisible by 60.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/1014. Capacity To Ship Packages Within D Days.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
@@ -727,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/5018. Camelcase Matching.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/5016. Remove Outermost Parentheses.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -751,13 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/46. Permutations.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -767,8 +740,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/17. Letter Combinations of a Phone Number.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="450">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/7. Reverse Integer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/5018. Camelcase Matching.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/10. Regular Expression Matching.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/19. Remove Nth Node From End of List.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>
