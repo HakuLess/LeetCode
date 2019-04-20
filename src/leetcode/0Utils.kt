@@ -1,5 +1,6 @@
 package leetcode
 
+import leetcode.learn.TNode
 import java.util.*
 import kotlin.collections.HashMap
 
@@ -128,3 +129,14 @@ class Interval(
         var start: Int = 0,
         var end: Int = 0
 )
+
+// Definition for a binary tree node.
+class TreeNode(var `val`: Int = 0) {
+    var left: TreeNode? = null
+    var right: TreeNode? = null
+}
+
+//  Definition for singly-linked list.
+class ListNode(var `val`: Int = 0) {
+    var next: ListNode? = null
+}
