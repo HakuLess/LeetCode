@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c133/1029. Two City Scheduling.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c133/1030. Matrix Cells in Distance Order.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c133/1031. Maximum Sum of Two Non-Overlapping Subarrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c133/1032. Stream of Characters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/260. Single Number III.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c134/1033. Moving Stones Until Consecutive.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c134/1034. Coloring A Border.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,80 +17,35 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LeetCode$leetcode__79__Word_SearchKt.ic" NAME="leetcode._79__Word_SearchKt Coverage Results" MODIFIED="1551335700329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1408988555">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="22" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="6" />
-          <entry key="project.open.time.6" value="6" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="2" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="59" />
-          <entry key="kt" value="784" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="59" />
-          <entry key="Kotlin" value="784" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="kt" value="164592" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Kotlin" value="164592" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-    </session>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1033. Moving Stones Until Consecutive.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c133/1032. Stream of Characters.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="407">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/208. Implement Trie (Prefix Tree).kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1034. Coloring A Border.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1225">
-              <caret line="49" column="1" lean-forward="true" selection-start-line="2" selection-end-line="49" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c133/1030. Matrix Cells in Distance Order.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="1" />
-              <folding>
-                <element signature="e#31#71#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1125">
+              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -108,9 +61,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class Solution</find>
-      <find>1000000</find>
-      <find>1000000007</find>
       <find>substring</find>
       <find>Solution</find>
       <find>trim</find>
@@ -138,6 +88,9 @@
       <find>length</find>
       <find>queue</find>
       <find>import leetcode.normal.TreeNode</find>
+      <find>colorSet</find>
+      <find>dp =</find>
+      <find>dp = Array</find>
     </findStrings>
     <replaceStrings>
       <replace>toInt</replace>
@@ -150,9 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/normal/98. Validate Binary Search Tree.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/979. Distribute Coins in Binary Tree.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/958. Check Completeness of a Binary Tree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/95. Unique Binary Search Trees II.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/938. Range Sum of BST.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/897. Increasing Order Search Tree.kt" />
@@ -201,10 +151,13 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/c133/1029. Two City Scheduling.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c133/1031. Maximum Sum of Two Non-Overlapping Subarrays.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c133/1032. Stream of Characters.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/c134/1033. Moving Stones Until Consecutive.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/c134/1034. Coloring A Border.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="962" />
@@ -215,6 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,17 +203,24 @@
               <item name="contest" type="462c0819:PsiDirectoryNode" />
               <item name="c133" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="contest" type="462c0819:PsiDirectoryNode" />
+              <item name="c134" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="trie&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/normal/208. Implement Trie (Prefix Tree).kt&#10;7&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/normal/7. Reverse Integer.kt&#10;0ut&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/0Utils.kt&#10;treenode&#9;null&#9;null&#10;Integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;findpeak&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/162. Find Peak Element.kt&#10;Search in Rotated Sorted Array&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/33. Search in Rotated Sorted Array.kt&#10;linkedlist&#9;PSI&#9;JAVA://java.util.LinkedList&#10;number&#9;FILE&#9;file:///Users/HaKu/WorkSpace/Study/LeetCode/src/leetcode/200. Number of Islands.kt&#10;treeset&#9;PSI&#9;JAVA://java.util.TreeSet" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555818617463" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556422686318" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -289,20 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.c133._1032__Stream_of_CharactersKt">
-    <configuration name="leetcode.contest.c132._1028__Recover_a_Tree_From_Preorder_TraversalKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.c132._1028__Recover_a_Tree_From_Preorder_TraversalKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.leetcode.contest.c134._1035__Uncrossed_LinesKt">
     <configuration name="leetcode.contest.c133._1030__Matrix_Cells_in_Distance_OrderKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -342,33 +291,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._3__Longest_Substring_Without_Repeating_CharactersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.contest.c134._1033__Moving_Stones_Until_ConsecutiveKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._3__Longest_Substring_Without_Repeating_CharactersKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.c134._1033__Moving_Stones_Until_ConsecutiveKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.contest.c134._1035__Uncrossed_LinesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.c134._1035__Uncrossed_LinesKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.normal._3__Longest_Substring_Without_Repeating_CharactersKt" />
-      <item itemvalue="Kotlin.leetcode.contest.c132._1028__Recover_a_Tree_From_Preorder_TraversalKt" />
       <item itemvalue="Kotlin.leetcode.contest.c133._1030__Matrix_Cells_in_Distance_OrderKt" />
       <item itemvalue="Kotlin.leetcode.contest.c133._1031__Maximum_Sum_of_Two_Non_Overlapping_SubarraysKt" />
       <item itemvalue="Kotlin.leetcode.contest.c133._1032__Stream_of_CharactersKt" />
+      <item itemvalue="Kotlin.leetcode.contest.c134._1033__Moving_Stones_Until_ConsecutiveKt" />
+      <item itemvalue="Kotlin.leetcode.contest.c134._1035__Uncrossed_LinesKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.c134._1035__Uncrossed_LinesKt" />
+        <item itemvalue="Kotlin.leetcode.contest.c134._1033__Moving_Stones_Until_ConsecutiveKt" />
         <item itemvalue="Kotlin.leetcode.contest.c133._1032__Stream_of_CharactersKt" />
         <item itemvalue="Kotlin.leetcode.contest.c133._1031__Maximum_Sum_of_Two_Non_Overlapping_SubarraysKt" />
         <item itemvalue="Kotlin.leetcode.contest.c133._1030__Matrix_Cells_in_Distance_OrderKt" />
-        <item itemvalue="Kotlin.leetcode.contest.c132._1028__Recover_a_Tree_From_Preorder_TraversalKt" />
-        <item itemvalue="Kotlin.leetcode.normal._3__Longest_Substring_Without_Repeating_CharactersKt" />
       </list>
     </recent_temporary>
   </component>
@@ -386,10 +348,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="962" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="962" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1826411" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18743344" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -399,7 +361,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33606556" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39904422" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39812645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -407,6 +369,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32786885" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4950298" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -418,38 +381,11 @@
       <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5049702" side_tool="true" weight="0.25" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/95. Unique Binary Search Trees II.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#25#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/938. Range Sum of BST.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/897. Increasing Order Search Tree.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/876. Middle of the Linked List.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -496,9 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#25#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,9 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="e#25#80#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,9 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#25#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,9 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#25#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,9 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-          <folding>
-            <element signature="e#25#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,9 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#25#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -563,9 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#25#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,9 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#25#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,9 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#25#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,9 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#25#80#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,9 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#25#72#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,9 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="e#26#69#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,9 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#25#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,34 +690,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c133/1031. Maximum Sum of Two Non-Overlapping Subarrays.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c133/1032. Stream of Characters.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c133/1030. Matrix Cells in Distance Order.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#31#71#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="594">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/208. Implement Trie (Prefix Tree).kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1225">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="2" selection-end-line="49" selection-end-column="1" />
+          <caret line="49" column="1" selection-start-line="2" selection-end-line="49" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c133/1032. Stream of Characters.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c133/1030. Matrix Cells in Distance Order.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c133/1031. Maximum Sum of Two Non-Overlapping Subarrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1034. Coloring A Border.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1033. Moving Stones Until Consecutive.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
         </state>
       </provider>
     </entry>
