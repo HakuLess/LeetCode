@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c134/1033. Moving Stones Until Consecutive.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c134/1034. Coloring A Border.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c134/1036. Escape a Large Maze.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="19">
+              <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1036. Escape a Large Maze.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="62" column="12" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="64" selection-end-column="13" />
+              <folding>
+                <element signature="e#31#105#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/normal/95. Unique Binary Search Trees II.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/938. Range Sum of BST.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/897. Increasing Order Search Tree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/876. Middle of the Linked List.kt" />
@@ -154,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/c134/1033. Moving Stones Until Consecutive.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c134/1034. Coloring A Border.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/c134/1036. Escape a Large Maze.kt" />
       </list>
     </option>
   </component>
@@ -251,20 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.c134._1035__Uncrossed_LinesKt">
-    <configuration name="leetcode.contest.c133._1030__Matrix_Cells_in_Distance_OrderKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.c133._1030__Matrix_Cells_in_Distance_OrderKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.leetcode.contest.c134._1036__Escape_a_Large_MazeKt">
     <configuration name="leetcode.contest.c133._1031__Maximum_Sum_of_Two_Non_Overlapping_SubarraysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -317,20 +315,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.contest.c134._1036__Escape_a_Large_MazeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.c134._1036__Escape_a_Large_MazeKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.c133._1030__Matrix_Cells_in_Distance_OrderKt" />
       <item itemvalue="Kotlin.leetcode.contest.c133._1031__Maximum_Sum_of_Two_Non_Overlapping_SubarraysKt" />
       <item itemvalue="Kotlin.leetcode.contest.c133._1032__Stream_of_CharactersKt" />
       <item itemvalue="Kotlin.leetcode.contest.c134._1033__Moving_Stones_Until_ConsecutiveKt" />
       <item itemvalue="Kotlin.leetcode.contest.c134._1035__Uncrossed_LinesKt" />
+      <item itemvalue="Kotlin.leetcode.contest.c134._1036__Escape_a_Large_MazeKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.c134._1036__Escape_a_Large_MazeKt" />
         <item itemvalue="Kotlin.leetcode.contest.c134._1035__Uncrossed_LinesKt" />
         <item itemvalue="Kotlin.leetcode.contest.c134._1033__Moving_Stones_Until_ConsecutiveKt" />
         <item itemvalue="Kotlin.leetcode.contest.c133._1032__Stream_of_CharactersKt" />
         <item itemvalue="Kotlin.leetcode.contest.c133._1031__Maximum_Sum_of_Two_Non_Overlapping_SubarraysKt" />
-        <item itemvalue="Kotlin.leetcode.contest.c133._1030__Matrix_Cells_in_Distance_OrderKt" />
       </list>
     </recent_temporary>
   </component>
@@ -386,13 +397,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/876. Middle of the Linked List.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/872. Leaf-Similar Trees.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -734,8 +738,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="19">
+          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1036. Escape a Large Maze.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="62" column="12" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="64" selection-end-column="13" />
+          <folding>
+            <element signature="e#31#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
