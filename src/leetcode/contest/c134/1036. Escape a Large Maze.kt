@@ -16,10 +16,6 @@ fun main(args: Array<String>) {
 
 class Solution1036 {
     fun isEscapePossible(blocked: Array<IntArray>, source: IntArray, target: IntArray): Boolean {
-        return isEscapePossibleOne(blocked, source, target) || isEscapePossibleOne(blocked, target, source)
-    }
-
-    fun isEscapePossibleOne(blocked: Array<IntArray>, source: IntArray, target: IntArray): Boolean {
         if (blocked.size < 2) {
             return true
         }
