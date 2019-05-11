@@ -18,16 +18,16 @@ fun main(args: Array<String>) {
 
 class Solution5047 {
     fun minScoreTriangulation(A: IntArray): Int {
-        A.sort()
-        val n = A.size - 2
-        var ans = 0
-        for (i in 0 until n) {
-            val min0 = A[i / 2]
-            val min1 = A[i / 2 + 1]
-            val max = A[A.lastIndex - i]
-            println("$min0, $min1, $max")
-            ans += min0 * min1 * max
+        val n = A.size
+        val dp = Array(n) { IntArray(n) }
+        for (j in 2 until n) {
+            for (i in j - 2 downTo 0) {
+                dp[i][j] = Integer.MAX_VALUE
+                for (k in i + 1 until j) {
+                    dp[i][j] = minOf(dp[i][j], dp[i][k] + dp[k][j] + A[i] * A[j] * A[k])
+                }
+            }
         }
-        return ans
+        return dp[0][n - 1]
     }
 }

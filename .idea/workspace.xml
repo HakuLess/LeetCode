@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c135/5047. Minimum Score Triangulation of Polygon.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c135/5050. Binary Search Tree to Greater Sum Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c135/5051. Valid Boomerang.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c135/1040. Moving Stones Until Consecutive II.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c134/1036. Escape a Large Maze.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/c134/1036. Escape a Large Maze.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c135/5047. Minimum Score Triangulation of Polygon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/c135/5047. Minimum Score Triangulation of Polygon.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,16 +17,15 @@
     <SUITE FILE_PATH="coverage/LeetCode$leetcode__79__Word_SearchKt.ic" NAME="leetcode._79__Word_SearchKt Coverage Results" MODIFIED="1551335700329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1033. Moving Stones Until Consecutive.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-178">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="644">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -36,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="100">
               <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
@@ -45,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1036. Escape a Large Maze.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
+            <state relative-caret-position="125">
               <caret line="7" column="24" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="24" />
               <folding>
                 <element signature="e#31#105#0" expanded="true" />
@@ -66,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c135/5050. Binary Search Tree to Greater Sum Tree.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="625">
+              <caret line="25" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -75,8 +72,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c135/5047. Minimum Score Triangulation of Polygon.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="750">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="30" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c135/1040. Moving Stones Until Consecutive II.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="21" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -84,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/normal/406. Queue Reconstruction by Height.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="53" />
+            <state relative-caret-position="625">
+              <caret line="25" column="53" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -152,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/normal/872. Leaf-Similar Trees.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/86. Partition List.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/700. Search in a Binary Search Tree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/655. Print Binary Tree.kt" />
@@ -203,13 +208,14 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/c135/5050. Binary Search Tree to Greater Sum Tree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c135/5051. Valid Boomerang.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c135/5047. Minimum Score Triangulation of Polygon.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/c135/1040. Moving Stones Until Consecutive II.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="962" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -217,8 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,6 +276,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,20 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.c135._5047__Minimum_Score_Triangulation_of_PolygonKt">
-    <configuration name="leetcode.contest.c133._1032__Stream_of_CharactersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.c133._1032__Stream_of_CharactersKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.leetcode.contest.c135._1040__Moving_Stones_Until_Consecutive_IIKt">
     <configuration name="leetcode.contest.c134._1033__Moving_Stones_Until_ConsecutiveKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -361,6 +354,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.contest.c135._1040__Moving_Stones_Until_Consecutive_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.c135._1040__Moving_Stones_Until_Consecutive_IIKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="leetcode.contest.c135._5047__Minimum_Score_Triangulation_of_PolygonKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -375,19 +381,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.c133._1032__Stream_of_CharactersKt" />
       <item itemvalue="Kotlin.leetcode.contest.c134._1033__Moving_Stones_Until_ConsecutiveKt" />
       <item itemvalue="Kotlin.leetcode.contest.c134._1035__Uncrossed_LinesKt" />
       <item itemvalue="Kotlin.leetcode.contest.c134._1036__Escape_a_Large_MazeKt" />
       <item itemvalue="Kotlin.leetcode.contest.c135._5047__Minimum_Score_Triangulation_of_PolygonKt" />
+      <item itemvalue="Kotlin.leetcode.contest.c135._1040__Moving_Stones_Until_Consecutive_IIKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.c135._1040__Moving_Stones_Until_Consecutive_IIKt" />
         <item itemvalue="Kotlin.leetcode.contest.c135._5047__Minimum_Score_Triangulation_of_PolygonKt" />
         <item itemvalue="Kotlin.leetcode.contest.c134._1036__Escape_a_Large_MazeKt" />
         <item itemvalue="Kotlin.leetcode.contest.c134._1035__Uncrossed_LinesKt" />
         <item itemvalue="Kotlin.leetcode.contest.c134._1033__Moving_Stones_Until_ConsecutiveKt" />
-        <item itemvalue="Kotlin.leetcode.contest.c133._1032__Stream_of_CharactersKt" />
       </list>
     </recent_temporary>
   </component>
@@ -405,9 +411,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="962" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="958" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18743344" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19062833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -416,7 +423,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33606556" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33529413" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,8 +431,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32786885" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32705882" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4950298" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -435,6 +441,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5049702" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -442,13 +449,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/652. Find Duplicate Subtrees.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/61. Rotate List.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -739,41 +739,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1034. Coloring A Border.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1033. Moving Stones Until Consecutive.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="644">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="100">
           <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/406. Queue Reconstruction by Height.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1036. Escape a Large Maze.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
+        <state relative-caret-position="125">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="24" />
           <folding>
             <element signature="e#31#105#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c135/5050. Binary Search Tree to Greater Sum Tree.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -784,17 +770,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c135/5047. Minimum Score Triangulation of Polygon.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c135/5050. Binary Search Tree to Greater Sum Tree.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="625">
+          <caret line="25" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1033. Moving Stones Until Consecutive.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/406. Queue Reconstruction by Height.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="625">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1034. Coloring A Border.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c135/5047. Minimum Score Triangulation of Polygon.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c135/1040. Moving Stones Until Consecutive II.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>
