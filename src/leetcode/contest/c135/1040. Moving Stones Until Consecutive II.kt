@@ -24,8 +24,9 @@ class Solution1040 {
 
             low = if (j - i + 1 == n - 1 && stones[j] - stones[i] == n - 2) {
                 minOf(low, 2)
-            } else
+            } else {
                 minOf(low, n - (j - i + 1))
+            }
         }
         return intArrayOf(low, high)
     }
