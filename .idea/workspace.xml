@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/684. Redundant Connection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/947. Most Stones Removed with Same Row or Column.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/0Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/0Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/547. Friend Circles.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/547. Friend Circles.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/947. Most Stones Removed with Same Row or Column.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/947. Most Stones Removed with Same Row or Column.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/normal/947. Most Stones Removed with Same Row or Column.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="400">
+              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -771,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/947. Most Stones Removed with Same Row or Column.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="400">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>

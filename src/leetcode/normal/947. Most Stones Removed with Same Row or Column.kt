@@ -14,14 +14,12 @@ class Solution947 {
             }
         }
 
-        var ans = 0
         val set = hashSetOf<Int>()
         stones.forEach {
             val root = ufs.typedFind(it)
-            ans++
             set.add(root)
         }
 
-        return ans - set.size
+        return stones.size - set.size
     }
 }
