@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.DSU
+import leetcode.UFS
 import leetcode.print
 import kotlin.collections.HashSet
 
@@ -17,18 +17,18 @@ fun main(args: Array<String>) {
 class Solution547 {
     fun findCircleNum(M: Array<IntArray>): Int {
         val size = M.size
-        val dsu = DSU(size)
+        val ufs = UFS(size)
         for (i in 0 until size) {
             for (j in 0 until size) {
                 if (M[i][j] == 1 && i != j) {
-                    dsu.union(i, j)
+                    ufs.union(i, j)
                 }
             }
         }
 
         val ans = HashSet<Int>()
         for (i in 0 until size) {
-            ans.add(dsu.find(i))
+            ans.add(ufs.find(i))
         }
         return ans.size
     }

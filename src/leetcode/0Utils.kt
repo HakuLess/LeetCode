@@ -2,6 +2,7 @@ package leetcode
 
 import leetcode.learn.TNode
 import java.util.*
+import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
 
 fun TreeNode?.depth(): Int = if (this == null) {
@@ -142,9 +143,9 @@ class ListNode(var `val`: Int = 0) {
 }
 
 /**
- * Disjoint Set Union
+ * Union-Find Set
  * */
-class DSU(var n: Int = 0) {
+class UFS(var n: Int = 0) {
     val parent = IntArray(n) { i -> i }
     val rank = IntArray(n)
 
@@ -155,9 +156,12 @@ class DSU(var n: Int = 0) {
         return parent[x]
     }
 
-    fun union(x: Int, y: Int) {
+    fun union(x: Int, y: Int): Boolean {
         val px = find(x)
         val py = find(y)
+        if (px == py) {
+            return false
+        }
         when {
             rank[px] > rank[py] -> parent[py] = px
             rank[px] < rank[py] -> parent[px] = py
@@ -166,5 +170,52 @@ class DSU(var n: Int = 0) {
                 rank[px]++
             }
         }
+        return true
+    }
+}
+
+class TypedUFS<T>(var n: Int = 0) {
+    val parent = IntArray(n) { i -> i }
+    val rank = IntArray(n)
+
+    val map = hashMapOf<T, Int>()
+    var total = 0
+
+    fun typedFind(key: T): Int {
+        var x = total
+        if (map.containsKey(key)) {
+            x = map[key]!!
+        } else {
+            map[key] = total
+            total++
+        }
+        if (x != parent[x]) {
+            parent[x] = find(parent[x])
+        }
+        return parent[x]
+    }
+
+    fun find(x: Int): Int {
+        if (x != parent[x]) {
+            parent[x] = find(parent[x])
+        }
+        return parent[x]
+    }
+
+    fun union(x: T, y: T): Boolean {
+        val px = typedFind(x)
+        val py = typedFind(y)
+        if (px == py) {
+            return false
+        }
+        when {
+            rank[px] > rank[py] -> parent[py] = px
+            rank[px] < rank[py] -> parent[px] = py
+            else -> {
+                parent[px] = py
+                rank[px]++
+            }
+        }
+        return true
     }
 }
