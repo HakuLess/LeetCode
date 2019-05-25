@@ -140,3 +140,31 @@ class TreeNode(var `val`: Int = 0) {
 class ListNode(var `val`: Int = 0) {
     var next: ListNode? = null
 }
+
+/**
+ * Disjoint Set Union
+ * */
+class DSU(var n: Int = 0) {
+    val parent = IntArray(n) { i -> i }
+    val rank = IntArray(n)
+
+    fun find(x: Int): Int {
+        if (x != parent[x]) {
+            parent[x] = find(parent[x])
+        }
+        return parent[x]
+    }
+
+    fun union(x: Int, y: Int) {
+        val px = find(x)
+        val py = find(y)
+        when {
+            rank[px] > rank[py] -> parent[py] = px
+            rank[px] < rank[py] -> parent[px] = py
+            else -> {
+                parent[px] = py
+                rank[px]++
+            }
+        }
+    }
+}
