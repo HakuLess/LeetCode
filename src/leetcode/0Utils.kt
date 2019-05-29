@@ -1,6 +1,7 @@
 package leetcode
 
 import leetcode.learn.TNode
+import java.lang.StringBuilder
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
@@ -9,6 +10,12 @@ fun TreeNode?.depth(): Int = if (this == null) {
     0
 } else {
     1 + maxOf(left.depth(), right.depth())
+}
+
+inline fun List<Suffix>.printSuffix() {
+    this.forEach {
+        println("${it.suff}, ${it.index}")
+    }
 }
 
 inline fun Array<DoubleArray>.print() {
@@ -122,7 +129,7 @@ inline fun Boolean.print() {
 
 inline fun TreeMap<Int, Int>.print() {
     this.forEach { t, u ->
-        kotlin.io.println("key: $t, value: $u")
+        println("key: $t, value: $u")
     }
 }
 
@@ -143,11 +150,13 @@ class ListNode(var `val`: Int = 0) {
 }
 
 /**
- * Union-Find Set
- * */
+ * 并查集 Union-Find Set
+ *
+ * @link https://hakuless.github.io/post/union-find-set/
+ */
 class UFS(var n: Int = 0) {
-    val parent = IntArray(n) { i -> i }
-    val rank = IntArray(n)
+    private val parent = IntArray(n) { i -> i }
+    private val rank = IntArray(n)
 
     fun find(x: Int): Int {
         if (x != parent[x]) {
@@ -175,8 +184,8 @@ class UFS(var n: Int = 0) {
 }
 
 class TypedUFS<T>(var n: Int = 0) {
-    val parent = IntArray(n) { i -> i }
-    val rank = IntArray(n)
+    private val parent = IntArray(n) { i -> i }
+    private val rank = IntArray(n)
 
     val map = hashMapOf<T, Int>()
     var total = 0
@@ -195,7 +204,7 @@ class TypedUFS<T>(var n: Int = 0) {
         return parent[x]
     }
 
-    fun find(x: Int): Int {
+    private fun find(x: Int): Int {
         if (x != parent[x]) {
             parent[x] = find(parent[x])
         }
@@ -218,4 +227,57 @@ class TypedUFS<T>(var n: Int = 0) {
         }
         return true
     }
+}
+
+class Suffix(
+        val index: Int,
+        val suff: String,
+        val rank: IntArray
+)
+
+class SuffixArray(str: String) {
+    private val suffixes = ArrayList<Suffix>()
+
+    private var ans: List<Suffix>
+
+    init {
+        var sb = ""
+        for (i in str.lastIndex downTo 0) {
+            sb = str[i] + sb
+            val rank = IntArray(2)
+            rank[0] = str[i] - 'a'
+            rank[1] = if (i == str.lastIndex) {
+                -1
+            } else {
+                str[i + 1] - 'a'
+            }
+            val item = Suffix(i, sb, rank)
+            suffixes.add(item)
+        }
+
+        ans = suffixes.sortedWith(compareBy({ it.rank[0] }, { it.rank[1] }))
+    }
+
+    fun getSuffixArray(): List<Suffix> {
+        return ans
+    }
+}
+
+/**
+ * 最长公共前缀
+ * */
+fun lcp(strs: Array<String>): String {
+    if (strs.isEmpty()) {
+        return ""
+    }
+    var prefix = strs[0]
+    for (i in 1 until strs.size) {
+        while (strs[i].indexOf(prefix) != 0) {
+            prefix = prefix.substring(0, prefix.length - 1)
+            if (prefix.isEmpty()) {
+                return ""
+            }
+        }
+    }
+    return prefix
 }

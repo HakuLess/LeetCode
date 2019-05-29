@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c138/1051. Height Checker.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c138/1052. Grumpy Bookstore Owner.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c138/1053. Previous Permutation With One Swap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c138/1054. Distant Barcodes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/HaKu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/HaKu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/0Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/0Utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,58 +23,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c138/1052. Grumpy Bookstore Owner.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c138/1053. Previous Permutation With One Swap.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c138/1051. Height Checker.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c138/1054. Distant Barcodes.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="256">
+              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding>
-                <element signature="e#31#141#0" expanded="true" />
+                <element signature="e#31#86#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/0Utils.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="537">
+              <caret line="255" column="9" lean-forward="true" selection-start-line="255" selection-start-column="9" selection-end-line="255" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c136/5057. Partition Array for Maximum Sum.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/406. Queue Reconstruction by Height.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="175">
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2402">
+              <caret line="206" column="25" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -91,10 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>prime</find>
-      <find>bst</find>
-      <find>BST</find>
-      <find>indexOf</find>
       <find>when</find>
       <find>when (</find>
       <find>tobi</find>
@@ -121,6 +98,10 @@
       <find>issq</find>
       <find>arrived</find>
       <find>PriorityQueue</find>
+      <find>sortedWith</find>
+      <find>maoli</find>
+      <find>compareby</find>
+      <find>compa</find>
     </findStrings>
     <replaceStrings>
       <replace>toInt</replace>
@@ -165,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/c136/5055. Robot Bounded In Circle.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c136/5056. Flower Planting With No Adjacent.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c136/5057. Partition Array for Maximum Sum.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c137/1047. Remove All Adjacent Duplicates In String.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c137/1048. Longest String Chain.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c137/1049. Last Stone Weight II.kt" />
@@ -179,19 +159,20 @@
         <option value="$PROJECT_DIR$/src/leetcode/normal/817. Linked List Components.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/547. Friend Circles.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/684. Redundant Connection.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/0Utils.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/947. Most Stones Removed with Same Row or Column.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c138/1051. Height Checker.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c138/1054. Distant Barcodes.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c138/1053. Previous Permutation With One Swap.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c138/1052. Grumpy Bookstore Owner.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/0Utils.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="958" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -237,7 +219,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,7 +255,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.c138._1052__Grumpy_Bookstore_OwnerKt">
+  <component name="RunManager" selected="Kotlin.leetcode.contest.c136._5058__Longest_Duplicate_SubstringKt">
+    <configuration name="leetcode.contest.c136._5058__Longest_Duplicate_SubstringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.c136._5058__Longest_Duplicate_SubstringKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="leetcode.contest.c138._1052__Grumpy_Bookstore_OwnerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -327,33 +321,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._856__Score_of_ParenthesesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._856__Score_of_ParenthesesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.normal._856__Score_of_ParenthesesKt" />
-      <item itemvalue="Kotlin.leetcode.normal._547__Friend_CirclesKt" />
-      <item itemvalue="Kotlin.leetcode.contest.c138._1054__Distant_BarcodesKt" />
-      <item itemvalue="Kotlin.leetcode.contest.c138._1053__Previous_Permutation_With_One_SwapKt" />
       <item itemvalue="Kotlin.leetcode.contest.c138._1052__Grumpy_Bookstore_OwnerKt" />
+      <item itemvalue="Kotlin.leetcode.contest.c138._1053__Previous_Permutation_With_One_SwapKt" />
+      <item itemvalue="Kotlin.leetcode.contest.c138._1054__Distant_BarcodesKt" />
+      <item itemvalue="Kotlin.leetcode.normal._547__Friend_CirclesKt" />
+      <item itemvalue="Kotlin.leetcode.contest.c136._5058__Longest_Duplicate_SubstringKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.c136._5058__Longest_Duplicate_SubstringKt" />
         <item itemvalue="Kotlin.leetcode.contest.c138._1052__Grumpy_Bookstore_OwnerKt" />
         <item itemvalue="Kotlin.leetcode.contest.c138._1053__Previous_Permutation_With_One_SwapKt" />
         <item itemvalue="Kotlin.leetcode.contest.c138._1054__Distant_BarcodesKt" />
         <item itemvalue="Kotlin.leetcode.normal._547__Friend_CirclesKt" />
-        <item itemvalue="Kotlin.leetcode.normal._856__Score_of_ParenthesesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -371,10 +352,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="955" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20340788" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20766774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -383,7 +364,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33412042" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33412042" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,20 +390,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c135/5050. Binary Search Tree to Greater Sum Tree.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c135/5047. Minimum Score Triangulation of Polygon.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -730,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/0Utils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1549">
-          <caret line="220" column="1" lean-forward="true" selection-start-line="176" selection-end-line="220" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/947. Most Stones Removed with Same Row or Column.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -754,45 +714,69 @@
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c138/1052. Grumpy Bookstore Owner.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c138/1053. Previous Permutation With One Swap.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="850">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c138/1051. Height Checker.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c136/5057. Partition Array for Maximum Sum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c138/1054. Distant Barcodes.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="338">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
             <element signature="e#31#141#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="2402">
+          <caret line="206" column="25" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c136/5057. Partition Array for Maximum Sum.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/406. Queue Reconstruction by Height.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="175">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#31#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/0Utils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="255" column="9" lean-forward="true" selection-start-line="255" selection-start-column="9" selection-end-line="255" selection-end-column="9" />
         </state>
       </provider>
     </entry>
