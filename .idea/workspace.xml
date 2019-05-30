@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/778. Swim in Rising Water.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/0Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/0Utils.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +20,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="193">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="9" />
+              <folding>
+                <element signature="e#25#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,56 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/0Utils.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="115" column="1" lean-forward="true" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/765. Couples Holding Hands.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/778. Swim in Rising Water.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
-              <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-              <folding>
-                <element signature="e#25#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/TypeAliases.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="29" column="74" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Comparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3035">
-              <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/comparisons/Comparisons.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="95" column="88" lean-forward="true" selection-start-line="95" selection-start-column="88" selection-end-line="96" selection-end-column="2" />
+            <state relative-caret-position="837">
+              <caret line="171" column="5" lean-forward="true" selection-start-line="171" selection-start-column="5" selection-end-line="171" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -96,7 +52,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dp =</find>
       <find>dp = Array</find>
       <find>sortwith</find>
       <find>Stones</find>
@@ -126,6 +81,7 @@
       <find>compare</find>
       <find>ind</find>
       <find>4, 4</find>
+      <find>hashmap</find>
     </findStrings>
     <replaceStrings>
       <replace>toInt</replace>
@@ -139,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/normal/572. Subtree of Another Tree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/669. Trim a Binary Search Tree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/83. Remove Duplicates from Sorted List.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/637. Average of Levels in Binary Tree.kt" />
@@ -187,9 +142,10 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/c138/1053. Previous Permutation With One Swap.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c138/1052. Grumpy Bookstore Owner.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/0Utils.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/765. Couples Holding Hands.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/778. Swim in Rising Water.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/0Utils.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt" />
       </list>
     </option>
   </component>
@@ -271,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.normal._778__Swim_in_Rising_WaterKt">
+  <component name="RunManager" selected="Kotlin.leetcode.normal._128__Longest_Consecutive_SequenceKt">
     <configuration name="leetcode.contest.c136._5058__Longest_Duplicate_SubstringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -298,14 +254,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.c138._1053__Previous_Permutation_With_One_SwapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.normal._128__Longest_Consecutive_SequenceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.c138._1053__Previous_Permutation_With_One_SwapKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._128__Longest_Consecutive_SequenceKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -339,18 +295,18 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.leetcode.contest.c138._1052__Grumpy_Bookstore_OwnerKt" />
-      <item itemvalue="Kotlin.leetcode.contest.c138._1053__Previous_Permutation_With_One_SwapKt" />
       <item itemvalue="Kotlin.leetcode.contest.c136._5058__Longest_Duplicate_SubstringKt" />
       <item itemvalue="Kotlin.leetcode.normal._765__Couples_Holding_HandsKt" />
       <item itemvalue="Kotlin.leetcode.normal._778__Swim_in_Rising_WaterKt" />
+      <item itemvalue="Kotlin.leetcode.normal._128__Longest_Consecutive_SequenceKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.normal._128__Longest_Consecutive_SequenceKt" />
         <item itemvalue="Kotlin.leetcode.normal._778__Swim_in_Rising_WaterKt" />
         <item itemvalue="Kotlin.leetcode.normal._765__Couples_Holding_HandsKt" />
         <item itemvalue="Kotlin.leetcode.contest.c136._5058__Longest_Duplicate_SubstringKt" />
         <item itemvalue="Kotlin.leetcode.contest.c138._1052__Grumpy_Bookstore_OwnerKt" />
-        <item itemvalue="Kotlin.leetcode.contest.c138._1053__Previous_Permutation_With_One_SwapKt" />
       </list>
     </recent_temporary>
   </component>
@@ -406,16 +362,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c137/1047. Remove All Adjacent Duplicates In String.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#31#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c137/1048. Longest String Chain.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
@@ -768,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/0Utils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="115" column="1" lean-forward="true" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/765. Couples Holding Hands.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -784,10 +723,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/778. Swim in Rising Water.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="383">
+          <caret line="39" column="56" lean-forward="true" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
           <folding>
             <element signature="e#25#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/0Utils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="171" column="5" lean-forward="true" selection-start-line="171" selection-start-column="5" selection-end-line="171" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="e#25#71#0" expanded="true" />
           </folding>
         </state>
       </provider>

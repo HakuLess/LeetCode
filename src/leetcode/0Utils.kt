@@ -34,6 +34,13 @@ inline fun Stack<Char>.print() {
     println()
 }
 
+inline fun HashMap<Int, Int>.printInt() {
+    this.forEach {
+        println("${it.key} : ${it.value}")
+    }
+    println()
+}
+
 inline fun HashMap<String, Int>.print() {
     this.forEach {
         println("${it.key} : ${it.value}")
