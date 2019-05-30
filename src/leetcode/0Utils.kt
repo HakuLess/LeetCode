@@ -1,7 +1,6 @@
 package leetcode
 
 import leetcode.learn.TNode
-import java.lang.StringBuilder
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
@@ -12,9 +11,9 @@ fun TreeNode?.depth(): Int = if (this == null) {
     1 + maxOf(left.depth(), right.depth())
 }
 
-inline fun List<Suffix>.printSuffix() {
-    this.forEach {
-        println("${it.suff}, ${it.index}")
+inline fun Array<Suffix>.printSuffix() {
+    this.forEachIndexed { index, suffix ->
+        println("$index: ${suffix.index}")
     }
 }
 
@@ -229,37 +228,101 @@ class TypedUFS<T>(var n: Int = 0) {
     }
 }
 
+/**
+ * 倍增法，后缀数组
+ * */
 class Suffix(
-        val index: Int,
-        val suff: String,
-        val rank: IntArray
+        var index: Int,
+        var rank: IntArray
 )
 
-class SuffixArray(str: String) {
-    private val suffixes = ArrayList<Suffix>()
+class SuffixArray(private val str: String) {
+    private val n = str.length
+    private var suffixes = Array(n) { Suffix(0, intArrayOf()) }
 
-    private var ans: List<Suffix>
+    private val compare = compareBy<Suffix>({ it.rank[0] }, { it.rank[1] })
 
     init {
-        var sb = ""
-        for (i in str.lastIndex downTo 0) {
-            sb = str[i] + sb
+        for (i in 0 until n) {
             val rank = IntArray(2)
             rank[0] = str[i] - 'a'
-            rank[1] = if (i == str.lastIndex) {
-                -1
-            } else {
+            rank[1] = if (i < n - 1) {
                 str[i + 1] - 'a'
+            } else {
+                -1
             }
-            val item = Suffix(i, sb, rank)
-            suffixes.add(item)
+            suffixes[i].index = i
+            suffixes[i].rank = rank
         }
 
-        ans = suffixes.sortedWith(compareBy({ it.rank[0] }, { it.rank[1] }))
+        suffixes = suffixes.sortedWith(compare).toTypedArray()
+
+        val ind = Array(n) { 0 }
+        var k = 4
+        while (k < 2 * n) {
+            var rank = 0
+            var preRank = suffixes[0].rank[0]
+            suffixes[0].rank[0] = rank
+            ind[suffixes[0].index] = 0
+
+            for (i in 1 until n) {
+                if (suffixes[i].rank[0] == preRank && suffixes[i].rank[1] == suffixes[i - 1].rank[1]) {
+                    preRank = suffixes[i].rank[0]
+                    suffixes[i].rank[0] = rank
+                } else {
+                    preRank = suffixes[i].rank[0]
+                    suffixes[i].rank[0] = ++rank
+                }
+                ind[suffixes[i].index] = i
+            }
+
+            for (i in 0 until n) {
+                val nextIndex = suffixes[i].index + k / 2
+                suffixes[i].rank[1] = if (nextIndex < n) {
+                    suffixes[ind[nextIndex]].rank[0]
+                } else {
+                    -1
+                }
+            }
+
+            suffixes = suffixes.sortedWith(compare).toTypedArray()
+            k *= 2
+        }
     }
 
-    fun getSuffixArray(): List<Suffix> {
-        return ans
+    fun getSuffixArray(): Array<Suffix> {
+        return suffixes
+    }
+
+    fun kasai(): Array<Int> {
+        val lcp = Array(n) { 0 }
+        val invSuff = Array(n) { 0 }
+
+        for (i in 0 until n) {
+            invSuff[suffixes[i].index] = i
+        }
+
+        var k = 0
+        for (i in 0 until n) {
+            if (invSuff[i] == n - 1) {
+                k = 0
+                continue
+            }
+
+            val j = suffixes[invSuff[i] + 1].index
+
+            while (i + k < n && j + k < n && str[i + k] == str[j + k]) {
+                k++
+            }
+
+            lcp[invSuff[i]] = k
+
+            if (k > 0) {
+                k--
+            }
+        }
+
+        return lcp
     }
 }
 
