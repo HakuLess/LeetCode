@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/765. Couples Holding Hands.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/778. Swim in Rising Water.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/normal/765. Couples Holding Hands.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="450">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/778. Swim in Rising Water.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-396">
+              <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+              <folding>
+                <element signature="e#25#65#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +96,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>colorSet</find>
       <find>dp =</find>
       <find>dp = Array</find>
       <find>sortwith</find>
@@ -115,6 +125,7 @@
       <find>sortwi</find>
       <find>compare</find>
       <find>ind</find>
+      <find>4, 4</find>
     </findStrings>
     <replaceStrings>
       <replace>toInt</replace>
@@ -128,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/normal/563. Binary Tree Tilt.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/572. Subtree of Another Tree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/669. Trim a Binary Search Tree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/83. Remove Duplicates from Sorted List.kt" />
@@ -179,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/0Utils.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/765. Couples Holding Hands.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/778. Swim in Rising Water.kt" />
       </list>
     </option>
   </component>
@@ -260,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.normal._765__Couples_Holding_HandsKt">
+  <component name="RunManager" selected="Kotlin.leetcode.normal._778__Swim_in_Rising_WaterKt">
     <configuration name="leetcode.contest.c136._5058__Longest_Duplicate_SubstringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -300,19 +311,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.c138._1054__Distant_BarcodesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.c138._1054__Distant_BarcodesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="leetcode.normal._765__Couples_Holding_HandsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -326,20 +324,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.normal._778__Swim_in_Rising_WaterKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._778__Swim_in_Rising_WaterKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Kotlin.leetcode.contest.c138._1052__Grumpy_Bookstore_OwnerKt" />
       <item itemvalue="Kotlin.leetcode.contest.c138._1053__Previous_Permutation_With_One_SwapKt" />
-      <item itemvalue="Kotlin.leetcode.contest.c138._1054__Distant_BarcodesKt" />
       <item itemvalue="Kotlin.leetcode.contest.c136._5058__Longest_Duplicate_SubstringKt" />
       <item itemvalue="Kotlin.leetcode.normal._765__Couples_Holding_HandsKt" />
+      <item itemvalue="Kotlin.leetcode.normal._778__Swim_in_Rising_WaterKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.normal._778__Swim_in_Rising_WaterKt" />
         <item itemvalue="Kotlin.leetcode.normal._765__Couples_Holding_HandsKt" />
         <item itemvalue="Kotlin.leetcode.contest.c136._5058__Longest_Duplicate_SubstringKt" />
         <item itemvalue="Kotlin.leetcode.contest.c138._1052__Grumpy_Bookstore_OwnerKt" />
         <item itemvalue="Kotlin.leetcode.contest.c138._1053__Previous_Permutation_With_One_SwapKt" />
-        <item itemvalue="Kotlin.leetcode.contest.c138._1054__Distant_BarcodesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -395,13 +406,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c136/5055. Robot Bounded In Circle.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="25" column="48" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="25" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c137/1047. Remove All Adjacent Duplicates In String.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -773,8 +777,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/765. Couples Holding Hands.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="450">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/778. Swim in Rising Water.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding>
+            <element signature="e#25#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
