@@ -13,18 +13,16 @@ fun main(args: Array<String>) {
 
 class Solution5058 {
     fun longestDupSubstring(S: String): String {
-        SuffixArray(S).getSuffixArray().printSuffix()
+        val suf = SuffixArray(S)
+        val suffixArray = suf.getSuffixArray()
 
-        val lcp = SuffixArray(S).kasai()
-        lcp.forEach {
-            println(it)
-        }
+        val lcp = suf.kasai()
         var max = 0
         var start = 0
         for (i in 0 until lcp.size) {
             if (lcp[i] > max) {
                 max = lcp[i]
-                start = i
+                start = suffixArray[i].index
             }
         }
         return S.substring(start, start + max)

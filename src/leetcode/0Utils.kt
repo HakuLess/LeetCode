@@ -238,26 +238,21 @@ class Suffix(
 
 class SuffixArray(private val str: String) {
     private val n = str.length
-    private var suffixes = Array(n) { Suffix(0, intArrayOf()) }
+    private var suffixes = Array(n) { Suffix(0, IntArray(2)) }
 
     private val compare = compareBy<Suffix>({ it.rank[0] }, { it.rank[1] })
 
     init {
         for (i in 0 until n) {
-            val rank = IntArray(2)
-            rank[0] = str[i] - 'a'
-            rank[1] = if (i < n - 1) {
-                str[i + 1] - 'a'
-            } else {
-                -1
-            }
+            suffixes[i].rank[0] = str[i] - 'a'
+            suffixes[i].rank[1] = if (i < n - 1) str[i + 1] - 'a' else -1
             suffixes[i].index = i
-            suffixes[i].rank = rank
         }
 
         suffixes = suffixes.sortedWith(compare).toTypedArray()
 
-        val ind = Array(n) { 0 }
+        val ind = IntArray(n)
+
         var k = 4
         while (k < 2 * n) {
             var rank = 0
