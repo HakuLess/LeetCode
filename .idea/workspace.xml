@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c140/5083. Occurrences After Bigram.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c140/5084. Insufficient Nodes in Root to Leaf Paths.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c140/5086. Smallest Subsequence of Distinct Characters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c140/5087. Letter Tile Possibilities.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,14 +17,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c140/5086. Smallest Subsequence of Distinct Characters.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="962">
+              <caret line="44" column="29" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="44" selection-end-column="29" />
               <folding>
                 <element signature="e#31#102#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/316. Remove Duplicate Letters.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" selection-start-line="3" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c140/5083. Occurrences After Bigram.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -98,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/normal/515. Find Largest Value in Each Tree Row.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/540. Single Element in a Sorted Array.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/260. Single Number III.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c133/1030. Matrix Cells in Distance Order.kt" />
@@ -149,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/c140/5087. Letter Tile Possibilities.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c140/5084. Insufficient Nodes in Root to Leaf Paths.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c140/5086. Smallest Subsequence of Distinct Characters.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/316. Remove Duplicate Letters.kt" />
       </list>
     </option>
   </component>
@@ -247,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.c140._5086__Smallest_Subsequence_of_Distinct_CharactersKt">
+  <component name="RunManager" selected="Kotlin.leetcode.contest.c140._5083__Occurrences_After_BigramKt">
     <configuration name="leetcode.contest.c139._1071__Greatest_Common_Divisor_of_StringsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -322,9 +334,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.c140._5083__Occurrences_After_BigramKt" />
         <item itemvalue="Kotlin.leetcode.contest.c140._5086__Smallest_Subsequence_of_Distinct_CharactersKt" />
         <item itemvalue="Kotlin.leetcode.contest.c140._5087__Letter_Tile_PossibilitiesKt" />
-        <item itemvalue="Kotlin.leetcode.contest.c140._5083__Occurrences_After_BigramKt" />
         <item itemvalue="Kotlin.leetcode.contest.c139._1073__Adding_Two_Negabinary_NumbersKt" />
         <item itemvalue="Kotlin.leetcode.contest.c139._1071__Greatest_Common_Divisor_of_StringsKt" />
       </list>
@@ -347,7 +359,7 @@
     <frame x="419" y="23" width="1406" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29912025" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29912025" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,7 +368,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33412042" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33412042" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,16 +394,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/633. Sum of Square Numbers.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#25#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/921. Minimum Add to Make Parentheses Valid.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -704,13 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c140/5083. Occurrences After Bigram.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/text/Strings.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -755,11 +750,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c140/5086. Smallest Subsequence of Distinct Characters.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        <state relative-caret-position="962">
+          <caret line="44" column="29" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="44" selection-end-column="29" />
           <folding>
             <element signature="e#31#102#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/316. Remove Duplicate Letters.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c140/5083. Occurrences After Bigram.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
         </state>
       </provider>
     </entry>
