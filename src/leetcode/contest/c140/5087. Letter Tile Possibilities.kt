@@ -4,52 +4,52 @@ import leetcode.print
 
 fun main(args: Array<String>) {
     val a = Solution5087()
-    a.numTilePossibilities("aab").print()
+//    a.numTilePossibilities("aab").print()
     a.numTilePossibilities("AAABBC").print()
 }
 
 class Solution5087 {
+
     fun numTilePossibilities(tiles: String): Int {
-        val per = permuteSquare(tiles)
-        val ans = arrayListOf<List<Char>>()
-        ans.addAll(per)
-        for (i in 0 until tiles.length) {
-            val temp = arrayListOf<List<Char>>()
-            per.forEach {
-                temp.add(it.subList(i, it.lastIndex))
-            }
-            ans.addAll(temp)
-        }
-        ans.distinct().forEach {
-            it.forEach {
-                print("$it, ")
-            }
-            println()
-        }
-        return ans.distinct().size - 1
+        val count = IntArray(26)
+        for (c in tiles.toCharArray()) count[c - 'A']++
+        return dfs(count)
     }
 
-    fun permuteSquare(nums: String): List<List<Char>> {
-        val result = arrayListOf<ArrayList<Char>>()
-        var listStack: ArrayList<ArrayList<Char>>
-        nums.forEach {
-            listStack = ArrayList(result)
-            result.clear()
-            if (listStack.isEmpty()) {
-                result.add(arrayListOf(it))
-            } else {
-                while (listStack.isNotEmpty()) {
-                    val list = listStack.first()
-                    listStack.removeAt(0)
-                    for (i in 0..list.size) {
-                        val temp = ArrayList(list)
-                        temp.add(i, it)
-                        result.add(temp)
-                    }
-                }
-            }
+    fun dfs(arr: IntArray): Int {
+        var sum = 0
+        for (i in 0..25) {
+            if (arr[i] == 0) continue
+            sum++
+            arr[i]--
+            sum += dfs(arr)
+            arr[i]++
         }
-
-        return result.distinct()
+        return sum
     }
+//
+//    val ans = arrayListOf<String>()
+//    private val seen = hashSetOf<Int>()
+//
+//    fun numTilePossibilities(tiles: String): Int {
+//        for (i in 0 until tiles.length) {
+//            dfs(tiles, "")
+//        }
+////        ans.forEach {
+////            println(it)
+////        }
+//        return ans.distinct().size
+//    }
+//
+//    private fun dfs(tiles: String, cur: String) {
+//        for (i in 0 until tiles.length) {
+//            if (seen.contains(i)) {
+//                continue
+//            }
+//            seen.add(i)
+//            ans.add(cur + tiles[i])
+//            dfs(tiles, cur + tiles[i])
+//            seen.remove(i)
+//        }
+//    }
 }
