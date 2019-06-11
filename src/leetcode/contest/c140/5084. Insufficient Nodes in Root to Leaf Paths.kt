@@ -30,13 +30,10 @@ class Solution5084 {
 
     private fun dfs(root: TreeNode?, limit: Int, cur: Int): Boolean {
         if (root == null) {
-            return cur < limit
+            return false
         }
         val left = dfs(root.left, limit, cur + root.`val`)
         val right = dfs(root.right, limit, cur + root.`val`)
-        if (root.left == null && root.right == null) {
-            return cur + root.`val` < limit
-        }
         if (!left) {
             root.left = null
         }
