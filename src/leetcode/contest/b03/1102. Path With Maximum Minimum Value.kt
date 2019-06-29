@@ -47,3 +47,30 @@ class Solution1102 {
         return ans[m - 1][n - 1]
     }
 }
+
+//class Solution {
+//    private val seen = Array(110) { IntArray(110) }
+//
+//    fun maximumMinimumPath(A: Array<IntArray>): Int {
+//        dfs(0, 0, A[0][0], A, 0)
+//        return seen[A.lastIndex][A[0].lastIndex]
+//    }
+//
+//    private fun dfs(x: Int, y: Int, pre: Int, A: Array<IntArray>, step: Int) {
+//        if (x !in 0 until A.size || y !in 0 until A[0].size) {
+//            return
+//        }
+//        if (seen[x][y] >= min(pre, A[x][y])) {
+//            return
+//        }
+//        seen[x][y] = min(pre, A[x][y])
+//
+//        if (x == A.lastIndex && y == A[0].lastIndex) {
+//            return
+//        }
+//        dfs(x + 1, y, minOf(A[x][y], pre), A, step + 1)
+//        dfs(x - 1, y, minOf(A[x][y], pre), A, step + 1)
+//        dfs(x, y + 1, minOf(A[x][y], pre), A, step + 1)
+//        dfs(x, y - 1, minOf(A[x][y], pre), A, step + 1)
+//    }
+//}
