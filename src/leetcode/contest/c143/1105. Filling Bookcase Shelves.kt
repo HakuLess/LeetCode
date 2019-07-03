@@ -2,7 +2,9 @@ package leetcode.contest.c143
 
 import leetcode.print
 
-
+/**
+ * tag DP
+ * */
 fun main(args: Array<String>) {
     val s = Solution1105()
 //    s.minHeightShelves(
@@ -45,28 +47,4 @@ class Solution1105 {
         }
         return height[n]
     }
-//    private var ans = Int.MAX_VALUE
-//
-//    fun minHeightShelves(books: Array<IntArray>, shelf_width: Int): Int {
-//        getHeight(books, shelf_width, 0, 0, 0, 0)
-//        return ans
-//    }
-//
-//    private fun getHeight(books: Array<IntArray>, shelf_width: Int, index: Int, curWidth: Int, curHeight: Int, totalHeight: Int) {
-//        println("$index, $curWidth, $curHeight, $totalHeight")
-//        if (index > books.lastIndex) {
-//            println("$index set ${totalHeight + curHeight}")
-//            ans = minOf(ans, totalHeight + curHeight)
-//            return
-//        }
-//        val item = books[index]
-//        if (item[0] + curWidth <= shelf_width) {
-//            getHeight(books, shelf_width, index + 1,
-//                    item[0] + curWidth, maxOf(curHeight, item[1]),
-//                    totalHeight)
-//        }
-//        getHeight(books, shelf_width, index + 1,
-//                item[0], item[1],
-//                totalHeight + curHeight)
-//    }
 }

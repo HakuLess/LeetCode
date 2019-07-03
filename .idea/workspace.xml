@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/leetcode/contest/c141/1092. Shortest Common Supersequence.kt" line="61" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c143/1103. Distribute Candies to People.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c143/1104. Path In Zigzag Labelled Binary Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c143/1105. Filling Bookcase Shelves.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c143/1106. Parsing A Boolean Expression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c143/1105. Filling Bookcase Shelves.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="591">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -145,9 +139,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="268" />
-    <option name="y" value="119" />
+    <option name="y" value="23" />
     <option name="width" value="2073" />
-    <option name="height" value="1077" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -155,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,7 +187,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -300,8 +294,8 @@
       <item itemvalue="Kotlin.leetcode.contest.b03._1102__Path_With_Maximum_Minimum_ValueKt" />
       <item itemvalue="Kotlin.leetcode.contest.c143._1103__Distribute_Candies_to_PeopleKt" />
       <item itemvalue="Kotlin.leetcode.contest.c143._1104__Path_In_Zigzag_Labelled_Binary_TreeKt" />
-      <item itemvalue="Kotlin.leetcode.contest.c143._1106__Parsing_A_Boolean_ExpressionKt" />
       <item itemvalue="Kotlin.leetcode.contest.c143._1105__Filling_Bookcase_ShelvesKt" />
+      <item itemvalue="Kotlin.leetcode.contest.c143._1106__Parsing_A_Boolean_ExpressionKt" />
     </list>
     <recent_temporary>
       <list>
@@ -330,7 +324,7 @@
     <frame x="268" y="119" width="2073" height="1077" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22353521" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22550468" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -742,7 +736,7 @@
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c143/1105. Filling Bookcase Shelves.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>
