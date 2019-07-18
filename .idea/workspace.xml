@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/b04/1118. Number of Days in a Month.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/b04/1119. Remove Vowels from a String.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/b04/1120. Maximum Average Subtree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/b04/1121. Divide Array Into Increasing Sequences.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c145/1122. Relative Sort Array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c145/1123. Lowest Common Ancestor of Deepest Leaves.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c145/1124. Longest Well-Performing Interval.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/c145/1125. Smallest Sufficient Team.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/HaKu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/HaKu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/926. Flip String to Monotone Increasing.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Trees.Word Ladder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Trees.Word Ladder.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,22 +24,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c145/1124. Longest Well-Performing Interval.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            <state relative-caret-position="247">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#25#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c145/1125. Smallest Sufficient Team.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/926. Flip String to Monotone Increasing.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1625">
-              <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
-              <folding>
-                <element signature="e#31#104#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -107,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/contest/c138/1053. Previous Permutation With One Swap.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c138/1052. Grumpy Bookstore Owner.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/765. Couples Holding Hands.kt" />
@@ -158,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/c145/1123. Lowest Common Ancestor of Deepest Leaves.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c145/1124. Longest Well-Performing Interval.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c145/1125. Smallest Sufficient Team.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/926. Flip String to Monotone Increasing.kt" />
       </list>
     </option>
   </component>
@@ -165,7 +156,7 @@
     <option name="x" value="268" />
     <option name="y" value="23" />
     <option name="width" value="2073" />
-    <option name="height" value="1314" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,8 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,20 +187,14 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="contest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="contest" type="462c0819:PsiDirectoryNode" />
-              <item name="c145" type="462c0819:PsiDirectoryNode" />
+              <item name="normal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,7 +204,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -248,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.c145._1125__Smallest_Sufficient_TeamKt">
+  <component name="RunManager" selected="Kotlin.leetcode.normal._926__Flip_String_to_Monotone_IncreasingKt">
     <configuration name="leetcode.contest.b04._1121__Divide_Array_Into_Increasing_SequencesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -257,19 +240,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode.contest.b04._1121__Divide_Array_Into_Increasing_SequencesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.contest.c144._1111__Maximum_Nesting_Depth_of_Two_Valid_Parentheses_StringsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.c144._1111__Maximum_Nesting_Depth_of_Two_Valid_Parentheses_StringsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -314,20 +284,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.normal._926__Flip_String_to_Monotone_IncreasingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._926__Flip_String_to_Monotone_IncreasingKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.c144._1111__Maximum_Nesting_Depth_of_Two_Valid_Parentheses_StringsKt" />
       <item itemvalue="Kotlin.leetcode.contest.b04._1121__Divide_Array_Into_Increasing_SequencesKt" />
       <item itemvalue="Kotlin.leetcode.contest.c145._1122__Relative_Sort_ArrayKt" />
       <item itemvalue="Kotlin.leetcode.contest.c145._1124__Longest_Well_Performing_IntervalKt" />
       <item itemvalue="Kotlin.leetcode.contest.c145._1125__Smallest_Sufficient_TeamKt" />
+      <item itemvalue="Kotlin.leetcode.normal._926__Flip_String_to_Monotone_IncreasingKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.normal._926__Flip_String_to_Monotone_IncreasingKt" />
         <item itemvalue="Kotlin.leetcode.contest.c145._1125__Smallest_Sufficient_TeamKt" />
         <item itemvalue="Kotlin.leetcode.contest.c145._1124__Longest_Well_Performing_IntervalKt" />
         <item itemvalue="Kotlin.leetcode.contest.c145._1122__Relative_Sort_ArrayKt" />
         <item itemvalue="Kotlin.leetcode.contest.b04._1121__Divide_Array_Into_Increasing_SequencesKt" />
-        <item itemvalue="Kotlin.leetcode.contest.c144._1111__Maximum_Nesting_Depth_of_Two_Valid_Parentheses_StringsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -345,10 +328,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="268" y="23" width="2073" height="1314" extended-state="0" />
+    <frame x="268" y="23" width="2073" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23338257" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23732151" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,7 +340,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291874" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28441128" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.283353" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,7 +348,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293979" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3225539" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32231405" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4950298" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -383,23 +366,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c139/1072. Flip Columns For Maximum Number of Equal Rows.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#25#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/817. Linked List Components.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -745,17 +711,34 @@
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c145/1124. Longest Well-Performing Interval.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/c145/1125. Smallest Sufficient Team.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+        <state relative-caret-position="319">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
           <folding>
             <element signature="e#31#104#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#25#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/926. Flip String to Monotone Increasing.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
