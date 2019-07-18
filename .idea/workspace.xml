@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/926. Flip String to Monotone Increasing.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/918. Maximum Sum Circular Subarray.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/normal/926. Flip String to Monotone Increasing.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="40" column="1" selection-start-line="40" selection-end-line="40" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/918. Maximum Sum Circular Subarray.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="37" column="21" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -98,7 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/contest/c138/1052. Grumpy Bookstore Owner.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/765. Couples Holding Hands.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/778. Swim in Rising Water.kt" />
@@ -149,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/c145/1124. Longest Well-Performing Interval.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c145/1125. Smallest Sufficient Team.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/926. Flip String to Monotone Increasing.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/918. Maximum Sum Circular Subarray.kt" />
       </list>
     </option>
   </component>
@@ -187,7 +196,7 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="normal" type="462c0819:PsiDirectoryNode" />
+              <item name="contest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,20 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.normal._926__Flip_String_to_Monotone_IncreasingKt">
-    <configuration name="leetcode.contest.b04._1121__Divide_Array_Into_Increasing_SequencesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.b04._1121__Divide_Array_Into_Increasing_SequencesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.leetcode.normal._918__Maximum_Sum_Circular_SubarrayKt">
     <configuration name="leetcode.contest.c145._1122__Relative_Sort_ArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -284,6 +280,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.normal._918__Maximum_Sum_Circular_SubarrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._918__Maximum_Sum_Circular_SubarrayKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="leetcode.normal._926__Flip_String_to_Monotone_IncreasingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -298,19 +307,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.b04._1121__Divide_Array_Into_Increasing_SequencesKt" />
       <item itemvalue="Kotlin.leetcode.contest.c145._1122__Relative_Sort_ArrayKt" />
       <item itemvalue="Kotlin.leetcode.contest.c145._1124__Longest_Well_Performing_IntervalKt" />
       <item itemvalue="Kotlin.leetcode.contest.c145._1125__Smallest_Sufficient_TeamKt" />
       <item itemvalue="Kotlin.leetcode.normal._926__Flip_String_to_Monotone_IncreasingKt" />
+      <item itemvalue="Kotlin.leetcode.normal._918__Maximum_Sum_Circular_SubarrayKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.normal._918__Maximum_Sum_Circular_SubarrayKt" />
         <item itemvalue="Kotlin.leetcode.normal._926__Flip_String_to_Monotone_IncreasingKt" />
         <item itemvalue="Kotlin.leetcode.contest.c145._1125__Smallest_Sufficient_TeamKt" />
         <item itemvalue="Kotlin.leetcode.contest.c145._1124__Longest_Well_Performing_IntervalKt" />
         <item itemvalue="Kotlin.leetcode.contest.c145._1122__Relative_Sort_ArrayKt" />
-        <item itemvalue="Kotlin.leetcode.contest.b04._1121__Divide_Array_Into_Increasing_SequencesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -329,9 +338,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="268" y="23" width="2073" height="955" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23732151" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23732151" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,7 +348,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291874" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.283353" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28217238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -366,13 +374,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/817. Linked List Components.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/text/Strings.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -737,8 +738,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/926. Flip String to Monotone Increasing.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="357">
+          <caret line="40" column="1" selection-start-line="40" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/918. Maximum Sum Circular Subarray.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
