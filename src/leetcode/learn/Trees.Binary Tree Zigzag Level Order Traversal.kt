@@ -1,6 +1,6 @@
 package leetcode.learn
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 fun zigzagLevelOrder(root: TreeNode?): List<List<Int>> {
     val result = arrayListOf<ArrayList<Int>>()

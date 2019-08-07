@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.print
+import leetcode.contest.utils.print
 import kotlin.math.max
 
 fun main(args: Array<String>) {

@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.ListNode
+import leetcode.contest.utils.ListNode
 
 class Solution19 {
     fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {

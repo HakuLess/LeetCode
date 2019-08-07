@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 fun hasPathSum(root: TreeNode?, sum: Int): Boolean {
     if (root == null) {

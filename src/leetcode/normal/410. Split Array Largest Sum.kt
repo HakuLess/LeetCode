@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     splitArray(intArrayOf(7, 2, 5, 10, 8), 2).print()

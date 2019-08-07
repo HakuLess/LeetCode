@@ -1,8 +1,8 @@
 package leetcode.normal
 
-import leetcode.ListNode
-import leetcode.TypedUFS
-import leetcode.printInt
+import leetcode.contest.utils.ListNode
+import leetcode.contest.utils.TypedUFS
+import leetcode.contest.utils.printInt
 
 class Solution817 {
     fun numComponents(head: ListNode?, G: IntArray): Int {

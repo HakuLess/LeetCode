@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 class Solution894 {
     val map = hashMapOf<Int, List<TreeNode>>()

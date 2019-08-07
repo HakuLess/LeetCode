@@ -1,7 +1,7 @@
 package leetcode.learn
 
 import leetcode.normal.twoSum
-import leetcode.print
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     val intArray = intArrayOf(2, 7, 11, 15)

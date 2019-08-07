@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.ListNode
+import leetcode.contest.utils.ListNode
 
 fun main(args: Array<String>) {
     val node1 = ListNode(1)

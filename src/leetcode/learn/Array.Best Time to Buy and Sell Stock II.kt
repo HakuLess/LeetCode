@@ -1,6 +1,6 @@
 package leetcode.learn
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     val intArray = intArrayOf(7,1,5,3,6,4)

@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     checkPerfectNumber(28).print()

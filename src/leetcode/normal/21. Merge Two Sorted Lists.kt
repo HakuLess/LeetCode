@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.ListNode
+import leetcode.contest.utils.ListNode
 
 fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
     if (l1 == null) {

@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.UFS
+import leetcode.contest.utils.UFS
 
 class Solution684 {
     fun findRedundantConnection(edges: Array<IntArray>): IntArray {

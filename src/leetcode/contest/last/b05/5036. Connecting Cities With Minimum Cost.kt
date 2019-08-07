@@ -1,7 +1,7 @@
 package leetcode.contest.last.b05
 
-import leetcode.UFS
-import leetcode.print
+import leetcode.contest.utils.UFS
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     val s = Solution5036()

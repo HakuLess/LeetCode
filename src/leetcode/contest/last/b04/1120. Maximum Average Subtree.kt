@@ -1,6 +1,6 @@
 package leetcode.contest.last.b04
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 class Solution1120 {
     var max = 0.0

@@ -1,6 +1,6 @@
 package leetcode.contest.last.c135
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 class Solution5050 {
 

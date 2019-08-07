@@ -1,6 +1,6 @@
 package leetcode.contest.last.b05
 
-import leetcode.print
+import leetcode.contest.utils.print
 import kotlin.math.pow
 
 fun main(args: Array<String>) {

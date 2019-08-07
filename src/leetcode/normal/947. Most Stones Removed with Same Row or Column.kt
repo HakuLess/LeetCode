@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.TypedUFS
+import leetcode.contest.utils.TypedUFS
 
 class Solution947 {
     fun removeStones(stones: Array<IntArray>): Int {

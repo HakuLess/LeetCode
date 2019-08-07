@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     generate(5).print()

@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 // todo not finish, Simulation is not interesting
 fun main(args: Array<String>) {

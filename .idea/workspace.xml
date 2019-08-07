@@ -5,86 +5,300 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c148/1144. Decrease Elements To Make Array Zigzag.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c148/1145. Binary Tree Coloring Game.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c148/1146. Snapshot Array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c148/1147. Longest Chunked Palindrome Decomposition.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/utils/TreeUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b02/1085. Sum of Digits in the Minimum Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b02/1085. Sum of Digits in the Minimum Number.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b02/1086. High Five.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b02/1086. High Five.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b02/1087. Permutation of Letters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b02/1087. Permutation of Letters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b02/1088. Confusing Number II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b02/1088. Confusing Number II.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b03/1099. Two Sum Less Than K.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b03/1099. Two Sum Less Than K.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b03/1100. Find K-Length Substrings With No Repeated Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b03/1100. Find K-Length Substrings With No Repeated Characters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b03/1101. The Earliest Moment When Everyone Become Friends.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b03/1101. The Earliest Moment When Everyone Become Friends.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b03/1102. Path With Maximum Minimum Value.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b03/1102. Path With Maximum Minimum Value.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b04/1118. Number of Days in a Month.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b04/1118. Number of Days in a Month.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b04/1119. Remove Vowels from a String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b04/1119. Remove Vowels from a String.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b04/1120. Maximum Average Subtree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b04/1120. Maximum Average Subtree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b04/1121. Divide Array Into Increasing Sequences.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b04/1121. Divide Array Into Increasing Sequences.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b05/5028. Armstrong Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b05/5028. Armstrong Number.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b05/5034. Largest Unique Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b05/5034. Largest Unique Number.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b05/5036. Connecting Cities With Minimum Cost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b05/5036. Connecting Cities With Minimum Cost.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/b05/5037. Parallel Courses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b05/5037. Parallel Courses.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c132/1028. Recover a Tree From Preorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c132/1028. Recover a Tree From Preorder Traversal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c133/1029. Two City Scheduling.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c133/1029. Two City Scheduling.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c133/1030. Matrix Cells in Distance Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c133/1030. Matrix Cells in Distance Order.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c133/1031. Maximum Sum of Two Non-Overlapping Subarrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c133/1031. Maximum Sum of Two Non-Overlapping Subarrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c133/1032. Stream of Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c133/1032. Stream of Characters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c134/1033. Moving Stones Until Consecutive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c134/1033. Moving Stones Until Consecutive.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c134/1034. Coloring A Border.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c134/1034. Coloring A Border.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c134/1035. Uncrossed Lines.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c134/1035. Uncrossed Lines.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c134/1036. Escape a Large Maze.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c134/1036. Escape a Large Maze.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c135/1040. Moving Stones Until Consecutive II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c135/1040. Moving Stones Until Consecutive II.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c135/5047. Minimum Score Triangulation of Polygon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c135/5047. Minimum Score Triangulation of Polygon.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c135/5050. Binary Search Tree to Greater Sum Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c135/5050. Binary Search Tree to Greater Sum Tree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c135/5051. Valid Boomerang.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c135/5051. Valid Boomerang.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c136/5055. Robot Bounded In Circle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c136/5055. Robot Bounded In Circle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c136/5056. Flower Planting With No Adjacent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c136/5056. Flower Planting With No Adjacent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c136/5057. Partition Array for Maximum Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c136/5057. Partition Array for Maximum Sum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c136/5058. Longest Duplicate Substring.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c136/5058. Longest Duplicate Substring.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c137/1046. Last Stone Weight.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c137/1046. Last Stone Weight.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c137/1047. Remove All Adjacent Duplicates In String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c137/1047. Remove All Adjacent Duplicates In String.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c137/1048. Longest String Chain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c137/1048. Longest String Chain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c137/1049. Last Stone Weight II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c137/1049. Last Stone Weight II.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c138/1051. Height Checker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c138/1051. Height Checker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c138/1052. Grumpy Bookstore Owner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c138/1052. Grumpy Bookstore Owner.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c138/1053. Previous Permutation With One Swap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c138/1053. Previous Permutation With One Swap.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c138/1054. Distant Barcodes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c138/1054. Distant Barcodes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c139/1071. Greatest Common Divisor of Strings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c139/1071. Greatest Common Divisor of Strings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c139/1072. Flip Columns For Maximum Number of Equal Rows.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c139/1072. Flip Columns For Maximum Number of Equal Rows.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c139/1073. Adding Two Negabinary Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c139/1073. Adding Two Negabinary Numbers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c140/5083. Occurrences After Bigram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c140/5083. Occurrences After Bigram.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c140/5084. Insufficient Nodes in Root to Leaf Paths.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c140/5084. Insufficient Nodes in Root to Leaf Paths.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c140/5086. Smallest Subsequence of Distinct Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c140/5086. Smallest Subsequence of Distinct Characters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c140/5087. Letter Tile Possibilities.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c140/5087. Letter Tile Possibilities.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c141/1089. Duplicate Zeros.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c141/1089. Duplicate Zeros.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c141/1090. Largest Values From Labels.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c141/1090. Largest Values From Labels.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c141/1091. Shortest Path in Binary Matrix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c141/1091. Shortest Path in Binary Matrix.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c141/1092. Shortest Common Supersequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c141/1092. Shortest Common Supersequence.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c142/1093. Statistics from a Large Sample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c142/1093. Statistics from a Large Sample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c142/1094. Car Pooling.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c142/1094. Car Pooling.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c142/1096. Brace Expansion II User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c142/1096. Brace Expansion II User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c143/1103. Distribute Candies to People.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c143/1103. Distribute Candies to People.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c143/1104. Path In Zigzag Labelled Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c143/1104. Path In Zigzag Labelled Binary Tree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c143/1105. Filling Bookcase Shelves.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c143/1105. Filling Bookcase Shelves.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c143/1106. Parsing A Boolean Expression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c143/1106. Parsing A Boolean Expression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c144/1108. Defanging an IP Address.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c144/1108. Defanging an IP Address.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c144/1109. Corporate Flight Bookings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c144/1109. Corporate Flight Bookings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c144/1110. Delete Nodes And Return Forest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c144/1110. Delete Nodes And Return Forest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c144/1111. Maximum Nesting Depth of Two Valid Parentheses Strings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c144/1111. Maximum Nesting Depth of Two Valid Parentheses Strings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c145/1122. Relative Sort Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c145/1122. Relative Sort Array.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c145/1123. Lowest Common Ancestor of Deepest Leaves.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c145/1123. Lowest Common Ancestor of Deepest Leaves.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c145/1124. Longest Well-Performing Interval.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c145/1124. Longest Well-Performing Interval.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c145/1125. Smallest Sufficient Team.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c145/1125. Smallest Sufficient Team.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c146/5130. Number of Equivalent Domino Pairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c146/5130. Number of Equivalent Domino Pairs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c146/5131. Minimum Cost Tree From Leaf Values.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c146/5131. Minimum Cost Tree From Leaf Values.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c146/5132. Shortest Path with Alternating Colors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c146/5132. Shortest Path with Alternating Colors.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c146/5133. Maximum of Absolute Value Expression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c146/5133. Maximum of Absolute Value Expression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c147/1137. N-th Tribonacci Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c147/1137. N-th Tribonacci Number.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c147/1138. Alphabet Board Path.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c147/1138. Alphabet Board Path.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c147/1139. Largest 1-Bordered Square.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c147/1139. Largest 1-Bordered Square.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/c147/1140. Stone Game II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c147/1140. Stone Game II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/0Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c148/1144. Decrease Elements To Make Array Zigzag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c148/1144. Decrease Elements To Make Array Zigzag.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c148/1145. Binary Tree Coloring Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c148/1145. Binary Tree Coloring Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c148/1146. Snapshot Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c148/1146. Snapshot Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c148/1147. Longest Chunked Palindrome Decomposition.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c148/1147. Longest Chunked Palindrome Decomposition.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/b02/1088. Confusing Number II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b02/1088. Confusing Number II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/b03/1100. Find K-Length Substrings With No Repeated Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b03/1100. Find K-Length Substrings With No Repeated Characters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/b03/1101. The Earliest Moment When Everyone Become Friends.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b03/1101. The Earliest Moment When Everyone Become Friends.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/b03/1102. Path With Maximum Minimum Value.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b03/1102. Path With Maximum Minimum Value.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/b04/1120. Maximum Average Subtree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b04/1120. Maximum Average Subtree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/b04/1121. Divide Array Into Increasing Sequences.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b04/1121. Divide Array Into Increasing Sequences.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/b05/5028. Armstrong Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b05/5028. Armstrong Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/b05/5036. Connecting Cities With Minimum Cost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b05/5036. Connecting Cities With Minimum Cost.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/b05/5037. Parallel Courses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b05/5037. Parallel Courses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c132/1028. Recover a Tree From Preorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c132/1028. Recover a Tree From Preorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c133/1030. Matrix Cells in Distance Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c133/1030. Matrix Cells in Distance Order.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c133/1031. Maximum Sum of Two Non-Overlapping Subarrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c133/1031. Maximum Sum of Two Non-Overlapping Subarrays.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c133/1032. Stream of Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c133/1032. Stream of Characters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c134/1035. Uncrossed Lines.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c134/1035. Uncrossed Lines.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c134/1036. Escape a Large Maze.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c134/1036. Escape a Large Maze.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c135/1040. Moving Stones Until Consecutive II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c135/1040. Moving Stones Until Consecutive II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c135/5047. Minimum Score Triangulation of Polygon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c135/5047. Minimum Score Triangulation of Polygon.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c135/5050. Binary Search Tree to Greater Sum Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c135/5050. Binary Search Tree to Greater Sum Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c136/5057. Partition Array for Maximum Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c136/5057. Partition Array for Maximum Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c136/5058. Longest Duplicate Substring.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c136/5058. Longest Duplicate Substring.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c137/1046. Last Stone Weight.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c137/1046. Last Stone Weight.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c137/1047. Remove All Adjacent Duplicates In String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c137/1047. Remove All Adjacent Duplicates In String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c137/1048. Longest String Chain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c137/1048. Longest String Chain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c137/1049. Last Stone Weight II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c137/1049. Last Stone Weight II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c138/1052. Grumpy Bookstore Owner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c138/1052. Grumpy Bookstore Owner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c138/1053. Previous Permutation With One Swap.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c138/1053. Previous Permutation With One Swap.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c138/1054. Distant Barcodes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c138/1054. Distant Barcodes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c139/1071. Greatest Common Divisor of Strings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c139/1071. Greatest Common Divisor of Strings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c139/1073. Adding Two Negabinary Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c139/1073. Adding Two Negabinary Numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c140/5084. Insufficient Nodes in Root to Leaf Paths.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c140/5084. Insufficient Nodes in Root to Leaf Paths.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c140/5086. Smallest Subsequence of Distinct Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c140/5086. Smallest Subsequence of Distinct Characters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c140/5087. Letter Tile Possibilities.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c140/5087. Letter Tile Possibilities.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c141/1089. Duplicate Zeros.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c141/1089. Duplicate Zeros.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c141/1090. Largest Values From Labels.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c141/1090. Largest Values From Labels.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c141/1092. Shortest Common Supersequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c141/1092. Shortest Common Supersequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c142/1094. Car Pooling.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c142/1094. Car Pooling.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c143/1103. Distribute Candies to People.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c143/1103. Distribute Candies to People.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c143/1105. Filling Bookcase Shelves.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c143/1105. Filling Bookcase Shelves.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c143/1106. Parsing A Boolean Expression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c143/1106. Parsing A Boolean Expression.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c144/1110. Delete Nodes And Return Forest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c144/1110. Delete Nodes And Return Forest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c144/1111. Maximum Nesting Depth of Two Valid Parentheses Strings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c144/1111. Maximum Nesting Depth of Two Valid Parentheses Strings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c145/1122. Relative Sort Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c145/1122. Relative Sort Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c145/1123. Lowest Common Ancestor of Deepest Leaves.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c145/1123. Lowest Common Ancestor of Deepest Leaves.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c145/1124. Longest Well-Performing Interval.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c145/1124. Longest Well-Performing Interval.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c145/1125. Smallest Sufficient Team.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c145/1125. Smallest Sufficient Team.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c146/5130. Number of Equivalent Domino Pairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c146/5130. Number of Equivalent Domino Pairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c146/5132. Shortest Path with Alternating Colors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c146/5132. Shortest Path with Alternating Colors.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c147/1138. Alphabet Board Path.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c147/1138. Alphabet Board Path.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c147/1139. Largest 1-Bordered Square.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c147/1139. Largest 1-Bordered Square.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/last/c147/1140. Stone Game II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c147/1140. Stone Game II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Array.Best Time to Buy and Sell Stock II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Array.Best Time to Buy and Sell Stock II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Array.Contains Duplicate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Array.Contains Duplicate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Array.Move Zeroes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Array.Move Zeroes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Array.Plus One.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Array.Plus One.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Array.Remove Duplicates from Sorted Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Array.Remove Duplicates from Sorted Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Array.Single Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Array.Single Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Array.Two Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Array.Two Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Trees.Binary Tree Level Order Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Trees.Binary Tree Level Order Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Trees.Binary Tree Zigzag Level Order Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Trees.Binary Tree Zigzag Level Order Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Trees.Construct Binary Tree from Preorder and Inorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Trees.Construct Binary Tree from Preorder and Inorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Trees.Convert Sorted Array to Binary Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Trees.Convert Sorted Array to Binary Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Trees.Kth Smallest Element in a BST.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Trees.Kth Smallest Element in a BST.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Trees.Maximum Depth of Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Trees.Maximum Depth of Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Trees.Symmetric Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Trees.Symmetric Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Trees.Word Ladder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Trees.Word Ladder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/10. Regular Expression Matching.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/10. Regular Expression Matching.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/100. Same Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/100. Same Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1000. Minimum Cost to Merge Stones.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1000. Minimum Cost to Merge Stones.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1001. Grid Illumination.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1001. Grid Illumination.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1003. Check If Word Is Valid After Substitutions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1003. Check If Word Is Valid After Substitutions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1004. Max Consecutive Ones III.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1004. Max Consecutive Ones III.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1005. Maximize Sum Of Array After K Negations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1005. Maximize Sum Of Array After K Negations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1006. Clumsy Factorial.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1006. Clumsy Factorial.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1007. Minimum Domino Rotations For Equal Row.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1007. Minimum Domino Rotations For Equal Row.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1008. Construct Binary Search Tree from Preorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1008. Construct Binary Search Tree from Preorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1012. Complement of Base 10 Integer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1012. Complement of Base 10 Integer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1013. Pairs of Songs With Total Durations Divisible by 60.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1013. Pairs of Songs With Total Durations Divisible by 60.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1014. Capacity To Ship Packages Within D Days.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1014. Capacity To Ship Packages Within D Days.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1015. Numbers With 1 Repeated Digit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1015. Numbers With 1 Repeated Digit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/102. Binary Tree Level Order Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/102. Binary Tree Level Order Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1020. Partition Array Into Three Parts With Equal Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1020. Partition Array Into Three Parts With Equal Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1021. Best Sightseeing Pair.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1021. Best Sightseeing Pair.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1022. Smallest Integer Divisible by K.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1022. Smallest Integer Divisible by K.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1023. Binary String With Substrings Representing 1 To N.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1023. Binary String With Substrings Representing 1 To N.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1025. Divisor Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1025. Divisor Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1026. Maximum Difference Between Node and Ancestor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1026. Maximum Difference Between Node and Ancestor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1027. Longest Arithmetic Sequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1027. Longest Arithmetic Sequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1028. Convert to Base -2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1028. Convert to Base -2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1029. Binary Prefix Divisible By 5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1029. Binary Prefix Divisible By 5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1030. Next Greater Node In Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1030. Next Greater Node In Linked List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1031. Number of Enclaves.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1031. Number of Enclaves.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/106. Construct Binary Tree from Inorder and Postorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/106. Construct Binary Tree from Inorder and Postorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/107. Binary Tree Level Order Traversal II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/107. Binary Tree Level Order Traversal II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/110. Balanced Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/110. Balanced Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/112. Path Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/112. Path Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/113. Path Sum II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/113. Path Sum II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/114. Flatten Binary Tree to Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/114. Flatten Binary Tree to Linked List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/118. Pascal's Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/118. Pascal's Triangle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/12. Integer to Roman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/12. Integer to Roman.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/120. Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/120. Triangle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/121. Best Time to Buy and Sell Stock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/121. Best Time to Buy and Sell Stock.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/129. Sum Root to Leaf Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/129. Sum Root to Leaf Numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/13. Roman to Integer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/13. Roman to Integer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/143. Reorder List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/143. Reorder List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/144. Binary Tree Preorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/144. Binary Tree Preorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/145. Binary Tree Postorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/145. Binary Tree Postorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/148. Sort List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/148. Sort List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/15. 3Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/15. 3Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/154. Find Minimum in Rotated Sorted Array II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/154. Find Minimum in Rotated Sorted Array II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/165. Compare Version Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/165. Compare Version Numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/173. Binary Search Tree Iterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/173. Binary Search Tree Iterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/18. 4Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/18. 4Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/19. Remove Nth Node From End of List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/19. Remove Nth Node From End of List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/199. Binary Tree Right Side View.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/199. Binary Tree Right Side View.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/202.Happy Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/202.Happy Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/203. Remove Linked List Elements.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/203. Remove Linked List Elements.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/204.Count Primes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/204.Count Primes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/206. Reverse Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/206. Reverse Linked List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/209. Minimum Size Subarray Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/209. Minimum Size Subarray Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/21. Merge Two Sorted Lists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/21. Merge Two Sorted Lists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/213. House Robber II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/213. House Robber II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/219. Contains Duplicate II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/219. Contains Duplicate II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/220. Contains Duplicate III.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/220. Contains Duplicate III.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/222. Count Complete Tree Nodes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/222. Count Complete Tree Nodes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/23. Merge k Sorted Lists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/23. Merge k Sorted Lists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/234. Palindrome Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/234. Palindrome Linked List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/238. Product of Array Except Self.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/238. Product of Array Except Self.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/239. Sliding Window Maximum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/239. Sliding Window Maximum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/24. Swap Nodes in Pairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/24. Swap Nodes in Pairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/257. Binary Tree Paths.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/257. Binary Tree Paths.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/268. Missing Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/268. Missing Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/279. Perfect Squares.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/279. Perfect Squares.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/3. Longest Substring Without Repeating Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/3. Longest Substring Without Repeating Characters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/300. Longest Increasing Subsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/300. Longest Increasing Subsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/309. Best Time to Buy and Sell Stock with Cooldown.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/309. Best Time to Buy and Sell Stock with Cooldown.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/312. Burst Balloons.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/312. Burst Balloons.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/322. Coin Change.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/322. Coin Change.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/33. Search in Rotated Sorted Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/33. Search in Rotated Sorted Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/337. House Robber III.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/337. House Robber III.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/35. Search Insert Position.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/35. Search Insert Position.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/375. Guess Number Higher or Lower II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/375. Guess Number Higher or Lower II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/377. Combination Sum IV.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/377. Combination Sum IV.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/378. Kth Smallest Element in a Sorted Matrix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/378. Kth Smallest Element in a Sorted Matrix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/38. Count and Say.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/38. Count and Say.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/387. First Unique Character in a String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/387. First Unique Character in a String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/40. Combination Sum II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/40. Combination Sum II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/404. Sum of Left Leaves.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/404. Sum of Left Leaves.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/410. Split Array Largest Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/410. Split Array Largest Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/416. Partition Equal Subset Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/416. Partition Equal Subset Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/437. Path Sum III.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/437. Path Sum III.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/443. String Compression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/443. String Compression.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/445. Add Two Numbers II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/445. Add Two Numbers II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/45. Jump Game II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/45. Jump Game II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/450. Delete Node in a BST.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/450. Delete Node in a BST.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/454. 4Sum II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/454. 4Sum II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/455. Assign Cookies.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/455. Assign Cookies.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/46. Permutations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/46. Permutations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/474. Ones and Zeroes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/474. Ones and Zeroes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/475. Heaters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/475. Heaters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/486. Predict the Winner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/486. Predict the Winner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/494. Target Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/494. Target Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/495. Teemo Attacking.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/495. Teemo Attacking.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/501. Find Mode in Binary Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/501. Find Mode in Binary Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/5016. Remove Outermost Parentheses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/5016. Remove Outermost Parentheses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/5017. Sum of Root To Leaf Binary Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/5017. Sum of Root To Leaf Binary Numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/5018. Camelcase Matching.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/5018. Camelcase Matching.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/5019. Video Stitching.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/5019. Video Stitching.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/504. Base 7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/504. Base 7.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/507. Perfect Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/507. Perfect Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/508. Most Frequent Subtree Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/508. Most Frequent Subtree Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/513. Find Bottom Left Tree Value.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/513. Find Bottom Left Tree Value.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/515. Find Largest Value in Each Tree Row.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/515. Find Largest Value in Each Tree Row.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/516. Longest Palindromic Subsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/516. Longest Palindromic Subsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/518. Coin Change 2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/518. Coin Change 2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/520. Detect Capital.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/520. Detect Capital.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/530. Minimum Absolute Difference in BST.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/530. Minimum Absolute Difference in BST.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/537. Complex Number Multiplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/537. Complex Number Multiplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/538. Convert BST to Greater Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/538. Convert BST to Greater Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/539. Minimum Time Difference.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/539. Minimum Time Difference.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/541. Reverse String II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/541. Reverse String II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/543. Diameter of Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/543. Diameter of Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/547. Friend Circles.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/547. Friend Circles.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/55. Jump Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/55. Jump Game.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/563. Binary Tree Tilt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/563. Binary Tree Tilt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/572. Subtree of Another Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/572. Subtree of Another Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/583. Delete Operation for Two Strings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/583. Delete Operation for Two Strings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/594. Longest Harmonious Subsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/594. Longest Harmonious Subsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/6. ZigZag Conversion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/6. ZigZag Conversion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/600. Non-negative Integers without Consecutive Ones.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/600. Non-negative Integers without Consecutive Ones.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/605. Can Place Flowers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/605. Can Place Flowers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/606. Construct String from Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/606. Construct String from Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/61. Rotate List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/61. Rotate List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/617. Merge Two Binary Trees.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/617. Merge Two Binary Trees.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/62. Unique Paths.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/62. Unique Paths.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/633. Sum of Square Numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/633. Sum of Square Numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/637. Average of Levels in Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/637. Average of Levels in Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/646. Maximum Length of Pair Chain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/646. Maximum Length of Pair Chain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/650. 2 Keys Keyboard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/650. 2 Keys Keyboard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/652. Find Duplicate Subtrees.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/652. Find Duplicate Subtrees.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/654. Maximum Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/654. Maximum Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/655. Print Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/655. Print Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/665. Non-decreasing Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/665. Non-decreasing Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/669. Trim a Binary Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/669. Trim a Binary Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/67. Add Binary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/67. Add Binary.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/671. Second Minimum Node In a Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/671. Second Minimum Node In a Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/678. Valid Parenthesis String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/678. Valid Parenthesis String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/684. Redundant Connection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/684. Redundant Connection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/686. Repeated String Match.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/686. Repeated String Match.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/687. Longest Univalue Path.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/687. Longest Univalue Path.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/688. Knight Probability in Chessboard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/688. Knight Probability in Chessboard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/698. Partition to K Equal Sum Subsets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/698. Partition to K Equal Sum Subsets.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/7. Reverse Integer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/7. Reverse Integer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/700. Search in a Binary Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/700. Search in a Binary Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/701. Insert into a Binary Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/701. Insert into a Binary Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/713. Subarray Product Less Than K.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/713. Subarray Product Less Than K.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/719. Find K-th Smallest Pair Distance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/719. Find K-th Smallest Pair Distance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/729. My Calendar I.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/729. My Calendar I.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/735. Asteroid Collision.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/735. Asteroid Collision.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/746. Min Cost Climbing Stairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/746. Min Cost Climbing Stairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/749. Contain Virus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/749. Contain Virus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/756. Pyramid Transition Matrix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/756. Pyramid Transition Matrix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/763. Partition Labels.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/763. Partition Labels.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/764. Largest Plus Sign.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/764. Largest Plus Sign.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/765. Couples Holding Hands.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/765. Couples Holding Hands.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/767. Reorganize String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/767. Reorganize String.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/778. Swim in Rising Water.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/778. Swim in Rising Water.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/78. Subsets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/78. Subsets.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/781. Rabbits in Forest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/781. Rabbits in Forest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/783. Minimum Distance Between BST Nodes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/783. Minimum Distance Between BST Nodes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/788. Rotated Digits.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/788. Rotated Digits.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/79. Word Search.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/79. Word Search.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/797. All Paths From Source to Target.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/797. All Paths From Source to Target.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/8. String to Integer (atoi).kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/8. String to Integer (atoi).kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/80. Remove Duplicates from Sorted Array II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/80. Remove Duplicates from Sorted Array II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/808. Soup Servings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/808. Soup Servings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/814. Binary Tree Pruning.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/814. Binary Tree Pruning.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/817. Linked List Components.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/817. Linked List Components.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/819. Most Common Word.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/819. Most Common Word.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/82. Remove Duplicates from Sorted List II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/82. Remove Duplicates from Sorted List II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/83. Remove Duplicates from Sorted List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/83. Remove Duplicates from Sorted List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/830. Positions of Large Groups.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/830. Positions of Large Groups.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/848. Shifting Letters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/848. Shifting Letters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/849. Maximize Distance to Closest Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/849. Maximize Distance to Closest Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/856. Score of Parentheses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/856. Score of Parentheses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/86. Partition List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/86. Partition List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/863. All Nodes Distance K in Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/863. All Nodes Distance K in Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/869. Reordered Power of 2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/869. Reordered Power of 2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/872. Leaf-Similar Trees.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/872. Leaf-Similar Trees.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/873. Length of Longest Fibonacci Subsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/873. Length of Longest Fibonacci Subsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/876. Middle of the Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/876. Middle of the Linked List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/894. All Possible Full Binary Trees.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/894. All Possible Full Binary Trees.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/897. Increasing Order Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/897. Increasing Order Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/9. Palindrome Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/9. Palindrome Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/907. Sum of Subarray Minimums.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/907. Sum of Subarray Minimums.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/917. Reverse Only Letters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/917. Reverse Only Letters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/918. Maximum Sum Circular Subarray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/918. Maximum Sum Circular Subarray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/92. Reverse Linked List II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/92. Reverse Linked List II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/925. Long Pressed Name.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/925. Long Pressed Name.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/926. Flip String to Monotone Increasing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/926. Flip String to Monotone Increasing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/930. Binary Subarrays With Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/930. Binary Subarrays With Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/932. Beautiful Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/932. Beautiful Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/935. Knight Dialer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/935. Knight Dialer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/938. Range Sum of BST.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/938. Range Sum of BST.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/94. Binary Tree Inorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/94. Binary Tree Inorder Traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/947. Most Stones Removed with Same Row or Column.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/947. Most Stones Removed with Same Row or Column.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/949. Largest Time for Given Digits.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/949. Largest Time for Given Digits.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/95. Unique Binary Search Trees II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/95. Unique Binary Search Trees II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/950. Reveal Cards In Increasing Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/950. Reveal Cards In Increasing Order.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/953. Verifying an Alien Dictionary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/953. Verifying an Alien Dictionary.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/958. Check Completeness of a Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/958. Check Completeness of a Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/962. Maximum Width Ramp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/962. Maximum Width Ramp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/965. Univalued Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/965. Univalued Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/967. Numbers With Same Consecutive Differences.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/967. Numbers With Same Consecutive Differences.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/978. Longest Turbulent Subarray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/978. Longest Turbulent Subarray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/979. Distribute Coins in Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/979. Distribute Coins in Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/98. Validate Binary Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/98. Validate Binary Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/986. Interval List Intersections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/986. Interval List Intersections.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/987. Vertical Order Traversal of a Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/987. Vertical Order Traversal of a Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/988. Smallest String Starting From Leaf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/988. Smallest String Starting From Leaf.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/990. Satisfiability of Equality Equations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/990. Satisfiability of Equality Equations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/992. Subarrays with K Different Integers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/992. Subarrays with K Different Integers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/995. Minimum Number of K Consecutive Bit Flips.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/995. Minimum Number of K Consecutive Bit Flips.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/996. Number of Squareful Arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/996. Number of Squareful Arrays.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/997. Find the Town Judge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/997. Find the Town Judge.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/998. Maximum Binary Tree II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/998. Maximum Binary Tree II.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,11 +315,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c148/1147. Longest Chunked Palindrome Decomposition.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="38">
+              <caret line="149" column="1" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#25#99#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/b03/1101. The Earliest Moment When Everyone Become Friends.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="912">
+              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/TreeUtils.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -121,7 +374,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>compa</find>
       <find>6</find>
       <find>5</find>
       <find>qjdyl</find>
@@ -151,6 +403,7 @@
       <find>true</find>
       <find>sortwith</find>
       <find>7729</find>
+      <find>import</find>
     </findStrings>
     <replaceStrings>
       <replace>toInt</replace>
@@ -164,14 +417,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/contest/b02/1085. Sum of Digits in the Minimum Number.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/b02/1086. High Five.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/b02/1087. Permutation of Letters.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/b02/1088. Confusing Number II.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/c141/1089. Duplicate Zeros.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/c141/1090. Largest Values From Labels.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/c141/1091. Shortest Path in Binary Matrix.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/c141/1092. Shortest Common Supersequence.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c142/1094. Car Pooling.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c142/1093. Statistics from a Large Sample.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c142/1096. Brace Expansion II User.kt" />
@@ -215,14 +460,21 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c148/1145. Binary Tree Coloring Game.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c148/1146. Snapshot Array.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c148/1147. Longest Chunked Palindrome Decomposition.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/last/c148/1146. Snapshot Array.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/0utils/0Utils.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/0Utils.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/last/c148/1145. Binary Tree Coloring Game.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/TreeUtils.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/last/b03/1101. The Earliest Moment When Everyone Become Friends.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="268" />
-    <option name="y" value="23" />
-    <option name="width" value="2073" />
-    <option name="height" value="955" />
+    <option name="y" value="203" />
+    <option name="width" value="1440" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -230,6 +482,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,22 +514,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="contest" type="462c0819:PsiDirectoryNode" />
-              <item name="cur" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="contest" type="462c0819:PsiDirectoryNode" />
-              <item name="cur" type="462c0819:PsiDirectoryNode" />
-              <item name="c148" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -287,19 +530,20 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/leetcode/contest/c132" />
-      <recent name="$PROJECT_DIR$/src/leetcode/learn" />
-      <recent name="$PROJECT_DIR$/src/leetcode/normal" />
-      <recent name="$PROJECT_DIR$/src/leetcode" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/leetcode/contest" />
       <recent name="$PROJECT_DIR$/src/leetcode" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/leetcode/contest/0utils" />
+      <recent name="$PROJECT_DIR$/src/leetcode/contest/c132" />
+      <recent name="$PROJECT_DIR$/src/leetcode/learn" />
+      <recent name="$PROJECT_DIR$/src/leetcode/normal" />
+      <recent name="$PROJECT_DIR$/src/leetcode" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -314,86 +558,86 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c148._1147__Longest_Chunked_Palindrome_DecompositionKt">
-    <configuration name="leetcode.contest.cur.c148._1144__Decrease_Elements_To_Make_Array_ZigzagKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.leetcode.normal._128__Longest_Consecutive_SequenceKt">
+    <configuration name="leetcode.contest.last.c148._1144__Decrease_Elements_To_Make_Array_ZigzagKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c148._1144__Decrease_Elements_To_Make_Array_ZigzagKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.last.c148._1144__Decrease_Elements_To_Make_Array_ZigzagKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.cur.c148._1146__Snapshot_ArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.contest.last.c148._1145__Binary_Tree_Coloring_GameKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c148._1146__Snapshot_ArrayKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.last.c148._1145__Binary_Tree_Coloring_GameKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.cur.c148._1147__Longest_Chunked_Palindrome_DecompositionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.contest.last.c148._1146__Snapshot_ArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c148._1147__Longest_Chunked_Palindrome_DecompositionKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.last.c148._1146__Snapshot_ArrayKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.last.c147._1139__Largest_1_Bordered_SquareKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.contest.last.c148._1147__Longest_Chunked_Palindrome_DecompositionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.last.c147._1139__Largest_1_Bordered_SquareKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.last.c148._1147__Longest_Chunked_Palindrome_DecompositionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.last.c147._1140__Stone_Game_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.normal._128__Longest_Consecutive_SequenceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.last.c147._1140__Stone_Game_IIKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._128__Longest_Consecutive_SequenceKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.last.c147._1139__Largest_1_Bordered_SquareKt" />
-      <item itemvalue="Kotlin.leetcode.contest.last.c147._1140__Stone_Game_IIKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.c148._1144__Decrease_Elements_To_Make_Array_ZigzagKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.c148._1146__Snapshot_ArrayKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.c148._1147__Longest_Chunked_Palindrome_DecompositionKt" />
+      <item itemvalue="Kotlin.leetcode.contest.last.c148._1144__Decrease_Elements_To_Make_Array_ZigzagKt" />
+      <item itemvalue="Kotlin.leetcode.contest.last.c148._1145__Binary_Tree_Coloring_GameKt" />
+      <item itemvalue="Kotlin.leetcode.contest.last.c148._1146__Snapshot_ArrayKt" />
+      <item itemvalue="Kotlin.leetcode.contest.last.c148._1147__Longest_Chunked_Palindrome_DecompositionKt" />
+      <item itemvalue="Kotlin.leetcode.normal._128__Longest_Consecutive_SequenceKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.leetcode.contest.cur.c148._1147__Longest_Chunked_Palindrome_DecompositionKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c148._1146__Snapshot_ArrayKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c148._1144__Decrease_Elements_To_Make_Array_ZigzagKt" />
-        <item itemvalue="Kotlin.leetcode.contest.last.c147._1140__Stone_Game_IIKt" />
-        <item itemvalue="Kotlin.leetcode.contest.last.c147._1139__Largest_1_Bordered_SquareKt" />
+        <item itemvalue="Kotlin.leetcode.normal._128__Longest_Consecutive_SequenceKt" />
+        <item itemvalue="Kotlin.leetcode.contest.last.c148._1145__Binary_Tree_Coloring_GameKt" />
+        <item itemvalue="Kotlin.leetcode.contest.last.c148._1147__Longest_Chunked_Palindrome_DecompositionKt" />
+        <item itemvalue="Kotlin.leetcode.contest.last.c148._1146__Snapshot_ArrayKt" />
+        <item itemvalue="Kotlin.leetcode.contest.last.c148._1144__Decrease_Elements_To_Make_Array_ZigzagKt" />
       </list>
     </recent_temporary>
   </component>
@@ -411,10 +655,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1315" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="955" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18665607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26464325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -423,7 +667,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891467" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28169015" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2420307" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,7 +675,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293979" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32228667" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3211334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4950298" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -449,34 +693,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/b03/1099. Two Sum Less Than K.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/b03/1100. Find K-Length Substrings With No Repeated Characters.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/b03/1101. The Earliest Moment When Everyone Become Friends.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c143/1103. Distribute Candies to People.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c143/1104. Path In Zigzag Labelled Binary Tree.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -638,16 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#25#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/926. Flip String to Monotone Increasing.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
@@ -735,13 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/0Utils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2528">
-          <caret line="189" column="1" lean-forward="true" selection-start-line="162" selection-end-line="189" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c147/1137. N-th Tribonacci Number.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -794,20 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c148/1144. Decrease Elements To Make Array Zigzag.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c148/1146. Snapshot Array.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c141/1092. Shortest Common Supersequence.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2196">
@@ -815,17 +1000,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c148/1145. Binary Tree Coloring Game.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c148/1144. Decrease Elements To Make Array Zigzag.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="864">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c148/1147. Longest Chunked Palindrome Decomposition.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c148/1146. Snapshot Array.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="247">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c148/1147. Longest Chunked Palindrome Decomposition.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c148/1145. Binary Tree Coloring Game.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/986. Interval List Intersections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/b03/1101. The Earliest Moment When Everyone Become Friends.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="149" column="1" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#25#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/TreeUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
         </state>
       </provider>
     </entry>

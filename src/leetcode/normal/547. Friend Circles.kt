@@ -1,7 +1,7 @@
 package leetcode.normal
 
-import leetcode.UFS
-import leetcode.print
+import leetcode.contest.utils.UFS
+import leetcode.contest.utils.print
 import kotlin.collections.HashSet
 
 fun main(args: Array<String>) {

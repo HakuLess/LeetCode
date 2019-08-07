@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     val source = arrayListOf(1, 0, -1, 0, -2, 2).toIntArray()

@@ -1,6 +1,6 @@
 package leetcode.contest.last.c146
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     val s = Solution5130()

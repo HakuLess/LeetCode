@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     equationsPossible(arrayOf("w==s", "p==q", "r==i", "v==s", "i==o", "k==g", "c==f", "n==v", "a==w", "d==w", "v==s", "l==m")).print()

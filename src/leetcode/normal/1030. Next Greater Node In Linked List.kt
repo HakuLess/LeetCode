@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.ListNode
+import leetcode.contest.utils.ListNode
 import kotlin.math.abs
 
 fun main(args: Array<String>) {

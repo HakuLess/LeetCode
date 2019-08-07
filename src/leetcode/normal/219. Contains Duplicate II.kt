@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     containsNearbyDuplicate(intArrayOf(1, 2, 3, 1, 2, 3), 2).print()

@@ -1,6 +1,6 @@
 package leetcode.contest.last.c138
 
-import leetcode.print
+import leetcode.contest.utils.print
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap

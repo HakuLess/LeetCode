@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
 //    minSubArrayLen(15, intArrayOf(1, 2, 3, 4, 5)).print()

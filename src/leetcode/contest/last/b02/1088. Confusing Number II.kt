@@ -1,6 +1,6 @@
 package leetcode.contest.last.b02
 
-import leetcode.print
+import leetcode.contest.utils.print
 import java.lang.StringBuilder
 
 fun main(args: Array<String>) {

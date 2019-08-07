@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.Interval
+import leetcode.contest.utils.Interval
 
 /**
  * Definition for an interval.

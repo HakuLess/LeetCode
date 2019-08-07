@@ -1,6 +1,6 @@
 package leetcode.contest.last.b03
 
-import leetcode.UFS
+import leetcode.contest.utils.UFS
 
 class Solution1101 {
     fun earliestAcq(logs: Array<IntArray>, N: Int): Int {
@@ -24,6 +24,4 @@ class Solution1101 {
         }
         return true
     }
-
-
 }

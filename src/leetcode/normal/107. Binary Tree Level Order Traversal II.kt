@@ -1,7 +1,7 @@
 package leetcode.normal
 
-import leetcode.TreeNode
-import leetcode.print
+import leetcode.contest.utils.TreeNode
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     val root = TreeNode(3)

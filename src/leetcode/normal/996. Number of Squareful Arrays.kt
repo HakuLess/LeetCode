@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 // todo didn't finish
 fun main(args: Array<String>) {

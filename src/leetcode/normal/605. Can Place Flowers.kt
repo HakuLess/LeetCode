@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     canPlaceFlowers(intArrayOf(1, 0, 0, 0, 0, 1), 2).print()

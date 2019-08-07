@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 fun leafSimilar(root1: TreeNode?, root2: TreeNode?): Boolean {
     val leaf1 = arrayListOf<Int>()

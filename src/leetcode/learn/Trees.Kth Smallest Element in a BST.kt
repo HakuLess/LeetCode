@@ -1,6 +1,6 @@
 package leetcode.learn
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 fun kthSmallest(root: TreeNode?, k: Int): Int {
     if (root == null) {

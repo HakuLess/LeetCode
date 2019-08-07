@@ -1,6 +1,6 @@
 package leetcode.contest.last.c137
 
-import leetcode.print
+import leetcode.contest.utils.print
 import kotlin.math.abs
 
 fun main(args: Array<String>) {

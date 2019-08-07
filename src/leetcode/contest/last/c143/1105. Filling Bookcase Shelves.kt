@@ -1,6 +1,6 @@
 package leetcode.contest.last.c143
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 /**
  * tag DP

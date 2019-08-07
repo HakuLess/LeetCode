@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.ListNode
+import leetcode.contest.utils.ListNode
 
 fun removeElements(head: ListNode?, `val`: Int): ListNode? {
     if (head == null) {

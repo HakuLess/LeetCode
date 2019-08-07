@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 fun searchBST(root: TreeNode?, `val`: Int): TreeNode? {
     if (root == null) {

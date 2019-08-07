@@ -1,6 +1,6 @@
 package leetcode.contest.last.c145
 
-import leetcode.print
+import leetcode.contest.utils.print
 import java.util.ArrayList
 import java.util.HashMap
 

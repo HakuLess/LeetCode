@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 fun averageOfLevels(root: TreeNode?): DoubleArray {
 

@@ -1,6 +1,6 @@
 package leetcode.contest.last.c145
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 class Solution {
     var ans: TreeNode? = null

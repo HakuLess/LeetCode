@@ -1,6 +1,6 @@
 package leetcode.contest.last.c144
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 import java.util.*
 
 class Solution1110 {

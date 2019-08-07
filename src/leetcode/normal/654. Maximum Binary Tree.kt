@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 fun main(args: Array<String>) {
     val array = intArrayOf(3, 2, 1, 6, 0, 5)

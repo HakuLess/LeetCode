@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.print
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     findMin(intArrayOf(2, 2, 2, 0, 0, 1)).print()

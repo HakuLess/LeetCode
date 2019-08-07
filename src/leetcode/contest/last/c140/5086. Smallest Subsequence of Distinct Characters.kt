@@ -1,6 +1,6 @@
 package leetcode.contest.last.c140
 
-import leetcode.print
+import leetcode.contest.utils.print
 import java.lang.StringBuilder
 import java.util.*
 

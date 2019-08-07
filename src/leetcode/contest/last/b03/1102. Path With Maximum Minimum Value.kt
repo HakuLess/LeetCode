@@ -1,6 +1,6 @@
 package leetcode.contest.last.b03
 
-import leetcode.print
+import leetcode.contest.utils.print
 import java.util.*
 import kotlin.math.min
 

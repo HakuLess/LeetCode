@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 class Solution655 {
     fun printTree(root: TreeNode?): List<List<String>> {

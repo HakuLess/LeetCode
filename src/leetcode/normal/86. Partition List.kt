@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.ListNode
+import leetcode.contest.utils.ListNode
 
 class Solution86 {
     fun partition(head: ListNode?, x: Int): ListNode? {

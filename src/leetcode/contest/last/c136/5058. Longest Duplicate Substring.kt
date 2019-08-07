@@ -1,7 +1,7 @@
 package leetcode.contest.last.c136
 
-import leetcode.SuffixArray
-import leetcode.print
+import leetcode.contest.utils.SuffixArray
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     val a = Solution5058()

@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 fun deleteNode(root: TreeNode?, key: Int): TreeNode? {
     if (root == null) {

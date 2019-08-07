@@ -1,6 +1,6 @@
 package leetcode.contest.last.c140
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 class Solution5084 {
     //    fun sufficientSubset(root: TreeNode?, limit: Int): TreeNode? {

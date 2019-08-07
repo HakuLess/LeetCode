@@ -1,6 +1,6 @@
 package leetcode.normal
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 
 fun trimBST(root: TreeNode?, L: Int, R: Int): TreeNode? {
     if (root == null) {

@@ -1,6 +1,6 @@
 package leetcode.contest.last.c132
 
-import leetcode.TreeNode
+import leetcode.contest.utils.TreeNode
 import java.util.*
 
 fun main(args: Array<String>) {

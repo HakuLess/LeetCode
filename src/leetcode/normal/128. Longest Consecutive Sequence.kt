@@ -1,7 +1,7 @@
 package leetcode.normal
 
-import leetcode.TypedUFS
-import leetcode.print
+import leetcode.contest.utils.TypedUFS
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     val a = Solution128()
