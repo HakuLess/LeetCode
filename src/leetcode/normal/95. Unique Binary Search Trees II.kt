@@ -8,7 +8,7 @@ fun generateTrees(n: Int): List<TreeNode?> {
     return if (n == 0) LinkedList() else helper(1, n)
 }
 
-fun helper(start: Int, end: Int): List<TreeNode?> {
+private fun helper(start: Int, end: Int): List<TreeNode?> {
     val result = LinkedList<TreeNode?>()
     if (start > end) {
         result.add(null)

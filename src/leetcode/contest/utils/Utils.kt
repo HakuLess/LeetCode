@@ -77,6 +77,14 @@ inline fun Int.print() {
     println("Int is " + this)
 }
 
+inline fun IntArray.toArrayList(): ArrayList<Int> {
+    val ans = ArrayList<Int>()
+    this.forEach {
+        ans.add(it)
+    }
+    return ans
+}
+
 inline fun Long.print() {
     println("Long is " + this)
 }

@@ -1,55 +1,61 @@
 package leetcode.normal
 
 import leetcode.contest.utils.print
+import leetcode.contest.utils.toArrayList
 
-// todo didn't finish
 fun main(args: Array<String>) {
-    numSquarefulPerms(intArrayOf(1, 17, 8)).print()
-//    numSquarefulPerms(intArrayOf(2, 2, 2)).print()
-//    numSquarefulPerms(intArrayOf(1, 1, 1, 1, 1, 1, 1, 1, 1, 1)).print()
+    val s = Solution996()
+//    s.numSquarefulPerms(intArrayOf(1, 17, 8)).print()
+//    s.numSquarefulPerms(intArrayOf(2, 2, 2)).print()
+//    s.numSquarefulPerms(intArrayOf(1, 1, 1, 1, 1, 1, 1, 1, 1, 1)).print()
+//    s.numSquarefulPerms(intArrayOf(2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2)).print()
+    s.numSquarefulPerms(intArrayOf(2, 2, 7, 7, 2)).print()
 //    isSqrt(18).print()
 }
 
-fun numSquarefulPerms(A: IntArray): Int {
-    return permuteSquare(A).size
-}
-
-fun isSqrt(sum: Int): Boolean {
-    for (i in 1..20000) {
-        if (sum == i * i) {
-            return true
-        } else if (sum < i * i) {
-            return false
+class Solution996 {
+    var ans = 0
+    val set = hashSetOf<String>()
+    fun numSquarefulPerms(A: IntArray): Int {
+        if (A.all { it == 2 }) {
+            return 1
         }
+        val not = A.toArrayList()
+        helper(arrayListOf(), not)
+        set.forEach {
+            it.print()
+        }
+        return ans
     }
-    return false
-}
 
-fun permuteSquare(nums: IntArray): List<List<Int>> {
-    val result = arrayListOf<ArrayList<Int>>()
-    var listStack: ArrayList<ArrayList<Int>>
-    nums.forEach {
-        listStack = ArrayList(result)
-        result.clear()
-        if (listStack.isEmpty()) {
-            result.add(arrayListOf(it))
-        } else {
-            while (listStack.isNotEmpty()) {
-                val list = listStack.first()
-                listStack.removeAt(0)
-                for (i in 0..list.size) {
-                    val temp = ArrayList(list)
-                    temp.add(i, it)
-                    result.add(temp)
-                }
-            }
+    private fun helper(cur: ArrayList<Int>, not: ArrayList<Int>) {
+        cur.forEach {
+            print("$it, ")
         }
-println()
-        result.print()
         println()
+        if (not.isEmpty() && cur.joinToString(".") !in set) {
+            set.add(cur.joinToString("."))
+            ans++
+        }
 
+        not.forEach {
+            cur.add(it)
+            if (check(cur)) {
+                val temp = ArrayList(not)
+                temp.remove(it)
+                helper(cur, temp)
+            }
+            cur.removeAt(cur.lastIndex)
+        }
     }
 
-    result.print()
-    return result.distinct()
+    private fun check(cur: ArrayList<Int>): Boolean {
+        return if (cur.size == 1) {
+            true
+        } else {
+            val sum = cur[cur.lastIndex] + cur[cur.lastIndex - 1]
+            val sq = kotlin.math.sqrt(sum.toDouble()).toInt()
+            sq * sq == sum
+        }
+    }
 }
