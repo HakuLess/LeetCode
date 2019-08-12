@@ -1,0 +1,43 @@
+package leetcode.contest.cur
+
+import leetcode.contest.utils.print
+import java.util.*
+
+fun main(args: Array<String>) {
+    val s = Solution424()
+    s.characterReplacement("ABAB", 2).print()
+    s.characterReplacement("AABABBA", 1).print()
+    s.characterReplacement("WBRIQCVFYHTSFAJVVSUBLQYBSMUWULUKUAMUSDTVJRWSSYRXTSCIYUDTGOCWRJHBURWQYENEEYVCHVIKBYBQJUGRWVLFORNVSISGDNZREMWMUWXWWRMPBNZAPSFDSGVCGJPEDUCWBMGEZCWUVNKFTFONIKHWGYPFGMEIKMYFRVDDTPEZLUHZIHVKBWGMUUDYBTXZCIRVOAWZTSEZUTJNDXJSWXZZTXPNTCNDPPWLXEHJPZVKAYMHYDNQRMIPEIRJNGYZQCIQSWRQSLSFENBTEABYWJIQNDMQHXMWALFKQBFWWNKSVDIZHLSAQWEQKHFFOUECQVUDMYNFUYBMROIGKLKPYIWSBBORHGLQOTJSOOIABZAJVPDUHHHUIXQBCWVSMVGSOGDVDILBJEFNIPSNNODGTWFHCPYBETOEYXEUDHGJDYMUAXLSIHDCDBVZUWFOMKOJGWTXEPOSTTUXJATSJJACDQYBLWNWOAGZQEQQZKVEKMMYARXHQXRLNAUMPDFSCODEFPFVKIJRYFYNBNRAXGDIEWDPVCRPQRZKWUKKSGFHIVFVHSUEYALRENJVBEQINQASMBRXLRPKXNHCZRVMVSOSJDRJHZIWMCLOTKNYVTRDPNUEJLMIAHFLLWUQLUZQVDUBRAHJOFSSAMOJOAYLKEGCJGTRKHHRZJTTBLGCUMLTKILXNYOTGZQWCKOJLLVTGSSRHDPPRLMXFNILNJPHMIWJKKHJNJRLQTVFKBKAJZMDVTXPGXHOONEYUXVILSEGSJKHLHCFGCAZMWYXFUMNWHIYGZFRZPRJTVBEXCFFGULMZSDRZAVWUVDQCTXZBHFAPOZQCRKVHWWYEALJBYDGMIEEXDDFZYEBUHUEZMZALGZAHHAECPMEGDRMVZ" +
+            "ZNQRQULRNRABQUOIEGXLNOZUFQJKDKGCZFVIPBIRNQBEERWMTWUBIGFUHKRQVACWPGFHFAPFBZMQXEYGWRBWZEQEHXXCUAJWEECFNHXRWFQUP", 2666).print()
+}
+
+class Solution424 {
+    fun characterReplacement(s: String, k: Int): Int {
+        var ans = 0
+        for (i in 'A'..'Z') {
+            ans = maxOf(ans, getMax(s, k, i))
+        }
+        return ans
+    }
+
+    private fun getMax(s: String, k: Int, c: Char): Int {
+        var res = 0
+        var count = 0
+        val queue: Queue<Char> = LinkedList()
+        for (i in 0..s.lastIndex) {
+            queue.add(s[i])
+            if (s[i] != c) {
+                count++
+            }
+            if (count > k) {
+                while (queue.peek() == c) {
+                    queue.poll()
+                }
+                queue.poll()
+                count--
+            }
+            res = maxOf(res, queue.size)
+        }
+        return res
+    }
+}

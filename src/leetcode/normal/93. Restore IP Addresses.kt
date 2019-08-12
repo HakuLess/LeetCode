@@ -1,4 +1,4 @@
-package leetcode.contest.cur
+package leetcode.normal
 
 import leetcode.contest.utils.print
 

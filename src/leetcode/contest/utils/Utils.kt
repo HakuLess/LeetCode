@@ -85,6 +85,27 @@ inline fun IntArray.toArrayList(): ArrayList<Int> {
     return ans
 }
 
+inline fun PriorityQueue<Int>.print() {
+    val other = ArrayList<Int>()
+    while (this.isNotEmpty()) {
+        val it = this.poll()
+        print("$it, ")
+        other.add(it)
+    }
+    println()
+    this.addAll(other)
+}
+
+inline fun PriorityQueue<Int>.toArrayList(): ArrayList<Int> {
+    val other = ArrayList<Int>()
+    while (this.isNotEmpty()) {
+        val it = this.poll()
+        other.add(it)
+    }
+    this.addAll(other)
+    return other
+}
+
 inline fun Long.print() {
     println("Long is " + this)
 }
