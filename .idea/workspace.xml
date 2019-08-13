@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/424. Longest Repeating Character Replacement.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/480. Sliding Window Median.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/1074. Number of Submatrices That Sum to Target.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/HaKu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/HaKu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/526. Beautiful Arrangement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/526. Beautiful Arrangement.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/77. Combinations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/77. Combinations.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/93. Restore IP Addresses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/93. Restore IP Addresses.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,17 +24,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/480. Sliding Window Median.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,8 +35,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>4, 4</find>
-      <find>hashmap</find>
       <find>-2</find>
       <find>treemap</find>
       <find>error</find>
@@ -78,6 +63,8 @@
       <find>1000000</find>
       <find>pq</find>
       <find>PriorityQueue</find>
+      <find>pair</find>
+      <find>hashcode</find>
     </findStrings>
     <replaceStrings>
       <replace>toInt</replace>
@@ -91,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/contest/b04/1119. Remove Vowels from a String.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/b04/1120. Maximum Average Subtree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/b04/1121. Divide Array Into Increasing Sequences.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c145/1122. Relative Sort Array.kt" />
@@ -140,12 +126,13 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/last/c149/1157. Online Majority Element In Subarray.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/526. Beautiful Arrangement.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/424. Longest Repeating Character Replacement.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/480. Sliding Window Median.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/1074. Number of Submatrices That Sum to Target.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="955" />
@@ -188,6 +175,15 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="contest" type="462c0819:PsiDirectoryNode" />
               <item name="cur" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="KotlinJavaRuntime" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -232,7 +228,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur._480__Sliding_Window_MedianKt">
+  <component name="RunManager" selected="Kotlin.leetcode.contest.cur._1074__Number_of_Submatrices_That_Sum_to_TargetKt">
+    <configuration name="leetcode.contest.cur._1074__Number_of_Submatrices_That_Sum_to_TargetKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur._1074__Number_of_Submatrices_That_Sum_to_TargetKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="leetcode.contest.cur._424__Longest_Repeating_Character_ReplacementKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -254,19 +263,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur._480__Sliding_Window_MedianKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.contest.last.c149._1156__Swap_For_Longest_Repeated_Character_SubstringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.last.c149._1156__Swap_For_Longest_Repeated_Character_SubstringKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -299,19 +295,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.last.c149._1156__Swap_For_Longest_Repeated_Character_SubstringKt" />
       <item itemvalue="Kotlin.leetcode.contest.last.c149._1157__Online_Majority_Element_In_SubarrayKt" />
       <item itemvalue="Kotlin.leetcode.normal._77__CombinationsKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur._424__Longest_Repeating_Character_ReplacementKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur._480__Sliding_Window_MedianKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur._1074__Number_of_Submatrices_That_Sum_to_TargetKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.cur._1074__Number_of_Submatrices_That_Sum_to_TargetKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur._480__Sliding_Window_MedianKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur._424__Longest_Repeating_Character_ReplacementKt" />
         <item itemvalue="Kotlin.leetcode.normal._77__CombinationsKt" />
         <item itemvalue="Kotlin.leetcode.contest.last.c149._1157__Online_Majority_Element_In_SubarrayKt" />
-        <item itemvalue="Kotlin.leetcode.contest.last.c149._1156__Swap_For_Longest_Repeated_Character_SubstringKt" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +335,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="955" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.18864179" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.18864179" />
@@ -376,34 +371,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/877. Stone Game.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c147/1138. Alphabet Board Path.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c147/1140. Stone Game II.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c141/1092. Shortest Common Supersequence.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2196">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c148/1144. Decrease Elements To Make Array Zigzag.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -676,16 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/424. Longest Repeating Character Replacement.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding>
-            <element signature="e#30#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/819. Most Common Word.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -732,17 +689,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/480. Sliding Window Median.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="100" column="31" lean-forward="true" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+        <state relative-caret-position="912">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/480. Sliding Window Median.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/424. Longest Repeating Character Replacement.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        <state relative-caret-position="170">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#30#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/1074. Number of Submatrices That Sum to Target.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="e#30#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/io/Serializable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/util/Tuples.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c141/1090. Largest Values From Labels.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-671">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>

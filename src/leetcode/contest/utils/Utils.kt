@@ -35,6 +35,13 @@ inline fun HashMap<Int, Int>.printInt() {
     println()
 }
 
+inline fun SortedMap<String, Int>.print() {
+    this.forEach {
+        println("${it.key} : ${it.value}")
+    }
+    println()
+}
+
 inline fun HashMap<String, Int>.print() {
     this.forEach {
         println("${it.key} : ${it.value}")
