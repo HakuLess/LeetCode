@@ -1,4 +1,4 @@
-package leetcode.contest.cur
+package leetcode.normal
 
 fun main(args: Array<String>) {
     val s = Solution609()
