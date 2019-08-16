@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/123. Best Time to Buy and Sell Stock III.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/188. Best Time to Buy and Sell Stock IV.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/467. Unique Substrings in Wraparound String.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/748. Shortest Completing Word.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/1074. Number of Submatrices That Sum to Target.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1074. Number of Submatrices That Sum to Target.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/424. Longest Repeating Character Replacement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/424. Longest Repeating Character Replacement.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/480. Sliding Window Median.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/480. Sliding Window Median.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/552. Student Attendance Record II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/552. Student Attendance Record II.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/609. Find Duplicate File in System.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/609. Find Duplicate File in System.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/773. Sliding Puzzle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/773. Sliding Puzzle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/777. Swap Adjacent in LR String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/777. Swap Adjacent in LR String.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/858. Mirror Reflection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/858. Mirror Reflection.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/learn/Array.Best Time to Buy and Sell Stock II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/learn/Array.Best Time to Buy and Sell Stock II.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/121. Best Time to Buy and Sell Stock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/121. Best Time to Buy and Sell Stock.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +24,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/188. Best Time to Buy and Sell Stock IV.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="-169">
+              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/748. Shortest Completing Word.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="32" column="24" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/467. Unique Substrings in Wraparound String.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/text/Strings.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="1018" column="12" lean-forward="true" selection-start-line="1018" selection-start-column="12" selection-end-line="1018" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -97,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/contest/c146/5133. Maximum of Absolute Value Expression.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/c146/5132. Shortest Path with Alternating Colors.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/c146/5131. Minimum Cost Tree From Leaf Values.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/b05/5034. Largest Unique Number.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/b05/5028. Armstrong Number.kt" />
@@ -148,6 +163,8 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/123. Best Time to Buy and Sell Stock III.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/learn/Array.Best Time to Buy and Sell Stock II.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/188. Best Time to Buy and Sell Stock IV.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/748. Shortest Completing Word.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/467. Unique Substrings in Wraparound String.kt" />
       </list>
     </option>
   </component>
@@ -247,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur._188__Best_Time_to_Buy_and_Sell_Stock_IVKt">
+  <component name="RunManager" selected="Kotlin.leetcode.contest.cur._467__Unique_Substrings_in_Wraparound_StringKt">
     <configuration name="leetcode.contest.cur._123__Best_Time_to_Buy_and_Sell_Stock_IIIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -274,6 +291,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.contest.cur._467__Unique_Substrings_in_Wraparound_StringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur._467__Unique_Substrings_in_Wraparound_StringKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.contest.cur._748__Shortest_Completing_WordKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur._748__Shortest_Completing_WordKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="leetcode.normal._773__Sliding_PuzzleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -287,46 +330,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._777__Swap_Adjacent_in_LR_StringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._777__Swap_Adjacent_in_LR_StringKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.normal._858__Mirror_ReflectionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._858__Mirror_ReflectionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.normal._858__Mirror_ReflectionKt" />
-      <item itemvalue="Kotlin.leetcode.normal._777__Swap_Adjacent_in_LR_StringKt" />
       <item itemvalue="Kotlin.leetcode.normal._773__Sliding_PuzzleKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur._123__Best_Time_to_Buy_and_Sell_Stock_IIIKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur._188__Best_Time_to_Buy_and_Sell_Stock_IVKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur._748__Shortest_Completing_WordKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur._467__Unique_Substrings_in_Wraparound_StringKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.cur._467__Unique_Substrings_in_Wraparound_StringKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur._748__Shortest_Completing_WordKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur._188__Best_Time_to_Buy_and_Sell_Stock_IVKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur._123__Best_Time_to_Buy_and_Sell_Stock_IIIKt" />
         <item itemvalue="Kotlin.leetcode.normal._773__Sliding_PuzzleKt" />
-        <item itemvalue="Kotlin.leetcode.normal._777__Swap_Adjacent_in_LR_StringKt" />
-        <item itemvalue="Kotlin.leetcode.normal._858__Mirror_ReflectionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +373,7 @@
     <frame x="0" y="23" width="2560" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.18864179" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.18864179" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.18864179" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -365,7 +382,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32821724" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24085006" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24085006" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,30 +408,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/93. Restore IP Addresses.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-498">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/784. Letter Case Permutation.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/996. Number of Squareful Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <element signature="e#25#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19038">
@@ -774,8 +767,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/188. Best Time to Buy and Sell Stock IV.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="-169">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/748. Shortest Completing Word.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/text/Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="1018" column="12" lean-forward="true" selection-start-line="1018" selection-start-column="12" selection-end-line="1018" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/467. Unique Substrings in Wraparound String.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
