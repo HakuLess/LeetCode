@@ -128,14 +128,6 @@ fun TNode.print() {
     }
 }
 
-inline fun ListNode?.print() {
-    var node = this
-    while (node != null) {
-        node.`val`.print()
-        node = node.next
-    }
-}
-
 inline fun List<List<Int>>.print() {
     this.forEach {
         it.forEach {
@@ -178,11 +170,6 @@ class Interval(
 class TreeNode(var `val`: Int = 0) {
     var left: TreeNode? = null
     var right: TreeNode? = null
-}
-
-//  Definition for singly-linked list.
-class ListNode(var `val`: Int = 0) {
-    var next: ListNode? = null
 }
 
 /**
