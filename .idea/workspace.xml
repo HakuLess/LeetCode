@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b07/1165. Single-Row Keyboard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b07/1166. Design File System.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b07/1167. Minimum Cost to Connect Sticks.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b07/1168. Optimize Water Distribution in a Village.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c151/1169. Invalid Transactions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c151/1170. Compare Strings by Frequency of the Smallest Character.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c151/1171. Remove Zero Sum Consecutive Nodes from Linked List.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c151/1172. Dinner Plate Stacks.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,22 +27,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b07/1168. Optimize Water Distribution in a Village.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c151/1172. Dinner Plate Stacks.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="801">
+              <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
               <folding>
-                <element signature="e#34#103#0" expanded="true" />
+                <element signature="e#35#89#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -101,10 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c148/1147. Longest Chunked Palindrome Decomposition.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/last/c148/1146. Snapshot Array.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/0utils/0Utils.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/0Utils.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/last/c148/1145. Binary Tree Coloring Game.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/utils/TreeUtils.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/last/b03/1101. The Earliest Moment When Everyone Become Friends.kt" />
@@ -152,6 +139,10 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b07/1166. Design File System.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b07/1167. Minimum Cost to Connect Sticks.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b07/1168. Optimize Water Distribution in a Village.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c151/1170. Compare Strings by Frequency of the Smallest Character.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c151/1171. Remove Zero Sum Consecutive Nodes from Linked List.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c151/1169. Invalid Transactions.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c151/1172. Dinner Plate Stacks.kt" />
       </list>
     </option>
   </component>
@@ -199,6 +190,15 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="contest" type="462c0819:PsiDirectoryNode" />
               <item name="cur" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="contest" type="462c0819:PsiDirectoryNode" />
+              <item name="cur" type="462c0819:PsiDirectoryNode" />
+              <item name="c151" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
@@ -259,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.b07._1168__Optimize_Water_Distribution_in_a_VillageKt">
+  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c151._1169__Invalid_TransactionsKt">
     <configuration name="leetcode.contest.cur.b07._1167__Minimum_Cost_to_Connect_SticksKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -286,59 +286,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.cur.c150._5048__Find_Words_That_Can_Be_Formed_by_CharactersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.contest.cur.c151._1169__Invalid_TransactionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c150._5048__Find_Words_That_Can_Be_Formed_by_CharactersKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c151._1169__Invalid_TransactionsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.cur.c150._5053__As_Far_from_Land_as_PossibleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.contest.cur.c151._1171__Remove_Zero_Sum_Consecutive_Nodes_from_Linked_ListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c150._5053__As_Far_from_Land_as_PossibleKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c151._1171__Remove_Zero_Sum_Consecutive_Nodes_from_Linked_ListKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.cur.c150._5069__Last_Substring_in_Lexicographical_OrderKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.contest.cur.c151._1172__Dinner_Plate_StacksKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c150._5069__Last_Substring_in_Lexicographical_OrderKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c151._1172__Dinner_Plate_StacksKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.cur.c150._5048__Find_Words_That_Can_Be_Formed_by_CharactersKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.c150._5053__As_Far_from_Land_as_PossibleKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.c150._5069__Last_Substring_in_Lexicographical_OrderKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.b07._1167__Minimum_Cost_to_Connect_SticksKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.b07._1168__Optimize_Water_Distribution_in_a_VillageKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c151._1169__Invalid_TransactionsKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c151._1171__Remove_Zero_Sum_Consecutive_Nodes_from_Linked_ListKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c151._1172__Dinner_Plate_StacksKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.cur.c151._1169__Invalid_TransactionsKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.c151._1172__Dinner_Plate_StacksKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.c151._1171__Remove_Zero_Sum_Consecutive_Nodes_from_Linked_ListKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.b07._1168__Optimize_Water_Distribution_in_a_VillageKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.b07._1167__Minimum_Cost_to_Connect_SticksKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c150._5053__As_Far_from_Land_as_PossibleKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c150._5069__Last_Substring_in_Lexicographical_OrderKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c150._5048__Find_Words_That_Can_Be_Formed_by_CharactersKt" />
       </list>
     </recent_temporary>
   </component>
@@ -366,8 +366,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1311" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.1898332" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.1898332" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.18864179" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -376,7 +377,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32821724" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1687448" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1687448" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,38 +403,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/526. Beautiful Arrangement.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/819. Most Common Word.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/239. Sliding Window Maximum.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-443">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="371" column="19" selection-start-line="371" selection-start-column="19" selection-end-line="371" selection-end-column="19" />
-          <folding>
-            <element signature="e#5354#5355#0" expanded="true" />
-            <element signature="e#5412#5413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/973. K Closest Points to Origin.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -660,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/ListNodeUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/725. Split Linked List in Parts.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -767,6 +729,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b07/1168. Optimize Water Distribution in a Village.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#34#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -774,12 +746,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b07/1168. Optimize Water Distribution in a Village.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c151/1170. Compare Strings by Frequency of the Smallest Character.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="799">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/ListNodeUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c151/1171. Remove Zero Sum Consecutive Nodes from Linked List.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
-            <element signature="e#34#103#0" expanded="true" />
+            <element signature="e#35#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c151/1169. Invalid Transactions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c151/1172. Dinner Plate Stacks.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+          <folding>
+            <element signature="e#35#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
