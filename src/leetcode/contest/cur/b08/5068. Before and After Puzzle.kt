@@ -2,46 +2,39 @@ package leetcode.contest.cur.b08
 
 fun main(args: Array<String>) {
     val s = Solution5068()
-//    s.beforeAndAfterPuzzles(arrayOf("writing code", "code rocks")).forEach {
-//        println(it)
-//    }
+    s.beforeAndAfterPuzzles(arrayOf("writing code", "code rocks")).forEach {
+        println(it)
+    }
     s.beforeAndAfterPuzzles(arrayOf("a", "b", "a")).forEach {
         println(it)
     }
 }
 
 class Solution5068 {
-    fun beforeAndAfterPuzzles(phrases: Array<String>): List<String> {
-        val first = HashMap<String, String>()
-        val last = HashMap<String, String>()
+    fun beforeAndAfterPuzzles(phrases: Array<String>): Array<String> {
+        val first = HashMap<Int, String>()
+        val last = HashMap<Int, String>()
 
-        phrases.forEach {
-            if (it.contains(' ')) {
-                first[it] = it.split(' ').first()
-                last[it] = it.split(' ').last()
-            }
+        phrases.forEachIndexed { index, it ->
+            first[index] = it.split(' ').first()
+            last[index] = it.split(' ').last()
         }
 
         val ans = arrayListOf<String>()
-        for (item in last) {
-            first.filter {
-                it.value == item.value
-            }.forEach { t, u ->
-                val it = "${item.key}${t.substring(u.length, t.lastIndex + 1)}"
-                ans.add(it)
+        for (i in 0 until phrases.size) {
+            for (j in 0 until phrases.size) {
+                if (first[i] == last[j] && i != j) {
+                    val index = phrases[i].indexOf(' ')
+                    if (index != -1) {
+                        ans.add("${phrases[j]}${phrases[i].substring(index, phrases[i].length)}")
+                    } else {
+                        ans.add(phrases[j])
+                    }
+                }
             }
         }
 
-        val s = phrases.filter {
-            !it.contains(" ")
-        }
-        val a = s.filter { t ->
-            s.count {
-                it == t
-            } > 1
-        }.distinct()
-        ans.addAll(a)
         ans.sort()
-        return ans
+        return ans.distinct().toTypedArray()
     }
 }
