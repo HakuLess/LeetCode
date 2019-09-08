@@ -36,15 +36,15 @@ class Solution5070 {
         for (query in queries) {
             val i = query[0]
             val c = query[1]
-            var dis = Integer.MAX_VALUE
+            var dis = Int.MAX_VALUE
 
             val floor = map[c]!!.floor(i)
-            if (floor != null) dis = min(dis, i - floor)
+            dis = min(dis, i - floor)
 
             val ceil = map[c]!!.ceiling(i)
-            if (ceil != null) dis = min(dis, ceil - i)
+            dis = min(dis, ceil - i)
 
-            res.add(if (dis != Integer.MAX_VALUE) dis else -1)
+            res.add(if (dis != Int.MAX_VALUE) dis else -1)
         }
 
         return res.toIntArray()
