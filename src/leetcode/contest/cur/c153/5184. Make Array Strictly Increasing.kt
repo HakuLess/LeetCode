@@ -14,6 +14,9 @@ fun main(args: Array<String>) {
     s.makeArrayIncreasing(intArrayOf(0, 11, 6, 1, 4, 3), intArrayOf(5, 4, 11, 10, 1, 0)).print()
 }
 
+/**
+ * 可转化为 求 公共最长子序列
+ * */
 class Solution5184 {
 
     val seen = HashMap<Pair<Int, Int>, Int>()
