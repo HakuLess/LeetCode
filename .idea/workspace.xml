@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/1143. Longest Common Subsequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/utils/StrUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c153/5184. Make Array Strictly Increasing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c153/5184. Make Array Strictly Increasing.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c154/5189. Maximum Number of Balloons.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c154/5190. Reverse Substrings Between Each Pair of Parentheses.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c154/5191. K-Concatenation Maximum Sum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c154/5192. Critical Connections in a Network.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/utils/Graph.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/utils/StrUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/utils/StrUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,46 +30,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c153/5184. Make Array Strictly Increasing.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-              <folding>
-                <element signature="e#35#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/StrUtils.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c154/5192. Critical Connections in a Network.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="3" column="52" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="52" />
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeSet.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c154/5191. K-Concatenation Maximum Sum.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="435" column="21" selection-start-line="435" selection-start-column="21" selection-end-line="435" selection-end-column="21" />
-              <folding>
-                <element signature="e#16125#16126#0" expanded="true" />
-                <element signature="e#16163#16164#0" expanded="true" />
-                <element signature="e#16456#16457#0" expanded="true" />
-                <element signature="e#16493#16494#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="395">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/NavigableMap.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c154/5190. Reverse Substrings Between Each Pair of Parentheses.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="182" column="6" selection-start-line="182" selection-start-column="6" selection-end-line="182" selection-end-column="6" />
+            <state relative-caret-position="836">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/Graph.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -80,9 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>perm</find>
-      <find>sqrt</find>
-      <find>7, 2, 2, 2</find>
       <find>dp = Array</find>
       <find>1000000</find>
       <find>PriorityQueue</find>
@@ -110,6 +103,9 @@
       <find>isprime</find>
       <find>false</find>
       <find>lcp</find>
+      <find>mod</find>
+      <find>max</find>
+      <find>maximumSum</find>
     </findStrings>
     <replaceStrings>
       <replace>toInt</replace>
@@ -123,12 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c149/1155. Number of Dice Rolls With Target Sum.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c149/1156. Swap For Longest Repeated Character Substring.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c149/1157. Online Majority Element In Subarray.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/last/c149/1157. Online Majority Element In Subarray.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/526. Beautiful Arrangement.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/424. Longest Repeating Character Replacement.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/480. Sliding Window Median.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/1074. Number of Submatrices That Sum to Target.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/552. Student Attendance Record II.kt" />
@@ -171,9 +161,15 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c153/5181. Distance Between Bus Stops.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c153/5183. Day of the Week.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c153/5182. Maximum Subarray Sum with One Deletion.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/StrUtils.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/1143. Longest Common Subsequence.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c153/5184. Make Array Strictly Increasing.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/StrUtils.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c154/5189. Maximum Number of Balloons.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c154/5190. Reverse Substrings Between Each Pair of Parentheses.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c154/5191. K-Concatenation Maximum Sum.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/Graph.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c154/5192. Critical Connections in a Network.kt" />
       </list>
     </option>
   </component>
@@ -237,6 +233,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="contest" type="462c0819:PsiDirectoryNode" />
+              <item name="cur" type="462c0819:PsiDirectoryNode" />
+              <item name="c154" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="contest" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,33 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c153._5184__Make_Array_Strictly_IncreasingKt">
-    <configuration name="leetcode.contest.cur.b08._5070__Shortest_Distance_to_Target_ColorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.b08._5070__Shortest_Distance_to_Target_ColorKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.contest.cur.b08._5082__Maximum_Number_of_OnesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.b08._5082__Maximum_Number_of_OnesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c154._5191__K_Concatenation_Maximum_SumKt">
     <configuration name="leetcode.contest.cur.c153._5182__Maximum_Subarray_Sum_with_One_DeletionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -356,20 +335,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.contest.cur.c154._5190__Reverse_Substrings_Between_Each_Pair_of_ParenthesesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c154._5190__Reverse_Substrings_Between_Each_Pair_of_ParenthesesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.contest.cur.c154._5191__K_Concatenation_Maximum_SumKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c154._5191__K_Concatenation_Maximum_SumKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.cur.b08._5070__Shortest_Distance_to_Target_ColorKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.b08._5082__Maximum_Number_of_OnesKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c153._5182__Maximum_Subarray_Sum_with_One_DeletionKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c153._5183__Day_of_the_WeekKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c153._5184__Make_Array_Strictly_IncreasingKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c154._5190__Reverse_Substrings_Between_Each_Pair_of_ParenthesesKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c154._5191__K_Concatenation_Maximum_SumKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.cur.c154._5191__K_Concatenation_Maximum_SumKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.c154._5190__Reverse_Substrings_Between_Each_Pair_of_ParenthesesKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c153._5184__Make_Array_Strictly_IncreasingKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c153._5182__Maximum_Subarray_Sum_with_One_DeletionKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c153._5183__Day_of_the_WeekKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.b08._5082__Maximum_Number_of_OnesKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.b08._5070__Shortest_Distance_to_Target_ColorKt" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +404,7 @@
     <frame x="0" y="23" width="2560" height="1311" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.19737887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.19737887" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.18864179" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -408,7 +413,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32821724" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1687448" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1687448" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -434,40 +439,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/945. Minimum Increment to Make Array Unique.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/725. Split Linked List in Parts.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-          <folding>
-            <element signature="e#30#145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/128. Longest Consecutive Sequence.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/792. Number of Matching Subsequences.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c150/5048. Find Words That Can Be Formed by Characters.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c150/5052. Maximum Level Sum of a Binary Tree.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -544,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c151/1170. Compare Strings by Frequency of the Smallest Character.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -596,13 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="978">
           <caret line="41" column="1" lean-forward="true" selection-start-line="22" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/5017. Sum of Root To Leaf Binary Numbers.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -772,30 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c153/5182. Maximum Subarray Sum with One Deletion.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#35#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/1143. Longest Common Subsequence.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/StrUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/NavigableMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
@@ -818,11 +751,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c153/5184. Make Array Strictly Increasing.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="248">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="e#35#113#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/1143. Longest Common Subsequence.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/StrUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c154/5189. Maximum Number of Balloons.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/5017. Sum of Root To Leaf Binary Numbers.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c153/5182. Maximum Subarray Sum with One Deletion.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="e#35#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/Graph.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c154/5191. K-Concatenation Maximum Sum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c154/5190. Reverse Substrings Between Each Pair of Parentheses.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c154/5192. Critical Connections in a Network.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
