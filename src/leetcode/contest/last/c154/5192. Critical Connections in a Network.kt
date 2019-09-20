@@ -36,7 +36,7 @@ class Solution5192 {
     fun criticalConnections(V: Int, connections: List<List<Int>>): List<List<Int>> {
         val size = connections.size
 
-        adj = Array(V) { LinkedList() }
+        adj = Array(V) { LinkedList<Int>() }
         for (i in 0 until size) {
             adj!![connections[i][0]].add(connections[i][1])
             adj!![connections[i][1]].add(connections[i][0])

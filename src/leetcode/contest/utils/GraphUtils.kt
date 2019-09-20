@@ -6,7 +6,7 @@ import java.util.LinkedList
 class Graph(private val V: Int) {
 
     // Array  of lists for Adjacency List Representation
-    private var adj: Array<LinkedList<Int>> = Array(V) { LinkedList() }
+    private var adj: Array<LinkedList<Int>> = Array(V) { LinkedList<Int>() }
     var time = 0
     val bridge = arrayListOf<ArrayList<Int>>()
 

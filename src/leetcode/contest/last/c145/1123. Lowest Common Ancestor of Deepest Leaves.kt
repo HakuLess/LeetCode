@@ -2,7 +2,7 @@ package leetcode.contest.last.c145
 
 import leetcode.contest.utils.TreeNode
 
-class Solution {
+class Solution1123 {
     var ans: TreeNode? = null
     var cur = -1
     fun lcaDeepestLeaves(root: TreeNode?): TreeNode? {
