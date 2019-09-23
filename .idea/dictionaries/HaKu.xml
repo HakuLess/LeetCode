@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="HaKu">
     <words>
+      <w>dequeued</w>
       <w>hashmap</w>
       <w>leetcode</w>
       <w>nums</w>
@@ -9,6 +10,7 @@
       <w>strs</w>
       <w>subsequences</w>
       <w>suff</w>
+      <w>topo</w>
     </words>
   </dictionary>
 </component>

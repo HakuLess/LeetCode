@@ -1,86 +1,81 @@
 package leetcode.contest.utils
 
-import java.util.LinkedList
+import java.util.*
+import kotlin.collections.ArrayList
 
-
-class Graph(private val V: Int) {
+class Graph(val V: Int) {
 
     // Array  of lists for Adjacency List Representation
-    private var adj: Array<LinkedList<Int>> = Array(V) { LinkedList<Int>() }
-    var time = 0
-    val bridge = arrayListOf<ArrayList<Int>>()
+    var adj: Array<LinkedList<Int>> = Array(V) { LinkedList<Int>() }
+
+    fun addEdgeOri(v: Int, w: Int) {
+        adj[v].add(w)
+    }
 
     fun addEdge(v: Int, w: Int) {
-        adj[v].add(w)       // Add w to v's list.
-        adj[w].add(v)       // Add v to w's list
+        // Add w to v's list.
+        adj[v].add(w)
+        // Add v to w's list
+        adj[w].add(v)
     }
+}
 
-    // A recursive function that finds and prints bridges
-    // using DFS traversal
-    // u --> The vertex to be visited next
-    // visited[] --> keeps tract of visited vertices
-    // disc[] --> Stores discovery times of visited vertices
-    // parent[] --> Stores parent vertices in DFS tree
-    private fun bridgeUtil(u: Int, visited: BooleanArray, disc: IntArray,
-                           low: IntArray, parent: IntArray) {
+// prints a Topological Sort of the complete graph
+fun Graph.topologicalSort(): ArrayList<Int> {
+    // Create a array to store indegrees of all
+    // vertices. Initialize all indegrees as 0.
+    val indegree = IntArray(V)
 
-        // Mark the current node as visited
-        visited[u] = true
-
-        // Initialize discovery time and low value
-        low[u] = ++time
-        disc[u] = low[u]
-
-        // Go through all vertices a adjacent to this
-        val i = adj[u].iterator()
-        while (i.hasNext()) {
-            val v = i.next()  // v is current adjacent of u
-
-            // If v is not visited yet, then make it a child
-            // of u in DFS tree and recur for it.
-            // If v is not visited yet, then recur for it
-            if (!visited[v]) {
-                parent[v] = u
-                bridgeUtil(v, visited, disc, low, parent)
-
-                // Check if the subtree rooted with v has a
-                // connection to one of the ancestors of u
-                low[u] = minOf(low[u], low[v])
-
-                // If the lowest vertex reachable from subtree
-                // under v is below u in DFS tree, then u-v is
-                // a bridge
-                if (low[v] > disc[u]) {
-                    println("$u $v")
-                    bridge.add(arrayListOf(u, v))
-                }
-            } else if (v != parent[u]) {
-                // Update low value of u for parent function calls.
-                low[u] = minOf(low[u], disc[v])
-            }
+    // Traverse adjacency lists to fill indegrees of
+    // vertices. This step takes O(V+E) time
+    for (i in 0 until V) {
+        val temp = adj[i]
+        for (node in temp) {
+            indegree[node]++
         }
     }
 
-    // DFS based function to find all bridges. It uses recursive
-    // function bridgeUtil()
-    fun bridge() {
-        // Mark all the vertices as not visited
-        val visited = BooleanArray(V)
-        val disc = IntArray(V)
-        val low = IntArray(V)
-        val parent = IntArray(V)
-
-        // Initialize parent and visited, and ap(articulation point)
-        // arrays
-        for (i in 0 until V) {
-            parent[i] = -1
-            visited[i] = false
-        }
-
-        // Call the recursive helper function to find Bridges
-        // in DFS tree rooted with vertex 'i'
-        for (i in 0 until V)
-            if (!visited[i])
-                bridgeUtil(i, visited, disc, low, parent)
+    // Create a queue and enqueue all vertices with
+    // indegree 0
+    val q: Queue<Int> = LinkedList<Int>()
+    for (i in 0 until V) {
+        if (indegree[i] == 0)
+            q.add(i)
     }
+
+    // Initialize count of visited vertices
+    var cnt = 0
+
+    // Create a vector to store result (A topological
+    // ordering of the vertices)
+    val topOrder = ArrayList<Int>()
+    while (!q.isEmpty()) {
+        // Extract front of queue (or perform dequeue)
+        // and add it to topological order
+        val u = q.poll()
+        topOrder.add(u)
+
+        // Iterate through all its neighbouring nodes
+        // of dequeued node u and decrease their in-degree
+        // by 1
+        for (node in adj[u]) {
+            // If in-degree becomes zero, add it to queue
+            if (--indegree[node] == 0)
+                q.add(node)
+        }
+        cnt++
+    }
+
+    // Check if there was a cycle
+    if (cnt != V) {
+        println("There exists a cycle in the graph")
+        return arrayListOf()
+    }
+
+    val ans = arrayListOf<Int>()
+    // Print topological order
+    for (i in topOrder) {
+        ans.add(i)
+    }
+    return ans
 }
