@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b10/5079. Intersection of Three Sorted Arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b10/5080. Two Sum BSTs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b10/5081. Stepping Numbers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b10/5099. Valid Palindrome III.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c157/5213. Play with Chips.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c157/5214. Longest Arithmetic Subsequence of Given Difference.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c157/5215. Path with Maximum Gold.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c157/5216. Count Vowels Permutation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c157/5214. Longest Arithmetic Subsequence of Given Difference.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c157/5214. Longest Arithmetic Subsequence of Given Difference.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c157/5214. Longest Arithmetic Subsequence of Given Difference.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+            <state relative-caret-position="1102">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding>
                 <element signature="e#35#109#0" expanded="true" />
               </folding>
@@ -157,7 +149,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="203" />
     <option name="width" value="1440" />
     <option name="height" value="771" />
@@ -168,6 +160,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,8 +208,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c157._5215__Path_with_Maximum_GoldKt">
+  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c157._5214__Longest_Arithmetic_Subsequence_of_Given_DifferenceKt">
     <configuration name="leetcode.contest.cur.b10._5081__Stepping_NumbersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -328,8 +320,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.leetcode.contest.cur.c157._5215__Path_with_Maximum_GoldKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c157._5214__Longest_Arithmetic_Subsequence_of_Given_DifferenceKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.c157._5215__Path_with_Maximum_GoldKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c157._5216__Count_Vowels_PermutationKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.b10._5099__Valid_Palindrome_IIIKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.b10._5081__Stepping_NumbersKt" />
@@ -359,9 +351,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="203" width="1440" height="771" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="951" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.26967096" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.20340788" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.18864179" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,7 +362,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32751456" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7043741" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37841043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,7 +370,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293979" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.31670824" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31553975" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4950298" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -388,7 +380,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Coverage" order="8" sideWeight="0.5049702" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.2454739" />
     </layout>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -775,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c157/5214. Longest Arithmetic Subsequence of Given Difference.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+        <state relative-caret-position="1102">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="e#35#109#0" expanded="true" />
           </folding>
