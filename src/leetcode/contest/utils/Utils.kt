@@ -92,6 +92,15 @@ inline fun IntArray.toArrayList(): ArrayList<Int> {
     return ans
 }
 
+inline fun IntArray.sumMod(mod: Int): Int {
+    var ans = 0
+    this.forEach {
+        ans += it
+        ans %= mod
+    }
+    return ans
+}
+
 inline fun PriorityQueue<Int>.print() {
     val other = ArrayList<Int>()
     while (this.isNotEmpty()) {

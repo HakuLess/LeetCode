@@ -1,5 +1,13 @@
 package leetcode.contest.cur.c158
 
+import leetcode.contest.utils.print
+import leetcode.contest.utils.sumMod
+
+fun main(args: Array<String>) {
+    val s = Solution5224()
+    s.dieSimulator(2, intArrayOf(1, 1, 2, 2, 2, 3)).print()
+}
+
 class Solution5224 {
     fun dieSimulator(n: Int, rollMax: IntArray): Int {
         val mod = 1000000007
@@ -13,10 +21,8 @@ class Solution5224 {
             for (i in 0..5) {
                 for (j in 0..5) {
                     if (i != j) {
-                        for (k in 0 until 20) {
-                            p2[i][0] += p[j][k]
-                            p2[i][0] %= mod
-                        }
+                        p2[i][0] += p[j].sumMod(mod)
+                        p2[i][0] %= mod
                     }
                 }
             }
@@ -28,12 +34,11 @@ class Solution5224 {
             }
             p = p2
         }
+//        p.print()
         var ans = 0
         for (i in 0 until 6) {
-            for (j in 0 until 20) {
-                ans += p[i][j]
-                ans %= mod
-            }
+            ans += p[i].sumMod(mod)
+            ans %= mod
         }
         return ans % mod
     }

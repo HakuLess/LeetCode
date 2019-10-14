@@ -30,7 +30,7 @@ class Solution5225 {
                 if (m2[k] == 1 && k - j == 1)
                     return i + 1
             }
-            m2[m[nums[i]]!!] = m2[m[nums[i]]] - 1
+            m2[m[nums[i]]!!] = m2[m[nums[i]]]!! - 1
             if (m2[m[nums[i]]] == 0)
                 m2.remove(m[nums[i]])
             m[nums[i]] = m[nums[i]]!! - 1
