@@ -13,27 +13,34 @@ class Solution5111 {
     fun maximizeSweetness(sweetness: IntArray, K: Int): Int {
         var left = sweetness.min()!!
         var right = sweetness.sum()
-        while (left < right) {
-            val mid = (left + right + 1).ushr(1)
-            if (split(sweetness, mid) < K + 1) {
-                right = mid - 1
+        while (left + 1 < right) {
+            val mid = left + (right - left) / 2
+//            println("$left, $right, $mid")
+            if (checkMid(mid, sweetness, K)) {
+                right = mid
             } else {
                 left = mid
             }
         }
-        return left
+
+        return if (checkMid(left, sweetness, K)) {
+            right
+        } else {
+            left
+        }
     }
 
-    private fun split(arr: IntArray, minSweetness: Int): Int {
-        var peopleCount = 0
-        var sweetness = 0
-        for (`val` in arr) {
-            sweetness += `val`
-            if (sweetness >= minSweetness) {
-                peopleCount++
-                sweetness = 0
+    private fun checkMid(mid: Int, sweetness: IntArray, K: Int): Boolean {
+        var sum = 0
+        var c = 0
+        for (i in sweetness.indices) {
+            sum += sweetness[i]
+            if (sum >= mid) {
+                c++
+                sum = 0
             }
         }
-        return peopleCount
+        return c < K + 1
     }
+
 }

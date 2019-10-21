@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c159/5233. Maximum Profit in Job Scheduling.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c159/5233. Maximum Profit in Job Scheduling.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/b11/5111. Divide Chocolate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b11/5111. Divide Chocolate.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,20 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c156/5208. Minimum Moves to Reach Target with Rotations.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c159/5233. Maximum Profit in Job Scheduling.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b11/5111. Divide Chocolate.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="1102">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -140,12 +132,12 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/482. License Key Formatting.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b11/5088. Missing Number In Arithmetic Progression.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b11/5089. Meeting Scheduler.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b11/5111. Divide Chocolate.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b11/5090. Toss Strange Coins.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c159/5230. Check If It Is a Straight Line.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c159/5231. Remove Sub-Folders from the Filesystem.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c159/5232. Replace the Substring for Balanced String.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c159/5233. Maximum Profit in Job Scheduling.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b11/5111. Divide Chocolate.kt" />
       </list>
     </option>
   </component>
@@ -155,7 +147,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="951" />
@@ -232,7 +224,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -260,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c159._5232__Replace_the_Substring_for_Balanced_StringKt">
+  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.b11._5111__Divide_ChocolateKt">
     <configuration name="leetcode.contest.cur.b11._5090__Toss_Strange_CoinsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -335,11 +327,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.cur.b11._5111__Divide_ChocolateKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c159._5232__Replace_the_Substring_for_Balanced_StringKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c159._5231__Remove_Sub_Folders_from_the_FilesystemKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c159._5230__Check_If_It_Is_a_Straight_LineKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.b11._5090__Toss_Strange_CoinsKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.b11._5111__Divide_ChocolateKt" />
       </list>
     </recent_temporary>
   </component>
@@ -366,10 +358,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1311" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="951" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.19142176" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.19301033" />
       <window_info id="Structure" order="1" sideWeight="0.5007776" side_tool="true" weight="0.18864179" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -378,7 +370,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3270142" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19617623" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19572954" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,13 +396,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/b09/5072. How Many Apples Can You Put into the Basket.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -710,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b11/5088. Missing Number In Arithmetic Progression.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Ranges.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="926">
@@ -724,31 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b11/5089. Meeting Scheduler.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Primitives.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="653" column="21" selection-start-line="653" selection-start-column="21" selection-end-line="653" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b11/5111. Divide Chocolate.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b11/5090. Toss Strange Coins.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -782,15 +739,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/c156/5208. Minimum Moves to Reach Target with Rotations.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+        <state relative-caret-position="1672">
+          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c159/5233. Maximum Profit in Job Scheduling.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="137">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b11/5089. Meeting Scheduler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b11/5088. Missing Number In Arithmetic Progression.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b11/5090. Toss Strange Coins.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/util/Preconditions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b11/5111. Divide Chocolate.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
