@@ -14,12 +14,11 @@ class Solution5111 {
         var left = sweetness.min()!!
         var right = sweetness.sum()
         while (left + 1 < right) {
-            val mid = left + (right - left) / 2
+            val mid = (left + right).ushr(1)
 //            println("$left, $right, $mid")
-            if (checkMid(mid, sweetness, K)) {
-                right = mid
-            } else {
-                left = mid
+            when {
+                checkMid(mid, sweetness, K) -> right = mid
+                else -> left = mid
             }
         }
 
