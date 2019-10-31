@@ -5,19 +5,22 @@ import java.util.HashMap
 
 
 fun main(args: Array<String>) {
-    lengthOfLongestSubstring("abba").print()
+    val s = Solution3()
+    s.lengthOfLongestSubstring("abba").print()
 }
 
-fun lengthOfLongestSubstring(s: String): Int {
-    var ans = 0
-    val map = HashMap<Char, Int>()
-    var last = 0
-    s.forEachIndexed { index, c ->
-        if (map.containsKey(c)) {
-            last = maxOf(map[c]!!, last)
+class Solution3 {
+    fun lengthOfLongestSubstring(s: String): Int {
+        var ans = 0
+        val map = HashMap<Char, Int>()
+        var last = 0
+        s.forEachIndexed { index, c ->
+            if (map.containsKey(c)) {
+                last = maxOf(map[c]!!, last)
+            }
+            ans = maxOf(ans, index - last + 1)
+            map[c] = index + 1
         }
-        ans = maxOf(ans, index - last + 1)
-        map[c] = index + 1
+        return ans
     }
-    return ans
 }
