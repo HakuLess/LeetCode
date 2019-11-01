@@ -1,14 +1,13 @@
 package leetcode.normal
 
 class Solution5 {
-
     fun longestPalindrome(s: String): String {
         if (s.isEmpty()) {
             return ""
         }
         var start = 0
         var end = 0
-        for (i in 0 until s.length) {
+        for (i in s.indices) {
             val len1 = expandAroundCenter(s, i, i)
             val len2 = expandAroundCenter(s, i, i + 1)
             val len = maxOf(len1, len2)

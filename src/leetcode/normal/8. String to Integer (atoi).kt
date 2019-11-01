@@ -18,7 +18,7 @@ class Solution8 {
         val s = StringBuilder()
         var plus = true
         val res = str.trim()
-        for (i in 0 until res.length) {
+        for (i in res.indices) {
             if (res[i] == '+' || res[i] == '-') {
                 if (signed || i != 0) {
                     break
@@ -40,14 +40,10 @@ class Solution8 {
             return 0
         }
 
-        return try {
-            Integer.parseInt(s.toString())
-        } catch (ex: Exception) {
-            if (plus) {
-                2147483647
-            } else {
-                -2147483648
-            }
+        return s.toString().toIntOrNull() ?: if (plus) {
+            2147483647
+        } else {
+            -2147483648
         }
     }
 }
