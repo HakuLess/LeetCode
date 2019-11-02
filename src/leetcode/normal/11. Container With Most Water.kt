@@ -15,15 +15,4 @@ class Solution11 {
         }
         return max
     }
-
-//    fun maxArea(height: IntArray): Int {
-//        var ans = 0
-//        for (i in 0 until height.size - 1) {
-//            for (j in i + 1 until height.size) {
-//                ans = maxOf(ans, (j - i) * minOf(height[j], height[i]))
-//            }
-//        }
-//
-//        return ans
-//    }
 }
