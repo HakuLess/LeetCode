@@ -5,6 +5,10 @@ import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
 
+fun gcd(a: Int, b: Int): Int {
+    return if (b == 0) a else gcd(b, a % b)
+}
+
 inline fun Array<Suffix>.printSuffix() {
     this.forEachIndexed { index, suffix ->
         println("$index: ${suffix.index}")

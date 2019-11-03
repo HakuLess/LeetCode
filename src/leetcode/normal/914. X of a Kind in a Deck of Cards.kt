@@ -1,5 +1,7 @@
 package leetcode.normal
 
+import leetcode.contest.utils.gcd
+
 
 fun main(args: Array<String>) {
 //    val source = arrayListOf(-1,  1, 2,  -4).toIntArray()
@@ -27,16 +29,4 @@ fun hasGroupsSizeX(deck: IntArray): Boolean {
         }
     }
     return true
-}
-
-fun gcd(p1: Int, p2: Int): Int {
-    var n1 = p1
-    var n2 = p2
-    while (n1 != n2) {
-        if (n1 > n2)
-            n1 -= n2
-        else
-            n2 -= n1
-    }
-    return n1
 }
