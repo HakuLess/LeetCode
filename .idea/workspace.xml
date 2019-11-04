@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c161/5247. Minimum Swaps to Make Strings Equal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c161/5248. Count Number of Nice Subarrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c161/5249. Minimum Remove to Make Valid Parentheses.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c161/5250. Check If It Is a Good Array.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/373. Find K Pairs with Smallest Sums.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/b12/5115. Palindrome Removal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b12/5115. Palindrome Removal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/914. X of a Kind in a Deck of Cards.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/914. X of a Kind in a Deck of Cards.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/utils/StrUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/utils/StrUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/1143. Longest Common Subsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/1143. Longest Common Subsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/13. Roman to Integer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/13. Roman to Integer.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,29 +27,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/373. Find K Pairs with Smallest Sums.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="44" column="44" lean-forward="true" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+              <folding>
+                <element signature="e#25#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c161/5250. Check If It Is a Good Array.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/13. Roman to Integer.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="1140">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/10. Regular Expression Matching.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="504">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/914. X of a Kind in a Deck of Cards.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/12. Integer to Roman.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="502">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -68,8 +78,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Vector</find>
-      <find>topOrder</find>
       <find>[2, 3], [2, 5], [1, 4]</find>
       <find>209813603</find>
       <find>394756</find>
@@ -98,6 +106,8 @@
       <find>sortedmap</find>
       <find>printl</find>
       <find>gcd</find>
+      <find>pop</find>
+      <find>push</find>
     </findStrings>
     <replaceStrings>
       <replace>toInt</replace>
@@ -111,11 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c157/5214. Longest Arithmetic Subsequence of Given Difference.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c158/5222. Split a String in Balanced Strings.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c158/5223. Queens That Can Attack the King.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c158/5225. Maximum Equal Frequency.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c158/5224. Dice Roll Simulation.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/900. RLE Iterator.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/837. New 21 Game.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/1227. Airplane Seat Assignment Probability.kt" />
@@ -162,6 +167,11 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c161/5250. Check If It Is a Good Array.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/914. X of a Kind in a Deck of Cards.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/1143. Longest Common Subsequence.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/utils/StrUtils.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/373. Find K Pairs with Smallest Sums.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/13. Roman to Integer.kt" />
       </list>
     </option>
   </component>
@@ -184,7 +194,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,37 +217,13 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="contest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="contest" type="462c0819:PsiDirectoryNode" />
-              <item name="cur" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="contest" type="462c0819:PsiDirectoryNode" />
-              <item name="cur" type="462c0819:PsiDirectoryNode" />
-              <item name="c161" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="contest" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="normal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,20 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c161._5248__Count_Number_of_Nice_SubarraysKt">
-    <configuration name="leetcode.contest.cur.b12._5115__Palindrome_RemovalKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.b12._5115__Palindrome_RemovalKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.leetcode.normal._373__Find_K_Pairs_with_Smallest_SumsKt">
     <configuration name="leetcode.contest.cur.c161._5247__Minimum_Swaps_to_Make_Strings_EqualKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -342,20 +314,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.normal._373__Find_K_Pairs_with_Smallest_SumsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._373__Find_K_Pairs_with_Smallest_SumsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.cur.b12._5115__Palindrome_RemovalKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c161._5249__Minimum_Remove_to_Make_Valid_ParenthesesKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c161._5248__Count_Number_of_Nice_SubarraysKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c161._5247__Minimum_Swaps_to_Make_Strings_EqualKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c161._5250__Check_If_It_Is_a_Good_ArrayKt" />
+      <item itemvalue="Kotlin.leetcode.normal._373__Find_K_Pairs_with_Smallest_SumsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.normal._373__Find_K_Pairs_with_Smallest_SumsKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c161._5248__Count_Number_of_Nice_SubarraysKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c161._5250__Check_If_It_Is_a_Good_ArrayKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c161._5247__Minimum_Swaps_to_Make_Strings_EqualKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c161._5249__Minimum_Remove_to_Make_Valid_ParenthesesKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.b12._5115__Palindrome_RemovalKt" />
       </list>
     </recent_temporary>
   </component>
@@ -382,10 +367,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1311" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="951" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.21763304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.21991481" />
       <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" weight="0.19459888" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -394,7 +379,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3270142" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26766416" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2669039" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,7 +387,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293979" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.31255195" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31198102" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4950298" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -420,85 +405,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/GraphUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="71" column="28" lean-forward="true" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/e00/V1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/e00/V2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2011">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/e00/V3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b11/5088. Missing Number In Arithmetic Progression.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b11/5089. Meeting Scheduler.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/789. Escape The Ghosts.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="2" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
-          <folding>
-            <element signature="e#3513#3514#0" expanded="true" />
-            <element signature="e#3571#3572#0" expanded="true" />
-            <element signature="e#11994#11995#0" expanded="true" />
-            <element signature="e#12025#12026#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/382. Linked List Random Node.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#25#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/56. Merge Intervals.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/890. Find and Replace Pattern.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -622,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/ListNodeUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/2. Add Two Numbers.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -698,13 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/12. Integer to Roman.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/SortedMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -740,27 +632,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b12/5115. Palindrome Removal.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b12/5098. Tree Diameter.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-491">
           <caret line="3" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c161/5249. Minimum Remove to Make Valid Parentheses.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="e#35#89#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,23 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c161/5248. Count Number of Nice Subarrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="e#35#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/914. X of a Kind in a Deck of Cards.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
@@ -795,10 +653,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c161/5248. Count Number of Nice Subarrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c161/5250. Check If It Is a Good Array.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="722">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/GraphUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2035">
+          <caret line="71" column="28" lean-forward="true" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/ListNodeUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-623">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/TreeUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2029" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/UFSUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2181">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/1143. Longest Common Subsequence.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/StrUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/utils/Utils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c161/5249. Minimum Remove to Make Valid Parentheses.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="e#35#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b12/5115. Palindrome Removal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="777" column="33" selection-start-line="777" selection-start-column="32" selection-end-line="777" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="645" column="20" selection-start-line="645" selection-start-column="20" selection-end-line="645" selection-end-column="20" />
+          <folding>
+            <element signature="e#5354#5355#0" expanded="true" />
+            <element signature="e#5412#5413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/373. Find K Pairs with Smallest Sums.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="44" column="44" lean-forward="true" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding>
+            <element signature="e#25#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/10. Regular Expression Matching.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/12. Integer to Roman.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/13. Roman to Integer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
