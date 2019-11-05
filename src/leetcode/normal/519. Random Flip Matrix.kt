@@ -1,6 +1,6 @@
 package leetcode.normal
 
-class Solution(n_rows: Int, n_cols: Int) {
+class Solution519(n_rows: Int, n_cols: Int) {
     private val n = n_rows
     private val m = n_cols
     private val cur = HashSet<Int>()
