@@ -1,29 +1,29 @@
 package leetcode.normal
 
 fun main(args: Array<String>) {
-    generateParenthesis(2).forEach {
+    val s = Solution22()
+    s.generateParenthesis(2).forEach {
         print("$it, ")
     }
 }
 
-
-fun generateParenthesis(n: Int): List<String> {
-    val ans = arrayListOf<String>()
-    fillAns(ans, "", 0, 0, n)
-    return ans
-}
-
-fun fillAns(ans: ArrayList<String>, str: String, open: Int, close: Int, max: Int) {
-    if (str.length == max * 2) {
-        ans.add(str)
-        return
+class Solution22 {
+    fun generateParenthesis(n: Int): List<String> {
+        val ans = arrayListOf<String>()
+        geneAns(ans, "", 0, 0, n)
+        return ans
     }
 
-    if (open < max) {
-        fillAns(ans, "$str(", open + 1, close, max)
-    }
-
-    if (close < open) {
-        fillAns(ans, "$str)", open, close + 1, max)
+    private fun geneAns(ans: ArrayList<String>, str: String, left: Int, right: Int, max: Int) {
+        if (str.length == max * 2) {
+            ans.add(str)
+            return
+        }
+        if (left < max) {
+            geneAns(ans, "$str(", left + 1, right, max)
+        }
+        if (right < left) {
+            geneAns(ans, "$str)", left, right + 1, max)
+        }
     }
 }
