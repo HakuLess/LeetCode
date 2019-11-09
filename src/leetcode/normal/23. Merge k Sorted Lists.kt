@@ -4,32 +4,21 @@ import leetcode.contest.utils.ListNode
 
 class Solution23 {
     fun mergeKLists(lists: Array<ListNode?>): ListNode? {
-        if (lists.isEmpty()) {
-            return null
+        if (lists.size <= 1) {
+            return lists.getOrNull(0)
         }
-        if (lists.size == 1) {
-            return lists[0]
+        var ans = lists[0]
+        for (i in 1..lists.lastIndex) {
+            ans = mergeTwoLists(ans, lists[i])
         }
-        return if (lists.size == 2) {
-            mergeTwoLists(lists[0], lists[1])
-        } else {
-            val newList = ArrayList<ListNode?>()
-            for (i in 0 until lists.size - 2) {
-                newList.add(lists[i])
-            }
-            newList.add(mergeTwoLists(lists[lists.lastIndex], lists[lists.lastIndex - 1]))
-            mergeKLists(newList.toTypedArray())
-        }
+        return ans
     }
 
     private fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
-        if (l1 == null) {
+        if (l1 == null)
             return l2
-        }
-        if (l2 == null) {
+        if (l2 == null)
             return l1
-        }
-
         var root = ListNode(0)
         val head = root
         var ll1 = l1
@@ -44,13 +33,10 @@ class Solution23 {
             }
             root = root.next!!
         }
-
-        if (ll1 != null) {
+        if (ll1 != null)
             root.next = ll1
-        }
-        if (ll2 != null) {
+        if (ll2 != null)
             root.next = ll2
-        }
         return head.next
     }
 }

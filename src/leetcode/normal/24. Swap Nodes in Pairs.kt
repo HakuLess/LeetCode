@@ -9,32 +9,40 @@ fun main(args: Array<String>) {
     val node3 = ListNode(3)
     val node4 = ListNode(4)
     val node5 = ListNode(5)
-//    node1.next = node2
-//    node2.next = node3
-//    node3.next = node4
-//    node4.next = node5
-    swapPairs(node1).print()
+    node1.next = node2
+    node2.next = node3
+    node3.next = node4
+    node4.next = node5
+    val s = Solution24()
+    s.swapPairs(node1).print()
 }
 
-fun swapPairs(head: ListNode?): ListNode? {
-
-    if (head?.next == null) {
-        return head
-    }
-    var node = head
-
-    val result = head.next
-    while (node?.next != null) {
-        val temp = node.next!!.next
-        node.next!!.next = node
-        node.next = if (temp?.next == null) {
-            temp
-        } else {
-            temp.next
+class Solution24 {
+    fun swapPairs(head: ListNode?): ListNode? {
+        if (head?.next == null) {
+            return head
         }
-
-        node = temp
+        val temp = head.next
+        head.next = swapPairs(head.next?.next)
+        temp?.next = head
+        return temp
     }
-
-    return result
+//    fun swapPairs(head: ListNode?): ListNode? {
+//        if (head?.next == null) {
+//            return head
+//        }
+//        var node = head
+//        val result = head.next
+//        while (node?.next != null) {
+//            val temp = node.next!!.next
+//            node.next!!.next = node
+//            node.next = if (temp?.next == null) {
+//                temp
+//            } else {
+//                temp.next
+//            }
+//            node = temp
+//        }
+//        return result
+//    }
 }
