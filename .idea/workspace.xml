@@ -5,38 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/25. Reverse Nodes in k-Group.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/29. Divide Two Integers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/31. Next Permutation.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/b11/5088. Missing Number In Arithmetic Progression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b11/5088. Missing Number In Arithmetic Progression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/b11/5089. Meeting Scheduler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b11/5089. Meeting Scheduler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/b11/5090. Toss Strange Coins.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b11/5090. Toss Strange Coins.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/b11/5111. Divide Chocolate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b11/5111. Divide Chocolate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/b12/5096. Array Transformation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b12/5096. Array Transformation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/b12/5097. Design A Leaderboard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b12/5097. Design A Leaderboard.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/b12/5098. Tree Diameter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b12/5098. Tree Diameter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/b12/5115. Palindrome Removal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/b12/5115. Palindrome Removal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c159/5230. Check If It Is a Straight Line.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c159/5230. Check If It Is a Straight Line.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c159/5231. Remove Sub-Folders from the Filesystem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c159/5231. Remove Sub-Folders from the Filesystem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c159/5232. Replace the Substring for Balanced String.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c159/5232. Replace the Substring for Balanced String.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c159/5233. Maximum Profit in Job Scheduling.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c159/5233. Maximum Profit in Job Scheduling.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c160/5238. Find Positive Integer Solution for a Given Equation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c160/5238. Find Positive Integer Solution for a Given Equation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c160/5239. Circular Permutation in Binary Representation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c160/5239. Circular Permutation in Binary Representation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c160/5240. Maximum Length of a Concatenated String with Unique Characters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c160/5240. Maximum Length of a Concatenated String with Unique Characters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c161/5247. Minimum Swaps to Make Strings Equal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c161/5247. Minimum Swaps to Make Strings Equal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c161/5248. Count Number of Nice Subarrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c161/5248. Count Number of Nice Subarrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c161/5249. Minimum Remove to Make Valid Parentheses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c161/5249. Minimum Remove to Make Valid Parentheses.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c161/5250. Check If It Is a Good Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c161/5250. Check If It Is a Good Array.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c162/5255. Cells with Odd Values in a Matrix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c162/5255. Cells with Odd Values in a Matrix.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c162/5256. Reconstruct a 2-Row Binary Matrix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c162/5256. Reconstruct a 2-Row Binary Matrix.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c162/5257. Number of Closed Islands.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c162/5257. Number of Closed Islands.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c162/5258. Maximum Score Words Formed by Letters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/c162/5258. Maximum Score Words Formed by Letters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/e00/V1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/e00/V1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/e00/V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/e00/V2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/e00/V3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/e00/V3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/e00/V4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/e00/V4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/e00/V5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/last/e00/V5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/38. Count and Say.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/38. Count and Say.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/33. Search in Rotated Sorted Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/33. Search in Rotated Sorted Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/34. Find First and Last Position of Element in Sorted Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/34. Find First and Last Position of Element in Sorted Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/81. Search in Rotated Sorted Array II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/81. Search in Rotated Sorted Array II.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/38. Count and Say.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/34. Find First and Last Position of Element in Sorted Array.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -117,10 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/normal/9. Palindrome Number.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/11. Container With Most Water.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/12. Integer to Roman.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b12/5096. Array Transformation.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b12/5097. Design A Leaderboard.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b12/5098. Tree Diameter.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b12/5115. Palindrome Removal.kt" />
@@ -168,6 +137,10 @@
         <option value="$PROJECT_DIR$/src/leetcode/normal/25. Reverse Nodes in k-Group.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/29. Divide Two Integers.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/38. Count and Say.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/31. Next Permutation.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/33. Search in Rotated Sorted Array.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/81. Search in Rotated Sorted Array II.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/34. Find First and Last Position of Element in Sorted Array.kt" />
       </list>
     </option>
   </component>
@@ -188,8 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,6 +205,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,7 +216,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -377,10 +350,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="951" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="951" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.16986156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.17305644" />
       <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" weight="0.19459888" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -415,41 +388,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/last/b12/5115. Palindrome Removal.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="777" column="33" selection-start-line="777" selection-start-column="32" selection-end-line="777" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="645" column="20" selection-start-line="645" selection-start-column="20" selection-end-line="645" selection-end-column="20" />
-          <folding>
-            <element signature="e#5354#5355#0" expanded="true" />
-            <element signature="e#5412#5413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/373. Find K Pairs with Smallest Sums.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="44" column="44" lean-forward="true" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
-          <folding>
-            <element signature="e#25#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/10. Regular Expression Matching.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -784,8 +722,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/38. Count and Say.kt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#25#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/31. Next Permutation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/33. Search in Rotated Sorted Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/81. Search in Rotated Sorted Array II.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/34. Find First and Last Position of Element in Sorted Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
