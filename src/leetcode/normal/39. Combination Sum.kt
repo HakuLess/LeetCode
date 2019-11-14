@@ -1,27 +1,28 @@
 package leetcode.normal
 
-val ans = arrayListOf<ArrayList<Int>>()
+class Solution39 {
 
-fun combinationSum(candidates: IntArray, target: Int): List<List<Int>> {
-    candidates.sort()
-    fillAns(candidates, target, arrayListOf(), 0)
-    return ans
-}
+    val ans = arrayListOf<ArrayList<Int>>()
 
-fun fillAns(candidates: IntArray, target: Int, current: ArrayList<Int>, start: Int) {
-    if (target < 0) {
-        return
+    fun combinationSum(candidates: IntArray, target: Int): List<List<Int>> {
+        candidates.sort()
+        fillAns(candidates, target, arrayListOf(), 0)
+        return ans
     }
 
-    if (target == 0) {
-        ans.add(current)
-    }
+    private fun fillAns(candidates: IntArray, target: Int, current: ArrayList<Int>, start: Int) {
+        if (target < 0) {
+            return
+        }
 
-    candidates.forEachIndexed { index, it ->
-        if (index >= start) {
+        if (target == 0) {
+            ans.add(current)
+        }
+
+        for (i in start..candidates.lastIndex) {
             val next = ArrayList(current)
-            next.add(it)
-            fillAns(candidates, target - it, next, index)
+            next.add(candidates[i])
+            fillAns(candidates, target - candidates[i], next, i)
         }
     }
 }

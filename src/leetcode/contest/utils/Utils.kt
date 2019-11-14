@@ -15,6 +15,16 @@ inline fun Array<Suffix>.printSuffix() {
     }
 }
 
+inline fun Array<CharArray>.print() {
+    this.forEach {
+        it.forEach {
+            print("$it, ")
+        }
+        println()
+    }
+    println()
+}
+
 inline fun Array<DoubleArray>.print() {
     this.forEach {
         it.forEach {
