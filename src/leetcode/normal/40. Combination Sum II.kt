@@ -12,7 +12,7 @@ class Solution40 {
 
     fun combinationSum2(candidates: IntArray, target: Int): List<List<Int>> {
         candidates.sort()
-        for (i in 0 until candidates.size) {
+        for (i in candidates.indices) {
             fillAns(candidates, target - candidates[i], arrayListOf(candidates[i]), i + 1)
         }
         return result.distinct()
@@ -29,6 +29,8 @@ class Solution40 {
         }
 
         for (i in startIndex until candidates.size) {
+            if (i > startIndex && candidates[i] == candidates[i - 1])
+                continue
             val temp = ArrayList(ans)
             temp.add(candidates[i])
             fillAns(candidates, target - candidates[i], temp, i + 1)

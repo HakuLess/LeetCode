@@ -6,35 +6,27 @@ class Solution42 {
         val right = IntArray(height.size)
 
         var leftMax = 0
-        for (i in 0 until height.size) {
+        for (i in height.indices) {
             leftMax = maxOf(leftMax, height[i])
-            if (i == 0) {
-                left[i] = 0
+            left[i] = if (i == 0) {
+                0
             } else {
-                left[i] = leftMax
+                leftMax
             }
         }
-        left.forEach {
-            print("$it, ")
-        }
-        println()
 
         var rightMax = 0
         for (i in height.lastIndex downTo 0) {
             rightMax = maxOf(rightMax, height[i])
-            if (i == height.lastIndex) {
-                right[i] = 0
+            right[i] = if (i == height.lastIndex) {
+                0
             } else {
-                right[i] = rightMax
+                rightMax
             }
         }
-        right.forEach {
-            print("$it, ")
-        }
-        println()
 
         var ans = 0
-        for (i in 0 until height.size) {
+        for (i in height.indices) {
             ans += maxOf(minOf(left[i], right[i]) - height[i], 0)
         }
         return ans

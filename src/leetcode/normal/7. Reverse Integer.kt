@@ -10,15 +10,29 @@ fun main(args: Array<String>) {
 class Solution7 {
     fun reverse(x: Int): Int {
         var num = x
-        var result = 0
+        var ans = 0
         while (num != 0) {
-            val pop = num % 10
+            val temp = ans * 10 + num % 10
+            if (temp / 10 != ans) {
+                return 0
+            }
+            ans = temp
             num /= 10
-            if (result > Int.MAX_VALUE / 10 || result == Int.MAX_VALUE / 10 && pop > 7) return 0
-            if (result < Int.MIN_VALUE / 10 || result == Int.MIN_VALUE / 10 && pop < -8) return 0
-            result = result * 10 + pop
         }
-
-        return result
+        return ans
     }
+
+//    fun reverse(x: Int): Int {
+//        var num = x
+//        var result = 0
+//        while (num != 0) {
+//            val pop = num % 10
+//            num /= 10
+//            if (result > Int.MAX_VALUE / 10 || result == Int.MAX_VALUE / 10 && pop > 7) return 0
+//            if (result < Int.MIN_VALUE / 10 || result == Int.MIN_VALUE / 10 && pop < -8) return 0
+//            result = result * 10 + pop
+//        }
+//
+//        return result
+//    }
 }
