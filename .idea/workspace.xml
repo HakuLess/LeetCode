@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b13/5108. Encode Number.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b13/5109. Smallest Common Region.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b13/5110. Synonymous Sentences.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b13/5125. Handshakes That Don't Cross.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c163/5263. Shift 2D Grid.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c163/5264. Find Elements in a Contaminated Binary Tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c163/5265. Greatest Sum Divisible by Three.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c163/5266. Minimum Moves to Move a Box to Their Target Location.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/617. Merge Two Binary Trees.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/617. Merge Two Binary Trees.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/657. Judge Route Circle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/657. Judge Route Circle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/771. Jewels and Stones.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/771. Jewels and Stones.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,23 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b13/5110. Synonymous Sentences.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="e#34#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b13/5125. Handshakes That Don't Cross.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c163/5263. Shift 2D Grid.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -62,8 +47,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sortedmap</find>
-      <find>printl</find>
       <find>gcd</find>
       <find>pop</find>
       <find>push</find>
@@ -72,7 +55,6 @@
       <find>1000</find>
       <find>interval</find>
       <find>jobs</find>
-      <find>&quot;</find>
       <find>Calendar</find>
       <find>MyQueue</find>
       <find>permu</find>
@@ -92,6 +74,9 @@
       <find>p</find>
       <find>palin</find>
       <find>mod</find>
+      <find>&quot;</find>
+      <find>2, 1, 4, 4</find>
+      <find>2, 2, 2, 3</find>
     </findStrings>
     <replaceStrings>
       <replace>toInt</replace>
@@ -105,11 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/normal/836. Rectangle Overlap.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/645. Set Mismatch.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/850. Rectangle Area II.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/435. Non-overlapping Intervals.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/20. Valid Parentheses.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/21. Merge Two Sorted Lists.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/22. Generate Parentheses.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/23. Merge k Sorted Lists.kt" />
@@ -156,6 +136,11 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b13/5125. Handshakes That Don't Cross.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b13/5110. Synonymous Sentences.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b13/5108. Encode Number.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c163/5264. Find Elements in a Contaminated Binary Tree.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c163/5265. Greatest Sum Divisible by Three.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/48. Rotate Image.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c163/5266. Minimum Moves to Move a Box to Their Target Location.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c163/5263. Shift 2D Grid.kt" />
       </list>
     </option>
   </component>
@@ -165,7 +150,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="951" />
@@ -218,7 +203,7 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="contest" type="462c0819:PsiDirectoryNode" />
               <item name="cur" type="462c0819:PsiDirectoryNode" />
-              <item name="b13" type="462c0819:PsiDirectoryNode" />
+              <item name="c163" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,20 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.b13._5110__Synonymous_SentencesKt">
-    <configuration name="leetcode.contest.cur.b13._5108__Encode_NumberKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.b13._5108__Encode_NumberKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c163._5263__Shift_2D_GridKt">
     <configuration name="leetcode.contest.cur.b13._5109__Smallest_Common_RegionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -314,33 +286,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._124__Binary_Tree_Maximum_Path_SumKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.contest.cur.c163._5263__Shift_2D_GridKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._124__Binary_Tree_Maximum_Path_SumKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c163._5263__Shift_2D_GridKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.contest.cur.c163._5266__Minimum_Moves_to_Move_a_Box_to_Their_Target_LocationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c163._5266__Minimum_Moves_to_Move_a_Box_to_Their_Target_LocationKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.normal._124__Binary_Tree_Maximum_Path_SumKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.b13._5110__Synonymous_SentencesKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.b13._5108__Encode_NumberKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.b13._5109__Smallest_Common_RegionKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.b13._5125__Handshakes_That_Don_t_CrossKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c163._5266__Minimum_Moves_to_Move_a_Box_to_Their_Target_LocationKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c163._5263__Shift_2D_GridKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.cur.c163._5263__Shift_2D_GridKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.c163._5266__Minimum_Moves_to_Move_a_Box_to_Their_Target_LocationKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.b13._5110__Synonymous_SentencesKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.b13._5125__Handshakes_That_Don_t_CrossKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.b13._5109__Smallest_Common_RegionKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.b13._5108__Encode_NumberKt" />
-        <item itemvalue="Kotlin.leetcode.normal._124__Binary_Tree_Maximum_Path_SumKt" />
       </list>
     </recent_temporary>
   </component>
@@ -367,10 +352,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="951" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1311" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.17625134" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.13145353" />
       <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" weight="0.19459888" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -379,7 +364,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3262159" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30960855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27015793" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -387,7 +372,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293979" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.31079477" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31005818" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4950298" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,45 +390,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="1273" column="60" selection-start-line="1273" selection-start-column="60" selection-end-line="1273" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/1143. Longest Common Subsequence.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="1807" column="22" selection-start-line="1807" selection-start-column="22" selection-end-line="1807" selection-end-column="22" />
-          <folding>
-            <element signature="e#70002#70003#0" expanded="true" />
-            <element signature="e#70039#70040#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Strings.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="1244" column="16" selection-start-line="1244" selection-start-column="16" selection-end-line="1244" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/collections/GroupingJVM.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Grouping.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -758,32 +704,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b13/5108. Encode Number.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="326">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b13/5109. Smallest Common Region.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
+        <state relative-caret-position="854">
           <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b13/5125. Handshakes That Don't Cross.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b13/5110. Synonymous Sentences.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="826">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="e#34#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/b13/5125. Handshakes That Don't Cross.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c163/5264. Find Elements in a Contaminated Binary Tree.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="3" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c163/5265. Greatest Sum Divisible by Three.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/48. Rotate Image.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c163/5266. Minimum Moves to Move a Box to Their Target Location.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="51" selection-start-line="51" selection-end-line="52" />
+          <folding>
+            <element signature="e#35#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c163/5263. Shift 2D Grid.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
