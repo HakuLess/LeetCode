@@ -10,8 +10,6 @@ fun main(args: Array<String>) {
 
 class Solution43 {
     fun multiply(num1: String, num2: String): String {
-        val a = BigInteger(num1)
-        val b = BigInteger(num2)
-        return a.multiply(b).toString(10)
+        return BigInteger(num1).multiply(BigInteger(num2)).toString(10)
     }
 }
