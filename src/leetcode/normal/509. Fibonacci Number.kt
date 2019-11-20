@@ -1,19 +1,16 @@
 package leetcode.normal
 
 class Solution509 {
-    val hashMap = HashMap<Int, Int>()
-
     fun fib(N: Int): Int {
-        if (hashMap.containsKey(N)) {
-            return hashMap[N]!!
+        if (N == 0) {
+            return 0
         }
-
-        return when (N) {
-            0 -> 0
-            1 -> 1
-            else -> {
-                fib(N - 1) + fib(N - 2)
-            }
+        val dp = IntArray(N + 1)
+        dp[0] = 0
+        dp[1] = 1
+        for (i in 2..N) {
+            dp[i] = dp[i - 1] + dp[i - 2]
         }
+        return dp[N]
     }
 }

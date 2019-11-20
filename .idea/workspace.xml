@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/44. Wildcard Matching.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/47. Permutations II.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/43. Multiply Strings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/43. Multiply Strings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/45. Jump Game II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/45. Jump Game II.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/46. Permutations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/46. Permutations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/44. Wildcard Matching.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/44. Wildcard Matching.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/48. Rotate Image.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/48. Rotate Image.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/49. Group Anagrams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/49. Group Anagrams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/50. Pow(x, n).kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/50. Pow(x, n).kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/509. Fibonacci Number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/509. Fibonacci Number.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/53. Maximum Subarray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/53. Maximum Subarray.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,32 +30,78 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/46. Permutations.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/49. Group Anagrams.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-              <folding>
-                <element signature="e#25#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/44. Wildcard Matching.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2271">
-              <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="299">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/45. Jump Game II.kt">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/50. Pow(x, n).kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="76">
+              <caret line="2" selection-start-line="2" selection-end-line="3" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/53. Maximum Subarray.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/normal/509. Fibonacci Number.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="dummy://kotlinDecompiled/509. Fibonacci Number.decompiled.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="dummy://kotlinDecompiled/509. Fibonacci Number.decompiled.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="dummy://kotlinDecompiled/509. Fibonacci Number.decompiled.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-221" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="dummy://kotlinDecompiled/509. Fibonacci Number.decompiled.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1056" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="dummy://kotlinDecompiled/509. Fibonacci Number.decompiled.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="dummy://kotlinDecompiled/509. Fibonacci Number.decompiled.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-391" />
           </provider>
         </entry>
       </file>
@@ -68,7 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>gcd</find>
       <find>pop</find>
       <find>push</find>
       <find>compareby</find>
@@ -98,6 +146,7 @@
       <find>&quot;</find>
       <find>2, 1, 4, 4</find>
       <find>2, 2, 2, 3</find>
+      <find>fib</find>
     </findStrings>
     <replaceStrings>
       <replace>toInt</replace>
@@ -111,11 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/normal/24. Swap Nodes in Pairs.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/26. Remove Duplicates from Sorted Array.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/27. Remove Element.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/28. Implement strStr().kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/35. Search Insert Position.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c162/5255. Cells with Odd Values in a Matrix.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c162/5256. Reconstruct a 2-Row Binary Matrix.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c162/5257. Number of Closed Islands.kt" />
@@ -155,13 +199,18 @@
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/b13/5108. Encode Number.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c163/5264. Find Elements in a Contaminated Binary Tree.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c163/5265. Greatest Sum Divisible by Three.kt" />
-        <option value="$PROJECT_DIR$/src/leetcode/normal/48. Rotate Image.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c163/5266. Minimum Moves to Move a Box to Their Target Location.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/contest/cur/c163/5263. Shift 2D Grid.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/43. Multiply Strings.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/45. Jump Game II.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/46. Permutations.kt" />
         <option value="$PROJECT_DIR$/src/leetcode/normal/44. Wildcard Matching.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/47. Permutations II.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/48. Rotate Image.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/49. Group Anagrams.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/50. Pow(x, n).kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/53. Maximum Subarray.kt" />
+        <option value="$PROJECT_DIR$/src/leetcode/normal/509. Fibonacci Number.kt" />
       </list>
     </option>
   </component>
@@ -250,33 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.normal._44__Wildcard_MatchingKt">
-    <configuration name="leetcode.contest.cur.c163._5263__Shift_2D_GridKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c163._5263__Shift_2D_GridKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.normal._43__Multiply_StringsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._43__Multiply_StringsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.leetcode.normal._53__Maximum_SubarrayKt">
     <configuration name="leetcode.normal._44__Wildcard_MatchingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -290,46 +313,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._45__Jump_Game_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.normal._47__Permutations_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._45__Jump_Game_IIKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._47__Permutations_IIKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._46__PermutationsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.normal._48__Rotate_ImageKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._46__PermutationsKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._48__Rotate_ImageKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.normal._49__Group_AnagramsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._49__Group_AnagramsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.normal._53__Maximum_SubarrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._53__Maximum_SubarrayKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.cur.c163._5263__Shift_2D_GridKt" />
-      <item itemvalue="Kotlin.leetcode.normal._43__Multiply_StringsKt" />
-      <item itemvalue="Kotlin.leetcode.normal._45__Jump_Game_IIKt" />
-      <item itemvalue="Kotlin.leetcode.normal._46__PermutationsKt" />
       <item itemvalue="Kotlin.leetcode.normal._44__Wildcard_MatchingKt" />
+      <item itemvalue="Kotlin.leetcode.normal._47__Permutations_IIKt" />
+      <item itemvalue="Kotlin.leetcode.normal._48__Rotate_ImageKt" />
+      <item itemvalue="Kotlin.leetcode.normal._49__Group_AnagramsKt" />
+      <item itemvalue="Kotlin.leetcode.normal._53__Maximum_SubarrayKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.normal._53__Maximum_SubarrayKt" />
+        <item itemvalue="Kotlin.leetcode.normal._49__Group_AnagramsKt" />
+        <item itemvalue="Kotlin.leetcode.normal._48__Rotate_ImageKt" />
+        <item itemvalue="Kotlin.leetcode.normal._47__Permutations_IIKt" />
         <item itemvalue="Kotlin.leetcode.normal._44__Wildcard_MatchingKt" />
-        <item itemvalue="Kotlin.leetcode.normal._46__PermutationsKt" />
-        <item itemvalue="Kotlin.leetcode.normal._45__Jump_Game_IIKt" />
-        <item itemvalue="Kotlin.leetcode.normal._43__Multiply_StringsKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c163._5263__Shift_2D_GridKt" />
       </list>
     </recent_temporary>
   </component>
@@ -359,16 +408,17 @@
     <frame x="0" y="23" width="1920" height="951" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.13258786" />
-      <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" weight="0.19459888" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49594814" visible="true" weight="0.13258786" />
+      <window_info id="Structure" order="1" sideWeight="0.50405186" side_tool="true" weight="0.13258786" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32977462" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3262159" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26809016" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26809016" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,6 +427,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.30960855" />
+      <window_info active="true" anchor="right" id="Kotlin Bytecode" visible="true" weight="0.32960597" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4950298" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -394,44 +445,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/32. Longest Valid Parentheses.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#25#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/784. Letter Case Permutation.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="168" column="23" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/31. Next Permutation.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/214. Shortest Palindrome.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Collections.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-258">
@@ -720,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/48. Rotate Image.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/contest/cur/c163/5266. Minimum Moves to Move a Box to Their Target Location.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -758,20 +764,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/44. Wildcard Matching.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/normal/46. Permutations.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="986">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="e#25#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/44. Wildcard Matching.kt">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/47. Permutations II.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2271">
-          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="418">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/48. Rotate Image.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/49. Group Anagrams.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/50. Pow(x, n).kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/53. Maximum Subarray.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/normal/509. Fibonacci Number.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
