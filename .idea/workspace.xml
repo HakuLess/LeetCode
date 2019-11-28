@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/66. Plus One.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/57. Insert Interval.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/60. Permutation Sequence.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/55. Jump Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/55. Jump Game.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/56. Merge Intervals.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/56. Merge Intervals.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/61. Rotate List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/61. Rotate List.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/62. Unique Paths.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/62. Unique Paths.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/63. Unique Paths II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/63. Unique Paths II.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/67. Add Binary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/67. Add Binary.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/normal/69. Sqrt(x).kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/69. Sqrt(x).kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,45 +25,6 @@
         <option value="Kotlin File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>random</find>
-      <find>1000</find>
-      <find>interval</find>
-      <find>jobs</find>
-      <find>Calendar</find>
-      <find>MyQueue</find>
-      <find>permu</find>
-      <find>lcs</find>
-      <find>isvalid</find>
-      <find>permuta</find>
-      <find>ispal</find>
-      <find>treeset</find>
-      <find>bin</find>
-      <find>maxArea</find>
-      <find>array</find>
-      <find>group</find>
-      <find>next</find>
-      <find>kmp</find>
-      <find>totre</find>
-      <find>totree</find>
-      <find>p</find>
-      <find>palin</find>
-      <find>&quot;</find>
-      <find>2, 1, 4, 4</find>
-      <find>2, 2, 2, 3</find>
-      <find>fib</find>
-      <find>solveNQUtil</find>
-      <find>issafe</find>
-      <find>ans</find>
-      <find>mod</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>toInt</replace>
-      <replace>import leetcode.TreeNode</replace>
-      <replace>'</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c164._5274__Number_of_Ways_to_Stay_in_the_Same_Place_After_Some_StepsKt">
+  <component name="RunManager" selected="Kotlin.leetcode.normal._60__Permutation_SequenceKt">
     <configuration name="leetcode.contest.cur.c164._5272__Count_Servers_that_CommunicateKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -143,27 +99,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._51__N_QueensKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.normal._57__Insert_IntervalKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._51__N_QueensKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._57__Insert_IntervalKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._53__Maximum_SubarrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.normal._60__Permutation_SequenceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._53__Maximum_SubarrayKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._60__Permutation_SequenceKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,16 +129,16 @@
       <item itemvalue="Kotlin.leetcode.contest.cur.c164._5272__Count_Servers_that_CommunicateKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c164._5273__Search_Suggestions_SystemKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c164._5274__Number_of_Ways_to_Stay_in_the_Same_Place_After_Some_StepsKt" />
-      <item itemvalue="Kotlin.leetcode.normal._51__N_QueensKt" />
-      <item itemvalue="Kotlin.leetcode.normal._53__Maximum_SubarrayKt" />
+      <item itemvalue="Kotlin.leetcode.normal._57__Insert_IntervalKt" />
+      <item itemvalue="Kotlin.leetcode.normal._60__Permutation_SequenceKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.normal._60__Permutation_SequenceKt" />
+        <item itemvalue="Kotlin.leetcode.normal._57__Insert_IntervalKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c164._5274__Number_of_Ways_to_Stay_in_the_Same_Place_After_Some_StepsKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c164._5273__Search_Suggestions_SystemKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c164._5272__Count_Servers_that_CommunicateKt" />
-        <item itemvalue="Kotlin.leetcode.normal._51__N_QueensKt" />
-        <item itemvalue="Kotlin.leetcode.normal._53__Maximum_SubarrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +177,22 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
+    <state width="1878" height="116" key="GridCell.Tab.0.bottom" timestamp="1574835489476">
+      <screen x="0" y="23" width="1920" height="951" />
+    </state>
+    <state width="1878" height="116" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574835489476" />
+    <state width="1878" height="116" key="GridCell.Tab.0.center" timestamp="1574835489474">
+      <screen x="0" y="23" width="1920" height="951" />
+    </state>
+    <state width="1878" height="116" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574835489474" />
+    <state width="1878" height="116" key="GridCell.Tab.0.left" timestamp="1574835489474">
+      <screen x="0" y="23" width="1920" height="951" />
+    </state>
+    <state width="1878" height="116" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574835489474" />
+    <state width="1878" height="116" key="GridCell.Tab.0.right" timestamp="1574835489475">
+      <screen x="0" y="23" width="1920" height="951" />
+    </state>
+    <state width="1878" height="116" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574835489475" />
     <state x="461" y="137" key="SettingsEditor" timestamp="1574821117465">
       <screen x="0" y="23" width="1920" height="951" />
     </state>
@@ -229,6 +201,10 @@
       <screen x="0" y="23" width="1920" height="951" />
     </state>
     <state x="637" y="331" key="com.intellij.ide.util.TipDialog/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574821140177" />
+    <state x="609" y="244" width="701" height="508" key="find.popup" timestamp="1574835302282">
+      <screen x="0" y="23" width="1920" height="951" />
+    </state>
+    <state x="609" y="244" width="701" height="508" key="find.popup/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574835302282" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

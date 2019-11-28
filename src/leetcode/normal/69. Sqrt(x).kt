@@ -18,6 +18,3 @@ class Solution69 {
         }
     }
 }
-fun sqrt(x: Int): Int {
-
-}
