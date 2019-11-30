@@ -2,22 +2,24 @@ package leetcode.normal
 
 import leetcode.contest.utils.ListNode
 
-fun deleteDuplicates(head: ListNode?): ListNode? {
-    if (head == null) {
-        return null
-    }
-
-    var cur = head.next
-    var pre = head
-    while (cur != null) {
-        if (cur.`val` != pre!!.`val`) {
-            pre.next = cur
-            pre = pre.next
-        } else {
-            pre.next = null
+class Solution83 {
+    fun deleteDuplicates(head: ListNode?): ListNode? {
+        if (head == null) {
+            return null
         }
-        cur = cur.next
-    }
 
-    return head
+        var cur = head.next
+        var pre = head
+        while (cur != null) {
+            if (cur.`val` != pre!!.`val`) {
+                pre.next = cur
+                pre = pre.next
+            } else {
+                pre.next = null
+            }
+            cur = cur.next
+        }
+
+        return head
+    }
 }
