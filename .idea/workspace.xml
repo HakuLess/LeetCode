@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b14/5112. Hexspeak.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b14/5113. Remove Interval.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b14/5114. Delete Tree Nodes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b14/Solution5136.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c165/5275. Find Winner on a Tic Tac Toe Game.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c165/5276. Number of Burgers with No Waste of Ingredients.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c165/5277. Count Square Submatrices with All Ones.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c165/5278. Palindrome Partitioning III.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/68. Text Justification.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/75. Sort Colors.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/64. Minimum Path Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/64. Minimum Path Sum.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,20 +59,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c165._5278__Palindrome_Partitioning_IIIKt">
-    <configuration name="leetcode.contest.cur.b14._5114__Delete_Tree_NodesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.b14._5114__Delete_Tree_NodesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.leetcode.normal._68__Text_JustificationKt">
     <configuration name="leetcode.contest.cur.c165._5275__Find_Winner_on_a_Tic_Tac_Toe_GameKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -130,20 +112,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetcode.normal._68__Text_JustificationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._68__Text_JustificationKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.cur.b14._5114__Delete_Tree_NodesKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c165._5275__Find_Winner_on_a_Tic_Tac_Toe_GameKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c165._5276__Number_of_Burgers_with_No_Waste_of_IngredientsKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c165._5277__Count_Square_Submatrices_with_All_OnesKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c165._5278__Palindrome_Partitioning_IIIKt" />
+      <item itemvalue="Kotlin.leetcode.normal._68__Text_JustificationKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.normal._68__Text_JustificationKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c165._5278__Palindrome_Partitioning_IIIKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c165._5277__Count_Square_Submatrices_with_All_OnesKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c165._5276__Number_of_Burgers_with_No_Waste_of_IngredientsKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c165._5275__Find_Winner_on_a_Tic_Tac_Toe_GameKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.b14._5114__Delete_Tree_NodesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -218,10 +213,10 @@
       <screen x="0" y="23" width="1920" height="951" />
     </state>
     <state x="461" y="137" key="SettingsEditor/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574821117465" />
-    <state x="849" y="448" key="com.intellij.ide.util.TipDialog" timestamp="1575123349959">
-      <screen x="0" y="23" width="2560" height="1311" />
+    <state x="637" y="331" key="com.intellij.ide.util.TipDialog" timestamp="1575267342135">
+      <screen x="0" y="23" width="1920" height="951" />
     </state>
-    <state x="637" y="331" key="com.intellij.ide.util.TipDialog/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574821140177" />
+    <state x="637" y="331" key="com.intellij.ide.util.TipDialog/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575267342135" />
     <state x="637" y="333" key="com.intellij.ide.util.TipDialog/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575018190623" />
     <state x="849" y="448" key="com.intellij.ide.util.TipDialog/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575123349959" />
     <state x="812" y="327" width="935" height="701" key="find.popup" timestamp="1575170145493">
