@@ -15,14 +15,7 @@ class Solution76 {
                 map[s[cur]] = map[s[cur]]!! + 1
             }
 
-//            if (isValid(map)) {
-//                if (ans.isEmpty() || ans.length > cur - start + 1) {
-//                    ans = s.substring(start, cur)
-//                }
-//            }
-
             while (isValid(map)) {
-                println("c: ${s.substring(start, cur + 1)}")
                 if (ans.isEmpty() || ans.length > cur - start + 1) {
                     ans = s.substring(start, cur + 1)
                 }
@@ -30,10 +23,6 @@ class Solution76 {
                     map[s[start]] = map[s[start]]!! - 1
                 }
                 start++
-
-                map.forEach { t, u ->
-                    println("map: $t $u")
-                }
             }
 
             cur++

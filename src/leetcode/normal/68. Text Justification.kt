@@ -2,7 +2,7 @@ package leetcode.normal
 
 import leetcode.contest.utils.print
 
-// Not finish
+// todo Not finish
 fun main(args: Array<String>) {
     val s = Solution68()
     s.fullJustify(arrayOf("What", "must", "be", "acknowledgment", "shall", "be"), 16)

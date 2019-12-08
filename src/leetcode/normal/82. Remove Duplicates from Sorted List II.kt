@@ -3,7 +3,6 @@ package leetcode.normal
 import leetcode.contest.utils.ListNode
 
 class Solution82 {
-
     fun deleteDuplicates(head: ListNode): ListNode? {
         val dummy = ListNode(0)
         var cur: ListNode? = head

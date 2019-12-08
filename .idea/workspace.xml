@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c166/5279. Subtract the Product and Sum of Digits of an Integer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c166/5280. Group the People Given the Group Size They Belong To.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c166/5281. Find the Smallest Divisor Given a Threshold.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c166/5282. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/86. Partition List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/86. Partition List.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/88. Merge Sorted Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/88. Merge Sorted Array.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/89. Gray Code.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/89. Gray Code.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/68. Text Justification.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/68. Text Justification.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/76. Minimum Window Substring.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/76. Minimum Window Substring.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/82. Remove Duplicates from Sorted List II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/82. Remove Duplicates from Sorted List II.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,41 +63,41 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.normal._89__Gray_CodeKt">
-    <configuration name="leetcode.contest.cur.c165._5277__Count_Square_Submatrices_with_All_OnesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c166._5282__Minimum_Number_of_Flips_to_Convert_Binary_Matrix_to_Zero_MatrixKt">
+    <configuration name="leetcode.contest.cur.c166._5279__Subtract_the_Product_and_Sum_of_Digits_of_an_IntegerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c165._5277__Count_Square_Submatrices_with_All_OnesKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c166._5279__Subtract_the_Product_and_Sum_of_Digits_of_an_IntegerKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.cur.c165._5278__Palindrome_Partitioning_IIIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.contest.cur.c166._5281__Find_the_Smallest_Divisor_Given_a_ThresholdKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c165._5278__Palindrome_Partitioning_IIIKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c166._5281__Find_the_Smallest_Divisor_Given_a_ThresholdKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._68__Text_JustificationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.contest.cur.c166._5282__Minimum_Number_of_Flips_to_Convert_Binary_Matrix_to_Zero_MatrixKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._68__Text_JustificationKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c166._5282__Minimum_Number_of_Flips_to_Convert_Binary_Matrix_to_Zero_MatrixKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,19 +130,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.cur.c165._5277__Count_Square_Submatrices_with_All_OnesKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.c165._5278__Palindrome_Partitioning_IIIKt" />
-      <item itemvalue="Kotlin.leetcode.normal._68__Text_JustificationKt" />
       <item itemvalue="Kotlin.leetcode.normal._86__Partition_ListKt" />
       <item itemvalue="Kotlin.leetcode.normal._89__Gray_CodeKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c166._5279__Subtract_the_Product_and_Sum_of_Digits_of_an_IntegerKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c166._5281__Find_the_Smallest_Divisor_Given_a_ThresholdKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c166._5282__Minimum_Number_of_Flips_to_Convert_Binary_Matrix_to_Zero_MatrixKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.cur.c166._5282__Minimum_Number_of_Flips_to_Convert_Binary_Matrix_to_Zero_MatrixKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.c166._5281__Find_the_Smallest_Divisor_Given_a_ThresholdKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.c166._5279__Subtract_the_Product_and_Sum_of_Digits_of_an_IntegerKt" />
         <item itemvalue="Kotlin.leetcode.normal._89__Gray_CodeKt" />
         <item itemvalue="Kotlin.leetcode.normal._86__Partition_ListKt" />
-        <item itemvalue="Kotlin.leetcode.normal._68__Text_JustificationKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c165._5278__Palindrome_Partitioning_IIIKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c165._5277__Count_Square_Submatrices_with_All_OnesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -181,44 +185,44 @@
       <screen x="0" y="23" width="1920" height="956" />
     </state>
     <state x="736" y="220" key="#com.intellij.ide.util.MemberChooser/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575017913355" />
-    <state width="1878" height="196" key="GridCell.Tab.0.bottom" timestamp="1575530685158">
-      <screen x="0" y="23" width="1920" height="951" />
+    <state width="2518" height="297" key="GridCell.Tab.0.bottom" timestamp="1575774636297">
+      <screen x="0" y="23" width="2560" height="1311" />
     </state>
-    <state width="1878" height="196" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575530685158" />
+    <state width="1878" height="196" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575636701616" />
     <state width="1878" height="197" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115286" />
     <state width="1878" height="197" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575018134327" />
-    <state width="2518" height="298" key="GridCell.Tab.0.bottom/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575172467439" />
-    <state width="1878" height="196" key="GridCell.Tab.0.center" timestamp="1575530685157">
-      <screen x="0" y="23" width="1920" height="951" />
+    <state width="2518" height="297" key="GridCell.Tab.0.bottom/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774636297" />
+    <state width="2518" height="297" key="GridCell.Tab.0.center" timestamp="1575774636296">
+      <screen x="0" y="23" width="2560" height="1311" />
     </state>
-    <state width="1878" height="196" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575530685157" />
+    <state width="1878" height="196" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575636701615" />
     <state width="1878" height="197" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115284" />
     <state width="1878" height="197" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575018134327" />
-    <state width="2518" height="298" key="GridCell.Tab.0.center/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575172467438" />
-    <state width="1878" height="196" key="GridCell.Tab.0.left" timestamp="1575530685157">
-      <screen x="0" y="23" width="1920" height="951" />
+    <state width="2518" height="297" key="GridCell.Tab.0.center/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774636296" />
+    <state width="2518" height="297" key="GridCell.Tab.0.left" timestamp="1575774636295">
+      <screen x="0" y="23" width="2560" height="1311" />
     </state>
-    <state width="1878" height="196" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575530685157" />
+    <state width="1878" height="196" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575636701615" />
     <state width="1878" height="197" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115283" />
     <state width="1878" height="197" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575018134327" />
-    <state width="2518" height="298" key="GridCell.Tab.0.left/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575172467438" />
-    <state width="1878" height="196" key="GridCell.Tab.0.right" timestamp="1575530685158">
-      <screen x="0" y="23" width="1920" height="951" />
+    <state width="2518" height="297" key="GridCell.Tab.0.left/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774636295" />
+    <state width="2518" height="297" key="GridCell.Tab.0.right" timestamp="1575774636296">
+      <screen x="0" y="23" width="2560" height="1311" />
     </state>
-    <state width="1878" height="196" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575530685158" />
+    <state width="1878" height="196" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575636701616" />
     <state width="1878" height="197" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115285" />
     <state width="1878" height="197" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575018134327" />
-    <state width="2518" height="298" key="GridCell.Tab.0.right/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575172467438" />
+    <state width="2518" height="297" key="GridCell.Tab.0.right/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774636296" />
     <state x="461" y="137" key="SettingsEditor" timestamp="1574821117465">
       <screen x="0" y="23" width="1920" height="951" />
     </state>
     <state x="461" y="137" key="SettingsEditor/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574821117465" />
-    <state x="637" y="331" key="com.intellij.ide.util.TipDialog" timestamp="1575267342135">
-      <screen x="0" y="23" width="1920" height="951" />
+    <state x="849" y="448" key="com.intellij.ide.util.TipDialog" timestamp="1575771789657">
+      <screen x="0" y="23" width="2560" height="1311" />
     </state>
     <state x="637" y="331" key="com.intellij.ide.util.TipDialog/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575267342135" />
     <state x="637" y="333" key="com.intellij.ide.util.TipDialog/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575018190623" />
-    <state x="849" y="448" key="com.intellij.ide.util.TipDialog/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575123349959" />
+    <state x="849" y="448" key="com.intellij.ide.util.TipDialog/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575771789657" />
     <state x="812" y="327" width="935" height="701" key="find.popup" timestamp="1575170145493">
       <screen x="0" y="23" width="2560" height="1311" />
     </state>
