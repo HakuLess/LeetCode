@@ -20,7 +20,6 @@ class Solution94 {
             result.add(item!!.`val`)
             item = item.right
         }
-
         return result
     }
 }

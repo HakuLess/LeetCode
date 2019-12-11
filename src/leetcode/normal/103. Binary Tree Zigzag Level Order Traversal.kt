@@ -4,8 +4,8 @@ import leetcode.contest.utils.TreeNode
 import java.util.*
 import kotlin.collections.ArrayList
 
-class Solution102 {
-    fun levelOrder(root: TreeNode?): List<List<Int>> {
+class Solution103 {
+    fun zigzagLevelOrder(root: TreeNode?): List<List<Int>> {
         if (root == null) {
             return emptyList()
         }
@@ -14,7 +14,9 @@ class Solution102 {
         val queue: Queue<TreeNode?> = LinkedList()
         queue.add(root)
 
+        var step = 0
         while (queue.isNotEmpty()) {
+            step++
             val size = queue.size
             val array = ArrayList<Int>()
             for (i in 0 until size) {
@@ -27,8 +29,14 @@ class Solution102 {
                     queue.offer(item.right)
                 }
             }
-            if (array.isNotEmpty())
-                result.add(array)
+            if (array.isNotEmpty()) {
+                result.add(if (step % 2 != 0) {
+                    array
+                } else {
+                    array.reverse()
+                    array
+                })
+            }
         }
         return result
     }
