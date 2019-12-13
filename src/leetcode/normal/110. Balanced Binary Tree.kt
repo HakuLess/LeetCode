@@ -8,7 +8,6 @@ class Solution110 {
         if (root == null) {
             return true
         }
-
         return if (abs(getDepth(root.left, 0) - getDepth(root.right, 0)) > 1) {
             false
         } else {
@@ -16,7 +15,7 @@ class Solution110 {
         }
     }
 
-    fun getDepth(root: TreeNode?, depth: Int): Int {
+    private fun getDepth(root: TreeNode?, depth: Int): Int {
         if (root == null) {
             return depth
         }

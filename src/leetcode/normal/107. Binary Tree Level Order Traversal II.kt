@@ -14,26 +14,30 @@ fun main(args: Array<String>) {
     root.right = l2
     l2.left = r1
     l2.right = r2
-    levelOrderBottom(root).print()
+
+    val s = Solution107()
+    s.levelOrderBottom(root).print()
 }
 
-fun levelOrderBottom(root: TreeNode?): List<List<Int>> {
-    val result = arrayListOf<ArrayList<Int>>()
-    fillList(root, 0, result)
-    result.reverse()
-    return result
-}
-
-fun fillList(root: TreeNode?, level: Int, result: ArrayList<ArrayList<Int>>) {
-    if (root == null) {
-        return
+class Solution107 {
+    fun levelOrderBottom(root: TreeNode?): List<List<Int>> {
+        val result = arrayListOf<ArrayList<Int>>()
+        fillList(root, 0, result)
+        result.reverse()
+        return result
     }
-    val orderLevel = result.getOrElse(level) {
-        result.add(it, arrayListOf())
-        result[it]
-    }
-    orderLevel.add(root.`val`)
 
-    fillList(root.left, level + 1, result)
-    fillList(root.right, level + 1, result)
+    private fun fillList(root: TreeNode?, level: Int, result: ArrayList<ArrayList<Int>>) {
+        if (root == null) {
+            return
+        }
+        val orderLevel = result.getOrElse(level) {
+            result.add(it, arrayListOf())
+            result[it]
+        }
+        orderLevel.add(root.`val`)
+
+        fillList(root.left, level + 1, result)
+        fillList(root.right, level + 1, result)
+    }
 }
