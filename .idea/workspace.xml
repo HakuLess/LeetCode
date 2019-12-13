@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/101. Symmetric Tree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/103. Binary Tree Zigzag Level Order Traversal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/104. Maximum Depth of Binary Tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/105. Construct Binary Tree from Preorder and Inorder Traversal.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/102. Binary Tree Level Order Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/102. Binary Tree Level Order Traversal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/94. Binary Tree Inorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/94. Binary Tree Inorder Traversal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/98. Validate Binary Search Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/98. Validate Binary Search Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/106. Construct Binary Tree from Inorder and Postorder Traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/106. Construct Binary Tree from Inorder and Postorder Traversal.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,33 +185,33 @@
       <screen x="0" y="23" width="1920" height="951" />
     </state>
     <state x="648" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575858492624" />
-    <state width="1878" height="195" key="GridCell.Tab.0.bottom" timestamp="1575944072423">
-      <screen x="0" y="23" width="1920" height="951" />
+    <state width="1878" height="195" key="GridCell.Tab.0.bottom" timestamp="1576141593797">
+      <screen x="0" y="23" width="1920" height="956" />
     </state>
     <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072423" />
     <state width="1878" height="197" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115286" />
-    <state width="1878" height="197" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575018134327" />
+    <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593797" />
     <state width="2518" height="297" key="GridCell.Tab.0.bottom/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868324" />
-    <state width="1878" height="195" key="GridCell.Tab.0.center" timestamp="1575944072422">
-      <screen x="0" y="23" width="1920" height="951" />
+    <state width="1878" height="195" key="GridCell.Tab.0.center" timestamp="1576141593796">
+      <screen x="0" y="23" width="1920" height="956" />
     </state>
     <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072422" />
     <state width="1878" height="197" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115284" />
-    <state width="1878" height="197" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575018134327" />
+    <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593796" />
     <state width="2518" height="297" key="GridCell.Tab.0.center/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868323" />
-    <state width="1878" height="195" key="GridCell.Tab.0.left" timestamp="1575944072421">
-      <screen x="0" y="23" width="1920" height="951" />
+    <state width="1878" height="195" key="GridCell.Tab.0.left" timestamp="1576141593795">
+      <screen x="0" y="23" width="1920" height="956" />
     </state>
     <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072421" />
     <state width="1878" height="197" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115283" />
-    <state width="1878" height="197" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575018134327" />
+    <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593795" />
     <state width="2518" height="297" key="GridCell.Tab.0.left/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868322" />
-    <state width="1878" height="195" key="GridCell.Tab.0.right" timestamp="1575944072422">
-      <screen x="0" y="23" width="1920" height="951" />
+    <state width="1878" height="195" key="GridCell.Tab.0.right" timestamp="1576141593796">
+      <screen x="0" y="23" width="1920" height="956" />
     </state>
     <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072422" />
     <state width="1878" height="197" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115285" />
-    <state width="1878" height="197" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575018134327" />
+    <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593796" />
     <state width="2518" height="297" key="GridCell.Tab.0.right/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868323" />
     <state x="461" y="137" key="SettingsEditor" timestamp="1574821117465">
       <screen x="0" y="23" width="1920" height="951" />
