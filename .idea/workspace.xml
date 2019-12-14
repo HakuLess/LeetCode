@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/108. Convert Sorted Array to Binary Search Tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b15/5123. Iterator for Combination.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b15/5126. Element Appearing More Than 25% In Sorted Array.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b15/5127. Remove Covered Intervals.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b15/5129. Minimum Falling Path Sum II.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/107. Binary Tree Level Order Traversal II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/107. Binary Tree Level Order Traversal II.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/110. Balanced Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/110. Balanced Binary Tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/513. Find Bottom Left Tree Value.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/513. Find Bottom Left Tree Value.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/637. Average of Levels in Binary Tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/637. Average of Levels in Binary Tree.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,28 +65,54 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.normal._4__Median_of_Two_Sorted_ArraysKt">
-    <configuration name="leetcode.contest.cur.c166._5281__Find_the_Smallest_Divisor_Given_a_ThresholdKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.b15._5123__Iterator_for_CombinationKt">
+    <configuration name="leetcode.contest.cur.b15._5123__Iterator_for_CombinationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c166._5281__Find_the_Smallest_Divisor_Given_a_ThresholdKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.b15._5123__Iterator_for_CombinationKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.cur.c166._5282__Minimum_Number_of_Flips_to_Convert_Binary_Matrix_to_Zero_MatrixKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.contest.cur.b15._5129__Minimum_Falling_Path_Sum_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c166._5282__Minimum_Number_of_Flips_to_Convert_Binary_Matrix_to_Zero_MatrixKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.b15._5129__Minimum_Falling_Path_Sum_IIKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.normal._46__PermutationsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._46__PermutationsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.normal._47__Permutations_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._47__Permutations_IIKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,46 +131,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._90__Subsets_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._90__Subsets_IIKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.normal._98__Validate_Binary_Search_TreeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._98__Validate_Binary_Search_TreeKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.cur.c166._5281__Find_the_Smallest_Divisor_Given_a_ThresholdKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.c166._5282__Minimum_Number_of_Flips_to_Convert_Binary_Matrix_to_Zero_MatrixKt" />
-      <item itemvalue="Kotlin.leetcode.normal._90__Subsets_IIKt" />
-      <item itemvalue="Kotlin.leetcode.normal._98__Validate_Binary_Search_TreeKt" />
       <item itemvalue="Kotlin.leetcode.normal._4__Median_of_Two_Sorted_ArraysKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.b15._5129__Minimum_Falling_Path_Sum_IIKt" />
+      <item itemvalue="Kotlin.leetcode.normal._46__PermutationsKt" />
+      <item itemvalue="Kotlin.leetcode.normal._47__Permutations_IIKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.b15._5123__Iterator_for_CombinationKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.contest.cur.b15._5123__Iterator_for_CombinationKt" />
+        <item itemvalue="Kotlin.leetcode.normal._46__PermutationsKt" />
+        <item itemvalue="Kotlin.leetcode.normal._47__Permutations_IIKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.b15._5129__Minimum_Falling_Path_Sum_IIKt" />
         <item itemvalue="Kotlin.leetcode.normal._4__Median_of_Two_Sorted_ArraysKt" />
-        <item itemvalue="Kotlin.leetcode.normal._98__Validate_Binary_Search_TreeKt" />
-        <item itemvalue="Kotlin.leetcode.normal._90__Subsets_IIKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c166._5282__Minimum_Number_of_Flips_to_Convert_Binary_Matrix_to_Zero_MatrixKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c166._5281__Find_the_Smallest_Divisor_Given_a_ThresholdKt" />
       </list>
     </recent_temporary>
   </component>
@@ -196,57 +199,63 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="894" y="281" key="FileChooserDialogImpl/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576235792393" />
-    <state width="1878" height="195" key="GridCell.Tab.0.bottom" timestamp="1576141593797">
-      <screen x="0" y="23" width="1920" height="956" />
+    <state width="2517" height="380" key="GridCell.Tab.0.bottom" timestamp="1576338221539">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072423" />
     <state width="1878" height="197" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115286" />
     <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593797" />
     <state width="2518" height="297" key="GridCell.Tab.0.bottom/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868324" />
-    <state width="1878" height="195" key="GridCell.Tab.0.center" timestamp="1576141593796">
-      <screen x="0" y="23" width="1920" height="956" />
+    <state width="2517" height="380" key="GridCell.Tab.0.bottom/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576338221539" />
+    <state width="2517" height="380" key="GridCell.Tab.0.center" timestamp="1576338221539">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072422" />
     <state width="1878" height="197" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115284" />
     <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593796" />
     <state width="2518" height="297" key="GridCell.Tab.0.center/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868323" />
-    <state width="1878" height="195" key="GridCell.Tab.0.left" timestamp="1576141593795">
-      <screen x="0" y="23" width="1920" height="956" />
+    <state width="2517" height="380" key="GridCell.Tab.0.center/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576338221539" />
+    <state width="2517" height="380" key="GridCell.Tab.0.left" timestamp="1576338221538">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072421" />
     <state width="1878" height="197" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115283" />
     <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593795" />
     <state width="2518" height="297" key="GridCell.Tab.0.left/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868322" />
-    <state width="1878" height="195" key="GridCell.Tab.0.right" timestamp="1576141593796">
-      <screen x="0" y="23" width="1920" height="956" />
+    <state width="2517" height="380" key="GridCell.Tab.0.left/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576338221538" />
+    <state width="2517" height="380" key="GridCell.Tab.0.right" timestamp="1576338221539">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072422" />
     <state width="1878" height="197" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115285" />
     <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593796" />
     <state width="2518" height="297" key="GridCell.Tab.0.right/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868323" />
-    <state x="615" y="168" key="SettingsEditor" timestamp="1576236243401">
+    <state width="2517" height="380" key="GridCell.Tab.0.right/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576338221539" />
+    <state x="615" y="168" key="SettingsEditor" timestamp="1576237112271">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="461" y="137" key="SettingsEditor/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574821117465" />
-    <state x="615" y="168" key="SettingsEditor/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576236243401" />
-    <state x="849" y="453" key="com.intellij.ide.util.TipDialog" timestamp="1576236040259">
+    <state x="615" y="168" key="SettingsEditor/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576237112271" />
+    <state x="849" y="453" key="com.intellij.ide.util.TipDialog" timestamp="1576333077615">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="637" y="331" key="com.intellij.ide.util.TipDialog/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575858521238" />
     <state x="637" y="333" key="com.intellij.ide.util.TipDialog/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575018190623" />
     <state x="849" y="448" key="com.intellij.ide.util.TipDialog/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575771789657" />
-    <state x="849" y="453" key="com.intellij.ide.util.TipDialog/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576236040259" />
-    <state x="812" y="327" width="935" height="701" key="find.popup" timestamp="1575170145493">
-      <screen x="0" y="23" width="2560" height="1311" />
+    <state x="849" y="453" key="com.intellij.ide.util.TipDialog/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576333077615" />
+    <state x="812" y="325" width="935" height="749" key="find.popup" timestamp="1576334268061">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="609" y="244" width="701" height="508" key="find.popup/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574835302282" />
     <state x="609" y="244" width="701" height="509" key="find.popup/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575010551096" />
     <state x="812" y="327" width="935" height="701" key="find.popup/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575170145493" />
-    <state x="833" y="309" width="894" height="931" key="search.everywhere.popup" timestamp="1575170574834">
-      <screen x="0" y="23" width="2560" height="1311" />
+    <state x="812" y="325" width="935" height="749" key="find.popup/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576334268061" />
+    <state x="833" y="305" width="894" height="995" key="search.everywhere.popup" timestamp="1576337154583">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="625" y="231" width="670" height="676" key="search.everywhere.popup/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575009129930" />
     <state x="833" y="309" width="894" height="931" key="search.everywhere.popup/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575170574834" />
+    <state x="833" y="305" width="894" height="995" key="search.everywhere.popup/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576337154583" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

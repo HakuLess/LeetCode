@@ -4,7 +4,7 @@ import leetcode.contest.utils.TreeNode
 
 fun findBottomLeftValue(root: TreeNode?): Int {
     val list = arrayListOf<ArrayList<Int>>()
-    fillList(root, 0, list)
+    //fillList(root, 0, list)
     return list.last().first()
 }
 

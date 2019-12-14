@@ -5,7 +5,7 @@ import leetcode.contest.utils.TreeNode
 fun averageOfLevels(root: TreeNode?): DoubleArray {
 
     val list = arrayListOf<ArrayList<Int>>()
-    fillList(root, 0, list)
+//    fillList(root, 0, list)
 
     val result = DoubleArray(list.size)
     list.forEachIndexed { index, arrayList ->
