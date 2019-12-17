@@ -4,7 +4,6 @@ import leetcode.contest.utils.TreeNode
 import java.util.*
 
 class Solution114 {
-
     fun flatten(root: TreeNode?): Unit {
         if (root == null) {
             return
@@ -25,6 +24,5 @@ class Solution114 {
             item.right = null
             pre = item
         }
-
     }
 }

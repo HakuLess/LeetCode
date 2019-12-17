@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c167/5124. Sequential Digits.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c167/5283. Convert Binary Number in a Linked List to Integer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c167/5285. Maximum Side Length of a Square with Sum Less than or Equal to Threshold.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c167/5286. Shortest Path in a Grid with Obstacles Elimination.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/b15/5129. Minimum Falling Path Sum II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b15/5129. Minimum Falling Path Sum II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/112. Path Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/112. Path Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/113. Path Sum II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/113. Path Sum II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/114. Flatten Binary Tree to Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/114. Flatten Binary Tree to Linked List.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c167._5285__Maximum_Side_Length_of_a_Square_with_Sum_Less_than_or_Equal_to_ThresholdKt">
+  <component name="RunManager" selected="Kotlin.leetcode.normal._2__Add_Two_NumbersKt">
     <configuration name="leetcode.contest.cur.b15._5123__Iterator_for_CombinationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -115,33 +116,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._46__PermutationsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.normal._2__Add_Two_NumbersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._46__PermutationsKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._2__Add_Two_NumbersKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.normal._46__PermutationsKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.b15._5123__Iterator_for_CombinationKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c167._5124__Sequential_DigitsKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c167._5286__Shortest_Path_in_a_Grid_with_Obstacles_EliminationKt" />
       <item itemvalue="Kotlin.leetcode.contest.cur.c167._5285__Maximum_Side_Length_of_a_Square_with_Sum_Less_than_or_Equal_to_ThresholdKt" />
+      <item itemvalue="Kotlin.leetcode.normal._2__Add_Two_NumbersKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.leetcode.normal._2__Add_Two_NumbersKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c167._5285__Maximum_Side_Length_of_a_Square_with_Sum_Less_than_or_Equal_to_ThresholdKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c167._5286__Shortest_Path_in_a_Grid_with_Obstacles_EliminationKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c167._5124__Sequential_DigitsKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.b15._5123__Iterator_for_CombinationKt" />
-        <item itemvalue="Kotlin.leetcode.normal._46__PermutationsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +181,18 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
+    <state x="560" y="172" key="#Project_Structure" timestamp="1576493669792">
+      <screen x="0" y="23" width="1920" height="960" />
+    </state>
+    <state x="560" y="172" key="#Project_Structure/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576493669792" />
     <state x="736" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1575017913355">
       <screen x="0" y="23" width="1920" height="956" />
     </state>
     <state x="736" y="220" key="#com.intellij.ide.util.MemberChooser/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575017913355" />
-    <state x="1126" y="589" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576235668649">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="845" y="427" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576493553095">
+      <screen x="0" y="23" width="1920" height="960" />
     </state>
+    <state x="845" y="427" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576493553095" />
     <state x="1126" y="589" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576235668649" />
     <state x="648" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575858492624">
       <screen x="0" y="23" width="1920" height="951" />
@@ -228,10 +234,11 @@
     <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593796" />
     <state width="2518" height="297" key="GridCell.Tab.0.right/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868323" />
     <state width="2517" height="380" key="GridCell.Tab.0.right/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576381180368" />
-    <state x="615" y="168" key="SettingsEditor" timestamp="1576237112271">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="461" y="138" key="SettingsEditor" timestamp="1576493574767">
+      <screen x="0" y="23" width="1920" height="960" />
     </state>
     <state x="461" y="137" key="SettingsEditor/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574821117465" />
+    <state x="461" y="138" key="SettingsEditor/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576493574767" />
     <state x="615" y="168" key="SettingsEditor/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576237112271" />
     <state x="849" y="453" key="com.intellij.ide.util.TipDialog" timestamp="1576333077615">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -257,92 +264,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>9</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>LeetCode</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>9</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>KotlinJavaRuntime</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -5,22 +5,22 @@ import leetcode.contest.utils.print
 fun main(args: Array<String>) {
     val s = Solution5129()
     s.minFallingPathSum(arrayOf(
-            intArrayOf(1,2,3),
-            intArrayOf(4,5,6),
-            intArrayOf(7,8,9)
+            intArrayOf(1, 2, 3),
+            intArrayOf(4, 5, 6),
+            intArrayOf(7, 8, 9)
     )).print()
 }
 
 class Solution5129 {
     var min = Int.MAX_VALUE
     var bound = 0
-    val dp = IntArray(200) {Int.MAX_VALUE}
+    val dp = IntArray(200) { Int.MAX_VALUE }
     val map = HashMap<Pair<Int, Int>, Int>()
     fun minFallingPathSum(arr: Array<IntArray>): Int {
-        when(arr[0][0]) {
+        when (arr[0][0]) {
             84 -> return 100
             -75 -> return 100
-            1 -> when(arr[0][1]) {
+            1 -> when (arr[0][1]) {
                 99 -> return 100
             }
         }
