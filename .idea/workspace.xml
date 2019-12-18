@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/normal/122. Best Time to Buy and Sell Stock II.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/b15/5129. Minimum Falling Path Sum II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b15/5129. Minimum Falling Path Sum II.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/112. Path Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/112. Path Sum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/113. Path Sum II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/113. Path Sum II.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/114. Flatten Binary Tree to Linked List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/114. Flatten Binary Tree to Linked List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/118. Pascal's Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/118. Pascal's Triangle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/119. Pascal's Triangle II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/119. Pascal's Triangle II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/120. Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/120. Triangle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/121. Best Time to Buy and Sell Stock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/121. Best Time to Buy and Sell Stock.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,86 +64,86 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.normal._2__Add_Two_NumbersKt">
-    <configuration name="leetcode.contest.cur.b15._5123__Iterator_for_CombinationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.leetcode.normal._121__Best_Time_to_Buy_and_Sell_StockKt">
+    <configuration name="leetcode.contest.cur.b15._5129__Minimum_Falling_Path_Sum_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.b15._5123__Iterator_for_CombinationKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.b15._5129__Minimum_Falling_Path_Sum_IIKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.cur.c167._5124__Sequential_DigitsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.normal._118__Pascal_s_TriangleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c167._5124__Sequential_DigitsKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._118__Pascal_s_TriangleKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.cur.c167._5285__Maximum_Side_Length_of_a_Square_with_Sum_Less_than_or_Equal_to_ThresholdKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.normal._119__Pascal_s_Triangle_IIKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c167._5285__Maximum_Side_Length_of_a_Square_with_Sum_Less_than_or_Equal_to_ThresholdKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._119__Pascal_s_Triangle_IIKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.contest.cur.c167._5286__Shortest_Path_in_a_Grid_with_Obstacles_EliminationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.normal._120__TriangleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c167._5286__Shortest_Path_in_a_Grid_with_Obstacles_EliminationKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._120__TriangleKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._2__Add_Two_NumbersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.normal._121__Best_Time_to_Buy_and_Sell_StockKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._2__Add_Two_NumbersKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.normal._121__Best_Time_to_Buy_and_Sell_StockKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.leetcode.contest.cur.b15._5123__Iterator_for_CombinationKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.c167._5124__Sequential_DigitsKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.c167._5286__Shortest_Path_in_a_Grid_with_Obstacles_EliminationKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.c167._5285__Maximum_Side_Length_of_a_Square_with_Sum_Less_than_or_Equal_to_ThresholdKt" />
-      <item itemvalue="Kotlin.leetcode.normal._2__Add_Two_NumbersKt" />
+      <item itemvalue="Kotlin.leetcode.normal._118__Pascal_s_TriangleKt" />
+      <item itemvalue="Kotlin.leetcode.normal._119__Pascal_s_Triangle_IIKt" />
+      <item itemvalue="Kotlin.leetcode.normal._120__TriangleKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.b15._5129__Minimum_Falling_Path_Sum_IIKt" />
+      <item itemvalue="Kotlin.leetcode.normal._121__Best_Time_to_Buy_and_Sell_StockKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.leetcode.normal._2__Add_Two_NumbersKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c167._5285__Maximum_Side_Length_of_a_Square_with_Sum_Less_than_or_Equal_to_ThresholdKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c167._5286__Shortest_Path_in_a_Grid_with_Obstacles_EliminationKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.c167._5124__Sequential_DigitsKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.b15._5123__Iterator_for_CombinationKt" />
+        <item itemvalue="Kotlin.leetcode.normal._121__Best_Time_to_Buy_and_Sell_StockKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.b15._5129__Minimum_Falling_Path_Sum_IIKt" />
+        <item itemvalue="Kotlin.leetcode.normal._120__TriangleKt" />
+        <item itemvalue="Kotlin.leetcode.normal._119__Pascal_s_Triangle_IIKt" />
+        <item itemvalue="Kotlin.leetcode.normal._118__Pascal_s_TriangleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -202,36 +203,48 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="894" y="281" key="FileChooserDialogImpl/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576235792393" />
-    <state width="2517" height="380" key="GridCell.Tab.0.bottom" timestamp="1576381180368">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="195" key="GridCell.Tab.0.bottom" timestamp="1576668508256">
+      <screen x="0" y="23" width="1920" height="951" />
     </state>
-    <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072423" />
+    <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1576668508256" />
     <state width="1878" height="197" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115286" />
     <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593797" />
+    <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576568442153" />
+    <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.964@0.23.1920.964" timestamp="1576634235430" />
+    <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.967@0.23.1920.967" timestamp="1576548657306" />
     <state width="2518" height="297" key="GridCell.Tab.0.bottom/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868324" />
     <state width="2517" height="380" key="GridCell.Tab.0.bottom/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576381180368" />
-    <state width="2517" height="380" key="GridCell.Tab.0.center" timestamp="1576381180368">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="195" key="GridCell.Tab.0.center" timestamp="1576668508255">
+      <screen x="0" y="23" width="1920" height="951" />
     </state>
-    <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072422" />
+    <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1576668508255" />
     <state width="1878" height="197" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115284" />
     <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593796" />
+    <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576568442152" />
+    <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.964@0.23.1920.964" timestamp="1576634235429" />
+    <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.967@0.23.1920.967" timestamp="1576548657304" />
     <state width="2518" height="297" key="GridCell.Tab.0.center/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868323" />
     <state width="2517" height="380" key="GridCell.Tab.0.center/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576381180368" />
-    <state width="2517" height="380" key="GridCell.Tab.0.left" timestamp="1576381180368">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="195" key="GridCell.Tab.0.left" timestamp="1576668508254">
+      <screen x="0" y="23" width="1920" height="951" />
     </state>
-    <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072421" />
+    <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1576668508254" />
     <state width="1878" height="197" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115283" />
     <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593795" />
+    <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576568442152" />
+    <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.964@0.23.1920.964" timestamp="1576634235429" />
+    <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.967@0.23.1920.967" timestamp="1576548657304" />
     <state width="2518" height="297" key="GridCell.Tab.0.left/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868322" />
     <state width="2517" height="380" key="GridCell.Tab.0.left/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576381180368" />
-    <state width="2517" height="380" key="GridCell.Tab.0.right" timestamp="1576381180368">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1878" height="195" key="GridCell.Tab.0.right" timestamp="1576668508255">
+      <screen x="0" y="23" width="1920" height="951" />
     </state>
-    <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072422" />
+    <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1576668508255" />
     <state width="1878" height="197" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115285" />
     <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593796" />
+    <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576568442153" />
+    <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.964@0.23.1920.964" timestamp="1576634235430" />
+    <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.967@0.23.1920.967" timestamp="1576548657305" />
     <state width="2518" height="297" key="GridCell.Tab.0.right/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868323" />
     <state width="2517" height="380" key="GridCell.Tab.0.right/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576381180368" />
     <state x="461" y="138" key="SettingsEditor" timestamp="1576493574767">

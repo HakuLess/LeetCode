@@ -21,15 +21,12 @@ class Solution120 {
         dp[0] = triangle[0][0]
         for (i in 1 until dp.size) {
             size++
-            dp.print()
             val temp = dp[size - 1]
             for (j in size downTo 0) {
-                if (j == 0) {
-                    dp[j] += triangle[i][j]
-                } else if (j == size) {
-                    dp[j] += triangle[i][j] + temp
-                } else {
-                    dp[j] = triangle[i][j] + minOf(dp[j], dp[j - 1])
+                when (j) {
+                    0 -> dp[j] += triangle[i][j]
+                    size -> dp[j] += triangle[i][j] + temp
+                    else -> dp[j] = triangle[i][j] + minOf(dp[j], dp[j - 1])
                 }
             }
         }
