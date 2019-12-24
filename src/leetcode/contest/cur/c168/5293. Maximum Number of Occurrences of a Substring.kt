@@ -5,8 +5,6 @@ import leetcode.contest.utils.print
 fun main(args: Array<String>) {
     val s = Solution5293()
     s.maxFreq("aababcaab", 2, 3, 4).print()
-
-
     s.maxFreq("abcde", 2, 3, 3).print()
 }
 
