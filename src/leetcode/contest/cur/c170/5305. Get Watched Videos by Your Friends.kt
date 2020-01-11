@@ -2,31 +2,27 @@ package leetcode.contest.cur.c170
 
 import leetcode.contest.utils.print
 import java.util.*
-import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
 import kotlin.collections.HashSet
 
 fun main(args: Array<String>) {
     val s = Solution5305()
     s.watchedVideosByFriends(listOf(listOf("A", "B"), listOf("C"), listOf("B", "C"), listOf("D")),
-            arrayOf(intArrayOf(1,2), intArrayOf(0,3), intArrayOf(0,3), intArrayOf(1,2)),0,2).forEach {
+            arrayOf(intArrayOf(1, 2), intArrayOf(0, 3), intArrayOf(0, 3), intArrayOf(1, 2)), 0, 2).forEach {
         it.print()
     }
-    s.watchedVideosByFriends(listOf(listOf("xk","qvgjjsp","sbphxzm"), listOf("rwyvxl","ov")),
-            arrayOf(intArrayOf(1), intArrayOf(0)),0,1).forEach {
+    s.watchedVideosByFriends(listOf(listOf("xk", "qvgjjsp", "sbphxzm"), listOf("rwyvxl", "ov")),
+            arrayOf(intArrayOf(1), intArrayOf(0)), 0, 1).forEach {
         it.print()
     }
 }
 
 class Solution5305 {
-
     fun watchedVideosByFriends(watchedVideos: List<List<String>>, friends: Array<IntArray>, id: Int, level: Int): List<String> {
-        val queue:Queue<Int> = LinkedList<Int>()
+        val queue: Queue<Int> = LinkedList<Int>()
         queue.add(id)
-
         val seen = HashSet<Int>()
         seen.add(id)
-
         var step = -1
         val ans = HashMap<String, Int>()
         while (queue.isNotEmpty()) {

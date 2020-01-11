@@ -13,18 +13,18 @@ class Solution5306 {
         if (s in seen) {
             return seen[s]!!
         }
-        var start = 0
-        var end = s.lastIndex
+        val start = 0
+        val end = s.lastIndex
         var ans = 0
         while (start < end) {
-            if (s[start] == s[end]) {
+            return if (s[start] == s[end]) {
                 val res = minInsertions(s.substring(start + 1, end))
                 seen[s] = res
-                return res
+                res
             } else {
                 val res = 1 + minOf(minInsertions(s.substring(start + 1, end + 1)), minInsertions(s.substring(start, end)))
                 seen[s] = res
-                return res
+                res
             }
         }
         return 0

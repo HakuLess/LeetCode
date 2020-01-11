@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af007c2-a312-4c3c-b42b-dc40e1ae271d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b16/5134. Replace Elements with Greatest Element on Right Side.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b16/5135. Sum of Mutated Array Closest to Target.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b16/5137. Number of Paths with Max Score.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/b16/5153. Deepest Leaves Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/normal/137. Single Number II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/normal/137. Single Number II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c170/5304. XOR Queries of a Subarray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c170/5304. XOR Queries of a Subarray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c170/5305. Get Watched Videos by Your Friends.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c170/5305. Get Watched Videos by Your Friends.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/contest/cur/c170/5306. Minimum Insertion Steps to Make a String Palindrome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/contest/cur/c170/5306. Minimum Insertion Steps to Make a String Palindrome.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -63,46 +62,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.b16._5137__Number_of_Paths_with_Max_ScoreKt">
-    <configuration name="leetcode.contest.cur.b16._5134__Replace_Elements_with_Greatest_Element_on_Right_SideKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.b16._5134__Replace_Elements_with_Greatest_Element_on_Right_SideKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.contest.cur.b16._5135__Sum_of_Mutated_Array_Closest_to_TargetKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.b16._5135__Sum_of_Mutated_Array_Closest_to_TargetKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode.contest.cur.b16._5137__Number_of_Paths_with_Max_ScoreKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.b16._5137__Number_of_Paths_with_Max_ScoreKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.leetcode.contest.cur.c170._5306__Minimum_Insertion_Steps_to_Make_a_String_PalindromeKt">
     <configuration name="leetcode.contest.cur.c168._5293__Maximum_Number_of_Occurrences_of_a_SubstringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
@@ -116,14 +76,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode.normal._2__Add_Two_NumbersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.contest.cur.c170._5303__Decrypt_String_from_Alphabet_to_Integer_MappingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.normal._2__Add_Two_NumbersKt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c170._5303__Decrypt_String_from_Alphabet_to_Integer_MappingKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.contest.cur.c170._5304__XOR_Queries_of_a_SubarrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c170._5304__XOR_Queries_of_a_SubarrayKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.contest.cur.c170._5305__Get_Watched_Videos_by_Your_FriendsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c170._5305__Get_Watched_Videos_by_Your_FriendsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode.contest.cur.c170._5306__Minimum_Insertion_Steps_to_Make_a_String_PalindromeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.contest.cur.c170._5306__Minimum_Insertion_Steps_to_Make_a_String_PalindromeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,17 +130,17 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.leetcode.contest.cur.c168._5293__Maximum_Number_of_Occurrences_of_a_SubstringKt" />
-      <item itemvalue="Kotlin.leetcode.normal._2__Add_Two_NumbersKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.b16._5134__Replace_Elements_with_Greatest_Element_on_Right_SideKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.b16._5135__Sum_of_Mutated_Array_Closest_to_TargetKt" />
-      <item itemvalue="Kotlin.leetcode.contest.cur.b16._5137__Number_of_Paths_with_Max_ScoreKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c170._5303__Decrypt_String_from_Alphabet_to_Integer_MappingKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c170._5304__XOR_Queries_of_a_SubarrayKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c170._5305__Get_Watched_Videos_by_Your_FriendsKt" />
+      <item itemvalue="Kotlin.leetcode.contest.cur.c170._5306__Minimum_Insertion_Steps_to_Make_a_String_PalindromeKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.leetcode.contest.cur.b16._5137__Number_of_Paths_with_Max_ScoreKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.b16._5135__Sum_of_Mutated_Array_Closest_to_TargetKt" />
-        <item itemvalue="Kotlin.leetcode.contest.cur.b16._5134__Replace_Elements_with_Greatest_Element_on_Right_SideKt" />
-        <item itemvalue="Kotlin.leetcode.normal._2__Add_Two_NumbersKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.c170._5306__Minimum_Insertion_Steps_to_Make_a_String_PalindromeKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.c170._5305__Get_Watched_Videos_by_Your_FriendsKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.c170._5304__XOR_Queries_of_a_SubarrayKt" />
+        <item itemvalue="Kotlin.leetcode.contest.cur.c170._5303__Decrypt_String_from_Alphabet_to_Integer_MappingKt" />
         <item itemvalue="Kotlin.leetcode.contest.cur.c168._5293__Maximum_Number_of_Occurrences_of_a_SubstringKt" />
       </list>
     </recent_temporary>
@@ -181,19 +180,14 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="172" key="#Project_Structure" timestamp="1576493669792">
-      <screen x="0" y="23" width="1920" height="960" />
-    </state>
-    <state x="560" y="172" key="#Project_Structure/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576493669792" />
     <state x="736" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1575017913355">
       <screen x="0" y="23" width="1920" height="956" />
     </state>
     <state x="736" y="220" key="#com.intellij.ide.util.MemberChooser/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575017913355" />
-    <state x="845" y="427" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576493553095">
-      <screen x="0" y="23" width="1920" height="960" />
+    <state x="1126" y="589" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578147173020">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="845" y="427" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576493553095" />
-    <state x="1126" y="589" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576235668649" />
+    <state x="1126" y="589" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578147173020" />
     <state x="648" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575858492624">
       <screen x="0" y="23" width="1920" height="951" />
     </state>
@@ -202,71 +196,57 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="894" y="281" key="FileChooserDialogImpl/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576235792393" />
-    <state width="2518" height="296" key="GridCell.Tab.0.bottom" timestamp="1577546505863">
-      <screen x="0" y="23" width="2560" height="1311" />
+    <state width="2511" height="380" key="GridCell.Tab.0.bottom" timestamp="1578196558627">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1576668508256" />
+    <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072423" />
     <state width="1878" height="197" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115286" />
     <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593797" />
-    <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576568442153" />
-    <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.964@0.23.1920.964" timestamp="1576634235430" />
-    <state width="1878" height="195" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.967@0.23.1920.967" timestamp="1576548657306" />
-    <state width="2518" height="296" key="GridCell.Tab.0.bottom/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1577546505863" />
-    <state width="2517" height="380" key="GridCell.Tab.0.bottom/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576381180368" />
-    <state width="2518" height="296" key="GridCell.Tab.0.center" timestamp="1577546505862">
-      <screen x="0" y="23" width="2560" height="1311" />
+    <state width="2518" height="297" key="GridCell.Tab.0.bottom/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868324" />
+    <state width="2511" height="380" key="GridCell.Tab.0.bottom/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578196558627" />
+    <state width="2511" height="380" key="GridCell.Tab.0.center" timestamp="1578196558627">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1576668508255" />
+    <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072422" />
     <state width="1878" height="197" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115284" />
     <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593796" />
-    <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576568442152" />
-    <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.964@0.23.1920.964" timestamp="1576634235429" />
-    <state width="1878" height="195" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.967@0.23.1920.967" timestamp="1576548657304" />
-    <state width="2518" height="296" key="GridCell.Tab.0.center/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1577546505862" />
-    <state width="2517" height="380" key="GridCell.Tab.0.center/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576381180368" />
-    <state width="2518" height="296" key="GridCell.Tab.0.left" timestamp="1577546505861">
-      <screen x="0" y="23" width="2560" height="1311" />
+    <state width="2518" height="297" key="GridCell.Tab.0.center/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868323" />
+    <state width="2511" height="380" key="GridCell.Tab.0.center/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578196558627" />
+    <state width="2511" height="380" key="GridCell.Tab.0.left" timestamp="1578196558627">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1576668508254" />
+    <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072421" />
     <state width="1878" height="197" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115283" />
     <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593795" />
-    <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576568442152" />
-    <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.964@0.23.1920.964" timestamp="1576634235429" />
-    <state width="1878" height="195" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.967@0.23.1920.967" timestamp="1576548657304" />
-    <state width="2518" height="296" key="GridCell.Tab.0.left/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1577546505861" />
-    <state width="2517" height="380" key="GridCell.Tab.0.left/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576381180368" />
-    <state width="2518" height="296" key="GridCell.Tab.0.right" timestamp="1577546505862">
-      <screen x="0" y="23" width="2560" height="1311" />
+    <state width="2518" height="297" key="GridCell.Tab.0.left/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868322" />
+    <state width="2511" height="380" key="GridCell.Tab.0.left/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578196558627" />
+    <state width="2511" height="380" key="GridCell.Tab.0.right" timestamp="1578196558627">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1576668508255" />
+    <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575944072422" />
     <state width="1878" height="197" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575026115285" />
     <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576141593796" />
-    <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576568442153" />
-    <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.964@0.23.1920.964" timestamp="1576634235430" />
-    <state width="1878" height="195" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.967@0.23.1920.967" timestamp="1576548657305" />
-    <state width="2518" height="296" key="GridCell.Tab.0.right/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1577546505862" />
-    <state width="2517" height="380" key="GridCell.Tab.0.right/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576381180368" />
-    <state x="461" y="138" key="SettingsEditor" timestamp="1576493574767">
-      <screen x="0" y="23" width="1920" height="960" />
+    <state width="2518" height="297" key="GridCell.Tab.0.right/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575774868323" />
+    <state width="2511" height="380" key="GridCell.Tab.0.right/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578196558627" />
+    <state x="615" y="168" key="SettingsEditor" timestamp="1578743743298">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="461" y="137" key="SettingsEditor/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574821117465" />
-    <state x="461" y="138" key="SettingsEditor/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1576493574767" />
-    <state x="615" y="168" key="SettingsEditor/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576237112271" />
-    <state x="849" y="448" key="com.intellij.ide.util.TipDialog" timestamp="1577538912759">
-      <screen x="0" y="23" width="2560" height="1311" />
+    <state x="615" y="168" key="SettingsEditor/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578743743298" />
+    <state x="849" y="453" key="com.intellij.ide.util.TipDialog" timestamp="1578743241508">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="637" y="331" key="com.intellij.ide.util.TipDialog/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1575858521238" />
-    <state x="637" y="336" key="com.intellij.ide.util.TipDialog/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1576670420937" />
-    <state x="637" y="336" key="com.intellij.ide.util.TipDialog/-1440.203.1440.877/0.23.1920.960@0.23.1920.960" timestamp="1577100904833" />
-    <state x="849" y="448" key="com.intellij.ide.util.TipDialog/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1577538912759" />
-    <state x="849" y="453" key="com.intellij.ide.util.TipDialog/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576333077615" />
-    <state x="812" y="327" width="935" height="701" key="find.popup" timestamp="1577545006452">
-      <screen x="0" y="23" width="2560" height="1311" />
+    <state x="637" y="333" key="com.intellij.ide.util.TipDialog/-1440.203.1440.877/0.23.1920.956@0.23.1920.956" timestamp="1575018190623" />
+    <state x="849" y="448" key="com.intellij.ide.util.TipDialog/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575771789657" />
+    <state x="849" y="453" key="com.intellij.ide.util.TipDialog/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578743241508" />
+    <state x="812" y="325" width="935" height="749" key="find.popup" timestamp="1578195311979">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="609" y="244" width="701" height="508" key="find.popup/-1440.203.1440.877/0.23.1920.951@0.23.1920.951" timestamp="1574835302282" />
     <state x="609" y="244" width="701" height="509" key="find.popup/-1440.203.1440.877/0.23.1920.952@0.23.1920.952" timestamp="1575010551096" />
-    <state x="812" y="327" width="935" height="701" key="find.popup/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1577545006452" />
-    <state x="812" y="325" width="935" height="749" key="find.popup/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1576379556807" />
+    <state x="812" y="327" width="935" height="701" key="find.popup/-1440.65.1440.877/0.23.2560.1311@0.23.2560.1311" timestamp="1575170145493" />
+    <state x="812" y="325" width="935" height="749" key="find.popup/-1920.352.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1578195311979" />
     <state x="833" y="305" width="894" height="995" key="search.everywhere.popup" timestamp="1576337154583">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -277,5 +257,92 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LeetCode</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
