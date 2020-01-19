@@ -16,7 +16,7 @@ class Solution5318 {
         var q = 0
         var res = 0
         while (p < n) {
-            for (i in p..n) {
+            for (i in 0..n) {
                 if (i - ranges[i] <= p) {
                     q = maxOf(q, i + ranges[i])
                 }
