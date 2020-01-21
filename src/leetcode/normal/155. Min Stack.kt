@@ -5,7 +5,7 @@ class MinStack() {
     /** initialize your data structure here. */
     private val data = arrayListOf<Int>()
 
-    val minList = arrayListOf<Int>()
+    private val minList = arrayListOf<Int>()
 
     fun push(x: Int) {
         data.add(x)

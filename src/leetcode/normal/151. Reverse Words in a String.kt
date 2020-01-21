@@ -11,7 +11,6 @@ class Solution151 {
                 ans.append(" ")
             }
         }
-
         return ans.trim().toString()
     }
 }

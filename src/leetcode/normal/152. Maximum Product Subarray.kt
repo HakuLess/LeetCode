@@ -1,7 +1,6 @@
 package leetcode.normal
 
 class Solution152 {
-
     fun maxProduct(nums: IntArray): Int {
         var ans = nums[0]
         var min = ans
@@ -9,14 +8,14 @@ class Solution152 {
         for (i in 1 until nums.size) {
             val c = nums[i]
             if (c >= 0) {
-                min = Math.min(c, c * min)
-                max = Math.max(c, c * max)
+                min = minOf(c, c * min)
+                max = maxOf(c, c * max)
             } else {
                 val temp = min
-                min = Math.min(c, c * max)
-                max = Math.max(c, c * temp)
+                min = minOf(c, c * max)
+                max = maxOf(c, c * temp)
             }
-            ans = Math.max(ans, max)
+            ans = maxOf(ans, max)
         }
         return ans
     }
