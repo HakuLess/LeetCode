@@ -12,33 +12,59 @@ fun main(args: Array<String>) {
 
 class Solution5318 {
     fun minTaps(n: Int, ranges: IntArray): Int {
-        val intervals = ArrayList<Pair<Int, Int>>()
-        for (i in 0..n) {
-            intervals.add(Pair(i - ranges[i], i + ranges[i]))
+        val bounds = IntArray(n + 1)
+        ranges.forEachIndexed { index, it ->
+            val left = maxOf(0, index - it)
+            val right = minOf(n, index + it)
+            bounds[left] = right
+            println("$left set $right")
         }
-        intervals.sortBy { it.first }
-        var ans = 0
-        var cur = 0
-        var next = 0
-        var index = 0
-        while (index <= n) {
-            val it = intervals[index]
-            if (it.first <= cur) {
-                next = maxOf(next, it.second)
-                index++
-                if (next >= n) {
-                    return ans + 1
-                }
-            } else {
-                if (next == cur) {
-                    return -1
-                }
-                cur = next
+        bounds.print()
+        var ans = 1
+        var cur = bounds[0]
+        var next = bounds[0]
+
+        for (i in 1..n) {
+            if (i > next) return -1
+            if (i > cur) {
                 ans++
+                cur = next
+            }
+            if (bounds[i] > next) {
+                next = bounds[i]
             }
         }
         return ans
     }
+
+//    fun minTaps(n: Int, ranges: IntArray): Int {
+//        val intervals = ArrayList<Pair<Int, Int>>()
+//        for (i in 0..n) {
+//            intervals.add(Pair(i - ranges[i], i + ranges[i]))
+//        }
+//        intervals.sortBy { it.first }
+//        var ans = 0
+//        var cur = 0
+//        var next = 0
+//        var index = 0
+//        while (index <= n) {
+//            val it = intervals[index]
+//            if (it.first <= cur) {
+//                next = maxOf(next, it.second)
+//                index++
+//                if (next >= n) {
+//                    return ans + 1
+//                }
+//            } else {
+//                if (next == cur) {
+//                    return -1
+//                }
+//                cur = next
+//                ans++
+//            }
+//        }
+//        return ans
+//    }
 
 //    fun minTaps(n: Int, ranges: IntArray): Int {
 //        var p = 0
