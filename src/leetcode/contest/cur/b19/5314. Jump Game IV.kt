@@ -2,8 +2,7 @@ package leetcode.contest.cur.b19
 
 import leetcode.contest.utils.print
 import java.util.*
-import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
+
 
 fun main(args: Array<String>) {
     val s = Solution5314()
@@ -11,17 +10,47 @@ fun main(args: Array<String>) {
 }
 
 class Solution5314 {
+//    fun minJumps(arr: IntArray): Int {
+//        val map = HashMap<Int, HashSet<Int>>()
+//        arr.forEachIndexed { index, it ->
+//            map[it] = map.getOrDefault(it, hashSetOf())
+//            map[it]!!.add(index)
+//        }
+//        val queue: Queue<Int> = LinkedList<Int>()
+//        queue.add(0)
+//        val visited = BooleanArray(arr.size)
+//
+//        var count = 0
+//        while (!queue.isEmpty()) {
+//            val size = queue.size
+//            for (i in 0 until size) {
+//                val head = queue.poll()
+//                if (head == arr.size - 1) {
+//                    return count
+//                } else if (head in arr.indices && !visited[head]) {
+//                    visited[head] = true
+//                    queue.add(head - 1)
+//                    queue.add(head + 1)
+//                    for (j in map[arr[head]]!!) {
+//                        queue.add(j)
+//                    }
+//                    map[arr[head]]!!.clear()
+//                }
+//            }
+//            count++
+//        }
+//
+//        return -1
+//    }
+
     fun minJumps(arr: IntArray): Int {
-        if (arr.count { it == 7 } == arr.size - 1) {
-            return 2
-        }
-        val map = HashMap<Int, ArrayList<Int>>()
+        val map = HashMap<Int, HashSet<Int>>()
         arr.forEachIndexed { index, it ->
-            map[it] = map.getOrDefault(it, arrayListOf())
+            map[it] = map.getOrDefault(it, hashSetOf())
             map[it]!!.add(index)
         }
 
-        val step = IntArray(arr.size) { -1 }
+        val seen = BooleanArray(arr.size) { false }
         val queue: Queue<Int> = LinkedList<Int>()
         queue.add(0)
         var s = -1
@@ -30,10 +59,13 @@ class Solution5314 {
             s++
             for (i in 0 until size) {
                 val item = queue.poll()
-                if (step[item] != -1) {
+                if (item == arr.lastIndex) {
+                    return s
+                }
+                if (seen[item]) {
                     continue
                 }
-                step[item] = s
+                seen[item] = true
                 if (item + 1 in arr.indices)
                     queue.offer(item + 1)
                 if (item - 1 in arr.indices)
@@ -41,14 +73,7 @@ class Solution5314 {
                 map[arr[item]]?.forEach {
                     queue.offer(it)
                 }
-//                arr.forEachIndexed { index, i ->
-//                    if (i == arr[item]) {
-//                        queue.offer(index)
-//                    }
-//                }
-                if (step.last() != -1) {
-                    return step.last()
-                }
+                map[arr[item]]?.clear()
             }
         }
         return -1
