@@ -11,28 +11,20 @@ fun main(args: Array<String>) {
 
 class Solution5325 {
     fun numberOfSubstrings(s: String): Int {
-        val cur = HashMap<Char, Int>()
-        cur['a'] = 0
-        cur['b'] = 0
-        cur['c'] = 0
-
+        val cur = intArrayOf(0, 0, 0)
         var left = 0
         var right = 0
         var ans = 0
         while (left != s.lastIndex) {
-            if (cur['a']!! > 0 && cur['b']!! > 0 && cur['c']!! > 0) {
-//                println("$left $right")
-//                println("add ${s.lastIndex - right + 2}")
+            if (cur[0] > 0 && cur[1] > 0 && cur[2] > 0) {
                 ans += s.lastIndex - right + 2
-                cur[s[left]] = cur[s[left]]!! - 1
+                cur[s[left]- 'a'] = cur[s[left] - 'a'] - 1
                 left++
             } else {
-//                println("$left $right")
-//                println("cur ${cur['a']} ${cur['b']} ${cur['c']}")
                 if (right > s.lastIndex) {
                     return ans
                 }
-                cur[s[right]] = cur[s[right]]!! + 1
+                cur[s[right] - 'a'] = cur[s[right] - 'a'] + 1
                 right++
             }
         }
