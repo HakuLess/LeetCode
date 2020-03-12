@@ -37,19 +37,18 @@ class Solution5343 {
             pq.offer(it.toLong())
             sum += it
         }
-        while (pq.peek() != 1L) {
-            val item = pq.poll()
-            if (item == 1L) {
-                continue
+        while (true) {
+            val item = pq.poll() ?: 0L
+            sum -= item
+            if (item == 1L || sum == 1L) {
+                return true
             }
-            val last = sum - item
-            if (item - last < 1) {
+            if (item < sum || sum == 0L || item % sum == 0L) {
                 return false
             }
-            pq.offer(item - last)
-            sum -= last
+            pq.add(item % sum)
+            sum += item % sum
         }
-        return true
     }
 
 //    fun helper(cur: IntArray, target: IntArray): Boolean {
