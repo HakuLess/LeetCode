@@ -1,19 +1,6 @@
 package leetcode.contest.cur.b22
 
 import leetcode.contest.utils.print
-import leetcode.contest.utils.toArrayList
-import java.util.*
-import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
-import kotlin.collections.contains
-import kotlin.collections.indices
-import kotlin.collections.joinToString
-import kotlin.collections.lastIndex
-import kotlin.collections.max
-import kotlin.collections.set
-import kotlin.collections.sortDescending
-import kotlin.collections.toIntArray
-import kotlin.math.max
 
 
 fun main(args: Array<String>) {
@@ -25,11 +12,11 @@ fun main(args: Array<String>) {
 class Solution5351 {
 
     fun maxSizeSlices(slices: IntArray): Int {
-        return maxOf(maxSizeSlices2(slices.copyOfRange(1, slices.size)),
-                maxSizeSlices2(slices.copyOfRange(0, slices.size - 1)))
+        return maxOf(helper(slices.copyOfRange(1, slices.size)),
+                helper(slices.copyOfRange(0, slices.size - 1)))
     }
 
-    private fun maxSizeSlices2(slices: IntArray): Int {
+    private fun helper(slices: IntArray): Int {
         val dp = Array(slices.size / 3 + 1) { IntArray(slices.size) }
         for (i in dp.indices) {
             for (j in slices.indices) {
@@ -40,6 +27,7 @@ class Solution5351 {
         }
         return dp[dp.lastIndex][slices.lastIndex]
     }
+
 //    val seen = HashMap<String, Int>()
 //
 //    fun maxSizeSlices(slices: IntArray): Int {
