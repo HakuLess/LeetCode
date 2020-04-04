@@ -3,11 +3,11 @@ package leetcode.learn
 import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
-    val intArray = intArrayOf(0,1,0,3,12)
+    val intArray = intArrayOf(0, 1, 0, 3, 12)
     moveZeroes(intArray)
 }
 
-fun moveZeroes(nums: IntArray): Unit {
+private fun moveZeroes(nums: IntArray): Unit {
 
     var offset = 0
     nums.forEachIndexed { index, value ->
