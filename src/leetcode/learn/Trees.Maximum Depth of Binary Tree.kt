@@ -15,6 +15,6 @@ fun maxDepth(root: TreeNode?, level: Int): Int {
     return if (root == null) {
         level
     } else {
-        max(maxDepth(root.left, level + 1), maxDepth(root.right, level + 1))
+        maxOf(maxDepth(root.left, level + 1), maxDepth(root.right, level + 1))
     }
 }

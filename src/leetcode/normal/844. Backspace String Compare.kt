@@ -2,37 +2,22 @@ package leetcode.normal
 
 import java.util.*
 
-fun backspaceCompare(S: String, T: String): Boolean {
-    val s1 = Stack<Char>()
-    val s2 = Stack<Char>()
+class Solution844 {
+    fun backspaceCompare(S: String, T: String): Boolean {
+        return helper(S) == helper(T)
+    }
 
-    S.forEach {
-        if (it == '#') {
-            if (s1.isNotEmpty()) {
-                s1.pop()
+    private fun helper(str: String): String {
+        val s = Stack<Char>()
+        str.forEach {
+            if (it == '#') {
+                if (s.isNotEmpty()) {
+                    s.pop()
+                }
+            } else {
+                s.push(it)
             }
-        } else {
-            s1.push(it)
         }
+        return s.joinToString("")
     }
-
-    T.forEach {
-        if (it == '#') {
-            if (s2.isNotEmpty()) {
-                s2.pop()
-            }
-        } else {
-            s2.push(it)
-        }
-    }
-
-    if (s1.size != s2.size) {
-        return false
-    }
-    for (i in 0 until s1.size) {
-        if (s1.pop() != s2.pop()) {
-            return false
-        }
-    }
-    return true
 }
