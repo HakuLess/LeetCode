@@ -39,35 +39,34 @@ class Solutionq4 {
 
 
     fun minJump(jump: IntArray): Int {
-        val queue = HashSet<Int>()
+        val queue: Queue<Int> = LinkedList<Int>()
         queue.add(0)
 
-        val ql = HashMap<Int, HashSet<Int>>()
-        ql[0] = queue
+        val dp = IntArray(jump.size) { Int.MAX_VALUE }
+        dp[0] = 0
+        var left = 0
 
-        val seen = HashSet<Int>()
-        var cur = 0
+        while (queue.isNotEmpty()) {
+            val item = queue.poll()
+            val next = item + jump[item]
+            if (next >= jump.size) {
+                return dp[item] + 1
+            } else if (dp[item] + 1 < dp[next]) {
+                dp[next] = dp[item] + 1
+                queue.offer(next)
+                println("add $next a")
+            }
 
-        while (ql[cur]!!.isNotEmpty()) {
-            val size = ql[cur]!!.size
-            ql[cur]!!.forEach { item ->
-                if (item !in seen) {
-                    seen.add(item)
-                    if (item !in jump.indices) {
-                        return cur
-                    }
-                    ql[cur + 1] = ql.getOrDefault(cur + 1, HashSet<Int>())
-                    if (item + jump[item] !in seen)
-                        ql[cur + 1]!!.add(item + jump[item])
-                    for (i in item + 1 until (item + jump[item])) {
-                        ql[cur + 2] = ql.getOrDefault(cur + 2, HashSet<Int>())
-                        if (i !in seen)
-                            ql[cur + 2]!!.add(i)
-                    }
+            for (i in left + 1..item) {
+                if (dp[item] + 1 < dp[i]) {
+                    dp[i] = dp[item] + 1
+                    queue.offer(i)
+                    println("add $i b")
                 }
             }
-            cur++
+            left = maxOf(left, item)
         }
+        dp.print()
         return -1
     }
 }
