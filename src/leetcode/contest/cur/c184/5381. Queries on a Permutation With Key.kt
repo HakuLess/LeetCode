@@ -1,6 +1,7 @@
 package leetcode.contest.cur.c184
 
 import leetcode.contest.utils.print
+import java.util.*
 
 fun main(args: Array<String>) {
     val s = Solution5381()
@@ -9,7 +10,7 @@ fun main(args: Array<String>) {
 
 class Solution5381 {
     fun processQueries(queries: IntArray, m: Int): IntArray {
-        val cur = arrayListOf<Int>()
+        val cur = LinkedList<Int>()
         for (i in 1..m) {
             cur.add(i)
         }

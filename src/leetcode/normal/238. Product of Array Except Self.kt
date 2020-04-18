@@ -21,7 +21,7 @@ fun productExceptSelf(nums: IntArray): IntArray {
     }
 
     val ans = IntArray(nums.size)
-    for (i in 0 until nums.size) {
+    for (i in nums.indices) {
         when (i) {
             0 -> ans[i] = rightArray[i + 1]
             nums.size - 1 -> ans[i] = leftArray[i - 1]
