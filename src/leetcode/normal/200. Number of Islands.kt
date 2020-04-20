@@ -5,17 +5,15 @@ class Solution200 {
         if (grid.isEmpty() || grid[0].isEmpty()) {
             return 0
         }
-
         var ans = 0
-        for (i in 0 until grid.size) {
-            for (j in 0 until grid[0].size) {
+        for (i in grid.indices) {
+            for (j in grid[0].indices) {
                 if (grid[i][j] == '1') {
                     ans--
                     dfs(grid, i, j, ans)
                 }
             }
         }
-
         return -ans
     }
 
