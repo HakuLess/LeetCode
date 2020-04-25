@@ -9,27 +9,50 @@ fun main(args: Array<String>) {
 }
 
 class Solution46 {
+
+    val ans = ArrayList<List<Int>>()
+
     fun permute(nums: IntArray): List<List<Int>> {
-        val res = ArrayList<List<Int>>()
-        val visited = IntArray(nums.size)
-        backtrack(res, nums, ArrayList(), visited)
-        return res
+        backtrack(nums, arrayListOf())
+        return ans
     }
 
-    private fun backtrack(res: MutableList<List<Int>>, nums: IntArray, tmp: ArrayList<Int>, visited: IntArray) {
-        if (tmp.size == nums.size) {
-            res.add(ArrayList(tmp))
+    private fun backtrack(nums: IntArray, tracker: ArrayList<Int>) {
+        if (tracker.size == nums.size) {
+            ans.add(ArrayList(tracker))
             return
         }
-        for (i in nums.indices) {
-            if (visited[i] == 1) continue
-            visited[i] = 1
-            tmp.add(nums[i])
-            backtrack(res, nums, tmp, visited)
-            visited[i] = 0
-            tmp.removeAt(tmp.size - 1)
+        for (num in nums) {
+            if (tracker.contains(num)) {
+                continue
+            }
+            tracker.add(num)
+            backtrack(nums, tracker)
+            tracker.remove(num)
         }
     }
+
+//    fun permute(nums: IntArray): List<List<Int>> {
+//        val res = ArrayList<List<Int>>()
+//        val visited = IntArray(nums.size)
+//        backtrack(res, nums, ArrayList(), visited)
+//        return res
+//    }
+//
+//    private fun backtrack(res: MutableList<List<Int>>, nums: IntArray, tmp: ArrayList<Int>, visited: IntArray) {
+//        if (tmp.size == nums.size) {
+//            res.add(ArrayList(tmp))
+//            return
+//        }
+//        for (i in nums.indices) {
+//            if (visited[i] == 1) continue
+//            visited[i] = 1
+//            tmp.add(nums[i])
+//            backtrack(res, nums, tmp, visited)
+//            visited[i] = 0
+//            tmp.removeAt(tmp.size - 1)
+//        }
+//    }
 
 //    fun permute(nums: IntArray): List<List<Int>> {
 //        val result = arrayListOf<ArrayList<Int>>()
