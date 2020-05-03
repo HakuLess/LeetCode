@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
 class Solution378 {
     fun kthSmallest(matrix: Array<IntArray>, k: Int): Int {
         var n = 0
-        for (i in 0 until matrix.size) {
+        for (i in matrix.indices) {
             if ((i + 1) * (i + 1) >= k) {
                 n = i
             }
