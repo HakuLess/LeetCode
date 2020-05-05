@@ -1,7 +1,6 @@
 package leetcode.contest.cur.b25
 
 import leetcode.contest.utils.print
-import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
 import kotlin.collections.set
@@ -9,11 +8,11 @@ import kotlin.collections.set
 
 fun main(args: Array<String>) {
     val s = Solution5387()
-//    s.numberWays(listOf(
-//            listOf(3, 4),
-//            listOf(4, 5),
-//            listOf(5)
-//    )).print()
+    s.numberWays(listOf(
+            listOf(3, 4),
+            listOf(4, 5),
+            listOf(5)
+    )).print()
 
     s.numberWays(listOf(
             listOf(4, 15, 16, 26, 28),
@@ -43,43 +42,73 @@ fun main(args: Array<String>) {
 
 class Solution5387 {
 
-    val mod = 1000000007
-    val meet = HashMap<String, Int>()
-    var allmask = 0
-    var t = 0
     fun numberWays(hats: List<List<Int>>): Int {
-        val adj: Array<ArrayList<Int>> = Array<ArrayList<Int>>(41) { arrayListOf() }
+        val mod = 1000000007
+        val h2p = HashMap<Int, ArrayList<Int>>()
         val n: Int = hats.size
         for (i in 0 until n) {
             for (j in hats[i]) {
-                adj[j - 1].add(i)
+                h2p[j] = h2p.getOrDefault(j, arrayListOf())
+                h2p[j]!!.add(i)
             }
         }
-        allmask = (1 shl n) - 1
-        return helper(0, 0, adj.toList())
+
+        val m = (1 shl n) - 1
+        val dp = IntArray(m + 1)
+        dp[0] = 1
+        var key = 0
+        val count = h2p.count()
+        for (p in h2p.values) {
+            key++
+            for (i in m downTo if (key == count) m else 0) {
+                p.forEach {
+                    if (i and (1 shl it) != 0) {
+                        dp[i] += dp[i - (1 shl it)]
+                        dp[i] %= mod
+                    }
+                }
+            }
+        }
+        return dp.last()
     }
 
-    private fun helper(cur: Int, mask: Int, hats: List<List<Int>>): Int {
-        if (cur > 40) {
-            return 0
-        }
-        if (mask == allmask) {
-            return 1
-        }
-        val key = "$cur $mask"
-        if (key in meet) {
-            return meet[key]!!
-        }
-        var ans = 0
-        ans = (ans + helper(cur + 1, mask, hats)) % mod
-        hats[cur].forEach {
-            if (mask and (1 shl it) == 0) {
-                ans = (ans + helper(cur + 1, mask or (1 shl it), hats)) % mod
-            }
-        }
-        meet[key] = ans
-        t++
-        println("$t : $key, $ans ")
-        return ans
-    }
+//    val mod = 1000000007
+//    val meet = HashMap<String, Int>()
+//    var allmask = 0
+//    var t = 0
+//    fun numberWays(hats: List<List<Int>>): Int {
+//        val adj: Array<ArrayList<Int>> = Array<ArrayList<Int>>(41) { arrayListOf() }
+//        val n: Int = hats.size
+//        for (i in 0 until n) {
+//            for (j in hats[i]) {
+//                adj[j - 1].add(i)
+//            }
+//        }
+//        allmask = (1 shl n) - 1
+//        return helper(0, 0, adj.toList())
+//    }
+//
+//    private fun helper(cur: Int, mask: Int, hats: List<List<Int>>): Int {
+//        if (cur > 40) {
+//            return 0
+//        }
+//        if (mask == allmask) {
+//            return 1
+//        }
+//        val key = "$cur $mask"
+//        if (key in meet) {
+//            return meet[key]!!
+//        }
+//        var ans = 0
+//        ans = (ans + helper(cur + 1, mask, hats)) % mod
+//        hats[cur].forEach {
+//            if (mask and (1 shl it) == 0) {
+//                ans = (ans + helper(cur + 1, mask or (1 shl it), hats)) % mod
+//            }
+//        }
+//        meet[key] = ans
+//        t++
+//        println("$t : $key, $ans ")
+//        return ans
+//    }
 }

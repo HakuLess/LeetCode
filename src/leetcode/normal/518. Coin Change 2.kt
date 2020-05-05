@@ -14,7 +14,7 @@ class Solution518 {
         val dp = IntArray(amount + 1) { 0 }
         dp[0] = 1
 
-        for (i in 0 until coins.size) {
+        for (i in coins.indices) {
             for (j in coins[i]..dp.lastIndex) {
                 dp[j] += dp[j - coins[i]]
             }
