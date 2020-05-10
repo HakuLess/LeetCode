@@ -5,7 +5,7 @@ class Solution69 {
         if (x == 0)
             return 0
         var left = 1
-        var right = Integer.MAX_VALUE
+        var right = x
         while (true) {
             val mid = left + (right - left) / 2
             if (mid > x / mid) {
