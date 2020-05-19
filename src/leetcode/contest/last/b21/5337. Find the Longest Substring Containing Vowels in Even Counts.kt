@@ -42,6 +42,7 @@ class Solution5337 {
             else -> -1
         }
     }
+
 //    fun findTheLongestSubstring(s: String): Int {
 //        val ints = IntArray(5)
 //        val map = Array<IntArray>(s.length) { intArrayOf(0, 0, 0, 0, 0) }
