@@ -6,7 +6,6 @@ class Solution76 {
         t.forEach {
             map[it] = map.getOrDefault(it, 0) - 1
         }
-
         var start = 0
         var cur = 0
         var ans = ""
@@ -14,7 +13,6 @@ class Solution76 {
             if (s[cur] in map.keys) {
                 map[s[cur]] = map[s[cur]]!! + 1
             }
-
             while (isValid(map)) {
                 if (ans.isEmpty() || ans.length > cur - start + 1) {
                     ans = s.substring(start, cur + 1)
@@ -24,7 +22,6 @@ class Solution76 {
                 }
                 start++
             }
-
             cur++
         }
         return ans

@@ -7,7 +7,6 @@ class Solution105 {
         if (preorder.isEmpty()) {
             return null
         }
-
         return buildSubTree(preorder, inorder, 0, preorder.size - 1, 0)
     }
 
