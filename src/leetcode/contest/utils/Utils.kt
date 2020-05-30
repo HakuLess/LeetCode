@@ -5,6 +5,10 @@ import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
 
+object L {
+    operator fun <T> get(vararg a: T) = listOf(*a)
+}
+
 fun gcd(a: Int, b: Int): Int {
     return if (b == 0) a else gcd(b, a % b)
 }

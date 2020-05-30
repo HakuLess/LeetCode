@@ -1,14 +1,12 @@
 package leetcode.contest.cur.`2020`.q1
 
+import leetcode.contest.utils.L
 import leetcode.contest.utils.print
-import leetcode.contest.utils.printInt
 import java.util.*
-import kotlin.collections.HashMap
-import kotlin.collections.HashSet
 
 fun main(args: Array<String>) {
     val s = Solutionq4()
-    s.minJump(intArrayOf(2, 5, 1, 1, 1, 1)).print()
+    s.minJump(L[2, 5, 1, 1, 1, 1].toIntArray()).print()
 }
 
 class Solutionq4 {
