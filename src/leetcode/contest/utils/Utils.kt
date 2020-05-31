@@ -1,6 +1,7 @@
 package leetcode.contest.utils
 
 import leetcode.learn.TNode
+import java.math.BigInteger
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
@@ -100,6 +101,18 @@ inline fun String.print() {
 
 inline fun Int.print() {
     println("Int is " + this)
+}
+
+inline fun BigInteger.print() {
+    println("BigInteger is " + this)
+}
+
+inline fun Int.toBigInteger() : BigInteger {
+    return BigInteger.valueOf(this.toLong())
+}
+
+inline fun Long.toBigInteger() : BigInteger {
+    return BigInteger.valueOf(this)
 }
 
 inline fun IntArray.toArrayList(): ArrayList<Int> {
