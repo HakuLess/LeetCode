@@ -12,31 +12,17 @@ fun main(args: Array<String>) {
 
 class Solution16 {
     fun threeSumClosest(nums: IntArray, target: Int): Int {
-        val sorted = nums.sorted()
+        nums.sort()
         var result = nums[0] + nums[1] + nums[2]
-
-        sorted.forEachIndexed { index, it ->
-            var left = index + 1
-            var right = sorted.size - 1
-            val curTarget = target - it
-            while (left < right) {
-                when {
-                    sorted[left] + sorted[right] < curTarget -> {
-                        if (abs(result - target) > abs(sorted[left] + sorted[right] - curTarget)) {
-                            result = sorted[left] + sorted[right] + it
-                        }
-                        left++
-                    }
-                    sorted[left] + sorted[right] == curTarget -> {
-                        return target
-                    }
-                    else -> {
-                        if (abs(result - target) > abs(sorted[left] + sorted[right] - curTarget)) {
-                            result = sorted[left] + sorted[right] + it
-                        }
-                        right--
-                    }
-                }
+        for (i in 0..nums.size - 2) {
+            var l = i + 1
+            var r = nums.size - 1
+            while (l < r) {
+                val sum = nums[i] + nums[l] + nums[r]
+                if (abs(target - sum) < abs(target - result))
+                    result = sum
+                if (sum > target) r--
+                else l++
             }
         }
         return result

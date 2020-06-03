@@ -14,22 +14,24 @@ fun main(args: Array<String>) {
 class Solution15 {
     fun threeSum(nums: IntArray): List<List<Int>> {
         val result = hashSetOf<List<Int>>()
-        val sorted = nums.sorted()
-
-        sorted.forEachIndexed { index, it ->
+        nums.sort()
+        for (index in nums.indices) {
+            val it = nums[index]
             if (it > 0)
                 return result.toMutableList()
+            if (index > 0 && nums[index - 1] == it)
+                continue
             var left = index + 1
-            var right = sorted.size - 1
+            var right = nums.size - 1
             val target = -it
             while (left < right) {
-                if (it + sorted[left] > 0) {
+                if (it + nums[left] > 0) {
                     break
                 }
                 when {
-                    sorted[left] + sorted[right] < target -> left++
-                    sorted[left] + sorted[right] == target -> {
-                        result.add(arrayListOf(sorted[left], sorted[right], -target).sorted())
+                    nums[left] + nums[right] < target -> left++
+                    nums[left] + nums[right] == target -> {
+                        result.add(arrayListOf(nums[left], nums[right], -target).sorted())
                         left++
                         right--
                     }

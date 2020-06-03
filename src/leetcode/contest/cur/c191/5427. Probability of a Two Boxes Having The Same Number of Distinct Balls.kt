@@ -17,14 +17,15 @@ class Solution5427 {
     var ans = BigInteger.ZERO
     fun getProbability(balls: IntArray): Double {
         val cur = IntArray(balls.size)
+        val sum = balls.product().toDouble()
         helper(cur, balls, 0)
-        return ans.toDouble() / balls.product().toDouble()
+        return ans.toDouble() / sum
     }
 
     private fun helper(cur: IntArray, balls: IntArray, pos: Int) {
         if (pos == balls.size) {
             if (cur.sum() == balls.sum() / 2 && check(cur, balls)) {
-                ans = ans.add(cur.product() * (balls - cur).product())
+                ans += cur.product() * (balls - cur).product()
             }
             return
         }
@@ -52,10 +53,15 @@ class Solution5427 {
         return ans
     }
 
+    private val factMap = HashMap<Int, BigInteger>()
     private fun fact(it: Int): BigInteger {
+        if (it in factMap) {
+            return factMap[it]!!
+        }
         var ans = BigInteger.ONE
         for (i in 1..it) {
-            ans = ans.multiply(BigInteger.valueOf(i.toLong()))
+            ans *= i.toBigInteger()
+            factMap[i] = ans
         }
         return ans
     }
