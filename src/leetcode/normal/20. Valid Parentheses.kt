@@ -6,7 +6,6 @@ class Solution20 {
     fun isValid(s: String): Boolean {
         val left = mapOf('(' to 0, '[' to 1, '{' to 2)
         val right = mapOf(')' to 0, ']' to 1, '}' to 2)
-
         val stack = Stack<Char>()
         s.forEach {
             when {
@@ -16,7 +15,6 @@ class Solution20 {
                 else -> return false
             }
         }
-
         return stack.isEmpty()
     }
 }
