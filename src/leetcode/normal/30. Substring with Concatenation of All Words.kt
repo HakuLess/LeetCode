@@ -6,8 +6,12 @@ import java.util.ArrayList
 
 fun main(args: Array<String>) {
     val s = Solution30()
-//    s.findSubstring("barfoothefoobarman", arrayOf("bar", "foo")).forEach {
-//                    s.findSubstring("foobarfoobar", arrayOf("bar", "foo")).forEach {
+    s.findSubstring("barfoothefoobarman", arrayOf("bar", "foo")).forEach {
+        it.print()
+    }
+    s.findSubstring("foobarfoobar", arrayOf("bar", "foo")).forEach {
+        it.print()
+    }
     s.findSubstring("aaa", arrayOf("a", "a")).forEach {
         it.print()
     }
@@ -19,7 +23,7 @@ class Solution30 {
         if (s == "" || words.isEmpty()) {
             return ans
         }
-        val w = words.sorted().groupingBy { it }.eachCount()
+        val w = words.groupingBy { it }.eachCount()
         val size = words[0].length * words.size
         for (i in 0 until s.length - size + 1) {
             if (s.substring(i until i + size)
