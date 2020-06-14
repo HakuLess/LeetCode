@@ -7,12 +7,16 @@ fun main(args: Array<String>) {
     val s = Solution5135()
     s.findBestValue(intArrayOf(4, 9, 3), 10).print()
     s.findBestValue(intArrayOf(2, 3, 5), 10).print()
+    s.findBestValue(intArrayOf(2, 3, 5), 11).print()
     s.findBestValue(intArrayOf(60864, 25176, 27249, 21296, 20204), 56803).print()
     s.findBestValue(intArrayOf(60864, 25176, 27249, 21296, 20204), 1).print()
 }
 
 class Solution5135 {
     fun findBestValue(arr: IntArray, target: Int): Int {
+        if (arr.sum() <= target) {
+            return arr.max()!!
+        }
         var left = 0
         var right = 100000
 

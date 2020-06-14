@@ -40,7 +40,7 @@ class Solution5421 {
 
         for (i in 1..n) {
             for (j in 1..m) {
-                for (k in 0..i - 1) {
+                for (k in 0 until i) {
                     f[i][j] = minOf(f[i][j], f[k][j - 1] + data(k + 1, i))
                 }
             }

@@ -2,7 +2,6 @@ package leetcode.contest.cur.b28
 
 class SubrectangleQueries(val rectangle: Array<IntArray>) {
 
-
     fun updateSubrectangle(row1: Int, col1: Int, row2: Int, col2: Int, newValue: Int) {
         for (x in row1..row2) {
             for (y in col1..col2) {
@@ -14,7 +13,6 @@ class SubrectangleQueries(val rectangle: Array<IntArray>) {
     fun getValue(row: Int, col: Int): Int {
         return rectangle[row][col]
     }
-
 }
 
 /**
