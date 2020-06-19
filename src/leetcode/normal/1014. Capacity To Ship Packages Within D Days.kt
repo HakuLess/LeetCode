@@ -11,7 +11,6 @@ fun main(args: Array<String>) {
 
 class Solution1014 {
     fun shipWithinDays(weights: IntArray, D: Int): Int {
-
         var left = weights.max()!!
         var right = weights.sum()
         while (left < right) {
@@ -23,7 +22,6 @@ class Solution1014 {
                 left = mid + 1
             }
         }
-
         return left
     }
 

@@ -15,6 +15,7 @@ fun TreeNode.print() {
 
 fun printDFS(treeNode: TreeNode?) {
     if (treeNode == null) {
+        println("null")
         return
     }
     println(treeNode.`val`)

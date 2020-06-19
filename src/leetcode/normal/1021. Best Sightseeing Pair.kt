@@ -11,12 +11,15 @@ fun main(args: Array<String>) {
 
 class Solution1021 {
     fun maxScoreSightseeingPair(A: IntArray): Int {
-        var max = 0
-        for (i in 0 until A.size - 1) {
-            for (j in i + 1 until A.size) {
-                max = maxOf(A[j] + A[i] + i - j, max)
-            }
+        val dp = IntArray(A.size)
+        dp[0] = A[0] + 0
+        for (i in 1..A.lastIndex) {
+            dp[i] = maxOf(dp[i - 1], A[i] + i)
         }
-        return max
+        var ans = 0
+        for (j in 1..A.lastIndex) {
+            ans = maxOf(ans, dp[j - 1] + A[j] - j)
+        }
+        return ans
     }
 }

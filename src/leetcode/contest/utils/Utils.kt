@@ -177,6 +177,13 @@ inline fun List<List<Int>>.print() {
     }
 }
 
+inline fun LongArray.print() {
+    this.forEach {
+        print("$it, ")
+    }
+    println()
+}
+
 inline fun IntArray.print() {
     this.forEach {
         print("$it, ")

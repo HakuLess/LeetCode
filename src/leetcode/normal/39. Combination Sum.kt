@@ -14,11 +14,9 @@ class Solution39 {
         if (target < 0) {
             return
         }
-
         if (target == 0) {
             ans.add(current)
         }
-
         for (i in start..candidates.lastIndex) {
             val next = ArrayList(current)
             next.add(candidates[i])
