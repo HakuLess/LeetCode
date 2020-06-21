@@ -34,14 +34,9 @@ class Solution124 {
         val left = helper(root.left)
         val right = helper(root.right)
         ans = maxOf(ans, left + right + root.`val`)
-//        ans = maxOf(ans, left + root.`val`)
-//        ans = maxOf(ans, right + root.`val`)
-//        ans = maxOf(ans, root.`val`)
-
-        //        println("${root.`val`}: $cur")
         val cur = maxOf(
-                maxOf(helper(root.left) + root.`val`, 0),
-                maxOf(helper(root.right) + root.`val`, 0)
+                maxOf(left + root.`val`, 0),
+                maxOf(right + root.`val`, 0)
         )
         map[root] = cur
         return cur

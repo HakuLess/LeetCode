@@ -191,6 +191,12 @@ inline fun IntArray.print() {
     println()
 }
 
+inline fun TreeSet<Int>.print() {
+    this.joinToString(", ").also {
+        println("TreeSet is $it")
+    }
+}
+
 inline fun BooleanArray.print() {
     this.forEach {
         print("$it, ")
