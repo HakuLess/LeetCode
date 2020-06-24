@@ -3,7 +3,7 @@ package leetcode.contest.cur.b26
 import leetcode.contest.utils.gcd
 import leetcode.contest.utils.print
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution5397()
     s.simplifiedFractions(4).forEach {
         it.print()

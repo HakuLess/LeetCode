@@ -2,7 +2,7 @@ package leetcode.contest.last.c188
 
 import leetcode.contest.utils.print
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution5407()
 //    s.ways(arrayOf("A..", "AAA", "..."), 3).print()
 //    s.ways(arrayOf("A..", "AA.", "..."), 3).print()

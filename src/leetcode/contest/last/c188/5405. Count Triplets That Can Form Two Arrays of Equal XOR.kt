@@ -2,7 +2,7 @@ package leetcode.contest.last.c188
 
 import leetcode.contest.utils.print
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution5405()
     s.countTriplets(intArrayOf(2, 3, 1, 6, 7)).print()
     s.countTriplets(intArrayOf(1, 1, 1, 1, 1)).print()

@@ -2,7 +2,7 @@ package leetcode.contest.cur.c189
 
 import leetcode.contest.utils.print
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution5414()
     s.peopleIndexes(listOf(
             listOf("leetcode", "google", "facebook"),

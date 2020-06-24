@@ -2,7 +2,7 @@ package leetcode.contest.last.c188
 
 import leetcode.contest.utils.print
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution5406()
 //    s.minTime(7, arrayOf(
 //            intArrayOf(0, 1),

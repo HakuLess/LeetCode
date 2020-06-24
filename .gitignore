@@ -4,3 +4,5 @@ out/
 .idea/misc.xml
 .idea/workspace.xml
 lib/*
+.gradle/
+.gradle/*

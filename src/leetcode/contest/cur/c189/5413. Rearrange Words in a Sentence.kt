@@ -2,7 +2,7 @@ package leetcode.contest.cur.c189
 
 import leetcode.contest.utils.print
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution5413()
     s.arrangeWords("Leetcode is cool").print()
 }

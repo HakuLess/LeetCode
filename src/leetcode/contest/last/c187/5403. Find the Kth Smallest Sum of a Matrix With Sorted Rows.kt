@@ -4,7 +4,7 @@ import leetcode.contest.utils.print
 import java.util.*
 
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution5403()
 //    s.kthSmallest(arrayOf(
 //            intArrayOf(1, 3, 11),

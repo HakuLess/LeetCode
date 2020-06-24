@@ -6,7 +6,7 @@ import leetcode.contest.utils.topologicalSort
 import java.util.*
 import kotlin.collections.ArrayList
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution210()
     s.findOrder(2, arrayOf(intArrayOf(1, 0))).print()
 }

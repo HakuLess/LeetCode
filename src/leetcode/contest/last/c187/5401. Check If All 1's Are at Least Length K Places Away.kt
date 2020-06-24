@@ -2,7 +2,7 @@ package leetcode.contest.last.c187
 
 import leetcode.contest.utils.print
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution5401()
     s.kLengthApart(intArrayOf(1, 0, 0, 0, 1, 0, 0, 1), 2).print()
     s.kLengthApart(intArrayOf(1, 0, 0, 1, 0, 1), 2).print()

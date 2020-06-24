@@ -2,7 +2,7 @@ package leetcode.normal
 
 import leetcode.contest.utils.print
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution221()
     s.maximalSquare(arrayOf(
             charArrayOf('1', '0', '1', '0', '0'),

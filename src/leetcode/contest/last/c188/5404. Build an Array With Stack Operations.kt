@@ -1,6 +1,6 @@
 package leetcode.contest.last.c188
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution5404()
     s.buildArray(intArrayOf(1, 2), 4)
 }

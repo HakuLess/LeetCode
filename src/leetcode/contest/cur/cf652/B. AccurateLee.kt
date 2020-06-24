@@ -8,21 +8,18 @@ fun main(args: Array<String>) {
     for (i in 0 until t) {
         val len = readLine()!!.toInt()
         val str = readLine()!!.toString()
-        var s = ""
-        var start = ""
+        if (str.indexOf("10") == -1) {
+            println(str)
+            continue
+        }
         var startIndex = 0
         while (startIndex < len && str[startIndex] == '0') {
-            start += str[startIndex]
             startIndex++
         }
         var endIndex = str.lastIndex
-        var end = ""
         while (endIndex >= 0 && str[endIndex] == '1') {
-            end += str[endIndex]
             endIndex--
         }
-        val ans = if (endIndex > startIndex) "0" else ""
-
-        println("$start$ans$end")
+        println("${str.substring(IntRange(0, startIndex - 1))}0${str.substring(endIndex + 1, str.length)}")
     }
 }
