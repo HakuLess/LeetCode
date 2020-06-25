@@ -39,7 +39,6 @@ class Solution5342 {
                 pq.add(sorted[p][1])
                 p++
             }
-
             while (!pq.isEmpty()) {
                 val cur = pq.poll()
                 if (cur < day) continue
@@ -49,6 +48,7 @@ class Solution5342 {
         }
         return ans
     }
+
 //
 //    fun maxEvents(events: Array<IntArray>): Int {
 //
