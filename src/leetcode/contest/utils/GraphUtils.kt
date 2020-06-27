@@ -37,7 +37,10 @@ fun Graph.topologicalSort(): ArrayList<Int> {
 
     // Create a queue and enqueue all vertices with
     // indegree 0
-    val q: Queue<Int> = LinkedList<Int>()
+//    val q: Queue<Int> = LinkedList<Int>()
+    val q: Queue<Int> = PriorityQueue<Int>() { a, b ->
+        indegree[b] - indegree[a]
+    }
     for (i in 0 until V) {
         if (indegree[i] == 0)
             q.add(i)
