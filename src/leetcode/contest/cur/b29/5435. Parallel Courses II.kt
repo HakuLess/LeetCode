@@ -1,7 +1,6 @@
 package leetcode.contest.cur.b29
 
 import leetcode.contest.utils.print
-import java.util.*
 
 fun main(args: Array<String>) {
     val s = Solution5435()
@@ -32,67 +31,32 @@ fun main(args: Array<String>) {
 
 class Solution5435 {
     fun minNumberOfSemesters(n: Int, dependencies: Array<IntArray>, k: Int): Int {
-        val g = Graph(n)
+        // > 2 shl 15
+        val dp = IntArray(1 shl n) { n }
+        val pre = IntArray(15)
         dependencies.forEach {
-            g.addEdgeOri(it[0] - 1, it[1] - 1)
+            pre[it[1] - 1] = pre[it[1] - 1] or (1 shl it[0] - 1)
         }
-        return g.topologicalSort(k)
-    }
-}
+        dp[0] = 0
 
-class Graph(val V: Int) {
-
-    // Array  of lists for Adjacency List Representation
-    var adj: Array<LinkedList<Int>> = Array(V) { LinkedList<Int>() }
-
-    fun addEdgeOri(v: Int, w: Int) {
-        adj[v].add(w)
-    }
-
-    // prints a Topological Sort of the complete graph
-    fun topologicalSort(k: Int): Int {
-        // Create a array to store indegrees of all
-        // vertices. Initialize all indegrees as 0.
-        val indegree = IntArray(V)
-
-        // Traverse adjacency lists to fill indegrees of
-        // vertices. This step takes O(V+E) time
-        for (i in 0 until V) {
-            val temp = adj[i]
-            for (node in temp) {
-                indegree[node]++
+        var i = 0
+        while (i < (1 shl n)) {
+            var ex = 0
+            var j = 0
+            while (j < n) {
+                if ((i and pre[j]) == pre[j]) ex = ex or (1 shl j)
+                j += 1
             }
-        }
-
-        val q: Queue<Int> = PriorityQueue<Int>() {
-            a, b -> indegree[b] - indegree[a]
-        }
-        for (i in 0 until V) {
-            if (indegree[i] == 0)
-                q.add(i)
-        }
-
-        var ans = 0
-        while (!q.isEmpty()) {
-            // Extract front of queue (or perform dequeue)
-            // and add it to topological order
-            val list = arrayListOf<Int>()
-            for (i in 0 until k) {
-                if (q.isEmpty()) {
-                    break
+            ex = ex and i.inv()
+            var s = ex
+            while (s != 0) {
+                if (Integer.bitCount(s) <= k) {
+                    dp[i or s] = minOf(dp[i or s], dp[i] + 1)
                 }
-                val u = q.poll()
-                for (node in adj[u]) {
-                    if (--indegree[node] == 0)
-                        list.add(node)
-                }
+                s = (s - 1) and ex
             }
-            list.forEach {
-                q.add(it)
-            }
-            ans++
+            i += 1
         }
-
-        return ans
+        return dp.last()
     }
 }
