@@ -12,7 +12,6 @@ class Solution5309 {
         if (connections.size < n - 1) {
             return -1
         }
-
         val ufs = UFS(n)
         var ans = 0
         connections.forEach {
@@ -20,7 +19,6 @@ class Solution5309 {
                 ans++
             }
         }
-
-        return n - ans
+        return n - ans - 1
     }
 }

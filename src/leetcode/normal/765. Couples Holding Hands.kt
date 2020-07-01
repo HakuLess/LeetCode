@@ -14,7 +14,7 @@ class Solution765 {
     fun minSwapsCouples(row: IntArray): Int {
         var ans = 0
         for (i in 0 until row.size - 1 step 2) {
-            println("$i, ${row[i]}")
+//            println("$i, ${row[i]}")
             if (row[i] / 2 == row[i + 1] / 2) {
                 continue
             } else {
@@ -27,7 +27,6 @@ class Solution765 {
                 ans++
             }
         }
-
         return ans
     }
 

@@ -25,7 +25,6 @@ class Solution547 {
                 }
             }
         }
-
         val ans = HashSet<Int>()
         for (i in 0 until size) {
             ans.add(ufs.find(i))

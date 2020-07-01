@@ -13,13 +13,11 @@ class Solution947 {
                 }
             }
         }
-
         val set = hashSetOf<Int>()
         stones.forEach {
             val root = ufs.typedFind(it)
             set.add(root)
         }
-
         return stones.size - set.size
     }
 }

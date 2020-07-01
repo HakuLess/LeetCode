@@ -78,8 +78,4 @@ class TypedUFS<T>(var n: Int = 0) {
         }
         return true
     }
-
-    fun getTypes(): Int {
-        return map.keys.count()
-    }
 }

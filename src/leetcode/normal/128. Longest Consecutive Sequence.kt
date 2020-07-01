@@ -21,16 +21,10 @@ class Solution128 {
         disNums.forEach {
             ufs.union(it, it - 1)
         }
-
         disNums.forEach {
             val key = ufs.typedFind(it)
             map[key] = map.getOrDefault(key, 0) + 1
         }
-
-        var ans = 0
-        map.forEach { (_, u) ->
-            ans = maxOf(ans, u)
-        }
-        return ans
+        return map.maxBy { it.value }!!.value
     }
 }
