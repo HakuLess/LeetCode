@@ -50,7 +50,7 @@ class Solution57 {
             if (merged.isEmpty() || merged.last[1] < interval[0]) {
                 merged.add(interval)
             } else {
-                merged.last[1] = max(merged.last[1], interval[1])
+                merged.last[1] = maxOf(merged.last[1], interval[1])
             }
         }
         return merged.toTypedArray()
