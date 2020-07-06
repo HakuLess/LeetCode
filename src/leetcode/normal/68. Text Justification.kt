@@ -22,9 +22,9 @@ class Solution68 {
                 list.clear()
             }
         }
-        ans.forEach {
-            it.joinToString(" ").print()
-        }
+//        ans.forEach {
+//            it.joinToString(" ").print()
+//        }
         return emptyList()
     }
 }

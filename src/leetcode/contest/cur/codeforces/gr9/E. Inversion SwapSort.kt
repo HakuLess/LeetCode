@@ -3,6 +3,7 @@ package leetcode.contest.cur.codeforces.gr9
 import leetcode.contest.utils.print
 import leetcode.contest.utils.toArrayList
 
+// todo not finish
 fun main(args: Array<String>) {
     val t = readLine()!!.toInt()
     val array = readLine()!!.split(" ").map { it.toInt() }.toIntArray()
