@@ -13,10 +13,11 @@ fun main(args: Array<String>) {
 
 class NumArray(var nums: IntArray) {
 
-    private val segmentTree = if (nums.isNotEmpty()) SegmentTree<Int>(nums.toTypedArray()) { a, b -> a + b } else null
+//    private val segmentTree = if (nums.isNotEmpty()) SegmentTree<Int>(nums.toTypedArray()) { a, b -> a + b } else null
 
     fun sumRange(i: Int, j: Int): Int {
-        return segmentTree?.query(i, j) ?: 0
+//        return segmentTree?.query(i, j) ?: 0
+        return 0
     }
 }
 

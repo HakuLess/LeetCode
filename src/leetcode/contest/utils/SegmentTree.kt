@@ -1,79 +1,94 @@
 package leetcode.contest.utils
 
+class SegmentTree<T>(val start: Int = 0,
+                     val end: Int = 0,
+                     var value: T? = null,
+                     var lazy: T? = null,
+                     val merge: (a: T, b: T) -> T) {
 
-class SegmentTree<T>(val arr: Array<T>, val func: (a: T, b: T) -> T) {
+    var left: SegmentTree<T>? = null
+    var right: SegmentTree<T>? = null
+    val mid: Int
+        get() {
+            return (start + end) / 2
+        }
 
-    private val tree = Array<Any?>(arr.size * 4) { null } as Array<T>
-
-    init {
-        buildSegmentTree(0, 0, arr.lastIndex)
+    fun build(arr: Array<T>): SegmentTree<T>? {
+        return buildHelper(0, arr.lastIndex, arr)
     }
 
-    private fun buildSegmentTree(treeIndex: Int, treeLeft: Int, treeRight: Int) {
-        if (treeLeft == treeRight) {
-            tree[treeIndex] = arr[treeLeft]
+    private fun buildHelper(left: Int, right: Int, arr: Array<T>): SegmentTree<T>? {
+        if (left > right) return null
+        val root = SegmentTree(left, right, arr[left], null, merge)
+        if (left == right) return root
+        val mid = (left + right) / 2
+        root.left = buildHelper(left, mid, arr)
+        root.right = buildHelper(mid + 1, right, arr)
+        root.value = safeMerge(root.left?.value, root.right?.value)
+        return root
+    }
+
+    fun update(root: SegmentTree<T>, l: Int, r: Int, v: T) {
+        if (l <= start && r >= end) {
+            root.value = v
+            root.lazy = v
             return
         }
-        val leftIndex = getLeft(treeIndex)
-        val rightIndex = getRight(treeIndex)
-        val mid = treeLeft + (treeRight - treeLeft) / 2
-        buildSegmentTree(leftIndex, treeLeft, mid)
-        buildSegmentTree(rightIndex, mid + 1, treeRight)
-        tree[treeIndex] = func(tree[leftIndex], tree[rightIndex])
-    }
-
-    fun query(start: Int, end: Int): T {
-        return query(0, 0, arr.lastIndex, start, end)
-    }
-
-    fun update(index: Int, value: T) {
-        arr[index] = value
-        update(0, 0, arr.lastIndex, index, value)
-    }
-
-    fun get(index: Int): T {
-        return arr[index]
-    }
-
-    private fun query(treeIndex: Int, treeLeft: Int, treeRight: Int, queryL: Int, queryR: Int): T {
-        if (treeLeft == queryL && treeRight == queryR) {
-            return tree[treeIndex]
+        if (root.lazy != null) {
+            // pushDown
         }
-        val mid = treeLeft + (treeRight - treeLeft) / 2
-        val leftTreeIndex = getLeft(treeIndex)
-        val rightTreeIndex = getRight(treeIndex)
-        if (queryR <= mid) {
-            return query(leftTreeIndex, treeLeft, mid, queryL, queryR)
+        val mid = root.mid
+        if (l <= mid) {
+            update(root.left!!, l, r, v)
         }
-        if (queryL >= mid + 1) {
-            return query(rightTreeIndex, mid + 1, treeRight, queryL, queryR)
+        if (r > mid) {
+            update(root.right!!, l, r, v)
         }
-        val ansLeft = query(leftTreeIndex, treeLeft, mid, queryL, mid)
-        val ansRight = query(rightTreeIndex, mid + 1, treeRight, mid + 1, queryR)
-        return func(ansLeft, ansRight)
+        root.value = merge(root.left!!.value!!, root.right!!.value!!)
     }
 
-    private fun update(treeIndex: Int, treeLeft: Int, treeRight: Int, index: Int, value: T) {
-        if (treeLeft == treeRight) {
-            tree[treeIndex] = value
+    fun update(root: SegmentTree<T>, index: Int, value: T) {
+        if (root.start == index && root.end == index) {
+            root.value = value
             return
         }
-        val mid = treeLeft + (treeRight - treeLeft) / 2
-        val leftChildIndex = getLeft(treeIndex)
-        val rightChildIndex = getRight(treeIndex)
+        val mid = root.mid
         if (index <= mid) {
-            update(leftChildIndex, treeLeft, mid, index, value)
+            update(root.left!!, index, value)
+            root.value = safeMerge(root.left!!.value, root.right!!.value)
         } else {
-            update(rightChildIndex, mid + 1, treeRight, index, value)
+            update(root.right!!, index, value)
+            root.value = safeMerge(root.left!!.value, root.right!!.value)
         }
-        tree[treeIndex] = func(tree[leftChildIndex], tree[rightChildIndex])
     }
 
-    private fun getLeft(cur: Int): Int {
-        return cur * 2 + 1
+    fun query(root: SegmentTree<T>, start: Int, end: Int): T {
+        if (start <= root.start && end >= root.end) {
+            return root.value!!
+        }
+        val mid = root.mid
+        var ans: T? = null
+        if (mid >= start) {
+            ans = safeMerge(ans, query(root.left!!, start, end))
+        }
+        if (mid + 1 <= end) {
+            ans = safeMerge(ans, query(root.right!!, start, end))
+        }
+        return ans!!
     }
 
-    private fun getRight(cur: Int): Int {
-        return cur * 2 + 2
+    private fun safeMerge(a: T?, b: T?): T? {
+        return when {
+            a == null -> b
+            b == null -> a
+            else -> merge(a, b)
+        }
     }
+}
+
+fun <T> SegmentTree<T>?.print() {
+    if (this == null) return
+    println("$start ~ $end value is ${this.value}")
+    this.left.print()
+    this.right.print()
 }

@@ -5,38 +5,40 @@ import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     val s = Solution699()
+
     s.fallingSquares(arrayOf(
-            intArrayOf(1, 2),
-            intArrayOf(2, 3),
-            intArrayOf(6, 1)
+            intArrayOf(6, 1),
+            intArrayOf(9, 2),
+            intArrayOf(2, 4)
     )).toIntArray().print()
+
+//    s.fallingSquares(arrayOf(
+//            intArrayOf(1, 2),
+//            intArrayOf(2, 3),
+//            intArrayOf(6, 1)
+//    )).toIntArray().print()
+//
+//    s.fallingSquares(arrayOf(
+//            intArrayOf(100, 100),
+//            intArrayOf(200, 100)
+//    )).toIntArray().print()
 }
 
-// Not Finished
+// todo Not Finished
 class Solution699 {
     fun fallingSquares(positions: Array<IntArray>): List<Int> {
-        val set = HashSet<Int>()
-        positions.forEach {
-            set.add(it[0])
-            set.add(it[0] + it[1] - 1)
-        }
-        val index = HashMap<Int, Int>()
-        val list = ArrayList<Int>(set)
-        list.sort()
-        var t = 0
-        list.forEach {
-            index[it] = t++
-        }
-
-        val segmentTree = SegmentTree(Array<Int>(list.size) { 0 }) { a, b ->
+        val root = SegmentTree<Int> { a: Int, b: Int ->
             maxOf(a, b)
-        }
+        }.build(IntArray(1010).toTypedArray())
+
         val ans = arrayListOf<Int>()
         positions.forEach {
+            val cur = root!!.query(root, it[0], it[0] + it[1] - 1) + it[1]
             for (i in it[0] until it[0] + it[1]) {
-                segmentTree.update(index[i]!!, segmentTree.get(index[i]!!) + it[1])
-                ans.add(segmentTree.query(0, index[i]!!))
+                println("update $i, $cur")
+                root.update(root, i, cur)
             }
+            ans.add(root.query(root, 0, 1000))
         }
         return ans
     }
