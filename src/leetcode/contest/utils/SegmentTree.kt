@@ -3,14 +3,14 @@ package leetcode.contest.utils
 class SegmentTree<T>(val start: Int = 0,
                      val end: Int = 0,
                      var value: T? = null,
-                     var lazy: T? = null,
+                     private var lazy: T? = null,
                      val merge: (a: T, b: T) -> T) {
 
     var left: SegmentTree<T>? = null
     var right: SegmentTree<T>? = null
     val mid: Int
         get() {
-            return (start + end) / 2
+            return start + (end - start) / 2
         }
 
     fun build(arr: Array<T>): SegmentTree<T>? {
@@ -28,11 +28,24 @@ class SegmentTree<T>(val start: Int = 0,
         return root
     }
 
+    private fun build(left: Int, right: Int, default: T?): SegmentTree<T>? {
+        if (left > right) return null
+        return SegmentTree(left, right, default, null, merge)
+    }
+
     fun update(root: SegmentTree<T>, l: Int, r: Int, v: T) {
         if (l <= root.start && r >= root.end) {
             root.value = v
             root.lazy = safeMerge(root.lazy, v)
             return
+        }
+        // 动态开点线段树
+        if (root.left == null || root.right == null) {
+            val mid = root.mid
+            if (root.left == null)
+                root.left = build(root.start, mid, root.value)
+            if (root.right == null)
+                root.right = build(mid + 1, root.end, root.value)
         }
         pushDown(root)
         val mid = root.mid
@@ -59,6 +72,14 @@ class SegmentTree<T>(val start: Int = 0,
             root.value = value
             return
         }
+        // 动态开点线段树
+        if (root.left == null || root.right == null) {
+            val mid = root.mid
+            if (root.left == null)
+                root.left = build(root.start, mid, root.value)
+            if (root.right == null)
+                root.right = build(mid + 1, root.end, root.value)
+        }
         val mid = root.mid
         if (index <= mid) {
             update(root.left!!, index, value)
@@ -72,6 +93,14 @@ class SegmentTree<T>(val start: Int = 0,
     fun query(root: SegmentTree<T>, left: Int, right: Int): T {
         if (left <= root.start && right >= root.end) {
             return root.value!!
+        }
+        // 动态开点线段树
+        if (root.left == null || root.right == null) {
+            val mid = root.mid
+            if (root.left == null)
+                root.left = build(root.start, mid, root.value)
+            if (root.right == null)
+                root.right = build(mid + 1, root.end, root.value)
         }
         pushDown(root)
         val mid = root.mid
@@ -92,11 +121,18 @@ class SegmentTree<T>(val start: Int = 0,
             else -> merge(a, b)
         }
     }
+
+    // 注意lazy的更新策略
+    private fun lazyMerge(a: T?, b: T?): T? {
+        return b
+    }
 }
 
-fun <T> SegmentTree<T>?.print() {
+fun <T> SegmentTree<T>?.print(filter: (T?) -> Boolean = { true }) {
     if (this == null) return
-    println("$start ~ $end value is ${this.value}")
-    this.left.print()
-    this.right.print()
+    if (filter(this.value)) {
+        println("$start ~ $end value is ${this.value}")
+    }
+    this.left.print(filter)
+    this.right.print(filter)
 }

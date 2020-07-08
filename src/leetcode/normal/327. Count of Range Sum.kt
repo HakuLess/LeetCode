@@ -14,16 +14,13 @@ class Solution327 {
         if (nums.isEmpty()) {
             return 0
         }
-        val root = SegmentTree<Long> { a, b ->
+        val root = SegmentTree<Int>(start = 0, end = nums.size, value = 0) { a, b ->
             a + b
-        }.build(nums.map { it.toLong() }.toTypedArray())
+        }
         var ans = 0
         for (i in nums.indices) {
-            for (j in i..nums.lastIndex) {
-                if (root!!.query(root, i, j) in lower..upper) {
-                    ans++
-                }
-            }
+            root.update(root, 0, i, nums[i])
+            ans += root.query(root, 0, nums.size)
         }
         return ans
     }
