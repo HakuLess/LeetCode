@@ -24,21 +24,30 @@ fun main(args: Array<String>) {
 //    )).toIntArray().print()
 }
 
-// todo Not Finished
 class Solution699 {
     fun fallingSquares(positions: Array<IntArray>): List<Int> {
+        val pos = ArrayList<Int>()
+        positions.forEach {
+            pos.add(it[0])
+            pos.add(it[0] + it[1] - 1)
+        }
+        pos.sort()
+        val map = HashMap<Int, Int>()
+        var index = 0
+        pos.forEach {
+            if (!map.containsKey(it))
+                map[it] = index++
+        }
         val root = SegmentTree<Int> { a: Int, b: Int ->
             maxOf(a, b)
-        }.build(IntArray(1010).toTypedArray())
+        }.build(IntArray(2020).toTypedArray())
 
         val ans = arrayListOf<Int>()
         positions.forEach {
-            val cur = root!!.query(root, it[0], it[0] + it[1] - 1) + it[1]
-            for (i in it[0] until it[0] + it[1]) {
-                println("update $i, $cur")
-                root.update(root, i, cur)
-            }
-            ans.add(root.query(root, 0, 1000))
+            val cur = root!!.query(root, map[it[0]]!!, map[it[0] + it[1] - 1]!!) + it[1]
+            println("update left ${it[0]} right ${it[0] + it[1]}, $cur")
+            root.update(root, map[it[0]]!!, map[it[0] + it[1] - 1]!!, cur)
+            ans.add(root.query(root, 0, 2020))
         }
         return ans
     }

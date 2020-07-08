@@ -29,14 +29,12 @@ class SegmentTree<T>(val start: Int = 0,
     }
 
     fun update(root: SegmentTree<T>, l: Int, r: Int, v: T) {
-        if (l <= start && r >= end) {
+        if (l <= root.start && r >= root.end) {
             root.value = v
-            root.lazy = v
+            root.lazy = safeMerge(root.lazy, v)
             return
         }
-        if (root.lazy != null) {
-            // pushDown
-        }
+        pushDown(root)
         val mid = root.mid
         if (l <= mid) {
             update(root.left!!, l, r, v)
@@ -45,6 +43,15 @@ class SegmentTree<T>(val start: Int = 0,
             update(root.right!!, l, r, v)
         }
         root.value = merge(root.left!!.value!!, root.right!!.value!!)
+    }
+
+    private fun pushDown(root: SegmentTree<T>) {
+        if (root.lazy == null) return
+        root.left?.lazy = safeMerge(root.left?.lazy, root.lazy)
+        root.right?.lazy = safeMerge(root.right?.lazy, root.lazy)
+        root.left?.value = safeMerge(root.left?.value, root.lazy)
+        root.right?.value = safeMerge(root.right?.value, root.lazy)
+        root.lazy = null
     }
 
     fun update(root: SegmentTree<T>, index: Int, value: T) {
@@ -62,17 +69,18 @@ class SegmentTree<T>(val start: Int = 0,
         }
     }
 
-    fun query(root: SegmentTree<T>, start: Int, end: Int): T {
-        if (start <= root.start && end >= root.end) {
+    fun query(root: SegmentTree<T>, left: Int, right: Int): T {
+        if (left <= root.start && right >= root.end) {
             return root.value!!
         }
+        pushDown(root)
         val mid = root.mid
         var ans: T? = null
-        if (mid >= start) {
-            ans = safeMerge(ans, query(root.left!!, start, end))
+        if (mid >= left) {
+            ans = safeMerge(ans, query(root.left!!, left, right))
         }
-        if (mid + 1 <= end) {
-            ans = safeMerge(ans, query(root.right!!, start, end))
+        if (mid + 1 <= right) {
+            ans = safeMerge(ans, query(root.right!!, left, right))
         }
         return ans!!
     }
