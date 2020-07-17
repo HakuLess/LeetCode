@@ -44,13 +44,9 @@ class Solution978 {
                     cur = 1
                 }
             }
-
             pre = A[i]
             max = maxOf(max, cur)
-
-//            println("${A[i]}, $cur")
         }
-
         return max
     }
 }

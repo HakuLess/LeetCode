@@ -9,13 +9,14 @@ fun main(args: Array<String>) {
 
 class Solution5304 {
     fun xorQueries(arr: IntArray, queries: Array<IntArray>): IntArray {
+        val pre = IntArray(arr.size + 1)
+        pre[0] = 0
+        for (i in arr.indices) {
+            pre[i + 1] = pre[i] xor arr[i]
+        }
         val ans = ArrayList<Int>()
         queries.forEach {
-            var item = arr[it[0]]
-            for (j in (it[0] + 1)..it[1]) {
-                item = item xor arr[j]
-            }
-            ans.add(item)
+            ans.add(pre[it[0]] xor pre[it[1] + 1])
         }
         return ans.toIntArray()
     }
