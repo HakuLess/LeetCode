@@ -1,6 +1,7 @@
 package leetcode.normal
 
 import leetcode.contest.utils.print
+import kotlin.math.pow
 
 fun main(args: Array<String>) {
     val s = Solution1012()
@@ -12,7 +13,7 @@ fun main(args: Array<String>) {
 class Solution1012 {
     fun bitwiseComplement(N: Int): Int {
         val s = Integer.toBinaryString(N)
-        val sum = Math.pow(2.0, s.length.toDouble()) - 1
+        val sum = 2.0.pow(s.length.toDouble()) - 1
         println("$s, $sum")
         return (sum - N).toInt()
     }

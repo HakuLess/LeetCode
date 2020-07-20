@@ -15,7 +15,7 @@ class Solution849 {
         val right = IntArray(seats.size)
 
         var start = Int.MIN_VALUE / 2
-        for (i in 0 until seats.size) {
+        for (i in seats.indices) {
             if (seats[i] == 1) {
                 start = i
             }
@@ -33,7 +33,7 @@ class Solution849 {
         right.print()
 
         var max = 0
-        for (i in 0 until seats.size) {
+        for (i in seats.indices) {
             max = maxOf(max, minOf(left[i], right[i]))
         }
         return max
