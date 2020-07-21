@@ -3,6 +3,7 @@ package leetcode.normal
 import leetcode.contest.utils.print
 import leetcode.contest.utils.toArrayList
 
+// todo not finished
 fun main(args: Array<String>) {
     val s = Solution996()
 //    s.numSquarefulPerms(intArrayOf(1, 17, 8)).print()

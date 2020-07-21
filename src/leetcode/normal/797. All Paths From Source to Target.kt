@@ -21,13 +21,10 @@ class Solution797 {
             return emptyList()
         }
         val target = graph.lastIndex
-
-
         val cur = arrayListOf<ArrayList<Int>>()
         graph[0].forEach {
             cur.add(arrayListOf(0, it))
         }
-
         check(cur, graph, target)
         return ans
     }
