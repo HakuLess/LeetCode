@@ -10,19 +10,17 @@ import leetcode.contest.utils.Interval
  * )
  */
 class Solution986 {
-
-    fun intervalIntersection(A: Array<Interval>, B: Array<Interval>): Array<Interval> {
-        val ans = arrayListOf<Interval>()
-        for (i in 0 until A.size) {
-            for (j in 0 until B.size) {
-                if (A[i].start > B[j].end) {
+    fun intervalIntersection(A: Array<IntArray>, B: Array<IntArray>): Array<IntArray> {
+        val ans = arrayListOf<IntArray>()
+        for (i in A.indices) {
+            for (j in B.indices) {
+                if (A[i][0] > B[j][1]) {
                     continue
                 }
-                if (A[i].end < B[j].start) {
+                if (A[i][1] < B[j][0]) {
                     break
                 }
-
-                ans.add(Interval(maxOf(A[i].start, B[j].start), minOf(A[i].end, B[j].end)))
+                ans.add(intArrayOf(maxOf(A[i][0], B[j][0]), minOf(A[i][1], B[j][1])))
             }
         }
         return ans.toTypedArray()
