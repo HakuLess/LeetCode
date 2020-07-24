@@ -11,17 +11,17 @@ fun main(args: Array<String>) {
             intArrayOf(9, 2),
             intArrayOf(2, 4)
     )).toIntArray().print()
-
-    s.fallingSquares(arrayOf(
-            intArrayOf(1, 2),
-            intArrayOf(2, 3),
-            intArrayOf(6, 1)
-    )).toIntArray().print()
-//
-    s.fallingSquares(arrayOf(
-            intArrayOf(100, 100),
-            intArrayOf(200, 100)
-    )).toIntArray().print()
+    
+//    s.fallingSquares(arrayOf(
+//            intArrayOf(1, 2),
+//            intArrayOf(2, 3),
+//            intArrayOf(6, 1)
+//    )).toIntArray().print()
+////
+//    s.fallingSquares(arrayOf(
+//            intArrayOf(100, 100),
+//            intArrayOf(200, 100)
+//    )).toIntArray().print()
 }
 
 class Solution699 {
@@ -35,6 +35,7 @@ class Solution699 {
             root.update(root, it[0], it[0] + it[1] - 1, cur)
             ans.add(root.query(root, 0, max))
         }
+        root.print()
         return ans
     }
 
