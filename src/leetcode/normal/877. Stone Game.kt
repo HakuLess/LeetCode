@@ -1,19 +1,14 @@
 package leetcode.normal
 
-import kotlin.math.abs
-import kotlin.math.max
+import leetcode.contest.utils.print
 
-fun stoneGame(piles: IntArray): Boolean {
-    return piles[0] > getMaxDiff(piles.copyOfRange(1, piles.size)) &&
-            piles[piles.size - 1] > getMaxDiff(piles.copyOfRange(0, piles.size - 1))
+fun main(args: Array<String>) {
+    val s = Solution877()
+    s.stoneGame(intArrayOf(3, 7, 2, 3)).print()
 }
 
-fun getMaxDiff(piles: IntArray): Int {
-    return when {
-        piles.isEmpty() -> 0
-        piles.size == 1 -> piles[0]
-        piles.size == 2 -> abs(piles[0] - piles[1])
-        else -> max(abs(piles[0] - getMaxDiff(piles.copyOfRange(1, piles.size))),
-                abs(piles[piles.size - 1] - getMaxDiff(piles.copyOfRange(0, piles.size - 1))))
+class Solution877 {
+    fun stoneGame(piles: IntArray): Boolean {
+        return true
     }
 }
