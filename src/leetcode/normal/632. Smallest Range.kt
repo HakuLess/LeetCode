@@ -15,7 +15,7 @@ class Solution632 {
         })
 
         var max = Integer.MIN_VALUE
-        for (i in 0 until nums.size) {
+        for (i in nums.indices) {
             pq.offer(i)
             max = maxOf(max, nums[i][indexes[i]])
         }

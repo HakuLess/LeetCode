@@ -14,15 +14,9 @@ class Solution375 {
         for (k in 2..n) {
             for (i in 1..n - k + 1) {
                 val j = i + k - 1
-//                println("$i, $j")
-//                if (j - i == 1) {
-//                    dp[i][j] = minOf(i, j)
-//                    continue
-//                }
                 var min = Int.MAX_VALUE / 2
                 for (m in j - 1 downTo i) {
                     min = minOf(min, m + maxOf(dp[i][m - 1], dp[m + 1][j]))
-//                    println("$i $j $m $min")
                     dp[i][j] = min
                 }
             }
