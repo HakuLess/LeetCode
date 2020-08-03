@@ -19,7 +19,7 @@ class Solution415 {
         }
 
         val sb = StringBuilder()
-        for (i in 0 until s1.length) {
+        for (i in s1.indices) {
             val it = (s1[i] - '0') + (s2[i] - '0') + if (isAdd) {
                 1
             } else {
