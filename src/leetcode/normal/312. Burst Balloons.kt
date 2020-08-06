@@ -42,7 +42,7 @@ class Solution312 {
                     val left = if (k == i) 0 else dp[i][k - 1]
                     val right = if (k == j) 0 else dp[k + 1][j]
 
-                    println("$cur $left $right")
+//                    println("$cur $left $right")
                     dp[i][j] = maxOf(dp[i][j], left + cur + right)
                 }
             }
