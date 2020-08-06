@@ -13,12 +13,15 @@ fun main(args: Array<String>) {
 
 class Solution1227 {
     fun nthPersonGetsNthSeat(n: Int): Double {
-        var sum = 1.0
-        var cur = 1.0
-        for (i in n downTo 2) {
-            sum *= 1.0 / i.toDouble()
-            cur -= sum
-        }
-        return cur
+        return if (n == 1) 1.0 else 0.5
     }
+//    fun nthPersonGetsNthSeat(n: Int): Double {
+//        var sum = 1.0
+//        var cur = 1.0
+//        for (i in n downTo 2) {
+//            sum *= 1.0 / i.toDouble()
+//            cur -= sum
+//        }
+//        return cur
+//    }
 }
