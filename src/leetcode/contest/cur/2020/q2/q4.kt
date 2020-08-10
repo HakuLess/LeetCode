@@ -1,6 +1,7 @@
 package leetcode.contest.cur.`2020`.q2
 
 import leetcode.contest.utils.L
+import leetcode.contest.utils.getPrime
 import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
@@ -12,7 +13,6 @@ fun main(args: Array<String>) {
 }
 
 class Solutionq2 {
-
     fun splitArray(nums: IntArray): Int {
         val prime = getPrime(nums.max()!!)
         val dp = IntArray(nums.max()!! + 1) { Int.MAX_VALUE / 2 }
@@ -44,121 +44,4 @@ class Solutionq2 {
         }
         return prev
     }
-
-    /**
-     * 获取minPrime列表
-     * prime[k] == n 代表 k因式分解最小因子为n，若n==1代表k为质数
-     * */
-    private fun getPrime(k: Int): IntArray {
-        val minPrime = IntArray(k + 1) { 1 }
-        var p = 2
-        while (p <= k) {
-            var i = p
-            while (p <= k / i) {
-                if (minPrime[i * p] == 1) {
-                    minPrime[i * p] = p
-                }
-                i++
-            }
-            p++
-            while (p <= k) {
-                if (minPrime[p] == 1)
-                    break
-                p++
-            }
-        }
-        return minPrime
-    }
-
-//    val max = 1000000
-//    val minFactor = IntArray(max + 1) { 1 }
-//
-//    fun splitArray(nums: IntArray): Int {
-//        val f = HashMap<Int, Int>()
-//        val n = nums.size
-//        var x = nums[0]
-//
-//        while (true) {
-//            if (minFactor[x] == 1) {
-//                f[x] = 1
-//                break
-//            }
-//            f[minFactor[x]] = 1
-//            x /= minFactor[x]
-//        }
-//
-//        var prev = 1
-//        for (i in 1 until n) {
-//            x = nums[i]
-//            var cur = Int.MIN_VALUE / 2
-//            while (true) {
-//                if (minFactor[x] == 1) {
-//                    f[x] = minOf(f.getOrDefault(x, 1), prev + 1)
-//                    cur = minOf(cur, f[x]!!)
-//                    break
-//                }
-//                f[minFactor[x]] = minOf(f[minFactor[x]]!!, prev + 1)
-//                cur = minOf(cur, f[minFactor[x]]!!)
-//                x /= minFactor[x]
-//            }
-//            prev = cur
-//        }
-//        return prev
-//    }
-//
-//    private fun initFactor() {
-//        var p = 2
-//        while (p <= max) {
-//            var i = p
-//            while (i * p <= max) {
-//                if (minFactor[i * p] == 1)
-//                    minFactor[i * p] = p
-//                i++
-//            }
-//            p++
-//            while (p <= max) {
-//                if (minFactor[p] == 1)
-//                    break
-//                p++
-//            }
-//        }
-//    }
-
-
-//    var num = intArrayOf()
-//    val seen = HashMap<Int, Int>()
-//
-//    fun splitArray(nums: IntArray): Int {
-//        num = nums
-//        val ans = helper(0)
-//        return ans
-//    }
-//
-//    private fun helper(cur: Int): Int {
-//        if (cur > num.lastIndex) {
-//            return 0
-//        }
-//        if (cur in seen) {
-//            return seen[cur]!!
-//        }
-//        var ans = Int.MAX_VALUE / 2
-//        for (i in cur..num.lastIndex) {
-//            if (gcd(num[cur], num[i]) > 1) {
-//                ans = minOf(ans, helper(i + 1) + 1)
-//            }
-//        }
-//        seen[cur] = ans
-//        return ans
-//    }
-//
-//    val memo = HashMap<Pair<Int, Int>, Int>()
-//    private fun gcd(a: Int, b: Int): Int {
-//        if (Pair(a, b) in memo) {
-//            return memo[Pair(a, b)]!!
-//        }
-//        val ans = if (b == 0) a else gcd(b, a % b)
-//        memo[Pair(a, b)] = ans
-//        memo[Pair(b, a)] = ans
-//        return ans
-//    }
 }

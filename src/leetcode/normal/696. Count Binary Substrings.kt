@@ -4,33 +4,22 @@ import java.util.*
 
 class Solution696 {
     fun countBinarySubstrings(s: String): Int {
-        val stack0 = Stack<Char>()
-        val stack1 = Stack<Char>()
-        var ans = 0
-        var pre: Char? = null
-        s.forEach {
-            if (it == '0') {
-                if (stack1.isNotEmpty()) {
-                    stack1.pop()
-                    ans++
-                }
-                if (pre == '1') {
-                    stack0.clear()
-                }
-                stack0.push(it)
-            } else if (it == '1') {
-                if (stack0.isNotEmpty()) {
-                    stack0.pop()
-                    ans++
-                }
-                if (pre == '0') {
-                    stack1.clear()
-                }
-                stack1.push(it)
+        val counts: MutableList<Int> = ArrayList()
+        var ptr = 0
+        val n: Int = s.length
+        while (ptr < n) {
+            val c: Char = s[ptr]
+            var count = 0
+            while (ptr < n && s[ptr] == c) {
+                ++ptr
+                ++count
             }
-            pre = it
+            counts.add(count)
         }
-
+        var ans = 0
+        for (i in 1 until counts.size) {
+            ans += minOf(counts[i], counts[i - 1])
+        }
         return ans
     }
 }
