@@ -2,7 +2,7 @@ package leetcode.contest.cur.leetcode.c201
 
 import leetcode.contest.utils.print
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution5471()
 //    s.maxNonOverlapping(intArrayOf(1, 1, 1, 1, 1), 2).print()
 //    s.maxNonOverlapping(intArrayOf(-1, 3, 5, 1, 4, 2, -9), 6).print()

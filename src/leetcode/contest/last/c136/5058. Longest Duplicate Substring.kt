@@ -18,7 +18,7 @@ class Solution5058 {
         val lcp = suf.kasai()
         var max = 0
         var start = 0
-        for (i in 0 until lcp.size) {
+        for (i in lcp.indices) {
             if (lcp[i] > max) {
                 max = lcp[i]
                 start = suffixArray[i].index
