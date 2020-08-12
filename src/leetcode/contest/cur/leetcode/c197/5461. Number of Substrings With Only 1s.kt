@@ -9,6 +9,17 @@ fun main(args: Array<String>) {
 
 class Solution5461 {
     fun numSub(s: String): Int {
-        return 0
+        val mod = 1000000007L
+        var ans = 0L
+        var cur = 0L
+        s.forEach {
+            if (it == '1') {
+                cur++
+                ans += cur
+            } else {
+                cur = 0
+            }
+        }
+        return (ans % mod).toInt()
     }
 }
