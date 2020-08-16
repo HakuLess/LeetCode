@@ -1,53 +1,27 @@
 package leetcode.normal
 
-import java.util.*
-
-fun floodFill(image: Array<IntArray>, sr: Int, sc: Int, newColor: Int): Array<IntArray> {
-    if (image.isEmpty() || image[0].isEmpty()) {
-        return arrayOf()
-    }
-    val origin = image[sr][sc]
-    val stack = Stack<Pair<Int, Int>>()
-    val hashSet = hashSetOf<Pair<Int, Int>>()
-
-    stack.push(Pair(sr, sc))
-    hashSet.add(Pair(sr, sc))
-
-    while (stack.isNotEmpty()) {
-        val item = stack.pop()
-        if (image[item.first][item.second] == origin) {
-            image[item.first][item.second] = newColor
-
-            if (item.first + 1 < image.size) {
-                val next = Pair(item.first + 1, item.second)
-                if (next !in hashSet) {
-                    stack.push(next)
-                    hashSet.add(next)
-                }
-            }
-            if (item.first - 1 >= 0) {
-                val next = Pair(item.first - 1, item.second)
-                if (next !in hashSet) {
-                    stack.push(next)
-                    hashSet.add(next)
-                }
-            }
-            if (item.second + 1 < image[0].size) {
-                val next = Pair(item.first, item.second + 1)
-                if (next !in hashSet) {
-                    stack.push(next)
-                    hashSet.add(next)
-                }
-            }
-            if (item.second - 1 >= 0) {
-                val next = Pair(item.first, item.second - 1)
-                if (next !in hashSet) {
-                    stack.push(next)
-                    hashSet.add(next)
-                }
-            }
+class Solution733 {
+    fun floodFill(image: Array<IntArray>, sr: Int, sc: Int, newColor: Int): Array<IntArray> {
+        val target = image[sr][sc]
+        if (target == newColor) {
+            return image
         }
+        dfs(image, sr, sc, target, newColor)
+        return image
     }
 
-    return image
+    private fun dfs(image: Array<IntArray>, sr: Int, sc: Int, target: Int, newColor: Int) {
+        if (sr < 0 || sc < 0 || sr >= image.size || sc >= image[0].size) {
+            return
+        }
+        if (image[sr][sc] == target) {
+            image[sr][sc] = newColor
+        } else {
+            return
+        }
+        dfs(image, sr - 1, sc, target, newColor)
+        dfs(image, sr + 1, sc, target, newColor)
+        dfs(image, sr, sc - 1, target, newColor)
+        dfs(image, sr, sc + 1, target, newColor)
+    }
 }
