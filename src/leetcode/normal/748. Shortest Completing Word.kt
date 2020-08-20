@@ -20,7 +20,7 @@ class Solution748 {
             }
         }
         val result = arrayListOf<String>()
-        for (i in 0 until words.size) {
+        for (i in words.indices) {
             var ans = true
             map.forEach { (t, u) ->
                 ans = ans && words[i].count { it == t } >= u
