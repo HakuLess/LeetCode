@@ -4,7 +4,7 @@ import leetcode.contest.utils.print
 import java.util.*
 import kotlin.collections.HashSet
 
-fun main() {
+fun main(args: Array<String>) {
     val s = Solution5490()
 //    s.minDays(56).print()
     s.minDays(2000000000).print()

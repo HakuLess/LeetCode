@@ -1,32 +1,28 @@
 package leetcode.normal
 
 import leetcode.contest.utils.gcd
-
+import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
-//    val source = arrayListOf(-1,  1, 2,  -4).toIntArray()
-    val source = arrayListOf(1, 1, 1, 1, 2, 2, 2, 2, 2, 2).toIntArray()
-    println(hasGroupsSizeX(source))
+    val s = Solution914()
+    s.hasGroupsSizeX(intArrayOf(1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3)).print()
 }
 
-fun hasGroupsSizeX(deck: IntArray): Boolean {
-    if (deck.isEmpty() || deck.size == 1) {
-        return false
-    }
-    val map = hashMapOf<Int, Int>()
-    deck.forEach {
-        map[it] = map.getOrDefault(it, 0) + 1
-    }
-    val list = arrayListOf<Int>()
-    map.forEach { t, u ->
-        list.add(u)
-    }
-
-    val min = list.min()
-    list.forEach {
-        if (gcd(it, min!!) == 1) {
+class Solution914 {
+    fun hasGroupsSizeX(deck: IntArray): Boolean {
+        if (deck.isEmpty() || deck.size == 1) {
             return false
         }
+        val list = deck.groupBy { it }.map {
+            it.value.size
+        }
+        var min = list.min()!!
+        list.forEach {
+            if (gcd(it, min) == 1) {
+                return false
+            }
+            min = gcd(it, min)
+        }
+        return true
     }
-    return true
 }
