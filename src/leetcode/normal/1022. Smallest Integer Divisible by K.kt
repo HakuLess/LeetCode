@@ -31,7 +31,7 @@ class Solution1022 {
 
         return -1
     }
-    
+
 //    fun smallestRepunitDivByK(K: Int): Int {
 //        if (K % 5 == 0 || K % 2 == 0) {
 //            return -1
