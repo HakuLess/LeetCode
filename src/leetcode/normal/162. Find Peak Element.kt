@@ -1,17 +1,17 @@
 package leetcode.normal
 
-fun findPeakElement(nums: IntArray): Int {
-    return search(nums, 0, nums.size - 1)
-}
-
-fun search(nums: IntArray, l: Int, r: Int): Int {
-    if (l == r) {
-        return l
-    }
-    val mid = l + (r - l) / 2
-    return if (nums[mid] > nums[mid + 1]) {
-        search(nums, l, mid)
-    } else {
-        search(nums, mid + 1, r)
+class Solution162 {
+    fun findPeakElement(nums: IntArray): Int {
+        var left = 0
+        var right = nums.size - 1
+        while (left < right) {
+            val mid = left + (right - left).shr(1)
+            if (nums[mid] > nums[mid + 1]) {
+                right = mid
+            } else {
+                left = mid + 1
+            }
+        }
+        return left
     }
 }
