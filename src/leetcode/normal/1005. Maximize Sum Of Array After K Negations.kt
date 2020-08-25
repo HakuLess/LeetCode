@@ -25,12 +25,7 @@ class Solution1005 {
 
         var ans = 0
         if (neg.size >= K) {
-            neg.forEach {
-                print("$it, ")
-            }
-            println()
             for (i in 0 until K) {
-                println("${neg[i]}")
                 ans += -neg[i] * 2
             }
             ans += pos.sum()
@@ -40,7 +35,6 @@ class Solution1005 {
                 pos.add(-it)
             }
             ans = pos.sum()
-
             if ((K - neg.size) % 2 == 0) {
                 return ans
             } else {

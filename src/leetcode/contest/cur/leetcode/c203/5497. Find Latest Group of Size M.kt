@@ -8,7 +8,6 @@ fun main(args: Array<String>) {
     s.findLatestStep(intArrayOf(3, 5, 1, 2, 4), 2).print()
     s.findLatestStep(intArrayOf(1), 1).print()
     s.findLatestStep(intArrayOf(2, 1), 2).print()
-
     s.findLatestStep(intArrayOf(4, 3, 2, 1), 1).print()
 }
 

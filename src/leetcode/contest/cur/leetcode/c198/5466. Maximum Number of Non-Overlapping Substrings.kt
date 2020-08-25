@@ -51,11 +51,10 @@ class Solution5466 {
                         changed = true
                     }
                 }
-            } while (changed == true)
+            } while (changed)
             println("$start $end ${s[start]}")
             Triple(start, end, s[start])
         }.sortedBy { it.second - it.first }.forEach { pair ->
-            //            println(pair)
             if (seen.any { it.first >= pair.first && it.second <= pair.second }) {
 
             } else {
