@@ -21,7 +21,6 @@ class Solution657 {
                 'R' -> x++
             }
         }
-
         return x == 0 && y == 0
     }
 }

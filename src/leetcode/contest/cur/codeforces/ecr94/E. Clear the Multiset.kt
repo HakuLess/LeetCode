@@ -1,14 +1,22 @@
 package leetcode.contest.cur.codeforces.ecr94
 
-import leetcode.contest.utils.print
-
 fun main(args: Array<String>) {
     val n = readLine()!!.toInt()
-    val arr = readLine()!!.split(' ').map { it.toInt() }
-    var ans = if (arr[0] == 0) 0 else 1
-    for (i in arr.indices) {
-        if (i == 0) continue
-        ans += maxOf(0, if (arr[i] - arr[i - 1] > 0) 1 else 0)
+    val arr = ArrayList(readLine()!!.split(' ').map { it.toInt() })
+
+    fun dfs(l: Int, r: Int): Int {
+        if (l > r) return 0
+        var min = Int.MAX_VALUE
+        var mid = -1
+        for (i in l..r) {
+            if (arr[i] < min) {
+                min = arr[i]
+                mid = i
+            }
+        }
+        for (i in l..r) arr[i] -= min
+        return minOf(min + dfs(l, mid - 1) + dfs(mid + 1, r), r - l + 1)
     }
-    println(ans)
+
+    println(dfs(0, n - 1))
 }
