@@ -1,27 +1,32 @@
 package leetcode.normal
 
-// todo not finish
+import leetcode.contest.utils.print
+
+fun main(args: Array<String>) {
+    val s = Solution214()
+    s.shortestPalindrome("aacecaaa").print()
+}
+
 class Solution214 {
     fun shortestPalindrome(s: String): String {
-        return ""
-    }
-
-    private fun isPalindrome(s: String): Boolean {
-        var left = 0
-        var right = s.lastIndex
-        while (left < right) {
-            when {
-                !s[left].isLetterOrDigit() ->
-                    left++
-                !s[right].isLetterOrDigit() ->
-                    right--
-                s[right].toLowerCase() == s[left].toLowerCase() -> {
-                    left++
-                    right--
-                }
-                else -> return false
+        val n: Int = s.length
+        val base = 131
+        val mod = 1000000007
+        var left = 0L
+        var right = 0L
+        var mul = 1
+        var best = -1
+        for (i in 0 until n) {
+            left = ((left.toLong() * base + s[i].toLong()) % mod)
+            right = ((right + mul.toLong() * s[i].toLong()) % mod)
+            if (left == right) {
+                best = i
             }
+            mul = (mul.toLong() * base % mod).toInt()
         }
-        return true
+        val add = if (best == n - 1) "" else s.substring(best + 1)
+        val ans = StringBuffer(add).reverse()
+        ans.append(s)
+        return ans.toString()
     }
 }

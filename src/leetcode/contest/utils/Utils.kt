@@ -14,6 +14,22 @@ fun gcd(a: Int, b: Int): Int {
     return if (b == 0) a else gcd(b, a % b)
 }
 
+fun gcd(a: Long, b: Long): Long {
+    return if (b == 0L) a else gcd(b, a % b)
+}
+
+fun gcd(a: BigInteger, b: BigInteger): BigInteger {
+    return if (b == BigInteger.ZERO) a else gcd(b, a % b)
+}
+
+fun lcm(a: Long, b: Long): Long {
+    return a / gcd(a, b) * b
+}
+
+fun lcm(a: BigInteger, b: BigInteger): BigInteger {
+    return a / gcd(a, b) * b
+}
+
 inline fun Array<Suffix>.printSuffix() {
     this.forEachIndexed { index, suffix ->
         println("$index: ${suffix.index}")

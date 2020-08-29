@@ -42,44 +42,40 @@ fun main(args: Array<String>) {
 }
 
 class Solution5285 {
-    var ans = -1
     fun maxSideLength(mat: Array<IntArray>, threshold: Int): Int {
+        var ans = -1
+        fun check(x: Int, y: Int) {
+            var cur = 0
+            for (i in 0..10000) {
+                for (j in y..y + i) {
+                    if (x + i > mat.lastIndex || j > mat[0].lastIndex) {
+                        return
+                    }
+                    cur += mat[x + i][j]
+                }
+                for (j in x..x + i) {
+                    if (j > mat.lastIndex || y + i > mat[0].lastIndex) {
+                        return
+                    }
+                    cur += mat[j][y + i]
+                }
+                cur -= mat[x + i][y + i]
+                if (cur > threshold) {
+                    ans = maxOf(ans, i)
+                    return
+                }
+            }
+        }
 
         for (i in mat.indices) {
             for (j in mat[0].indices) {
-                check(mat, i, j, threshold)
+                check(i, j)
             }
         }
         return if (ans == -1) {
             minOf(mat.size, mat[0].size)
         } else {
             ans
-        }
-    }
-
-    private fun check(mat: Array<IntArray>, x: Int, y: Int, threshold: Int) {
-        var cur = 0
-        for (i in 0..10000) {
-            for (j in y..y + i) {
-//                println("$i: ${x + i}, $j")
-                if (x + i > mat.lastIndex || j > mat[0].lastIndex) {
-                    return
-                }
-                cur += mat[x + i][j]
-            }
-            for (j in x..x + i) {
-//                println("$i: ${j}, ${y + i}")
-                if (j > mat.lastIndex || y + i > mat[0].lastIndex) {
-                    return
-                }
-                cur += mat[j][y + i]
-            }
-            cur -= mat[x + i][y + i]
-//            println("$x, $y, $i, $cur")
-            if (cur > threshold) {
-                ans = maxOf(ans, i)
-                return
-            }
         }
     }
 }
