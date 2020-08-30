@@ -6,7 +6,7 @@ package leetcode.contest.utils
  * @link https://hakuless.github.io/post/union-find-set/
  */
 class UFS(var n: Int = 0) {
-    private val parent = IntArray(n) { i -> i }
+    private val parent = IntArray(n) { it }
     private val rank = IntArray(n)
 
     fun find(x: Int): Int {
