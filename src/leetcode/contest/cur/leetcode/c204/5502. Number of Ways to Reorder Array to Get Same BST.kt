@@ -1,7 +1,5 @@
 package leetcode.contest.cur.leetcode.c204
 
-import leetcode.contest.utils.TreeNode
-import leetcode.contest.utils.count
 import leetcode.contest.utils.print
 import java.math.BigInteger
 
@@ -14,22 +12,22 @@ fun main(args: Array<String>) {
 }
 
 class Solution5502 {
-    val mod = 1000000007L
 
     fun numOfWays(nums: IntArray): Int {
+        val mod = 1000000007L
         val a = arrayListOf<Int>()
         a.addAll(nums.toList())
-        val root = geneBST(a)
-        fun dfs(root: TreeNode?): BigInteger {
-            if (root == null) return BigInteger.ONE
-            val m = root.left.count().toLong()
-            val n = root.right.count().toLong()
-            var ans = c(BigInteger.valueOf(m + n), BigInteger.valueOf(n))
-            ans = ans.multiply(dfs(root.left))
-            ans = ans.multiply(dfs(root.right))
+
+        fun dfs(root: List<Int>): BigInteger {
+            if (root.isEmpty()) return BigInteger.ONE
+            val m = root.filter { it < root[0] }
+            val n = root.filter { it > root[0] }
+            var ans = c((m.size + n.size).toBigInteger(), n.size.toBigInteger())
+            ans = ans.multiply(dfs(m))
+            ans = ans.multiply(dfs(n))
             return ans
         }
-        return (dfs(root).mod(BigInteger.valueOf(mod))).toInt() - 1
+        return (dfs(a).mod(BigInteger.valueOf(mod))).toInt() - 1
     }
 
     fun c(m: BigInteger, n: BigInteger): BigInteger {
@@ -43,25 +41,5 @@ class Solution5502 {
         }
         result = a / b
         return result
-    }
-
-    fun geneBST(nums: ArrayList<Int>): TreeNode? {
-        if (nums.isEmpty()) {
-            return null
-        }
-        val left = arrayListOf<Int>()
-        val right = arrayListOf<Int>()
-        for (i in 1 until nums.size) {
-            if (nums[i] > nums[0]) {
-                right.add(nums[i])
-            } else {
-                left.add(nums[i])
-            }
-        }
-
-        val root = TreeNode(nums[0])
-        root.left = geneBST(left)
-        root.right = geneBST(right)
-        return root
     }
 }

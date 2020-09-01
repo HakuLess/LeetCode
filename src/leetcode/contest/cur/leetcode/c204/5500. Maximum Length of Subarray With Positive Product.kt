@@ -16,7 +16,7 @@ class Solution5500 {
                 }
             } else {
                 val np = if (neg > 0) neg + 1 else 0
-                val ng = if (pos > 0) pos + 1 else 1
+                val ng = pos + 1
                 pos = np
                 neg = ng
             }

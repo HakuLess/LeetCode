@@ -26,7 +26,6 @@ class Solution646 {
     fun findLongestChain(pairs: Array<IntArray>): Int {
         pairs.sortBy { it.last() }
         var ans = 1
-
         var tail = pairs[0].last()
         for (i in 1 until pairs.size) {
             print("$tail, ")
