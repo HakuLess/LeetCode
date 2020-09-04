@@ -29,58 +29,36 @@ class Solution5132 {
         val blueQueue: Queue<Int> = LinkedList<Int>()
         redQueue.add(0)
         blueQueue.add(0)
-        val seen = hashSetOf<IntArray>()
-        var step = 0
-        while (redQueue.isNotEmpty() && step < n * 3) {
-            step++
-            val size = redQueue.size
-            for (i in 0 until size) {
-                val item = redQueue.poll()
-                val edge = if (step % 2 == 0) {
-                    red_edges
-                } else {
-                    blue_edges
-                }
-                edge.forEach {
-                    if (it[0] == item && it !in seen) {
-                        redQueue.offer(it[1])
-                        seen.add(it)
-                        ans[it[1]] = if (ans[it[1]] >= 0) {
-                            minOf(step, ans[it[1]])
-                        } else {
-                            step
-                        }
-                    }
-                }
-            }
-        }
 
-        step = 0
-        seen.clear()
-        while (blueQueue.isNotEmpty() && step < n * 3) {
-            step++
-            val size = blueQueue.size
-            for (i in 0 until size) {
-                val item = blueQueue.poll()
-//                println("$item $step")
-                val edge = if (step % 2 == 0) {
-                    blue_edges
-                } else {
-                    red_edges
-                }
-                edge.forEach {
-                    if (it[0] == item && it !in seen) {
-                        blueQueue.offer(it[1])
-                        seen.add(it)
-                        ans[it[1]] = if (ans[it[1]] >= 0) {
-                            minOf(step, ans[it[1]])
-                        } else {
-                            step
+        fun check(queue: Queue<Int>, left_edges: Array<IntArray>, right_edges: Array<IntArray>) {
+            val seen = hashSetOf<IntArray>()
+            var step = 0
+            while (queue.isNotEmpty() && step < n * 3) {
+                step++
+                val size = queue.size
+                for (i in 0 until size) {
+                    val item = queue.poll()
+                    val edge = if (step % 2 == 0) {
+                        left_edges
+                    } else {
+                        right_edges
+                    }
+                    edge.forEach {
+                        if (it[0] == item && it !in seen) {
+                            queue.offer(it[1])
+                            seen.add(it)
+                            ans[it[1]] = if (ans[it[1]] >= 0) {
+                                minOf(step, ans[it[1]])
+                            } else {
+                                step
+                            }
                         }
                     }
                 }
             }
         }
+        check(redQueue, red_edges, blue_edges)
+        check(blueQueue, blue_edges, red_edges)
         return ans
     }
 }

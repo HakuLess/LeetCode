@@ -30,108 +30,86 @@ fun lcm(a: BigInteger, b: BigInteger): BigInteger {
     return a / gcd(a, b) * b
 }
 
-inline fun Array<Suffix>.printSuffix() {
+fun Array<Suffix>.printSuffix() {
     this.forEachIndexed { index, suffix ->
         println("$index: ${suffix.index}")
     }
 }
 
-inline fun Array<CharArray>.print() {
+fun Array<CharArray>.print() {
     this.forEach {
-        it.forEach {
-            print("$it, ")
-        }
-        println()
+        println(it.joinToString(", "))
     }
     println()
 }
 
-inline fun Array<DoubleArray>.print() {
+fun Array<DoubleArray>.print() {
     this.forEach {
-        it.forEach {
-            print("$it, ")
-        }
-        println()
+        println(it.joinToString(", "))
     }
     println()
 }
 
-inline fun Stack<Char>.print() {
-    this.forEach {
-        print("$it, ")
-    }
-    println()
+fun Stack<Char>.print() {
+    println(this.joinToString(", "))
 }
 
-inline fun HashMap<Int, Int>.printInt() {
+fun Map<Int, Int>.printInt() {
     this.forEach {
         println("${it.key} : ${it.value}")
     }
     println()
 }
 
-inline fun SortedMap<String, Int>.print() {
+fun Map<String, Int>.print() {
     this.forEach {
         println("${it.key} : ${it.value}")
     }
     println()
 }
 
-inline fun HashMap<String, Int>.print() {
+fun Array<IntArray>.print() {
     this.forEach {
-        println("${it.key} : ${it.value}")
+        println(it.joinToString(", "))
     }
     println()
 }
 
-inline fun Array<IntArray>.print() {
+fun Array<BooleanArray>.print() {
     this.forEach {
-        it.forEach {
-            print("$it, ")
-        }
-        println()
+        println(it.joinToString(", "))
     }
     println()
 }
 
-inline fun Array<BooleanArray>.print() {
-    this.forEach {
-        it.forEach {
-            print("$it, ")
-        }
-        println()
-    }
-    println()
-}
-
-inline fun ArrayList<Pair<Int, Int>>.print() {
+fun ArrayList<Pair<Int, Int>>.print() {
     this.forEach {
         println("${it.first}, ${it.second}")
     }
     println()
 }
 
-inline fun String.print() {
+fun String.print() {
     println("String is " + this)
 }
 
-inline fun Int.print() {
+fun Int.print() {
     println("Int is " + this)
 }
 
-inline fun BigInteger.print() {
+fun BigInteger.print() {
     println("BigInteger is " + this)
 }
 
-inline fun Int.toBigInteger(): BigInteger {
+fun Int.toBigInteger(): BigInteger {
     return BigInteger.valueOf(this.toLong())
 }
 
-inline fun Long.toBigInteger(): BigInteger {
+fun Long.toBigInteger(): BigInteger {
     return BigInteger.valueOf(this)
 }
 
-inline fun IntArray.toArrayList(): ArrayList<Int> {
+fun IntArray.toArrayList(): ArrayList<Int> {
     val ans = ArrayList<Int>()
     this.forEach {
         ans.add(it)
@@ -139,7 +117,7 @@ inline fun IntArray.toArrayList(): ArrayList<Int> {
     return ans
 }
 
-inline fun IntArray.sumMod(mod: Int): Int {
+fun IntArray.sumMod(mod: Int): Int {
     var ans = 0
     this.forEach {
         ans += it
@@ -148,7 +126,7 @@ inline fun IntArray.sumMod(mod: Int): Int {
     return ans
 }
 
-inline fun PriorityQueue<Int>.print() {
+fun PriorityQueue<Int>.print() {
     val other = ArrayList<Int>()
     while (this.isNotEmpty()) {
         val it = this.poll()
@@ -159,7 +137,7 @@ inline fun PriorityQueue<Int>.print() {
     this.addAll(other)
 }
 
-inline fun PriorityQueue<Int>.toArrayList(): ArrayList<Int> {
+fun PriorityQueue<Int>.toArrayList(): ArrayList<Int> {
     val other = ArrayList<Int>()
     while (this.isNotEmpty()) {
         val it = this.poll()
@@ -169,11 +147,11 @@ inline fun PriorityQueue<Int>.toArrayList(): ArrayList<Int> {
     return other
 }
 
-inline fun Long.print() {
+fun Long.print() {
     println("Long is " + this)
 }
 
-inline fun Double.print() {
+fun Double.print() {
     println("Long is " + this)
 }
 
@@ -184,50 +162,33 @@ fun TNode.print() {
     }
 }
 
-inline fun List<List<Int>>.print() {
+fun List<List<Int>>.print() {
     this.forEach {
-        it.forEach {
-            print("$it, ")
-        }
-        println()
+        println(it.joinToString(", "))
     }
 }
 
-inline fun LongArray.print() {
-    this.forEach {
-        print("$it, ")
-    }
-    println()
+fun LongArray.print() {
+    println(this.joinToString(", "))
 }
 
-inline fun IntArray.print() {
-    this.forEach {
-        print("$it, ")
-    }
-    println()
+fun IntArray.print() {
+    println(this.joinToString(", "))
+
 }
 
-inline fun TreeSet<Int>.print() {
+fun TreeSet<Int>.print() {
     this.joinToString(", ").also {
         println("TreeSet is $it")
     }
 }
 
-inline fun BooleanArray.print() {
-    this.forEach {
-        print("$it, ")
-    }
-    println()
+fun BooleanArray.print() {
+    println(this.joinToString(", "))
 }
 
-inline fun Boolean.print() {
+fun Boolean.print() {
     println(this)
-}
-
-inline fun TreeMap<Int, Int>.print() {
-    this.forEach { t, u ->
-        println("key: $t, value: $u")
-    }
 }
 
 class Interval(
@@ -235,7 +196,7 @@ class Interval(
         var end: Int = 0
 )
 
-inline fun Interval.print() {
+fun Interval.print() {
     println("start: ${this.start}, end: ${this.end}")
 }
 

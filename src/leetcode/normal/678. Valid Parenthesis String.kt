@@ -20,7 +20,7 @@ class Solution678 {
             lo += if (c == '(') 1 else -1
             hi += if (c != ')') 1 else -1
             if (hi < 0) break
-            lo = Math.max(lo, 0)
+            lo = maxOf(lo, 0)
         }
         return lo == 0
     }

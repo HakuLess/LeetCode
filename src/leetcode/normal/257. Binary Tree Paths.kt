@@ -3,29 +3,19 @@ package leetcode.normal
 import leetcode.contest.utils.TreeNode
 
 class Solution257 {
-
-    val ans = arrayListOf<String>()
-
     fun binaryTreePaths(root: TreeNode?): List<String> {
-        dfs(root, "")
+        val ans = arrayListOf<String>()
+        if (root == null) return ans
+        fun dfs(root: TreeNode, cur: ArrayList<Int>) {
+            cur.add(root.`val`)
+            if (root.left == null && root.right == null) {
+                ans.add(cur.joinToString("->"))
+            } else {
+                root.left?.let { dfs(it, ArrayList(cur)) }
+                root.right?.let { dfs(it, ArrayList(cur)) }
+            }
+        }
+        dfs(root, arrayListOf())
         return ans
-    }
-
-    private fun dfs(root: TreeNode?, str: String) {
-        if (root == null) {
-            return
-        }
-        val cur = if (str.isNotEmpty()) {
-            str + "->" + root.`val`
-        } else {
-            "${root.`val`}"
-        }
-
-        if (root.left == null && root.right == null) {
-            ans.add(cur)
-        } else {
-            dfs(root.left, cur)
-            dfs(root.right, cur)
-        }
     }
 }
