@@ -11,15 +11,11 @@ fun main(args: Array<String>) {
 
 class MyCalendar() {
 
-    val booked = ArrayList<Pair<Int, Int>>()
+    private val booked = ArrayList<Pair<Int, Int>>()
 
     fun book(start: Int, end: Int): Boolean {
-        booked.forEach {
-            if (it.second <= start || it.first >= end) {
-
-            } else {
-                return false
-            }
+        if (booked.any { it.second > start && it.first < end }) {
+            return false
         }
         booked.add(Pair(start, end))
         return true

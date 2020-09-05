@@ -6,18 +6,14 @@ import kotlin.collections.ArrayList
 class Solution599 {
     fun findRestaurant(list1: Array<String>, list2: Array<String>): Array<String> {
         val treeMap = TreeMap<Int, ArrayList<String>>()
-
         list1.forEachIndexed { index, s ->
             val index2 = list2.indexOf(s)
-            if (index2 == -1) {
-
-            } else {
+            if (index2 != -1) {
                 val pos = index + index2
                 treeMap[pos] = treeMap.getOrDefault(pos, arrayListOf())
                 treeMap[pos]!!.add(s)
             }
         }
-
         return treeMap.firstEntry().value.toTypedArray()
     }
 }
