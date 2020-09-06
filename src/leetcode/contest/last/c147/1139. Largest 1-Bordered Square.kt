@@ -23,8 +23,8 @@ fun main(args: Array<String>) {
 class Solution1139 {
     fun largest1BorderedSquare(grid: Array<IntArray>): Int {
         var ans = 0
-        for (i in 0 until grid.size) {
-            for (j in 0 until grid[0].size) {
+        for (i in grid.indices) {
+            for (j in grid[0].indices) {
                 ans = maxOf(ans, getMax(i, j, grid))
             }
         }
@@ -35,7 +35,6 @@ class Solution1139 {
         var size = 0
         var max = 0
         while (x + size < grid.size && y + size < grid[0].size && grid[x + size][y] == 1 && grid[x][y + size] == 1) {
-
             var sq = true
             for (i in 0..size) {
                 if (grid[x + size][y + i] != 1) {
@@ -49,7 +48,6 @@ class Solution1139 {
                     break
                 }
             }
-
             if (sq) {
                 max = (size + 1) * (size + 1)
                 println("$x, $y, $size, $sq : $max")
