@@ -23,9 +23,6 @@ class Solution5247 {
                 b++
             }
         }
-
-//        a.print()
-//        b.print()
         if ((a + b) % 2 != 0) {
             return -1
         }

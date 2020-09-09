@@ -11,38 +11,37 @@ fun main(args: Array<String>) {
 }
 
 class Solution5322 {
-    val meet = HashMap<Pair<Int, Int>, Int>()
     fun minDifficulty(jobDifficulty: IntArray, d: Int): Int {
+        val meet = HashMap<Pair<Int, Int>, Int>()
         if (jobDifficulty.size < d) {
             return -1
         }
         if (jobDifficulty.size == d) {
             return jobDifficulty.sum()
         }
-        return helper(jobDifficulty, 0, d)
-    }
-
-    private fun helper(job: IntArray, cur: Int, d: Int): Int {
-        if (Pair(cur, d) in meet) {
-            return meet[Pair(cur, d)]!!
-        }
-        if (d == 1) {
-            var max = 0
-            for (i in cur..job.lastIndex) {
-                max = maxOf(job[i], max)
+        fun helper(cur: Int, d: Int): Int {
+            if (Pair(cur, d) in meet) {
+                return meet[Pair(cur, d)]!!
             }
-            return max
+            if (d == 1) {
+                var max = 0
+                for (i in cur..jobDifficulty.lastIndex) {
+                    max = maxOf(jobDifficulty[i], max)
+                }
+                return max
+            }
+            var dif = jobDifficulty[cur]
+            var min = Int.MAX_VALUE / 2
+            var index = cur + 1
+            while (index <= jobDifficulty.lastIndex) {
+                min = minOf(min, helper(index, d - 1) + dif)
+                dif = maxOf(dif, jobDifficulty[index])
+                index++
+            }
+//            println("$cur, $min")
+            meet[Pair(cur, d)] = min
+            return min
         }
-        var dif = job[cur]
-        var min = Int.MAX_VALUE / 2
-        var index = cur + 1
-        while (index <= job.lastIndex) {
-            min = minOf(min, helper(job, index, d - 1) + dif)
-            dif = maxOf(dif, job[index])
-            index++
-        }
-//        println("$cur, $min")
-        meet[Pair(cur, d)] = min
-        return min
+        return helper(0, d)
     }
 }

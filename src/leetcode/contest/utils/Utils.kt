@@ -90,15 +90,15 @@ fun ArrayList<Pair<Int, Int>>.print() {
 }
 
 fun String.print() {
-    println("String is " + this)
+    println("String is $this")
 }
 
 fun Int.print() {
-    println("Int is " + this)
+    println("Int is $this")
 }
 
 fun BigInteger.print() {
-    println("BigInteger is " + this)
+    println("BigInteger is $this")
 }
 
 fun Int.toBigInteger(): BigInteger {
@@ -148,11 +148,11 @@ fun PriorityQueue<Int>.toArrayList(): ArrayList<Int> {
 }
 
 fun Long.print() {
-    println("Long is " + this)
+    println("Long is $this")
 }
 
 fun Double.print() {
-    println("Long is " + this)
+    println("Long is $this")
 }
 
 fun TNode.print() {

@@ -8,21 +8,20 @@ fun main(args: Array<String>) {
 }
 
 class Solution77 {
-    val result = arrayListOf<List<Int>>()
     fun combine(n: Int, k: Int): List<List<Int>> {
-        checkCur(n, k, 1, arrayListOf())
+        val result = arrayListOf<List<Int>>()
+        fun checkCur(t: Int, cur: ArrayList<Int>) {
+            if (cur.size == k) {
+                result.add(ArrayList(cur))
+                return
+            }
+            for (i in t..n) {
+                cur.add(i)
+                checkCur(i + 1, cur)
+                cur.remove(i)
+            }
+        }
+        checkCur(1, arrayListOf())
         return result
-    }
-
-    private fun checkCur(n: Int, k: Int, t: Int, cur: ArrayList<Int>) {
-        if (cur.size == k) {
-            result.add(ArrayList(cur))
-            return
-        }
-        for (i in t..n) {
-            cur.add(i)
-            checkCur(n, k, i + 1, cur)
-            cur.remove(i)
-        }
     }
 }
