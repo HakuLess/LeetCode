@@ -8,32 +8,28 @@ fun main(args: Array<String>) {
 }
 
 class Solution40 {
-    val result = arrayListOf<ArrayList<Int>>()
-
     fun combinationSum2(candidates: IntArray, target: Int): List<List<Int>> {
+        val result = arrayListOf<ArrayList<Int>>()
         candidates.sort()
+        fun dfs(target: Int, ans: ArrayList<Int>, startIndex: Int) {
+            if (target == 0) {
+                result.add(ans)
+                return
+            }
+            if (target < 0 || startIndex >= candidates.size) {
+                return
+            }
+            for (i in startIndex until candidates.size) {
+                if (i > startIndex && candidates[i] == candidates[i - 1])
+                    continue
+                val temp = ArrayList(ans)
+                temp.add(candidates[i])
+                dfs(target - candidates[i], temp, i + 1)
+            }
+        }
         for (i in candidates.indices) {
-            fillAns(candidates, target - candidates[i], arrayListOf(candidates[i]), i + 1)
+            dfs(target - candidates[i], arrayListOf(candidates[i]), i + 1)
         }
         return result.distinct()
-    }
-
-    private fun fillAns(candidates: IntArray, target: Int, ans: ArrayList<Int>, startIndex: Int) {
-        if (target == 0) {
-            result.add(ans)
-            return
-        }
-
-        if (target < 0 || startIndex >= candidates.size) {
-            return
-        }
-
-        for (i in startIndex until candidates.size) {
-            if (i > startIndex && candidates[i] == candidates[i - 1])
-                continue
-            val temp = ArrayList(ans)
-            temp.add(candidates[i])
-            fillAns(candidates, target - candidates[i], temp, i + 1)
-        }
     }
 }
