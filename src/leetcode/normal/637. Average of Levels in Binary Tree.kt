@@ -2,32 +2,21 @@ package leetcode.normal
 
 import leetcode.contest.utils.TreeNode
 
-fun averageOfLevels(root: TreeNode?): DoubleArray {
-
-    val list = arrayListOf<ArrayList<Int>>()
-//    fillList(root, 0, list)
-
-    val result = DoubleArray(list.size)
-    list.forEachIndexed { index, arrayList ->
-        var sum = 0L
-        arrayList.forEach {
-            sum += it
+class Solution637 {
+    fun averageOfLevels(root: TreeNode?): DoubleArray {
+        val l = arrayListOf<ArrayList<Long>>()
+        fun dfs(root: TreeNode?, level: Int) {
+            if (root == null) return
+            if (l.size < level + 1) {
+                l.add(arrayListOf())
+            }
+            l[level].add(root.`val`.toLong())
+            dfs(root.left, level + 1)
+            dfs(root.right, level + 1)
         }
-        result[index] = sum.toDouble() / arrayList.size
+        dfs(root, 0)
+        return l.map {
+            it.sum().toDouble() / it.size
+        }.toDoubleArray()
     }
-    return result
 }
-
-//fun fillList(root: TreeNode?, level: Int, result: ArrayList<ArrayList<Int>>) {
-//    if (root == null) {
-//        return
-//    }
-//    val orderLevel = result.getOrElse(level) {
-//        result.add(it, arrayListOf())
-//        result[it]
-//    }
-//    orderLevel.add(root.`val`)
-//
-//    fillList(root.left, level + 1, result)
-//    fillList(root.right, level + 1, result)
-//}
