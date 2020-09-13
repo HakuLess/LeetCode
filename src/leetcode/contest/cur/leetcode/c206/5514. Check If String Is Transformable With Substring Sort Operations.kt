@@ -6,8 +6,10 @@ fun main(args: Array<String>) {
     val s = Solution5514()
     s.isTransformable("84532", "34852").print()
     s.isTransformable("1331", "3113").print()
+    s.isTransformable("2911", "1192").print()
 }
 
+// Error
 class Solution5514 {
     fun isTransformable(s: String, t: String): Boolean {
         return helper(s, t, '9')
