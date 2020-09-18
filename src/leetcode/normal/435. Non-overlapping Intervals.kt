@@ -37,26 +37,4 @@ class Solution435 {
         }
         return intervals.size - counter
     }
-
-//    fun eraseOverlapIntervals(intervals: Array<IntArray>): Int {
-//        if (intervals.isEmpty()) {
-//            return 0
-//        }
-//        val list = intervals.map {
-//            Interval(it[0], it[1])
-//        }.sortedBy { it.end }
-//
-//        val dp = IntArray(list.size) { 1 }
-//        for (i in 1 until list.size) {
-//            for (j in i - 1 downTo 0) {
-//                dp[i] = dp[i - 1]
-//                if (list[j].end <= list[i].start) {
-//                    dp[i] = maxOf(dp[i], 1 + dp[j])
-//                    break
-//                }
-//            }
-//        }
-//
-//        return intervals.size - dp.last()
-//    }
 }

@@ -344,3 +344,16 @@ fun getPrime(k: Int): IntArray {
     }
     return minPrime
 }
+
+fun comb(m: BigInteger, n: BigInteger): BigInteger {
+    var a = BigInteger.ONE
+    var b = BigInteger.ONE
+    var result = BigInteger.ONE
+    val qc = minOf(n, m - n)
+    for (j in 0 until qc.toInt()) {
+        a = a.multiply(m - BigInteger.valueOf(j.toLong()))
+        b = b.multiply(qc - BigInteger.valueOf(j.toLong()))
+    }
+    result = a / b
+    return result
+}

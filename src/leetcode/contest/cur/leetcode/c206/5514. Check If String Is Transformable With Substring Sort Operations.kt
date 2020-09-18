@@ -10,7 +10,6 @@ fun main(args: Array<String>) {
     s.isTransformable("2911", "1192").print()
 }
 
-// Error
 class Solution5514 {
     fun isTransformable(s: String, t: String): Boolean {
         if (s.length != t.length) return false

@@ -8,14 +8,13 @@ fun main(args: Array<String>) {
 }
 
 class Solution5306 {
-    val seen = HashMap<String, Int>()
     fun minInsertions(s: String): Int {
+        val seen = HashMap<String, Int>()
         if (s in seen) {
             return seen[s]!!
         }
         val start = 0
         val end = s.lastIndex
-        var ans = 0
         while (start < end) {
             return if (s[start] == s[end]) {
                 val res = minInsertions(s.substring(start + 1, end))
