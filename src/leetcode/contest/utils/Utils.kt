@@ -1,6 +1,7 @@
 package leetcode.contest.utils
 
 import leetcode.learn.TNode
+import java.lang.StringBuilder
 import java.math.BigInteger
 import java.util.*
 import kotlin.collections.ArrayList
@@ -356,4 +357,12 @@ fun comb(m: BigInteger, n: BigInteger): BigInteger {
     }
     result = a / b
     return result
+}
+
+fun String.multi(count: Int): String {
+    val sb = StringBuilder()
+    repeat(count) {
+        sb.append(this)
+    }
+    return sb.toString()
 }
