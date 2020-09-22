@@ -14,20 +14,19 @@ fun main(args: Array<String>) {
 class Solution5505 {
     fun maxSumRangeQuery(nums: IntArray, requests: Array<IntArray>): Int {
         val mod = (1e9 + 7).toLong()
-        val st = nums.sorted().reversed()
-        val cur = IntArray(nums.size)
+        val st = nums.sortedDescending()
+        val arr = IntArray(nums.size + 1)
         requests.forEach {
-            for (i in it[0]..it[1]) {
-                cur[i]++
-            }
+            arr[it[0]]++
+            arr[it[1] + 1]--
         }
-        val mt = cur.sorted().reversed()
-        println(st.joinToString(", "))
-        println(mt.joinToString(", "))
+        for (i in 1..arr.lastIndex) {
+            arr[i] += arr[i - 1]
+        }
+        arr.sortDescending()
         var ans = 0L
         for (i in st.indices) {
-            println("${st[i]}  x  ${mt[i]}")
-            ans += st[i] * mt[i]
+            ans += st[i] * arr[i]
         }
         return (ans % mod).toInt()
     }
