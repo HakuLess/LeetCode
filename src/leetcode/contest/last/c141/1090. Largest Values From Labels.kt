@@ -22,7 +22,7 @@ fun main(args: Array<String>) {
 class Solution1090 {
     fun largestValsFromLabels(values: IntArray, labels: IntArray, num_wanted: Int, use_limit: Int): Int {
         val list = arrayListOf<Pair<Int, Int>>()
-        for (i in 0 until values.size) {
+        for (i in values.indices) {
             list.add(Pair(labels[i], values[i]))
         }
 

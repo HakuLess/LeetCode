@@ -3,24 +3,23 @@ package leetcode.normal
 import leetcode.contest.utils.TreeNode
 
 class Solution113 {
-    val ans = arrayListOf<ArrayList<Int>>()
 
     fun pathSum(root: TreeNode?, sum: Int): List<List<Int>> {
-        helper(root, sum, arrayListOf())
+        val ans = arrayListOf<ArrayList<Int>>()
+        fun dfs(root: TreeNode?, sum: Int, list: ArrayList<Int>) {
+            if (root == null) {
+                return
+            }
+            val temp = ArrayList(list)
+            temp.add(root.`val`)
+            if (root.left == null && root.right == null && sum == root.`val`) {
+                ans.add(temp)
+            } else {
+                dfs(root.left, sum - root.`val`, temp)
+                dfs(root.right, sum - root.`val`, temp)
+            }
+        }
+        dfs(root, sum, arrayListOf())
         return ans
-    }
-
-    private fun helper(root: TreeNode?, sum: Int, list: ArrayList<Int>) {
-        if (root == null) {
-            return
-        }
-        val temp = ArrayList(list)
-        temp.add(root.`val`)
-        if (root.left == null && root.right == null && sum == root.`val`) {
-            ans.add(temp)
-        } else {
-            helper(root.left, sum - root.`val`, temp)
-            helper(root.right, sum - root.`val`, temp)
-        }
     }
 }
