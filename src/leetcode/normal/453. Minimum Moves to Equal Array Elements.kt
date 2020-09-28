@@ -1,13 +1,11 @@
 package leetcode.normal
 
-fun minMoves(nums: IntArray): Int {
-    if (nums.isEmpty()) {
-        return 0
+class Solution453 {
+    fun minMoves(nums: IntArray): Int {
+        if (nums.isEmpty()) {
+            return 0
+        }
+        val min = nums.min()!!
+        return nums.sumBy { it - min }
     }
-    var result = 0
-    val min = nums.min()
-    nums.forEach {
-        result += it - min!!
-    }
-    return result
 }

@@ -23,7 +23,7 @@ class Solution501 {
         }
         val max = map.values.max()!!
         val ans = arrayListOf<Int>()
-        map.forEach { t, u ->
+        map.forEach { (t, u) ->
             if (max == u) {
                 ans.add(t)
             }
