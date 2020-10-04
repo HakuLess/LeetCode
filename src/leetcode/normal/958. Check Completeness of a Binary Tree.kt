@@ -8,7 +8,6 @@ class Solution958 {
         if (root == null) {
             return true
         }
-
         val queue: Queue<TreeNode?> = LinkedList()
         queue.add(root)
         var end = false

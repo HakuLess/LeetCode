@@ -8,7 +8,6 @@ class Solution543 {
         if (root == null) {
             return 0
         }
-
         return maxOf(maxDepth(root.left) + maxDepth(root.right),
                 diameterOfBinaryTree(root.left),
                 diameterOfBinaryTree(root.right))
