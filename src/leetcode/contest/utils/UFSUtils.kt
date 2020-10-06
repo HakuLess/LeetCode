@@ -8,6 +8,7 @@ package leetcode.contest.utils
 class UFS(var n: Int = 0) {
     private val parent = IntArray(n) { it }
     private val rank = IntArray(n)
+    var size = n
 
     fun find(x: Int): Int {
         if (x != parent[x]) {
@@ -30,6 +31,7 @@ class UFS(var n: Int = 0) {
                 rank[px]++
             }
         }
+        size--
         return true
     }
 }
