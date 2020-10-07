@@ -25,7 +25,6 @@ class Solution5516 {
             val arr = it.sorted()
             if (arr.size >= 3) {
                 for (i in 0 until arr.size - 2) {
-                    println(arr[i + 2] - arr[0])
                     if (arr[i + 2] - arr[i] <= 60) {
                         ans.add(s)
                     }

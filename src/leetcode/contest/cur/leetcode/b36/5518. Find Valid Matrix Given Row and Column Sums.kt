@@ -25,24 +25,13 @@ class Solution5518 {
         val m = rowSum.size
         val n = colSum.size
         val matrix = Array<IntArray>(m) { IntArray(n) }
-        fun dfs(i: Int, j: Int) {
-            if (i !in rowSum.indices || j !in colSum.indices) {
-                return
-            }
-            if (rowSum[i] > colSum[j]) {
-                matrix[i][j] = colSum[j]
+        for (i in rowSum.indices) {
+            for (j in colSum.indices) {
+                matrix[i][j] = minOf(rowSum[i], colSum[j])
                 rowSum[i] -= matrix[i][j]
-                dfs(i, j + 1)
-            } else if (rowSum[i] < colSum[j]) {
-                matrix[i][j] = rowSum[i]
                 colSum[j] -= matrix[i][j]
-                dfs(i + 1, j)
-            } else {
-                matrix[i][j] = rowSum[i]
-                dfs(i + 1, j + 1)
             }
         }
-        dfs(0, 0)
         return matrix
     }
 }
