@@ -14,7 +14,7 @@ class Solution1089 {
     fun duplicateZeros(arr: IntArray): Unit {
         val res = IntArray(arr.size)
         var offset = 0
-        for (i in 0 until arr.size) {
+        for (i in arr.indices) {
             if (arr[i] == 0) {
                 offset++
                 if (i + offset + 1 < arr.size) {
@@ -25,11 +25,8 @@ class Solution1089 {
                 res[i + offset] = arr[i]
             }
         }
-
-        for (i in 0 until arr.size) {
+        for (i in arr.indices) {
             arr[i] = res[i]
         }
-
-        arr.print()
     }
 }
