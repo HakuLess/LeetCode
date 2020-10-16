@@ -15,7 +15,7 @@ class Solution817 {
         map.printInt()
 
         val ufs = TypedUFS<Int>(G.size)
-        for (i in 0 until G.size) {
+        for (i in G.indices) {
             val it = map[G[i]]
             if (it != null && G.contains(it)) {
                 ufs.union(G[i], it)

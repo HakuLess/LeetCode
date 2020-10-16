@@ -26,7 +26,7 @@ class Solution735 {
     fun asteroidCollision(asteroids: IntArray): IntArray {
         val ans = arrayListOf<Int>()
         val stack = Stack<Int>()
-        for (i in 0 until asteroids.size) {
+        for (i in asteroids.indices) {
             if (asteroids[i] < 0 && stack.isEmpty()) {
                 ans.add(asteroids[i])
             } else if (asteroids[i] > 0) {
@@ -42,11 +42,9 @@ class Solution735 {
                 }
             }
         }
-
         for (i in 0 until stack.size) {
             ans.add(stack[i])
         }
-
         return ans.toIntArray()
     }
 }

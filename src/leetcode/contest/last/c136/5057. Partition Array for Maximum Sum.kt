@@ -9,16 +9,15 @@ fun main(args: Array<String>) {
 }
 
 class Solution5057 {
-    fun maxSumAfterPartitioning(A: IntArray, K: Int): Int {
-        val dp = IntArray(A.size)
-        dp[0] = A[0]
-
-        for (i in 1 until A.size) {
-            var maxSum = A[i] + dp[i - 1]
-            var maxVal = A[i]
+    fun maxSumAfterPartitioning(arr: IntArray, k: Int): Int {
+        val dp = IntArray(arr.size)
+        dp[0] = arr[0]
+        for (i in 1 until arr.size) {
+            var maxSum = arr[i] + dp[i - 1]
+            var maxVal = arr[i]
             var j = i - 1
-            while (j >= 0 && j > i - K) {
-                maxVal = maxOf(maxVal, A[j])
+            while (j >= 0 && j > i - k) {
+                maxVal = maxOf(maxVal, arr[j])
                 maxSum = if (j == 0) {
                     maxOf(maxSum, maxVal * (i - j + 1))
                 } else {
@@ -28,8 +27,7 @@ class Solution5057 {
             }
             dp[i] = maxSum
         }
-
-        return dp[A.size - 1]
+        return dp[arr.size - 1]
     }
 //    val hashMap = hashMapOf<Int, Int>()
 //

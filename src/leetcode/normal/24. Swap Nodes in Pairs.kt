@@ -27,22 +27,4 @@ class Solution24 {
         temp?.next = head
         return temp
     }
-//    fun swapPairs(head: ListNode?): ListNode? {
-//        if (head?.next == null) {
-//            return head
-//        }
-//        var node = head
-//        val result = head.next
-//        while (node?.next != null) {
-//            val temp = node.next!!.next
-//            node.next!!.next = node
-//            node.next = if (temp?.next == null) {
-//                temp
-//            } else {
-//                temp.next
-//            }
-//            node = temp
-//        }
-//        return result
-//    }
 }
