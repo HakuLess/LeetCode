@@ -1,27 +1,23 @@
 package leetcode.contest.cur.leetcode.c211
 
+import leetcode.contest.utils.print
+
+fun main(args: Array<String>) {
+    val s = Solution5545()
+    s.bestTeamScore(intArrayOf(1, 1, 1, 1, 1, 1, 1, 1, 1, 1), intArrayOf(811, 364, 124, 873, 790, 656, 581, 446, 885, 134)).print()
+}
+
 class Solution5545 {
     fun bestTeamScore(scores: IntArray, ages: IntArray): Int {
-        var arr = ArrayList<Pair<Int, Int>>()
-        for (i in scores.indices) {
-            arr.add(Pair(scores[i], ages[i]))
-        }
+        var arr = scores.zip(ages)
         arr = ArrayList(arr.sortedWith(compareBy({ it.second }, { it.first })))
         val dp = IntArray(scores.size) { 0 }
         for (i in dp.indices) {
             dp[i] = arr[i].first
-            var res = i
-            var ans = Int.MIN_VALUE
-            for (j in i - 1 downTo 0) {
-                if (arr[i].second == arr[j].second || arr[i].first >= arr[j].first) {
-                    if (dp[j] > ans) {
-                        ans = dp[j]
-                        res = j
-                    }
+            for (j in 0 until i) {
+                if (arr[i].first >= arr[j].first) {
+                    dp[i] = maxOf(dp[i], dp[j] + arr[i].first)
                 }
-            }
-            if (res in 0 until i) {
-                dp[i] += dp[res]
             }
         }
         return dp.max()!!

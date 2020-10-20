@@ -14,6 +14,7 @@ class Solution5544 {
     fun findLexSmallestString(s: String, a: Int, b: Int): String {
         val queue: Queue<String> = LinkedList<String>()
         queue.add(s)
+        var ans = s
         val seen = HashSet<String>()
         while (queue.isNotEmpty()) {
             val size = queue.size
@@ -21,25 +22,23 @@ class Solution5544 {
                 val item = queue.poll()
                 if (item in seen) continue
                 seen.add(item)
-
-                var add = false
-                var next1 = item
-                for (i in item.indices) {
-                    if (add) {
-                        next1 = next1.substring(0, i) + ((next1[i] - '0' + a) % 10) + next1.substring(i + 1, next1.length)
+                ans = minOf(ans, item)
+                item.toCharArray().mapIndexed { index, c ->
+                    if (index % 2 == 0) {
+                        c
+                    } else {
+                        ((c - '0') + a) % 10
                     }
-                    add = !add
+                }.joinToString("").also {
+                    if (it !in seen)
+                        queue.offer(it)
                 }
-                if (next1 !in seen) {
-                    queue.offer(next1)
-                }
-                val next2 = item.substring(b, item.length) + item.substring(0, b)
-                if (next2 !in seen) {
-                    queue.offer(next2)
+                (item.substring(b, item.length) + item.substring(0, b)).also {
+                    if (it !in seen)
+                        queue.offer(it)
                 }
             }
         }
-
-        return seen.min()!!
+        return ans
     }
 }

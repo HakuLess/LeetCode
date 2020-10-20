@@ -13,8 +13,7 @@ fun main(args: Array<String>) {
 
 class Solution5128 {
     fun areConnected(n: Int, threshold: Int, queries: Array<IntArray>): List<Boolean> {
-
-        if (threshold == 0) return List(queries.size, { true })
+        if (threshold == 0) return List(queries.size) { true }
         val ufs = TypedUFS<Int>(n)
         for (i in threshold + 1..n) {
             var j = 2
@@ -23,16 +22,11 @@ class Solution5128 {
                 j++
             }
         }
-
         val ans = ArrayList<Boolean>()
         queries.forEach {
             ans.add(ufs.typedFind(it[0]) == ufs.typedFind(it[1]))
         }
         return ans
-    }
-
-    fun gcd(a: Int, b: Int): Int {
-        return (if (b == 0) a else gcd(b, a % b))
     }
 }
 
