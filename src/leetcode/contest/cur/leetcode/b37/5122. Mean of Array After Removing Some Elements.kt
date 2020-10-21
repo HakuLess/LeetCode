@@ -10,15 +10,9 @@ fun main(args: Array<String>) {
 class Solution5122 {
     fun trimMean(arr: IntArray): Double {
         arr.sort()
+        val n = arr.size
         val sub = arr.size / 20
-        var sum = arr.sum()
-        for (i in arr.indices) {
-            if (i < sub) {
-                sum -= arr[i]
-            } else if (i >= arr.size - sub) {
-                sum -= arr[i]
-            }
-        }
-        return sum.toDouble() / (arr.size - sub * 2)
+        val filter = arr.take(n - sub).takeLast(n - 2 * sub)
+        return filter.sum().toDouble() / filter.size
     }
 }
