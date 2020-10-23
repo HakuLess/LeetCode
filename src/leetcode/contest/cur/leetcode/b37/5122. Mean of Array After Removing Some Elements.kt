@@ -12,7 +12,6 @@ class Solution5122 {
         arr.sort()
         val n = arr.size
         val sub = arr.size / 20
-        val filter = arr.take(n - sub).takeLast(n - 2 * sub)
-        return filter.sum().toDouble() / filter.size
+        return (arr.sum() - arr.take(sub).sum() - arr.takeLast(sub).sum()).toDouble() / (n - 2 * sub)
     }
 }

@@ -1,5 +1,6 @@
 package leetcode.contest.cur.leetcode.b37
 
+import leetcode.contest.utils.comb
 import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
@@ -15,19 +16,24 @@ fun main(args: Array<String>) {
 class Solution5527 {
 
     fun numberOfSets(n: Int, k: Int): Int {
-        var dp = IntArray(n + 1) { 1 }
-        val mod = 1000000007
-        for (i in 0 until k) {
-            val a = IntArray(n + 1)
-            var sum = 0
-            for (j in 1..n) {
-                a[j] = (a[j - 1] + sum) % mod
-                sum = (sum + dp[j]) % mod
-            }
-            dp = a
-        }
-        return dp[n] % mod
+        val mod = 1000000007.toBigInteger()
+        return comb((n + k - 1).toBigInteger(), (2 * k).toBigInteger()).mod(mod).toInt()
     }
+
+//    fun numberOfSets(n: Int, k: Int): Int {
+//        var dp = IntArray(n + 1) { 1 }
+//        val mod = 1000000007
+//        for (i in 0 until k) {
+//            val a = IntArray(n + 1)
+//            var sum = 0
+//            for (j in 1..n) {
+//                a[j] = (a[j - 1] + sum) % mod
+//                sum = (sum + dp[j]) % mod
+//            }
+//            dp = a
+//        }
+//        return dp[n] % mod
+//    }
 
 //    val seen = HashMap<Pair<Int, Int>, Int>()
 //    val mod = 1000000007
