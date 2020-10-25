@@ -2,34 +2,24 @@ package leetcode.normal
 
 class Solution845 {
     fun longestMountain(A: IntArray): Int {
-        var start = 0
-        var max = 1
-        var before: Boolean? = null
-        for (i in 1 until A.size) {
-            when {
-                A[i] > A[i - 1] -> {
-                    if (before == null || !before) {
-                        start = i - 1
-                        before = true
-                    }
-//                    println("a: $i $start")
-//                    max = maxOf(max, i - start + 1)
-                }
-                A[i] == A[i - 1] -> {
-                    before = null
-                    start = i
-                }
-                else -> {
-                    if (before != null) {
-                        if (before) {
-                            before = false
-                        }
-                        println("b: $i $start")
-                        max = maxOf(max, i - start + 1)
-                    }
-                }
+        val n: Int = A.size
+        if (n == 0) {
+            return 0
+        }
+        val left = IntArray(n)
+        for (i in 1 until n) {
+            left[i] = if (A[i - 1] < A[i]) left[i - 1] + 1 else 0
+        }
+        val right = IntArray(n)
+        for (i in n - 2 downTo 0) {
+            right[i] = if (A[i + 1] < A[i]) right[i + 1] + 1 else 0
+        }
+        var ans = 0
+        for (i in 0 until n) {
+            if (left[i] > 0 && right[i] > 0) {
+                ans = maxOf(ans, left[i] + right[i] + 1)
             }
         }
-        return max
+        return ans
     }
 }
