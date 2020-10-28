@@ -14,7 +14,6 @@ class Solution516 {
 
     fun longestPalindromeSubseq(s: String): Int {
         val dp = Array(s.length) { IntArray(s.length) }
-
         for (i in s.lastIndex downTo 0) {
             dp[i][i] = 1
             for (j in i + 1 until s.length) {

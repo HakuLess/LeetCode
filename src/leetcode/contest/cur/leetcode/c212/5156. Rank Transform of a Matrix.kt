@@ -1,6 +1,10 @@
 package leetcode.contest.cur.leetcode.c212
 
+import leetcode.contest.utils.TypedUFS
 import leetcode.contest.utils.print
+import java.util.*
+import kotlin.collections.ArrayList
+import kotlin.collections.HashMap
 
 fun main(args: Array<String>) {
     val s = Solution5156()
@@ -33,13 +37,15 @@ class Solution5156 {
     fun matrixRankTransform(matrix: Array<IntArray>): Array<IntArray> {
         val n = matrix.size
         val m = matrix[0].size
-        val list = ArrayList<Triple<Int, Int, Int>>()
+        val tm = TreeMap<Int, ArrayList<Pair<Int, Int>>>()
         for (i in matrix.indices) {
             for (j in matrix[0].indices) {
-                list.add(Triple(matrix[i][j], i, j))
+                if (tm[matrix[i][j]] == null) {
+                    tm[matrix[i][j]] = arrayListOf()
+                }
+                tm[matrix[i][j]]!!.add(Pair(i, j))
             }
         }
-        list.sortBy { it.first }
         val row = IntArray(n) { Int.MIN_VALUE }
         val col = IntArray(n) { Int.MIN_VALUE }
 
@@ -47,23 +53,81 @@ class Solution5156 {
         val colId = IntArray(n) { 0 }
 
         val ans = Array<IntArray>(n) { IntArray(m) { Int.MIN_VALUE } }
-
-        list.forEach {
-            println("f ${it.first}")
-            row.print()
-            col.print()
-            println("====")
-            rowId[it.second] = maxOf(
-                    if (row[it.second] == it.first) rowId[it.second] else rowId[it.second] + 1,
-                    if (col[it.third] == it.first) colId[it.third] else colId[it.third] + 1)
-            colId[it.third] = rowId[it.second]
-            ans[it.second][it.third] = maxOf(rowId[it.second], colId[it.third])
-            row[it.second] = it.first
-            col[it.third] = it.first
-            println("ans is")
-            ans.print()
+        tm.forEach { (i, list) ->
+            var changed = true
+            while (changed) {
+                changed = false
+                list.forEach {
+                    rowId[it.first] = maxOf(
+                            if (row[it.first] == i) rowId[it.first] else rowId[it.first] + 1,
+                            if (col[it.second] == i) colId[it.second] else colId[it.second] + 1)
+                    colId[it.second] = rowId[it.first]
+                    val max = maxOf(rowId[it.first], colId[it.second])
+                    if (ans[it.first][it.second] != max) {
+                        ans[it.first][it.second] = max
+                        changed = true
+                    }
+                    row[it.first] = i
+                    col[it.second] = i
+                }
+            }
         }
-
         return ans
     }
+//    fun matrixRankTransform(matrix: Array<IntArray>): Array<IntArray> {
+//        val n = matrix.size
+//        val m = matrix[0].size
+//        val tm = TreeMap<Int, ArrayList<Pair<Int, Int>>>()
+//        for (i in matrix.indices) {
+//            for (j in matrix[0].indices) {
+//                if (tm[matrix[i][j]] == null) {
+//                    tm[matrix[i][j]] = arrayListOf()
+//                }
+//                tm[matrix[i][j]]!!.add(Pair(i, j))
+//            }
+//        }
+//
+//        val rowId = IntArray(n) { 0 }
+//        val colId = IntArray(n) { 0 }
+//
+//        val ans = Array<IntArray>(n) { IntArray(m) { Int.MIN_VALUE } }
+//        tm.forEach { (i, list) ->
+//            val ufs = TypedUFS<Pair<Int, Int>>(list.size)
+//            // Union
+//            for (i in list.indices) {
+//                for (j in i + 1 until list.size) {
+//                    if ((list[i].first == list[j].first || list[i].second == list[j].second)
+//                            && ufs.typedFind(list[i]) != ufs.typedFind(list[j])) {
+//                        ufs.union(list[i], list[j])
+//                    }
+//                }
+//            }
+//
+//            // Group
+//            val group = HashMap<Int, ArrayList<Pair<Int, Int>>>()
+//            for (item in list) {
+//                val key = ufs.typedFind(item)
+//                if (key !in group.keys) {
+//                    group[key] = arrayListOf()
+//                }
+//                group[key]!!.add(item)
+//            }
+//
+//            group.forEach { (_, arrayList) ->
+//                var max = 1
+//                arrayList.forEach {
+//                    max = maxOf(max, maxOf(rowId[it.first] + 1, colId[it.second] + 1))
+//                }
+//                arrayList.forEach {
+//                    rowId[it.first] = max
+//                    colId[it.second] = max
+//                    ans[it.first][it.second] = max
+////                    println("$i: set $it with $max")
+////                    rowId.print()
+////                    colId.print()
+//                }
+//            }
+//        }
+//        return ans
+//    }
 }
