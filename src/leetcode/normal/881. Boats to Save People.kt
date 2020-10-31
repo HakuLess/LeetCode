@@ -1,7 +1,6 @@
 package leetcode.normal
 
 class Solution881 {
-
     fun numRescueBoats(people: IntArray, limit: Int): Int {
         people.sort()
         var left = 0
@@ -22,5 +21,4 @@ class Solution881 {
         }
         return ans
     }
-
 }

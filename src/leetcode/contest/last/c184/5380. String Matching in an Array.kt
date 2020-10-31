@@ -11,7 +11,6 @@ fun main(args: Array<String>) {
 
 class Solution5380 {
     fun stringMatching(words: Array<String>): List<String> {
-
         return words.filter { str ->
             words.any {
                 it.contains(str) && it != str
