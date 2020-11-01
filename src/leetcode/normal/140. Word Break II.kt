@@ -9,7 +9,7 @@ class Solution140 {
     private val cache = HashMap<String, List<String>>()
 
     private fun containsSuffix(dict: List<String>, str: String): Boolean {
-        for (i in 0 until str.length) {
+        for (i in str.indices) {
             if (dict.contains(str.substring(i))) {
                 return true
             }
@@ -21,7 +21,6 @@ class Solution140 {
         if (cache.containsKey(s)) {
             return cache[s]!!
         }
-
         val result = LinkedList<String>()
         if (wordDict.contains(s)) {
             result.add(s)
@@ -30,8 +29,8 @@ class Solution140 {
             val left = s.substring(0, i)
             val right = s.substring(i)
             if (wordDict.contains(left) && containsSuffix(wordDict, right)) {
-                for (ss in wordBreak(right, wordDict)) {
-                    result.add("$left $ss")
+                for (item in wordBreak(right, wordDict)) {
+                    result.add("$left $item")
                 }
             }
         }

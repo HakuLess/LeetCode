@@ -15,7 +15,7 @@ class Solution396 {
         }
         val sum = A.sum()
         var temp = 0
-        for (i in 0 until A.size) {
+        for (i in A.indices) {
             temp += A[i] * i
         }
         var ans = temp
