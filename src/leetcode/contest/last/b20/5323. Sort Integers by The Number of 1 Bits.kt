@@ -10,6 +10,6 @@ fun main(args: Array<String>) {
 
 class Solution5323 {
     fun sortByBits(arr: IntArray): IntArray {
-        return arr.sortedWith(compareBy({ Integer.toBinaryString(it).count { it == '1' } }, { it })).toIntArray()
+        return arr.sortedWith(compareBy({ Integer.bitCount(it) }, { it })).toIntArray()
     }
 }
