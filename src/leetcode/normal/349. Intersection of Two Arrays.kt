@@ -1,11 +1,7 @@
 package leetcode.normal
 
-fun intersection(nums1: IntArray, nums2: IntArray): IntArray {
-    val result = arrayListOf<Int>()
-    nums1.distinct().forEach {
-        if (it in nums2) {
-            result.add(it)
-        }
+class Solution349 {
+    fun intersection(nums1: IntArray, nums2: IntArray): IntArray {
+        return nums1.intersect(nums2.toHashSet()).toIntArray()
     }
-    return result.toIntArray()
 }

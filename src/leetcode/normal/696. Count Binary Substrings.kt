@@ -4,7 +4,7 @@ import java.util.*
 
 class Solution696 {
     fun countBinarySubstrings(s: String): Int {
-        val counts: MutableList<Int> = ArrayList()
+        val counts = ArrayList<Int>()
         var ptr = 0
         val n: Int = s.length
         while (ptr < n) {

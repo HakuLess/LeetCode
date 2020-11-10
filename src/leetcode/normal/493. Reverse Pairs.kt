@@ -18,15 +18,24 @@ class Solution493 {
                 end = Int.MAX_VALUE,
                 value = 0
         ) { a, b -> a + b }
-
+        val map = HashMap<Long, Int>()
+        var key = 1
+        val keys = ArrayList(nums.map { it.toLong() })
+        keys.addAll(nums.map { it.toLong() * 2 + 1 })
+        keys.sorted().distinct().forEach {
+            map[it] = key
+            key++
+        }
+//        map.forEach {
+//            println("${it.key}, ${it.value}")
+//        }
         var ans = 0
         nums.forEach {
-            ans += root.query(root, it * 2 + 1 + Int.MAX_VALUE / 2, Int.MAX_VALUE)
-//            println("add value $it after ans is $ans")
-
-            val cur = root.query(root, it + Int.MAX_VALUE / 2, it + Int.MAX_VALUE / 2)
-//            println("cur is $cur")
-            root.update(root, it + Int.MAX_VALUE / 2, cur + 1)
+            ans += root.query(root, map.getOrDefault(it.toLong() * 2 + 1, 0), map.values.max()!!).also {
+//                println("l: ${map.getOrDefault(it.toLong() * 2 + 1, 0)}, r: ${map.values.max()}")
+            }
+            val cur = map.getOrDefault(it.toLong(), 0)
+            root.update(root, cur, root.query(root, cur, cur) + 1)
         }
         return ans
     }

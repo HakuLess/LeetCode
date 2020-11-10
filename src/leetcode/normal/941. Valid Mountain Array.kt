@@ -12,7 +12,7 @@ class Solution941 {
         }
 
         var down = 0
-        for (i in A.lastIndex downTo  0) {
+        for (i in A.lastIndex downTo 1) {
             if (A[i] < A[i - 1]) {
                 down++
             } else {

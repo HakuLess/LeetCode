@@ -1,5 +1,6 @@
 package leetcode.contest.cur.leetcode.c214
 
+import leetcode.contest.utils.SegmentTree
 import leetcode.contest.utils.print
 import java.util.*
 
@@ -11,19 +12,39 @@ fun main(args: Array<String>) {
 
 class Solution5564 {
     fun createSortedArray(instructions: IntArray): Int {
-        val s = Solution()
-        val a = s.countSmaller(instructions.reversed().toIntArray())
-        val b = s.countSmaller(instructions.map { -it }.reversed().toIntArray())
-        a.joinToString(", ").print()
-        b.joinToString().print()
-        var ans = 0L
         val mod = 1000000007L
-        for (i in a.indices) {
-            ans += minOf(a[i], b[i])
+        val max = instructions.max()!!
+        val root = SegmentTree<Int>(
+                start = 0,
+                end = max,
+                value = 0
+        ) { a, b -> a + b }
+
+        var ans = 0L
+        instructions.forEach {
+            val l = root.query(root, 0, it - 1)
+            val r = if (it + 1 <= max) root.query(root, it + 1, max) else 0
+            ans += minOf(l, r)
             ans %= mod
+            root.update(root, it, root.query(root, it, it) + 1)
         }
         return ans.toInt()
     }
+
+//    fun createSortedArray(instructions: IntArray): Int {
+//        val s = Solution()
+//        val a = s.countSmaller(instructions.reversed().toIntArray())
+//        val b = s.countSmaller(instructions.map { -it }.reversed().toIntArray())
+//        a.joinToString(", ").print()
+//        b.joinToString().print()
+//        var ans = 0L
+//        val mod = 1000000007L
+//        for (i in a.indices) {
+//            ans += minOf(a[i], b[i])
+//            ans %= mod
+//        }
+//        return ans.toInt()
+//    }
 }
 
 class Solution {
