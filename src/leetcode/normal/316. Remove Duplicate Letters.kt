@@ -3,17 +3,17 @@ package leetcode.normal
 import java.lang.StringBuilder
 import java.util.*
 
+// not finished
 class Solution316 {
-    val ans = StringBuilder()
-
     fun removeDuplicateLetters(s: String): String {
+        val ans = StringBuilder()
         val count = hashMapOf<Char, Int>()
         s.forEach {
             count[it] = count.getOrDefault(it, 0) + 1
         }
 
         val seen = TreeMap<Char, Int>()
-        for (i in 0 until s.length) {
+        for (i in s.indices) {
             if (count.containsKey(s[i])) {
                 if (!seen.containsKey(s[i])) {
                     seen[s[i]] = i
