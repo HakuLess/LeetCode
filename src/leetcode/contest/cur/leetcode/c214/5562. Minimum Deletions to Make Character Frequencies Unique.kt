@@ -18,10 +18,10 @@ class Solution5562 {
                         tmp--
                     }
                     set.add(tmp)
-                    if (tmp <= 0) {
-                        ans += it
+                    ans += if (tmp <= 0) {
+                        it
                     } else {
-                        ans += it - tmp
+                        it - tmp
                     }
                 }
             }
