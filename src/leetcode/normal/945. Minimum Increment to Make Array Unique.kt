@@ -16,7 +16,7 @@ class Solution945 {
         A.forEach {
             a[it]++
         }
-        for (i in 0 until a.size) {
+        for (i in a.indices) {
             if (a[i] > 1) {
                 ans += a[i] - 1
                 a[i + 1] = a[i + 1] + a[i] - 1
