@@ -7,30 +7,25 @@ fun main(args: Array<String>) {
     val s = Solution5606()
 //    s.getSmallestString(3, 27).print()
 //    s.getSmallestString(5, 73).print()
-//    s.getSmallestString(24, 552).print()
+    s.getSmallestString(24, 552).print()
     s.getSmallestString(96014, 2095650).print()
 }
 
 class Solution5606 {
     fun getSmallestString(n: Int, k: Int): String {
-        val ans = StringBuilder()
-        var cur = k
-        var c = n
-        while ((c - 1) * 26 >= cur) {
-            ans.append("a")
-            c--
-            cur--
-        }
-        val left = StringBuilder()
+        val ans = IntArray(n) { 1 }
+        var cur = k - n
+        var index = ans.lastIndex
         while (cur != 0) {
-            if (cur >= 26) {
-                left.append("z")
-                cur -= 26
+            if (cur >= 25) {
+                ans[index] += 25
+                cur -= 25
             } else {
-                left.append('a' + cur - 1)
+                ans[index] += cur
                 cur = 0
             }
+            index--
         }
-        return "${ans}${left.reversed()}"
+        return ans.map { 'a' + it - 1 }.joinToString("")
     }
 }
