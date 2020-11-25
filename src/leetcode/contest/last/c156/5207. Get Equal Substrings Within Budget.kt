@@ -17,13 +17,13 @@ class Solution5207 {
         var max = 0
         val sum = arrayListOf<Int>()
         var cur = 0
-        for (i in 0 until s.length) {
+        for (i in s.indices) {
             cur += abs(s[i] - t[i])
             sum.add(cur)
         }
 //        sum.forEach { print("$it,") }
 //        println()
-        for (i in 0 until s.length) {
+        for (i in s.indices) {
             if (sum[i] <= maxCost) {
                 max = maxOf(i + 1, max)
             } else {

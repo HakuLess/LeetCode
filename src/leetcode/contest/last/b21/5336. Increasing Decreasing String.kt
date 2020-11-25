@@ -1,39 +1,32 @@
 package leetcode.contest.last.b21
 
 import leetcode.contest.utils.print
+import java.lang.StringBuilder
 
 fun main(args: Array<String>) {
     val s = Solution5336()
     s.sortString("aaaabbbbcccc").print()
 }
+
 class Solution5336 {
     fun sortString(s: String): String {
-        val seen = hashSetOf<Char>()
-        var ans = ""
-        val list = ArrayList(s.toCharArray().sorted().toList())
-        while (list.isNotEmpty()) {
-            for (i in list.indices) {
-                if (list[i] !in seen) {
-                    seen.add(list[i])
-                    ans += list[i]
-                }
-            }
-            seen.forEach {
-                list.remove(it)
-            }
-            seen.clear()
-            for (i in list.indices.reversed()) {
-                if (list[i] !in seen) {
-                    seen.add(list[i])
-                    ans += list[i]
-                }
-            }
-            seen.forEach {
-                list.remove(it)
-            }
-            seen.clear()
+        val arr = IntArray(28)
+        s.forEach {
+            arr[it - 'a' + 1]++
         }
-
-        return ans
+        var cur = 0
+        val ans = StringBuilder()
+        var add = true
+        while (!arr.all { it == 0 }) {
+            if (arr[cur] != 0) {
+                ans.append('a' + cur - 1)
+                arr[cur]--
+            }
+            if (cur == 0) add = true
+            if (cur == 27) add = false
+            if (add) cur++
+            else cur--
+        }
+        return ans.toString()
     }
 }
