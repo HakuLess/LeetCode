@@ -24,7 +24,7 @@ class Solution443 {
                 ans += if (count == 1) {
                     1
                 } else {
-                    for (j in 0 until count.toString().length) {
+                    for (j in count.toString().indices) {
                         chars[j + offset] = count.toString()[j]
                     }
                     offset += count.toString().length
@@ -38,7 +38,7 @@ class Solution443 {
         if (chars[chars.lastIndex] == chars[chars.lastIndex - 1]) {
             ans += 1 + count.toString().length
             chars[offset - 1] = chars[chars.lastIndex]
-            for (j in 0 until count.toString().length) {
+            for (j in count.toString().indices) {
                 chars[j + offset] = count.toString()[j]
             }
         } else {

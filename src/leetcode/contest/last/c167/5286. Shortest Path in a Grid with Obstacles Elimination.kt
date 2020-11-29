@@ -35,7 +35,7 @@ class Solution5286 {
         while (queue.isNotEmpty()) {
             val size = queue.size
             t++
-            if (t > 200) {
+            if (t > 800) {
                 return -1
             }
             for (i in 0 until size) {
