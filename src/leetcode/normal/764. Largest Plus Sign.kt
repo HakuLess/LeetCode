@@ -3,11 +3,11 @@ package leetcode.normal
 import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
-    val s = Solution784()
+    val s = Solution764()
     s.orderOfLargestPlusSign(5, arrayOf(intArrayOf(0, 1))).print()
 }
 
-class Solution784 {
+class Solution764 {
     fun orderOfLargestPlusSign(N: Int, mines: Array<IntArray>): Int {
         val matrix = Array(N) { IntArray(N) { 1 } }
         mines.forEach {
