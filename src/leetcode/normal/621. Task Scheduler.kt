@@ -1,41 +1,23 @@
 package leetcode.normal
 
+import java.util.*
+
 
 class Solution621 {
     fun leastInterval(tasks: CharArray, n: Int): Int {
-        val arrays = IntArray(26)
-        tasks.forEach {
-            arrays[it - 'A']++
+        val freq = HashMap<Char, Int>()
+        var maxExec = 0
+        for (ch in tasks) {
+            val exec = freq.getOrDefault(ch, 0) + 1
+            freq[ch] = exec
+            maxExec = maxOf(maxExec, exec)
         }
-        arrays.sortDescending()
-        var result = 0
-        val c = arrays.count {
-            it != 0
-        }
-        var offset = 1
-        var t = 1
-        while (t < 26 && arrays[t] == arrays[t - 1]) {
-            offset++
-            t++
-        }
-        val max = arrays[0]
-        if (c <= n + 1) {
-            result = (max - 1) * (n + 1) + offset
-        } else if (c > n) {
-            var first = 0
-            for (i in 0..n) {
-                first += arrays[i]
-            }
-            var second = 0
-            for (i in (n + 1)..25) {
-                second += arrays[i]
-            }
-            result = if (first + second < max * (n + 1)) {
-                (max - 1) * (n + 1) + offset
-            } else {
-                first + second
+        var maxCount = 0
+        for ((_, value) in freq.entries) {
+            if (value == maxExec) {
+                ++maxCount
             }
         }
-        return result
+        return maxOf((maxExec - 1) * (n + 1) + maxCount, tasks.size)
     }
 }
