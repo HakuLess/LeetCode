@@ -22,7 +22,7 @@ class Solution5558 {
             c1--
         }
         var h = cur
-        while (c1 != 1) {
+        while (c1 != -1) {
             cur = cur?.next
             c1--
         }

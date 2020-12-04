@@ -8,7 +8,7 @@ class Solution260 {
         }
 
         val ans = arrayListOf<Int>()
-        map.forEach { t, u ->
+        map.forEach { (t, u) ->
             if (u == 1) {
                 ans.add(t)
             }
