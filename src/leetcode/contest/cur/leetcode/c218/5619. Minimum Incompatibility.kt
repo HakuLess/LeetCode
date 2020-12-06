@@ -64,11 +64,6 @@ class Solution5619 {
 //        if (m.any { it.value > k }) return -1
 //        fun dfs(cur: IntArray, index: Int, map: HashMap<Int, ArrayList<Int>>): Int {
 //            var ans = Int.MAX_VALUE
-//            for (i in 0 until k) {
-//                if (cur.count { it == i } > t) {
-//                    return Int.MAX_VALUE
-//                }
-//            }
 //            if (index == cur.size) {
 //                var res = 0
 //                map.forEach {
@@ -83,7 +78,6 @@ class Solution5619 {
 //                map[i]!!.add(nums[index])
 //                ans = minOf(ans, dfs(cur.clone(), index + 1, map))
 //                map[i]!!.remove(nums[index])
-//                if (map[i]!!.isEmpty()) break
 //            }
 //            return ans
 //        }
