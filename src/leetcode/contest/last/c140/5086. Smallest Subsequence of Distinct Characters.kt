@@ -15,15 +15,13 @@ fun main(args: Array<String>) {
 
 class Solution5086 {
     val ans = StringBuilder()
-
     fun smallestSubsequence(text: String): String {
         val count = hashMapOf<Char, Int>()
         text.forEach {
             count[it] = count.getOrDefault(it, 0) + 1
         }
-
         val seen = TreeMap<Char, Int>()
-        for (i in 0 until text.length) {
+        for (i in text.indices) {
             if (!seen.containsKey(text[i])) {
                 seen[text[i]] = i
             }
