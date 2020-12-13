@@ -7,6 +7,7 @@ fun main(args: Array<String>) {
     s.minInsertions("leetcode").print()
 }
 
+// todo not finish
 class Solution5306 {
     fun minInsertions(s: String): Int {
         val seen = HashMap<String, Int>()

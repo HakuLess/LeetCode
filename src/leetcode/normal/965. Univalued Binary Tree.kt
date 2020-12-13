@@ -2,24 +2,25 @@ package leetcode.normal
 
 import leetcode.contest.utils.TreeNode
 
-fun isUnivalTree(root: TreeNode?): Boolean {
-
-    if (root == null) {
-        return true
+class Solution965 {
+    fun isUnivalTree(root: TreeNode?): Boolean {
+        if (root == null) {
+            return true
+        }
+        return dfs(root.left, root.`val`) && dfs(root.right, root.`val`)
     }
-    return isUnivalTree(root.left, root.`val`) && isUnivalTree(root.right, root.`val`)
-}
 
-fun isUnivalTree(root: TreeNode?, value: Int): Boolean {
-    return when {
-        root == null -> {
-            true
-        }
-        root.`val` == value -> {
-            isUnivalTree(root.left, root.`val`) && isUnivalTree(root.right, root.`val`)
-        }
-        else -> {
-            false
+    private fun dfs(root: TreeNode?, value: Int): Boolean {
+        return when {
+            root == null -> {
+                true
+            }
+            root.`val` == value -> {
+                dfs(root.left, root.`val`) && dfs(root.right, root.`val`)
+            }
+            else -> {
+                false
+            }
         }
     }
 }

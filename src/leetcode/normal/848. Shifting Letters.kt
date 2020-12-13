@@ -16,7 +16,7 @@ class Solution848 {
             val item = S[i]
             offset += shifts[i]
             offset %= 26
-            println(item + offset)
+//            println(item + offset)
             if (item + offset in 'a'..'z') {
                 ans.append(item + offset)
             } else {
