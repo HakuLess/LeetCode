@@ -45,10 +45,8 @@ class Solution5245 {
             if (index !in list.indices) return 0
             val cur = list[index]
             var ans = 0
-            cur.allCombo().forEach {
-                if (it[0] >= w && it[1] >= l && it[2] >= h) {
-                    ans = maxOf(ans, dfs(index + 1, it[0], it[1], it[2]) + it[2])
-                }
+            if (cur[0] >= w && cur[1] >= l && cur[2] >= h) {
+                ans = maxOf(ans, dfs(index + 1, cur[0], cur[1], cur[2]) + cur[2])
             }
             ans = maxOf(ans, dfs(index + 1, w, l, h))
             return ans.also {
@@ -56,16 +54,5 @@ class Solution5245 {
             }
         }
         return dfs(0, 0, 0, 0)
-    }
-
-    fun IntArray.allCombo(): ArrayList<IntArray> {
-        return arrayListOf(
-                intArrayOf(this[0], this[1], this[2]),
-                intArrayOf(this[0], this[2], this[1]),
-                intArrayOf(this[1], this[0], this[2]),
-                intArrayOf(this[1], this[2], this[0]),
-                intArrayOf(this[2], this[1], this[0]),
-                intArrayOf(this[2], this[0], this[1])
-        )
     }
 }
