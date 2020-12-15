@@ -2,6 +2,7 @@ package leetcode.contest.cur.leetcode.b41
 
 import javafx.scene.text.FontWeight
 import leetcode.contest.utils.print
+import java.util.*
 import kotlin.collections.HashMap
 
 fun main(args: Array<String>) {
@@ -25,49 +26,75 @@ fun main(args: Array<String>) {
     ), 5, 5, 7).print()
 }
 
+// todo not finish
 class Solution5612 {
     fun boxDelivering(boxes: Array<IntArray>, portsCount: Int, maxBoxes: Int, maxWeight: Int): Int {
-        val n = boxes.size
-        val seen = HashMap<Pair<Int, Int>, Int>()
-        val preSum = IntArray(boxes.size)
-        for (i in boxes.indices) {
-            preSum[i] = boxes[i][1] + if (i == 0) 0 else preSum[i - 1]
-        }
-        val preChange = IntArray(boxes.size)
-        var left = -1
-        var change = 0
-        for (i in boxes.indices) {
-            if (boxes[i][0] != left) {
-                change++
-                left = boxes[i][0]
-            }
-            preChange[i] = change
-        }
+        var w = boxes[0][1]
+        var b = 1
+        val dp = IntArray(boxes.size + 1)
+        dp[1] = 2
 
-        fun dfs(i: Int, j: Int, weight: Int): Int {
-            if (i == j) return 2
-            val key = Pair(i, j)
-            if (key in seen) return seen[key]!!
-            val num = j - i + 1
-            if (weight <= maxWeight && num <= maxBoxes) {
-                var ans = 0
-                ans = 1 + preChange[j] - preChange[i]
-                ans++
-                return ans.also {
-                    seen[key] = it
-                }
-            } else {
-                var ans = Int.MAX_VALUE / 2
-                var cur = 0
-                for (t in i until j) {
-                    cur += boxes[t][1]
-                    ans = minOf(ans, dfs(i, t, cur) + dfs(t + 1, j, weight - cur))
-                }
-                return ans.also {
-                    seen[key] = it
-                }
+        var cost = 2
+        var i = 0
+        var j = 1
+        while (j in boxes.indices) {
+            b++
+            w += boxes[j][1]
+            if (boxes[j][0] != boxes[j - 1][0]) cost++
+            while (b > maxBoxes || w > maxWeight || dp[i + 1] == dp[i]) {
+                b--
+                w -= boxes[i][1]
+                i++
+                if (boxes[i][0] != boxes[i - 1][0]) cost--
             }
+            dp[j + 1] = dp[i] + cost
+            j++
         }
-        return dfs(0, n - 1, preSum.last())
+        return dp.last()
     }
+
+//    fun boxDelivering(boxes: Array<IntArray>, portsCount: Int, maxBoxes: Int, maxWeight: Int): Int {
+//        val n = boxes.size
+//        val seen = HashMap<Pair<Int, Int>, Int>()
+//        val preSum = IntArray(boxes.size)
+//        for (i in boxes.indices) {
+//            preSum[i] = boxes[i][1] + if (i == 0) 0 else preSum[i - 1]
+//        }
+//        val preChange = IntArray(boxes.size)
+//        var left = -1
+//        var change = 0
+//        for (i in boxes.indices) {
+//            if (boxes[i][0] != left) {
+//                change++
+//                left = boxes[i][0]
+//            }
+//            preChange[i] = change
+//        }
+//
+//        fun dfs(i: Int, j: Int, weight: Int): Int {
+//            if (i == j) return 2
+//            val key = Pair(i, j)
+//            if (key in seen) return seen[key]!!
+//            val num = j - i + 1
+//            if (weight <= maxWeight && num <= maxBoxes) {
+//                var ans = 0
+//                ans = 1 + preChange[j] - preChange[i]
+//                ans++
+//                return ans.also {
+//                    seen[key] = it
+//                }
+//            } else {
+//                var ans = Int.MAX_VALUE / 2
+//                var cur = 0
+//                for (t in i until j) {
+//                    cur += boxes[t][1]
+//                    ans = minOf(ans, dfs(i, t, cur) + dfs(t + 1, j, weight - cur))
+//                }
+//                return ans.also {
+//                    seen[key] = it
+//                }
+//            }
+//        }
+//        return dfs(0, n - 1, preSum.last())
+//    }
 }
