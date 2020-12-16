@@ -1,72 +1,37 @@
 package leetcode.normal
 
-fun main(args: Array<String>) {
 
-}
-
-fun numRookCaptures(board: Array<CharArray>): Int {
-    var startX = 0
-    var startY = 0
-    for (i in 0..7) {
-        for (j in 0..7) {
-            if (board[i][j] == 'R') {
-                startX = j
-                startY = i
+class Solution999 {
+    fun numRookCaptures(board: Array<CharArray>): Int {
+        var cnt = 0
+        var st = 0
+        var ed = 0
+        val dx = intArrayOf(0, 1, 0, -1)
+        val dy = intArrayOf(1, 0, -1, 0)
+        for (i in 0..7) {
+            for (j in 0..7) {
+                if (board[i][j] == 'R') {
+                    st = i
+                    ed = j
+                    break
+                }
             }
         }
-    }
-
-    var ans = 0
-    if (startX > 0) {
-        for (i in startX downTo 0) {
-            if (board[startY][i] == 'B') {
-                break
-            } else if (board[startY][i] == 'p') {
-                ans++
-                break
-            } else {
-                continue
+        for (i in 0..3) {
+            var step = 0
+            while (true) {
+                val tx = st + step * dx[i]
+                val ty = ed + step * dy[i]
+                if (tx < 0 || tx >= 8 || ty < 0 || ty >= 8 || board[tx][ty] == 'B') {
+                    break
+                }
+                if (board[tx][ty] == 'p') {
+                    cnt++
+                    break
+                }
+                ++step
             }
         }
+        return cnt
     }
-
-    if (startX < 7) {
-        for (i in startX..7) {
-            if (board[startY][i] == 'B') {
-                break
-            } else if (board[startY][i] == 'p') {
-                ans++
-                break
-            } else {
-                continue
-            }
-        }
-    }
-
-    if (startY > 0) {
-        for (i in startY downTo 0) {
-            if (board[i][startX] == 'B') {
-                break
-            } else if (board[i][startX] == 'p') {
-                ans++
-                break
-            } else {
-                continue
-            }
-        }
-    }
-
-    if (startY < 7) {
-        for (i in startY..7) {
-            if (board[i][startX] == 'B') {
-                break
-            } else if (board[i][startX] == 'p') {
-                ans++
-                break
-            } else {
-                continue
-            }
-        }
-    }
-    return ans
 }
