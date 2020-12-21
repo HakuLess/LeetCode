@@ -1,21 +1,14 @@
 package leetcode.normal
 
-import leetcode.contest.utils.print
-
 class Solution746 {
     fun minCostClimbingStairs(cost: IntArray): Int {
-        if (cost.isEmpty()) {
-            return 0
-        } else if (cost.size == 1) {
-            return cost[0]
-        }
-        val dp = IntArray(cost.size + 1)
+        val n: Int = cost.size
+        val dp = IntArray(n + 1)
         dp[0] = 0
-        dp[1] = cost[0]
-        for (i in 1 until cost.size) {
-            dp[i + 1] = minOf(dp[i], dp[i - 1]) + cost[i]
+        dp[1] = 0
+        for (i in 2..n) {
+            dp[i] = minOf(dp[i - 1] + cost[i - 1], dp[i - 2] + cost[i - 2])
         }
-        dp.print()
-        return minOf(dp[cost.size], dp[cost.size - 1])
+        return dp[n]
     }
 }
