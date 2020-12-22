@@ -27,25 +27,25 @@ class Solution1169 {
 
         transactions.sortBy { it.split(",")[1] }
 
+        fun isValid(str: String): Boolean {
+            val n = str.split(",")[0]
+            val t = str.split(",")[1].toInt()
+            val c = str.split(",")[3]
+            if (transactions.any {
+                        val s = it.split(",")
+                        s[0] == n && s[3] != c && abs(s[1].toInt() - t) <= 60
+                    }) {
+                return false
+            }
+            return true
+        }
+
         transactions.forEach {
-            if (!isValid(it, transactions)) {
+            if (!isValid(it)) {
                 ans.add(it)
             }
         }
 
         return ans.toList()
-    }
-
-    private fun isValid(str: String, transactions: Array<String>): Boolean {
-        val n = str.split(",")[0]
-        val t = str.split(",")[1].toInt()
-        val c = str.split(",")[3]
-        if (transactions.any {
-                    val s = it.split(",")
-                    s[0] == n && s[3] != c && abs(s[1].toInt() - t) <= 60
-                }) {
-            return false
-        }
-        return true
     }
 }

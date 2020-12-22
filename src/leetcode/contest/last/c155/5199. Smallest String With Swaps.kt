@@ -17,27 +17,22 @@ fun main(args: Array<String>) {
 
 class Solution5199 {
     fun smallestStringWithSwaps(s: String, pairs: List<List<Int>>): String {
-
         val ufs = UFS(s.length)
         pairs.forEach {
             ufs.union(it[0], it[1])
         }
-        val map = HashMap<Int, ArrayList<Int>>()
-        for (i in 0 until s.length) {
+        val map = HashMap<Int, ArrayList<Char>>()
+        for (i in s.indices) {
             map[ufs.find(i)] = map.getOrDefault(ufs.find(i), ArrayList())
-            map[ufs.find(i)]!!.add(i)
+            map[ufs.find(i)]!!.add(s[i])
         }
-
         val ans = CharArray(s.length)
         map.forEach { (_, u) ->
-            val temp = ArrayList<Char>()
-            u.forEach {
-                temp.add(s[it])
-            }
-            temp.sort()
-            for (i in 0 until temp.size) {
-                ans[u[i]] = temp[i]
-            }
+            u.sort()
+        }
+        for (i in ans.indices) {
+            ans[i] = map[ufs.find(i)]!!.first()
+            map[ufs.find(i)]!!.removeAt(0)
         }
         return String(ans)
     }

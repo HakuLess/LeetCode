@@ -9,32 +9,27 @@ class Solution103 {
         if (root == null) {
             return emptyList()
         }
-
-        val result = arrayListOf<ArrayList<Int>>()
+        val result = arrayListOf<List<Int>>()
         val queue: Queue<TreeNode?> = LinkedList()
         queue.add(root)
-
-        var step = 0
+        var left = false
         while (queue.isNotEmpty()) {
-            step++
+            left = !left
             val size = queue.size
             val array = ArrayList<Int>()
             for (i in 0 until size) {
                 val item = queue.poll()
-                if (item == null) {
-                    continue
-                } else {
+                item?.let {
                     array.add(item.`val`)
                     queue.offer(item.left)
                     queue.offer(item.right)
                 }
             }
             if (array.isNotEmpty()) {
-                result.add(if (step % 2 != 0) {
+                result.add(if (left) {
                     array
                 } else {
-                    array.reverse()
-                    array
+                    array.reversed()
                 })
             }
         }
