@@ -26,7 +26,6 @@ class Solution1008 {
                 stack.push(item)
             }
         }
-
         return root
     }
 }

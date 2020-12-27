@@ -22,11 +22,11 @@ class Solution455 {
         s.sortDescending()
         var ans = 0
         var index = 0
-        for (i in 0 until g.size) {
+        for (element in g) {
             if (index > s.lastIndex) {
                 return ans
             }
-            if (s[index] >= g[i]) {
+            if (s[index] >= element) {
                 index++
                 ans++
             }
