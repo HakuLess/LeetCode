@@ -13,9 +13,6 @@ class Solution188 {
         if (k == 0) {
             return 0
         }
-        if (k > prices.size) {
-            return maxProfitAny(prices)
-        }
         val buy = IntArray(k) { Int.MIN_VALUE }
         val sell = IntArray(k) { 0 }
         prices.forEach { p ->
@@ -29,14 +26,5 @@ class Solution188 {
             }
         }
         return sell[k - 1]
-    }
-
-    private fun maxProfitAny(prices: IntArray): Int {
-        var max = 0
-        for (i in 1 until prices.size) {
-            if (prices[i] > prices[i - 1])
-                max += prices[i] - prices[i - 1]
-        }
-        return max
     }
 }
