@@ -3,7 +3,7 @@ package leetcode.normal
 import leetcode.contest.utils.Graph
 import leetcode.contest.utils.topologicalSort
 
-class Solution {
+class Solution207 {
     fun canFinish(numCourses: Int, prerequisites: Array<IntArray>): Boolean {
         val g = Graph(numCourses)
         prerequisites.forEach {
