@@ -9,34 +9,28 @@ fun main(args: Array<String>) {
 }
 
 class Solution239 {
-
     fun maxSlidingWindow(nums: IntArray, k: Int): IntArray {
-        if (nums.isEmpty() || k == 0) {
-            return intArrayOf()
-        }
-        if (nums.size <= k) {
-            return intArrayOf(nums.max()!!)
-        }
-
-        val pq = PriorityQueue<Int>(compareBy { -it })
-
+        val n: Int = nums.size
+        val deque: Deque<Int> = LinkedList()
         for (i in 0 until k) {
-            pq.offer(nums[i])
-        }
-        val ans = arrayListOf<Int>()
-
-        for (i in k until nums.size) {
-            pq.forEach {
-                print("$it, ")
+            while (!deque.isEmpty() && nums[i] >= nums[deque.peekLast()]) {
+                deque.pollLast()
             }
-            println("remove ${nums[i - k]}")
-            ans.add(pq.peek())
-            pq.remove(nums[i - k])
-            pq.offer(nums[i])
+            deque.offerLast(i)
         }
-        ans.add(pq.peek())
 
+        val ans = arrayListOf<Int>()
+        ans.add(nums[deque.peekFirst()])
+        for (i in k until n) {
+            while (!deque.isEmpty() && nums[i] >= nums[deque.peekLast()]) {
+                deque.pollLast()
+            }
+            deque.offerLast(i)
+            while (deque.peekFirst() <= i - k) {
+                deque.pollFirst()
+            }
+            ans.add(nums[deque.peekFirst()])
+        }
         return ans.toIntArray()
     }
-
 }
