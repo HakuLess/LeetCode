@@ -1,16 +1,16 @@
 package leetcode.normal
 
 class Solution509 {
-    fun fib(N: Int): Int {
-        if (N == 0) {
+    fun fib(n: Int): Int {
+        if (n == 0) {
             return 0
         }
-        val dp = IntArray(N + 1)
+        val dp = IntArray(n + 1)
         dp[0] = 0
         dp[1] = 1
-        for (i in 2..N) {
+        for (i in 2..n) {
             dp[i] = dp[i - 1] + dp[i - 2]
         }
-        return dp[N]
+        return dp[n]
     }
 }
