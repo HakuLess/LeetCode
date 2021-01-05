@@ -12,48 +12,31 @@ fun main(args: Array<String>) {
 }
 
 class Solution5258 {
-
-    var max = 0
-
     fun maxScoreWords(words: Array<String>, letters: CharArray, score: IntArray): Int {
-        helper(words, stomap(letters), score, 0, 0)
-        return max
-    }
-
-    private fun helper(words: Array<String>, letters: HashMap<Char, Int>, score: IntArray, cur: Int, index: Int) {
-        max = maxOf(max, cur)
-        if (index > words.lastIndex) {
-            return
+        val n = words.size
+        val total = IntArray(26)
+        letters.forEach {
+            total[it - 'a']++
         }
-        val curMap = stomap(words[index].toCharArray())
-        var can = true
-        val newMap = HashMap<Char, Int>(letters)
-        curMap.forEach { item ->
-            if (letters.getOrDefault(item.key, 0) < item.value) {
-                can = false
-            }
-            newMap[item.key] = letters.getOrDefault(item.key, 0) - item.value
-        }
-        val get = getScore(words[index], score)
-        if (can) {
-            helper(words, newMap, score, cur + get, index + 1)
-        }
-        helper(words, letters, score, cur, index + 1)
-    }
-
-    private fun getScore(str: String, score: IntArray): Int {
+        val t = IntArray(26) { i -> i }
         var ans = 0
-        str.forEach {
-            ans += score[it - 'a']
+        for (i in 0 until (1 shl n)) {
+            val cur = IntArray(26)
+            for (j in 0 until n) {
+                if (i and (1 shl j) != 0) {
+                    words[j].forEach {
+                        cur[it - 'a']++
+                    }
+                }
+            }
+            if (t.all { cur[it] <= total[it] }) {
+                var c = 0
+                t.forEach {
+                    c += score[it] * cur[it]
+                }
+                ans = maxOf(ans, c)
+            }
         }
         return ans
-    }
-
-    private fun stomap(c: CharArray): HashMap<Char, Int> {
-        val map = HashMap<Char, Int>()
-        c.forEach {
-            map[it] = map.getOrDefault(it, 0) + 1
-        }
-        return map
     }
 }
