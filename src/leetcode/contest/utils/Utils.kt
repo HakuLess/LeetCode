@@ -175,7 +175,10 @@ fun LongArray.print() {
 
 fun IntArray.print() {
     println(this.joinToString(", "))
+}
 
+fun DoubleArray.print() {
+    println(this.joinToString(", "))
 }
 
 fun TreeSet<Int>.print() {

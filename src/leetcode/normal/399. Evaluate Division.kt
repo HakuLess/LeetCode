@@ -1,23 +1,30 @@
 package leetcode.normal
 
 import leetcode.contest.utils.TypedUFS
+import leetcode.contest.utils.print
 
-// todo not finished 带权并查集
+fun main(args: Array<String>) {
+    val s = Solution399()
+    s.calcEquation(listOf(
+            listOf("a", "b"),
+            listOf("e", "f"),
+            listOf("b", "e")
+    ), doubleArrayOf(3.4, 1.4, 2.3),
+            listOf(
+                    listOf("a", "f")
+            )).print()
+}
+
 class Solution399 {
     fun calcEquation(equations: List<List<String>>, values: DoubleArray, queries: List<List<String>>): DoubleArray {
-        val ufs = TypedUFS<String>(100)
-        equations.forEach {
-            ufs.union(it[0], it[1])
+        val ufs = TypedUFS<String>(2 * equations.size)
+        for (i in equations.indices) {
+            ufs.union(equations[i][0], equations[i][1], values[i])
         }
         val ans = arrayListOf<Double>()
         queries.forEach {
-            if (ufs.typedFind(it[0]) != ufs.typedFind(it[1])) {
-                ans.add(-1.0)
-            } else {
-
-            }
+            ans.add(ufs.isConnected(it[0], it[1]))
         }
         return ans.toDoubleArray()
     }
 }
-

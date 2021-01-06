@@ -6,6 +6,12 @@ fun String.toIntArray(): IntArray {
     }.toIntArray()
 }
 
+fun String.toGrid(): Array<IntArray> {
+    return this.trim(']').split("],[").map {
+        it.toIntArray()
+    }.toTypedArray()
+}
+
 fun IntArray.lis(): Int {
     var len = 1
     val n: Int = this.size
