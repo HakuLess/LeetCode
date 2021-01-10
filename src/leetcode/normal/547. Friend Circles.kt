@@ -15,12 +15,12 @@ fun main(args: Array<String>) {
 }
 
 class Solution547 {
-    fun findCircleNum(M: Array<IntArray>): Int {
-        val size = M.size
+    fun findCircleNum(isConnected: Array<IntArray>): Int {
+        val size = isConnected.size
         val ufs = UFS(size)
         for (i in 0 until size) {
             for (j in 0 until size) {
-                if (M[i][j] == 1 && i != j) {
+                if (isConnected[i][j] == 1 && i != j) {
                     ufs.union(i, j)
                 }
             }

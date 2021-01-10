@@ -39,10 +39,10 @@ class UFS(var n: Int = 0) {
 class TypedUFS<T>(var n: Int = 0) {
     private val parent = IntArray(n) { i -> i }
     private val rank = IntArray(n)
-    private val weight = DoubleArray(n) { 1.0 }
-    val count = IntArray(n) { 1 }
+//    private val weight = DoubleArray(n) { 1.0 }
+//    val count = IntArray(n) { 1 }
 
-    private val map = hashMapOf<T, Int>()
+    val map = hashMapOf<T, Int>()
     private val rev = hashMapOf<Int, T>()
     private var total = 0
 
@@ -58,7 +58,7 @@ class TypedUFS<T>(var n: Int = 0) {
         if (x != parent[x]) {
             val origin = parent[x]
             parent[x] = typedFind(rev[parent[x]]!!)
-            weight[x] *= weight[origin]
+//            weight[x] *= weight[origin]
         }
         return parent[x]
     }
@@ -72,33 +72,33 @@ class TypedUFS<T>(var n: Int = 0) {
         when {
             rank[px] > rank[py] -> {
                 parent[py] = px
-                weight[py] = weight[map[x]!!] / value / weight[map[y]!!]
-                count[px] += count[py]
+//                weight[py] = weight[map[x]!!] / value / weight[map[y]!!]
+//                count[px] += count[py]
             }
             rank[px] < rank[py] -> {
                 parent[px] = py
-                weight[px] = weight[map[y]!!] * value / weight[map[x]!!]
-                count[py] += count[px]
+//                weight[px] = weight[map[y]!!] * value / weight[map[x]!!]
+//                count[py] += count[px]
             }
             else -> {
                 parent[px] = py
                 rank[px]++
-                weight[px] = weight[map[y]!!] * value / weight[map[x]!!]
-                count[py] += count[px]
+//                weight[px] = weight[map[y]!!] * value / weight[map[x]!!]
+//                count[py] += count[px]
             }
         }
         return true
     }
 
-    fun isConnected(x: T, y: T): Double {
-        if (x !in map.keys || y !in map.keys)
-            return -1.0
-        val rootX: Int = typedFind(x)
-        val rootY: Int = typedFind(y)
-        return if (rootX == rootY) {
-            weight[map[x]!!] / weight[map[y]!!]
-        } else {
-            -1.0
-        }
-    }
+//    fun isConnected(x: T, y: T): Double {
+//        if (x !in map.keys || y !in map.keys)
+//            return -1.0
+//        val rootX: Int = typedFind(x)
+//        val rootY: Int = typedFind(y)
+//        return if (rootX == rootY) {
+//            weight[map[x]!!] / weight[map[y]!!]
+//        } else {
+//            -1.0
+//        }
+//    }
 }

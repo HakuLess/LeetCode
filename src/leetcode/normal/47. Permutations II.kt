@@ -1,6 +1,8 @@
 package leetcode.normal
 
 import leetcode.contest.utils.print
+import java.util.*
+
 
 fun main(args: Array<String>) {
     val s = Solution47()
@@ -9,27 +11,29 @@ fun main(args: Array<String>) {
 
 class Solution47 {
     fun permuteUnique(nums: IntArray): List<List<Int>> {
+        val ans: MutableList<List<Int>> = ArrayList()
+        val perm: MutableList<Int> = ArrayList()
+        val vis = BooleanArray(nums.size)
         nums.sort()
-        val res = ArrayList<List<Int>>()
-        val visited = IntArray(nums.size)
-        fun dfs(nums: IntArray, tmp: ArrayList<Int>, visited: IntArray) {
-            if (tmp.size == nums.size) {
-                res.add(ArrayList(tmp))
+
+        fun backtrack(nums: IntArray, ans: MutableList<List<Int>>, idx: Int, perm: MutableList<Int>) {
+            if (idx == nums.size) {
+                ans.add(ArrayList(perm))
                 return
             }
             for (i in nums.indices) {
-                if (visited[i] == 1) continue
-                if (i > 0 && nums[i - 1] == nums[i] && visited[i - 1] == 0) {
+                if (vis[i] || i > 0 && nums[i] == nums[i - 1] && !vis[i - 1]) {
                     continue
                 }
-                visited[i] = 1
-                tmp.add(nums[i])
-                dfs(nums, tmp, visited)
-                visited[i] = 0
-                tmp.removeAt(tmp.size - 1)
+                perm.add(nums[i])
+                vis[i] = true
+                backtrack(nums, ans, idx + 1, perm)
+                vis[i] = false
+                perm.removeAt(idx)
             }
         }
-        dfs(nums, ArrayList(), visited)
-        return res
+
+        backtrack(nums, ans, 0, perm)
+        return ans
     }
 }

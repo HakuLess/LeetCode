@@ -40,26 +40,26 @@ class Solution803 {
         }
 
         val ans = arrayListOf<Int>()
-        hits.reversed().forEach {
-            if (grid[it[0]][it[1]] == 1) {
-                val last = ufs.count[ufs.typedFind(R * C)]
-                for (i in 0..3) {
-                    val x = it[0] + dr[i]
-                    val y = it[1] + dc[i]
-                    if (x in A.indices && y in A[0].indices && A[x][y] == 1) {
-                        ufs.union(it[0] * C + it[1], x * C + y)
-                    }
-                    if (it[0] == 0) {
-                        ufs.union(it[0] * C + it[1], R * C)
-                    }
-                }
-                A[it[0]][it[1]] = 1
-                val now = ufs.count[ufs.typedFind(R * C)]
-                ans.add(maxOf(now - last - 1, 0))
-            } else {
-                ans.add(0)
-            }
-        }
+//        hits.reversed().forEach {
+//            if (grid[it[0]][it[1]] == 1) {
+//                val last = ufs.count[ufs.typedFind(R * C)]
+//                for (i in 0..3) {
+//                    val x = it[0] + dr[i]
+//                    val y = it[1] + dc[i]
+//                    if (x in A.indices && y in A[0].indices && A[x][y] == 1) {
+//                        ufs.union(it[0] * C + it[1], x * C + y)
+//                    }
+//                    if (it[0] == 0) {
+//                        ufs.union(it[0] * C + it[1], R * C)
+//                    }
+//                }
+//                A[it[0]][it[1]] = 1
+//                val now = ufs.count[ufs.typedFind(R * C)]
+//                ans.add(maxOf(now - last - 1, 0))
+//            } else {
+//                ans.add(0)
+//            }
+//        }
         return ans.reversed().toIntArray()
     }
 }

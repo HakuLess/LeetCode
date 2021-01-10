@@ -23,7 +23,7 @@ class Solution399 {
         }
         val ans = arrayListOf<Double>()
         queries.forEach {
-            ans.add(ufs.isConnected(it[0], it[1]))
+//            ans.add(ufs.isConnected(it[0], it[1]))
         }
         return ans.toDoubleArray()
     }

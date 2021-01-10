@@ -9,16 +9,8 @@ fun main(args: Array<String>) {
 
 class Solution5311 {
     fun numberOfSteps(num: Int): Int {
-        var ans = 0
-        var cur = num
-        while (cur != 0) {
-            if (cur % 2 == 0) {
-                cur /= 2
-            } else {
-                cur--
-            }
-            ans++
+        return num.toString(2).groupingBy { it }.eachCount().let {
+            (it['0'] ?: 0) + (it['1'] ?: 0) * 2 - 1
         }
-        return ans
     }
 }
