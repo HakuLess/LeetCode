@@ -14,51 +14,51 @@ fun main(args: Array<String>) {
 }
 
 class Solution5639 {
-//    fun minimumTimeRequired(jobs: IntArray, k: Int): Int {
-//        val n = jobs.size
-//        val dp = Array(k + 1) { IntArray(1 shl n) { Int.MAX_VALUE } }
-//        dp[0][0] = 0
-//        val sum = IntArray(1 shl n)
-//        for (i in 0 until (1 shl n)) {
-//            for (j in 0 until n) {
-//                if (i and (1 shl j) != 0) {
-//                    sum[i] += jobs[j]
-//                }
-//            }
-//        }
-//        for (i in 1..k) {
-//            for (state in 0 until (1 shl n)) {
-//                var next = state
-//                while (next > 0) {
-//                    dp[i][state] = minOf(dp[i][state], maxOf(dp[i - 1][state xor next], sum[next]))
-//                    next = (next - 1) and state
-//                }
-//            }
-//        }
-//        return dp[k][(1 shl n) - 1]
-//    }
-
     fun minimumTimeRequired(jobs: IntArray, k: Int): Int {
-        val arr = IntArray(k) { 0 }
-        var ans = Int.MAX_VALUE
-        val seen = HashSet<String>()
-        fun dfs(arr: IntArray, cur: Int) {
-            arr.sortDescending()
-            if (arr.first() > ans) return
-            val key = arr.joinToString()
-            if (key in seen) return
-            seen.add(key)
-            if (cur == jobs.size) {
-                ans = minOf(ans, arr.max()!!)
-                return
-            }
-            for (i in arr.indices) {
-                val clone = arr.clone()
-                clone[i] += jobs[cur]
-                dfs(clone, cur + 1)
+        val n = jobs.size
+        val dp = Array(k + 1) { IntArray(1 shl n) { Int.MAX_VALUE } }
+        dp[0][0] = 0
+        val sum = IntArray(1 shl n)
+        for (i in 0 until (1 shl n)) {
+            for (j in 0 until n) {
+                if (i and (1 shl j) != 0) {
+                    sum[i] += jobs[j]
+                }
             }
         }
-        dfs(arr, 0)
-        return ans
+        for (i in 1..k) {
+            for (state in 0 until (1 shl n)) {
+                var next = state
+                while (next > 0) {
+                    dp[i][state] = minOf(dp[i][state], maxOf(dp[i - 1][state xor next], sum[next]))
+                    next = (next - 1) and state
+                }
+            }
+        }
+        return dp[k][(1 shl n) - 1]
     }
+
+//    fun minimumTimeRequired(jobs: IntArray, k: Int): Int {
+//        val arr = IntArray(k) { 0 }
+//        var ans = Int.MAX_VALUE
+//        val seen = HashSet<String>()
+//        fun dfs(arr: IntArray, cur: Int) {
+//            arr.sortDescending()
+//            if (arr.first() > ans) return
+//            val key = arr.joinToString()
+//            if (key in seen) return
+//            seen.add(key)
+//            if (cur == jobs.size) {
+//                ans = minOf(ans, arr.max()!!)
+//                return
+//            }
+//            for (i in arr.indices) {
+//                val clone = arr.clone()
+//                clone[i] += jobs[cur]
+//                dfs(clone, cur + 1)
+//            }
+//        }
+//        dfs(arr, 0)
+//        return ans
+//    }
 }
