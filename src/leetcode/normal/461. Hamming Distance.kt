@@ -1,7 +1,7 @@
 package leetcode.normal
 
-fun hammingDistance(x: Int, y: Int): Int {
-    return Integer.toBinaryString(x xor y).count {
-        it == '1'
+class Solution461 {
+    fun hammingDistance(x: Int, y: Int): Int {
+        return (x xor y).toString(2).count { it == '1' }
     }
 }

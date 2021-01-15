@@ -34,9 +34,6 @@ class Solution5643 {
             val mid = map.ceilingEntry(left * 2)?.value?.first() ?: continue
             val right = map.floorEntry((sum + left) / 2)?.value?.last() ?: continue
             if (right < mid) continue
-
-//            println("find between ${left * 2} and ${(sum + left) / 2}")
-//            println("${right} - ${maxOf(i + 1, mid)}")
             ans += minOf(right, n - 2) - maxOf(i + 1, mid) + 1
         }
         return (ans % mod).toInt()

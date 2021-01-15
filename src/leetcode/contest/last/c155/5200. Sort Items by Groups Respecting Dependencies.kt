@@ -16,12 +16,11 @@ fun main(args: Array<String>) {
 
 class Solution5200 {
     fun sortItems(n: Int, m: Int, group: IntArray, beforeItems: List<List<Int>>): IntArray {
-
         val groupItems = ArrayList<ArrayList<Int>>()
         for (i in 0 until m) {
             groupItems.add(arrayListOf())
         }
-        for (i in 0 until group.size) {
+        for (i in group.indices) {
             if (group[i] >= 0) {
                 groupItems[group[i]].add(i)
             } else {
@@ -29,13 +28,11 @@ class Solution5200 {
                 group[i] = groupItems.lastIndex
             }
         }
-
         val graphList = ArrayList<Graph>()
         for (i in 0 until groupItems.size) {
             graphList.add(Graph(groupItems[i].size))
         }
         val groupGraph = Graph(groupItems.size)
-
         for (i in 0 until n) {
             beforeItems[i].forEach {
                 val gi = group[i]
@@ -47,7 +44,6 @@ class Solution5200 {
                 }
             }
         }
-
         val ans = arrayListOf<Int>()
         val gs = groupGraph.topologicalSort()
         if (gs.size < groupItems.size) {
