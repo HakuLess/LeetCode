@@ -16,11 +16,9 @@ fun main(args: Array<String>) {
 class Solution5230 {
     fun checkStraightLine(coordinates: Array<IntArray>): Boolean {
         coordinates.sortBy { it[0] }
-        coordinates.print()
         val x = coordinates[1][0] - coordinates[0][0]
         val y = coordinates[1][1] - coordinates[0][1]
         for (i in 2 until coordinates.size) {
-            println("${(coordinates[i][0] - coordinates[0][0] * y)}, ${(coordinates[i][1] - coordinates[0][1]) * x}")
             if ((coordinates[i][0] - coordinates[0][0]) * y == (coordinates[i][1] - coordinates[0][1]) * x) {
                 continue
             }

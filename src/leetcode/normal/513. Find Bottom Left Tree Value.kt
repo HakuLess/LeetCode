@@ -1,23 +1,27 @@
 package leetcode.normal
 
 import leetcode.contest.utils.TreeNode
+import java.util.*
 
-fun findBottomLeftValue(root: TreeNode?): Int {
-    val list = arrayListOf<ArrayList<Int>>()
-    //fillList(root, 0, list)
-    return list.last().first()
+class Solution513 {
+    fun findBottomLeftValue(root: TreeNode?): Int {
+        if (root == null) return 0
+        val queue: Queue<TreeNode> = LinkedList<TreeNode>()
+        queue.add(root)
+        var ans = 0
+        while (queue.isNotEmpty()) {
+            val size = queue.size
+            ans = queue.peek().`val`
+            for (i in 0 until size) {
+                val item = queue.poll()
+                if (item.left != null) {
+                    queue.offer(item.left)
+                }
+                if (item.right != null) {
+                    queue.offer(item.right)
+                }
+            }
+        }
+        return ans
+    }
 }
-
-//fun fillList(root: TreeNode?, level: Int, result: ArrayList<ArrayList<Int>>) {
-//    if (root == null) {
-//        return
-//    }
-//    val orderLevel = result.getOrElse(level) {
-//        result.add(it, arrayListOf())
-//        result[it]
-//    }
-//    orderLevel.add(root.`val`)
-//
-//    fillList(root.left, level + 1, result)
-//    fillList(root.right, level + 1, result)
-//}
