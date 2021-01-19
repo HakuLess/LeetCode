@@ -3,7 +3,7 @@ package leetcode.contest.last.b16
 import leetcode.contest.utils.TreeNode
 import java.util.*
 
-class Solution {
+class Solution5153 {
     fun deepestLeavesSum(root: TreeNode?): Int {
         val queue: Queue<TreeNode> = LinkedList<TreeNode>()
         queue.add(root)
