@@ -12,27 +12,27 @@ fun main(args: Array<String>) {
 
 class Solution5272 {
     fun countServers(grid: Array<IntArray>): Int {
+        fun checkGrid(x: Int, y: Int): Boolean {
+            for (i in 0..grid.lastIndex) {
+                if (i != x && grid[i][y] == 1) {
+                    return true
+                }
+            }
+            for (j in 0..grid[0].lastIndex) {
+                if (j != y && grid[x][j] == 1) {
+                    return true
+                }
+            }
+            return false
+        }
+
         var ans = 0
         for (i in 0..grid.lastIndex) {
             for (j in 0..grid[0].lastIndex) {
                 if (grid[i][j] == 1)
-                    ans += if (checkGrid(grid, i, j)) 1 else 0
+                    ans += if (checkGrid(i, j)) 1 else 0
             }
         }
         return ans
-    }
-
-    private fun checkGrid(grid: Array<IntArray>, x: Int, y: Int): Boolean {
-        for (i in 0..grid.lastIndex) {
-            if (i != x && grid[i][y] == 1) {
-                return true
-            }
-        }
-        for (j in 0..grid[0].lastIndex) {
-            if (j != y && grid[x][j] == 1) {
-                return true
-            }
-        }
-        return false
     }
 }
