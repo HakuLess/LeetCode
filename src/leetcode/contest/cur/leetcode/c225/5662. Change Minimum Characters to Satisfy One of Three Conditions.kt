@@ -4,7 +4,7 @@ class Solution5662 {
     fun minCharacters(a: String, b: String): Int {
         fun dfs(a: String, b: String): Int {
             var ans = Int.MAX_VALUE
-            for (i in 'a'..'z') {
+            for (i in 'a'..'y') {
                 var diff = 0
                 a.forEach {
                     if (it > i) diff++

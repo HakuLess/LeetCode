@@ -4,10 +4,10 @@ class Solution5661 {
     fun maximumTime(time: String): String {
         var (a, b) = time.split(":")
         if (a[0] == '?') {
-            if (a[1] != '?' && a[1] - '0' > 3)
-                a = "1" + a[1]
+            a = if (a[1] != '?' && a[1] - '0' > 3)
+                "1" + a[1]
             else
-                a = "2" + a[1]
+                "2" + a[1]
         }
         if (a[1] == '?')
             a = a[0] + "9"

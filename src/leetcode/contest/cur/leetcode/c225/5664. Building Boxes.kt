@@ -14,24 +14,40 @@ fun main(args: Array<String>) {
 
 class Solution5664 {
     fun minimumBoxes(n: Int): Int {
-        if (n == 0) return 0
-        var sum = 0
-        val arr = arrayListOf<Int>()
-        var cur = 1
-        while (sum + (arr.lastOrNull() ?: 0) + cur < n) {
-            arr.add(cur + (arr.lastOrNull() ?: 0))
-            sum += arr.last()
-            cur++
-        }
-        fun dfs(n: Int): Int {
-            var cur = 1
-            var sum = 0
-            while (sum < n) {
-                sum += cur
-                cur++
+        var bottom = 1
+        var sum = 1
+        var height = 1
+        while (sum < n) {
+            var i = 0
+            while (i <= height && sum < n) {
+                bottom++
+                sum += i + 1
+                i++
             }
-            return cur - 1
+            height++
         }
-        return (arr.lastOrNull() ?: 0) + if (sum < n) dfs(n - sum) else 0
+        return bottom
     }
+
+//    fun minimumBoxes(n: Int): Int {
+//        if (n == 0) return 0
+//        var sum = 0
+//        val arr = arrayListOf<Int>()
+//        var cur = 1
+//        while (sum + (arr.lastOrNull() ?: 0) + cur < n) {
+//            arr.add(cur + (arr.lastOrNull() ?: 0))
+//            sum += arr.last()
+//            cur++
+//        }
+//        fun dfs(n: Int): Int {
+//            var cur = 1
+//            var sum = 0
+//            while (sum < n) {
+//                sum += cur
+//                cur++
+//            }
+//            return cur - 1
+//        }
+//        return (arr.lastOrNull() ?: 0) + if (sum < n) dfs(n - sum) else 0
+//    }
 }
