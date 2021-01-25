@@ -15,10 +15,8 @@ class Solution5663 {
     fun kthLargestValue(matrix: Array<IntArray>, k: Int): Int {
         val n = matrix.size
         val m: Int = matrix[0].size
-
         val xor = Array(n) { IntArray(m) }
         val pq = PriorityQueue<Int>()
-
         for (i in 0 until n) {
             for (j in 0 until m) {
                 val a = if (i - 1 >= 0) xor[i - 1][j] else 0
