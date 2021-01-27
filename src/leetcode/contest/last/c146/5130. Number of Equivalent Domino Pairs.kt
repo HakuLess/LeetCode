@@ -26,12 +26,8 @@ class Solution5130 {
             map[it] = map.getOrDefault(it, 0) + 1
         }
         map.forEach {
-            println("${it.key} , ${it.value}")
-        }
-        map.forEach {
             ans += (it.value * (it.value - 1)) / 2
         }
-
         return ans
     }
 }
