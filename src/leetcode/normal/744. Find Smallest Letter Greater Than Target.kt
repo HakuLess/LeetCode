@@ -1,14 +1,12 @@
 package leetcode.normal
 
-fun nextGreatestLetter(letters: CharArray, target: Char): Char {
-    var lo = 0
-    var hi = letters.size
-    while (lo < hi) {
-        val mi = lo + (hi - lo) / 2
-        if (letters[mi] <= target)
-            lo = mi + 1
-        else
-            hi = mi
+class Solution744 {
+    fun nextGreatestLetter(letters: CharArray, target: Char): Char {
+        letters.forEach {
+            if (it > target) {
+                return it
+            }
+        }
+        return letters[0]
     }
-    return letters[lo % letters.size]
 }
