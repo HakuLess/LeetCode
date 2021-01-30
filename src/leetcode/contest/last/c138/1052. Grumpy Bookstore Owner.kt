@@ -14,22 +14,19 @@ fun main(args: Array<String>) {
 class Solution1052 {
     fun maxSatisfied(customers: IntArray, grumpy: IntArray, X: Int): Int {
         var ans = 0
-        for (i in 0 until customers.size) {
+        var add = 0
+        val sum = IntArray(grumpy.size + 1)
+        for (i in grumpy.indices) {
             if (grumpy[i] == 0) {
                 ans += customers[i]
+                sum[i + 1] = sum[i]
+            } else {
+                sum[i + 1] = sum[i] + customers[i]
             }
         }
-
-        var control = 0
-        for (i in 0 until customers.size - X + 1) {
-            var item = 0
-            for (j in i until i + X) {
-                if (grumpy[j] == 1) {
-                    item += customers[j]
-                }
-            }
-            control = maxOf(control, item)
+        for (i in 0 until grumpy.size - X + 1) {
+            add = maxOf(add, sum[i + X] - sum[i])
         }
-        return ans + control
+        return ans + add
     }
 }

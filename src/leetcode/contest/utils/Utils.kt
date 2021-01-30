@@ -362,6 +362,10 @@ fun comb(m: BigInteger, n: BigInteger): BigInteger {
     return result
 }
 
+fun longComb(m: Long, n: Long): Long {
+    return comb(m.toBigInteger(), n.toBigInteger()).mod(BigInteger.valueOf(1000000007L)).toLong()
+}
+
 fun String.multi(count: Int): String {
     val sb = StringBuilder()
     repeat(count) {

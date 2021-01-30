@@ -6,7 +6,6 @@ class Solution345 {
         var start = 0
         var end = s.lastIndex
         val ans = s.toCharArray()
-
         while (start <= end) {
             when {
                 s[start] !in vowels -> {
@@ -23,7 +22,6 @@ class Solution345 {
                 }
             }
         }
-
         return String(ans)
     }
 }
