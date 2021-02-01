@@ -5,12 +5,11 @@ class Solution888 {
         val a = A.sum()
         val b = B.sum()
         val diff = (b - a) / 2
-        for (i in 0 until A.size) {
+        for (i in A.indices) {
             if ((A[i] + diff) in B) {
                 return intArrayOf(A[i], A[i] + diff)
             }
         }
-
         return intArrayOf()
     }
 }
