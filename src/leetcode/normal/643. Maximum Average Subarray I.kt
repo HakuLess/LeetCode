@@ -7,13 +7,11 @@ class Solution643 {
             sum += nums[i]
         }
         var max = sum
-
         for (i in k until nums.size) {
             sum -= nums[i - k]
             sum += nums[i]
             max = maxOf(sum, max)
         }
-
         return max.toDouble() / k
     }
 }

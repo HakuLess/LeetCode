@@ -21,12 +21,10 @@ class Solution633 {
             }
             val sq = sqrt((c - i * i).toDouble())
             if (sq == floor(sq)) {
-                println(i)
                 return true
             }
             i++
         }
-
         return false
     }
 }

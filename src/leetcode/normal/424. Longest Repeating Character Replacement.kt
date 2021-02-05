@@ -13,31 +13,30 @@ fun main(args: Array<String>) {
 
 class Solution424 {
     fun characterReplacement(s: String, k: Int): Int {
+        fun getMax(c: Char): Int {
+            var res = 0
+            var count = 0
+            val queue: Queue<Char> = LinkedList()
+            for (i in 0..s.lastIndex) {
+                queue.add(s[i])
+                if (s[i] != c) {
+                    count++
+                }
+                if (count > k) {
+                    while (queue.peek() == c) {
+                        queue.poll()
+                    }
+                    queue.poll()
+                    count--
+                }
+                res = maxOf(res, queue.size)
+            }
+            return res
+        }
         var ans = 0
         for (i in 'A'..'Z') {
-            ans = maxOf(ans, getMax(s, k, i))
+            ans = maxOf(ans, getMax(i))
         }
         return ans
-    }
-
-    private fun getMax(s: String, k: Int, c: Char): Int {
-        var res = 0
-        var count = 0
-        val queue: Queue<Char> = LinkedList()
-        for (i in 0..s.lastIndex) {
-            queue.add(s[i])
-            if (s[i] != c) {
-                count++
-            }
-            if (count > k) {
-                while (queue.peek() == c) {
-                    queue.poll()
-                }
-                queue.poll()
-                count--
-            }
-            res = maxOf(res, queue.size)
-        }
-        return res
     }
 }

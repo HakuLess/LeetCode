@@ -4,14 +4,13 @@ import java.util.LinkedList
 import java.util.ArrayList
 
 class Solution5192 {
-    var res: MutableList<List<Int>> = ArrayList()
+
+    var res = ArrayList<List<Int>>()
     private var adj: Array<LinkedList<Int>>? = null
     var time = 0
 
-    private fun bridgeUtil(u: Int, visited: BooleanArray, disc: IntArray,
-                           low: IntArray, parent: IntArray) {
+    private fun bridgeUtil(u: Int, visited: BooleanArray, disc: IntArray, low: IntArray, parent: IntArray) {
         visited[u] = true
-
         low[u] = ++time
         disc[u] = low[u]
 

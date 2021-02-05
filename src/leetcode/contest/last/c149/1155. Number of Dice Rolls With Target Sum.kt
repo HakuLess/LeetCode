@@ -14,30 +14,26 @@ fun main(args: Array<String>) {
 
 class Solution1155 {
 
-    val map = HashMap<Pair<Int, Int>, BigInteger>()
-
-    private val mod = 1000000007L
-
     fun numRollsToTarget(d: Int, f: Int, target: Int): Int {
-        return (cal(0, target, d, f).mod(BigInteger.valueOf(mod))).toInt()
-    }
-
-    private fun cal(cur: Int, target: Int, d: Int, f: Int): BigInteger {
-        if (map[Pair(cur, d)] != null) {
-            return map[Pair(cur, d)]!!
+        val mod = 1000000007L
+        val seen = HashMap<Pair<Int, Int>, Long>()
+        fun dfs(cur: Int, left: Int): Long {
+            val key = Pair(cur, left)
+            if (key in seen) {
+                return seen[key]!!
+            }
+            if (cur == 0 && left != 0) return 0L
+            if (cur == 0 && left == 0) return 1L
+            var ans = 0L
+            for (i in 1..f) {
+                if (left < i) break
+                ans += dfs(cur - 1, left - i)
+                ans %= mod
+            }
+            return ans.also {
+                seen[key] = it
+            }
         }
-
-        if (cur == target && d == 0) {
-            return BigInteger.ONE
-        }
-        if (cur > target || d <= 0) {
-            return BigInteger.ZERO
-        }
-        var ans = BigInteger.valueOf(0)
-        for (i in 1..f) {
-            ans = ans.add(cal(cur + i, target, d - 1, f))
-        }
-        map[Pair(cur, d)] = ans
-        return ans
+        return dfs(d, target).toInt()
     }
 }

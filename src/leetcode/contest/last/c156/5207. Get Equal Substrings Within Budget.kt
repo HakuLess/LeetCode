@@ -14,27 +14,17 @@ fun main(args: Array<String>) {
 class Solution5207 {
 
     fun equalSubstring(s: String, t: String, maxCost: Int): Int {
-        var max = 0
-        val sum = arrayListOf<Int>()
-        var cur = 0
+        var left = 0
+        var cost = 0
+        var ans = 0
         for (i in s.indices) {
-            cur += abs(s[i] - t[i])
-            sum.add(cur)
-        }
-//        sum.forEach { print("$it,") }
-//        println()
-        for (i in s.indices) {
-            if (sum[i] <= maxCost) {
-                max = maxOf(i + 1, max)
-            } else {
-                var j = i - 1
-                while (j >= 0 && sum[i] - sum[j] <= maxCost) {
-                    max = maxOf(i - j, max)
-                    j--
-                }
+            cost += abs(s[i] - t[i])
+            while (cost > maxCost) {
+                cost -= abs(s[left] - t[left])
+                left++
             }
+            ans = maxOf(ans, i - left + 1)
         }
-        return max
+        return ans
     }
-
 }
