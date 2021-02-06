@@ -1,36 +1,23 @@
 package leetcode.normal
 
-import leetcode.contest.utils.print
 import java.util.*
 
-fun main(args: Array<String>) {
-    val str = "Test1ng-Leet=code-Q!"
-    reverseOnlyLetters(str).print()
-}
-
-fun reverseOnlyLetters(S: String): String {
-    var result = ""
-    val stack : Stack<Char> = Stack()
-    S.forEach {
-        if (isLetter(it)) {
-            stack.push(it)
+class Solution917 {
+    fun reverseOnlyLetters(S: String): String {
+        var result = ""
+        val stack: Stack<Char> = Stack()
+        S.forEach {
+            if (it.isLetter()) {
+                stack.push(it)
+            }
         }
-    }
-
-    S.forEach {
-        result += if (isLetter(it)) {
-            stack.pop()
-        } else {
-            it
+        S.forEach {
+            result += if (it.isLetter()) {
+                stack.pop()
+            } else {
+                it
+            }
         }
+        return result
     }
-
-    return result
-}
-
-fun isLetter(c: Char): Boolean {
-    if (c in 'a'..'z' || c in 'A'..'Z') {
-        return true
-    }
-    return false
 }
