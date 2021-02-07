@@ -1,14 +1,12 @@
 package leetcode.contest.last.c159
 
 class Solution5233 {
-
     fun jobScheduling(startTime: IntArray, endTime: IntArray, profit: IntArray): Int {
         val w = arrayListOf<Triple<Int, Int, Int>>()
         for (i in startTime.indices) {
             w.add(Triple(startTime[i], endTime[i], profit[i]))
         }
         w.sortBy { it.second }
-
         val dp = IntArray(w.size)
         dp[0] = w[0].third
         for (i in 1 until w.size) {

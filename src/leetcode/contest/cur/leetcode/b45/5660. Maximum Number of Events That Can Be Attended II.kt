@@ -2,7 +2,6 @@ package leetcode.contest.cur.leetcode.b45
 
 import leetcode.contest.utils.print
 import leetcode.contest.utils.toGrid
-import java.util.*
 
 
 fun main(args: Array<String>) {
@@ -18,17 +17,35 @@ fun main(args: Array<String>) {
 class Solution5660 {
     fun maxValue(events: Array<IntArray>, k: Int): Int {
         events.sortBy { it[1] }
-        var cur = TreeMap<Int, Int>()
-        cur[0] = 0
-        for (L in 1..k) {
-            val next = TreeMap<Int, Int>()
-            next[0] = 0
-            for ((start, end, v) in events) {
-                val key = cur.floorKey(start - 1) ?: continue
-                next[end] = maxOf(cur[key]!! + v, next[next.floorKey(end)]!!)
+        val n: Int = events.size
+        val pre = IntArray(n)
+        for (i in 1 until n) {
+            for (j in i - 1 downTo 0) {
+                if (events[i][0] <= events[j][1]) continue
+                pre[i] = j + 1
+                break
             }
-            cur = next
         }
-        return cur.values.max()!!
+        val dp = Array(n + 1) { IntArray(k + 1) }
+        for (i in 1..n)
+            for (j in 1..k)
+                dp[i][j] = maxOf(dp[i - 1][j], dp[pre[i - 1]][j - 1] + events[i - 1][2])
+        return dp[n][k]
     }
+
+//    fun maxValue(events: Array<IntArray>, k: Int): Int {
+//        events.sortBy { it[1] }
+//        var cur = TreeMap<Int, Int>()
+//        cur[0] = 0
+//        for (L in 1..k) {
+//            val next = TreeMap<Int, Int>()
+//            next[0] = 0
+//            for ((start, end, v) in events) {
+//                val key = cur.floorKey(start - 1)
+//                next[end] = maxOf(cur[key]!! + v, next[next.floorKey(end)]!!)
+//            }
+//            cur = next
+//        }
+//        return cur.values.max()!!
+//    }
 }
