@@ -6,6 +6,8 @@ import java.math.BigInteger
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
+import kotlin.collections.HashSet
+import kotlin.math.abs
 
 object L {
     operator fun <T> get(vararg a: T) = listOf(*a)
@@ -372,4 +374,20 @@ fun String.multi(count: Int): String {
         sb.append(this)
     }
     return sb.toString()
+}
+
+/**
+ * 获取所有subSet的可能的和
+ * */
+fun IntArray.toAllSubSet(): HashSet<Int> {
+    val set = hashSetOf<Int>()
+    val n = this.size
+    for (i in 0..(1 shl n)) {
+        var tmp = 0
+        for (j in 0 until n) {
+            if (i and (1 shl j) != 0) tmp += this[j]
+        }
+        set.add(tmp)
+    }
+    return set
 }

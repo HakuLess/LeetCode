@@ -13,34 +13,21 @@ fun main(args: Array<String>) {
 
 class Solution665 {
     fun checkPossibility(nums: IntArray): Boolean {
-        if (nums.size < 2) {
-            return true
-        }
-        var count = 0
-        var skip = 0
-        for (i in 1 until nums.size) {
-            if (nums[i] < nums[i - 1]) {
-                count++
-                skip = i
+        val n = nums.size
+        var cnt = 0
+        for (i in 0 until n - 1) {
+            val x = nums[i]
+            val y = nums[i + 1]
+            if (x > y) {
+                cnt++
+                if (cnt > 1) {
+                    return false
+                }
+                if (i > 0 && y < nums[i - 1]) {
+                    nums[i + 1] = x
+                }
             }
-            if (count > 1) {
-                return false
-            }
         }
-
-        if (count == 0) {
-            return true
-        }
-
-        // delete skip - 1 or skip
-        if (skip == nums.lastIndex || nums[skip + 1] >= nums[skip - 1]) {
-            return true
-        }
-
-        if (skip == 1 || nums[skip] >= nums[skip - 2]) {
-            return true
-        }
-
-        return false
+        return true
     }
 }

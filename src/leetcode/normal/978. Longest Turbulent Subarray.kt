@@ -10,43 +10,29 @@ fun main(args: Array<String>) {
 }
 
 class Solution978 {
-
-    fun maxTurbulenceSize(A: IntArray): Int {
-        if (A.isEmpty()) {
-            return 0
-        }
-        var pre = A[0]
-        var max = 1
-
-        var larger: Boolean? = null
-        var cur = 1
-
-        for (i in 1 until A.size) {
+    fun maxTurbulenceSize(arr: IntArray): Int {
+        var ans = 1
+        val n = arr.size
+        var dp0 = 1
+        var dp1 = 1
+        for (i in 1 until n) {
             when {
-                A[i] > pre -> {
-                    when {
-                        larger == null -> cur++
-                        larger -> cur = 2
-                        else -> cur++
-                    }
-                    larger = true
+                arr[i - 1] > arr[i] -> {
+                    dp0 = dp1 + 1
+                    dp1 = 1
                 }
-                A[i] < pre -> {
-                    when {
-                        larger == null -> cur++
-                        !larger -> cur = 2
-                        else -> cur++
-                    }
-                    larger = false
+                arr[i - 1] < arr[i] -> {
+                    dp1 = dp0 + 1
+                    dp0 = 1
                 }
                 else -> {
-                    larger = null
-                    cur = 1
+                    dp0 = 1
+                    dp1 = 1
                 }
             }
-            pre = A[i]
-            max = maxOf(max, cur)
+            ans = maxOf(ans, dp0)
+            ans = maxOf(ans, dp1)
         }
-        return max
+        return ans
     }
 }
