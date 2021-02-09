@@ -1,12 +1,7 @@
 package leetcode.contest.last.c185
 
-fun main(args: Array<String>) {
-    val s = Solution5389()
-}
-
 class Solution5389 {
     fun displayTable(orders: List<List<String>>): List<List<String>> {
-
         val map = HashMap<Int, ArrayList<String>>()
         val set = arrayListOf<String>()
         val key = arrayListOf<Int>()
@@ -21,10 +16,8 @@ class Solution5389 {
         val top = arrayListOf<String>()
         top.add("Table")
         menu.forEach { top.add(it) }
-
         val ans = ArrayList<ArrayList<String>>()
         ans.add(top)
-
         key.sort()
         val k = key.distinct()
         k.forEach {
