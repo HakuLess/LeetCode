@@ -1,30 +1,29 @@
 package leetcode.normal
 
+import leetcode.contest.utils.print
+
+fun main(args: Array<String>) {
+    val s = Solution567()
+    s.checkInclusion("adc", "dcda").print()
+
+}
+
 class Solution567 {
     fun checkInclusion(s1: String, s2: String): Boolean {
-        val map = strToMap(s1)
-        map.forEach { t, u ->
-            println("a $t :$u")
+        if (s1.length > s2.length)
+            return false
+        val target = IntArray(26)
+        val cur = IntArray(26)
+        s1.forEach {
+            target[it - 'a']++
         }
-
-        for (i in 0..s2.length - s1.length) {
-            val temp = strToMap(s2.substring(i, i + s1.length))
-            temp.forEach { t, u ->
-                println("b $t :$u")
-            }
-            println()
-            if (temp == map) {
+        for (i in s2.indices) {
+            if (i >= s1.length)
+                cur[s2[i - s1.length] - 'a']--
+            cur[s2[i] - 'a']++
+            if (cur.contentEquals(target))
                 return true
-            }
         }
         return false
-    }
-
-    private fun strToMap(str: String): HashMap<Char, Int> {
-        val map = HashMap<Char, Int>()
-        str.forEach {
-            map[it] = map.getOrDefault(it, 0) + 1
-        }
-        return map
     }
 }
