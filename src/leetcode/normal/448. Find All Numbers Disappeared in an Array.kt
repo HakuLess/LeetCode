@@ -1,22 +1,21 @@
 package leetcode.normal
 
-fun main(args: Array<String>) {
-    val source = arrayListOf(1, 1).toIntArray()
-    findDisappearedNumbers(source).forEach {
-        println(it)
+import java.util.*
+
+
+class Solution448 {
+    fun findDisappearedNumbers(nums: IntArray): List<Int> {
+        val n: Int = nums.size
+        for (num in nums) {
+            val x = (num - 1) % n
+            nums[x] += n
+        }
+        val ret = ArrayList<Int>()
+        for (i in 0 until n) {
+            if (nums[i] <= n) {
+                ret.add(i + 1)
+            }
+        }
+        return ret
     }
-}
-
-fun findDisappearedNumbers(nums: IntArray): List<Int> {
-    val result = arrayListOf<Int>()
-
-    for (i in 1..nums.size) {
-        result.add(i)
-    }
-
-    nums.forEach {
-        result.remove(it)
-    }
-
-    return result
 }

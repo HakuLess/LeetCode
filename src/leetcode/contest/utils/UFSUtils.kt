@@ -90,6 +90,14 @@ class TypedUFS<T>(var n: Int = 0) {
         return true
     }
 
+    fun getCount(): Int {
+        val keys = hashSetOf<Int>()
+        map.keys.forEach {
+            keys.add(typedFind(it))
+        }
+        return keys.size
+    }
+
 //    fun isConnected(x: T, y: T): Double {
 //        if (x !in map.keys || y !in map.keys)
 //            return -1.0

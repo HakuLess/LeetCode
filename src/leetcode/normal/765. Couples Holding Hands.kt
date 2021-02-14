@@ -1,5 +1,6 @@
 package leetcode.normal
 
+import leetcode.contest.utils.TypedUFS
 import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
@@ -12,27 +13,34 @@ fun main(args: Array<String>) {
 
 class Solution765 {
     fun minSwapsCouples(row: IntArray): Int {
-        var ans = 0
-        for (i in 0 until row.size - 1 step 2) {
-//            println("$i, ${row[i]}")
-            if (row[i] / 2 == row[i + 1] / 2) {
-                continue
-            } else {
-                val index = if (row[i] % 2 == 0) {
-                    row.indexOf(row[i] + 1)
-                } else {
-                    row.indexOf(row[i] - 1)
-                }
-                swap(row, i + 1, index)
-                ans++
-            }
+        val n = row.size
+        val ufs = TypedUFS<Int>(n)
+        for (i in row.indices step 2) {
+            ufs.union(row[i] / 2, row[i + 1] / 2)
         }
-        return ans
+        return n - ufs.getCount()
     }
 
-    private fun swap(row: IntArray, a: Int, b: Int) {
-        val temp = row[a]
-        row[a] = row[b]
-        row[b] = temp
-    }
+//    fun minSwapsCouples(row: IntArray): Int {
+//        fun swap(row: IntArray, a: Int, b: Int) {
+//            val temp = row[a]
+//            row[a] = row[b]
+//            row[b] = temp
+//        }
+//        var ans = 0
+//        for (i in 0 until row.size - 1 step 2) {
+//            if (row[i] / 2 == row[i + 1] / 2) {
+//                continue
+//            } else {
+//                val index = if (row[i] % 2 == 0) {
+//                    row.indexOf(row[i] + 1)
+//                } else {
+//                    row.indexOf(row[i] - 1)
+//                }
+//                swap(row, i + 1, index)
+//                ans++
+//            }
+//        }
+//        return ans
+//    }
 }
