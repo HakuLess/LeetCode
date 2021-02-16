@@ -1,6 +1,7 @@
 package leetcode.contest.cur.leetcode.b43
 
 import leetcode.contest.utils.*
+import kotlin.collections.HashSet
 
 fun main(args: Array<String>) {
     val s = Solution5636()
@@ -13,12 +14,15 @@ fun main(args: Array<String>) {
 
 class Solution5636 {
     fun checkWays(pairs: Array<IntArray>): Int {
-        val map = hashMapOf<Int, ArrayList<Int>>()
+        val map = hashMapOf<Int, HashSet<Int>>()
+        val matrix = Array<BooleanArray>(501) { BooleanArray(501) { false } }
         pairs.forEach {
-            map[it[0]] = map.getOrDefault(it[0], arrayListOf())
+            map[it[0]] = map.getOrDefault(it[0], HashSet())
             map[it[0]]!!.add(it[1])
-            map[it[1]] = map.getOrDefault(it[1], arrayListOf())
+            map[it[1]] = map.getOrDefault(it[1], HashSet())
             map[it[1]]!!.add(it[0])
+            matrix[it[0]][it[1]] = true
+            matrix[it[1]][it[0]] = true
         }
         val nodes = arrayListOf<Int>()
         nodes.addAll(map.keys)
@@ -27,25 +31,17 @@ class Solution5636 {
         val n = map.keys.size
         if (map[nodes[0]]!!.size != n - 1) return 0
         var ans = 1
-        var start = 1
-        while (start < n && map[nodes[start]]!!.size == n - 1) {
-            ans = 2
-            start += 1
-        }
-        for (i in 0 until start) {
-            for (node in map[nodes[i]]!!) {
-                map[node]!!.remove(nodes[i])
-            }
-        }
-        for (i in start until n) {
+        for (i in 0 until n) {
             val k = map[nodes[i]]!!.size
             for (node in map[nodes[i]]!!) {
                 if (map[node]!!.size == k) {
                     ans = 2
                 }
                 map[node]!!.remove(nodes[i])
-                if (k < map[nodes[i]]!!.union(map[node]!!).size)
-                    return 0
+                for (it in map[node]!!) {
+                    if (!matrix[it][nodes[i]])
+                        return 0
+                }
             }
         }
         return ans

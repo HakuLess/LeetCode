@@ -13,8 +13,7 @@ class Solution5678 {
             var ans = 0
             nums.forEach {
                 if (it > mid) {
-                    ans += it / mid
-                    if (it % mid == 0) ans--
+                    ans += (it - 1) / mid
                 }
             }
             return ans <= maxOperations
