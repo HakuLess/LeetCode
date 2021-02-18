@@ -3,27 +3,27 @@ package leetcode.normal
 import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
-    minKBitFlips(intArrayOf(0, 1, 0), 1).print()
-    minKBitFlips(intArrayOf(1, 1, 0), 2).print()
-    minKBitFlips(intArrayOf(0, 0, 0, 1, 0, 1, 1, 0), 3).print()
+    val s = Solution995()
+    s.minKBitFlips(intArrayOf(0, 1, 0), 1).print()
 }
 
-fun minKBitFlips(A: IntArray, K: Int): Int {
-    var ans = 0
-    for (i in 0..A.size - K) {
-        if (A[i] == 0) {
-            for (j in 0 until K) {
-                A[i + j] = 1 - A[i + j]
+class Solution995 {
+    fun minKBitFlips(A: IntArray, K: Int): Int {
+        val n: Int = A.size
+        val diff = IntArray(n + 1)
+        var ans = 0
+        var revCnt = 0
+        for (i in 0 until n) {
+            revCnt += diff[i]
+            if ((A[i] + revCnt) % 2 == 0) {
+                if (i + K > n) {
+                    return -1
+                }
+                ++ans
+                ++revCnt
+                --diff[i + K]
             }
-            ans++
         }
-    }
-
-    A.print()
-
-    return if (A.any { it == 0 }) {
-        -1
-    } else {
-        ans
+        return ans
     }
 }

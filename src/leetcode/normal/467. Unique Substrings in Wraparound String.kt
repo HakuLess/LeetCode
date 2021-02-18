@@ -15,19 +15,17 @@ class Solution467 {
         if (p.isEmpty()) {
             return 0
         }
-        val sum = IntArray(p.length) { 1 }
+        var sum = 1
         val c = IntArray(26) { 0 }
         c[p[0] - 'a'] = 1
         for (i in 1 until p.length) {
-            if (p[i] - p[i - 1] == 1 || (p[i - 1] == 'z' && p[i] == 'a')) {
-                sum[i] = sum[i - 1] + 1
+            if ((p[i] - p[i - 1] - 1) % 26 == 0) {
+                sum++
             } else {
-                sum[i] = 1
+                sum = 1
             }
-            c[p[i] - 'a'] = maxOf(c[p[i] - 'a'], sum[i])
+            c[p[i] - 'a'] = maxOf(c[p[i] - 'a'], sum)
         }
-
-        c.print()
         return c.sum()
     }
 }
