@@ -75,6 +75,9 @@ class Solution5529 {
                         }
                     }
                 }
+                return false.also {
+                    dp[cx][cy][mx][my][step] = it
+                }
             } else {
                 // cat move
                 for (i in 0 until 4) {
@@ -91,9 +94,9 @@ class Solution5529 {
                         }
                     }
                 }
-            }
-            return (step % 2 != 0).also {
-                dp[cx][cy][mx][my][step] = it
+                return true.also {
+                    dp[cx][cy][mx][my][step] = it
+                }
             }
         }
         return dfs(cx, cy, mx, my, 0)

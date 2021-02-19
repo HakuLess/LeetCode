@@ -13,8 +13,8 @@ import leetcode.contest.utils.TreeNode
  * }
  */
 class Solution5474 {
-    var ans = 0
     fun countPairs(root: TreeNode?, distance: Int): Int {
+        var ans = 0
         fun dfs(root: TreeNode?): ArrayList<Int> {
             if (root == null) return arrayListOf()
             if (root.left == null && root.right == null) return arrayListOf(0)
