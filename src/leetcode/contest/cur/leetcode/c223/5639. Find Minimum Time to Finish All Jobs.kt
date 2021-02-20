@@ -28,37 +28,13 @@ class Solution5639 {
         }
         for (i in 1..k) {
             for (state in 0 until (1 shl n)) {
-                var next = state
-                while (next > 0) {
-                    dp[i][state] = minOf(dp[i][state], maxOf(dp[i - 1][state xor next], sum[next]))
-                    next = (next - 1) and state
+                var subState = state
+                while (subState > 0) {
+                    dp[i][state] = minOf(dp[i][state], maxOf(dp[i - 1][state - subState], sum[subState]))
+                    subState = (subState - 1) and state
                 }
             }
         }
         return dp[k][(1 shl n) - 1]
     }
-
-//    fun minimumTimeRequired(jobs: IntArray, k: Int): Int {
-//        val arr = IntArray(k) { 0 }
-//        var ans = Int.MAX_VALUE
-//        val seen = HashSet<String>()
-//        fun dfs(arr: IntArray, cur: Int) {
-//            arr.sortDescending()
-//            if (arr.first() > ans) return
-//            val key = arr.joinToString()
-//            if (key in seen) return
-//            seen.add(key)
-//            if (cur == jobs.size) {
-//                ans = minOf(ans, arr.max()!!)
-//                return
-//            }
-//            for (i in arr.indices) {
-//                val clone = arr.clone()
-//                clone[i] += jobs[cur]
-//                dfs(clone, cur + 1)
-//            }
-//        }
-//        dfs(arr, 0)
-//        return ans
-//    }
 }

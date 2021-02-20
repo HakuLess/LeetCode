@@ -6,7 +6,7 @@ class Solution5126 {
         val map = HashMap<Int, Int>()
         arr.forEach {
             map[it] = map.getOrDefault(it, 0) + 1
-            if (map[it]!! >= t) {
+            if (map[it]!! > t) {
                 return it
             }
         }
