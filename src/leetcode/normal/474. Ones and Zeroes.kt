@@ -12,7 +12,6 @@ fun main(args: Array<String>) {
 }
 
 class Solution474 {
-
     fun findMaxForm(strs: Array<String>, m: Int, n: Int): Int {
         val res = strs.map {
             Pair(it.count { ch ->
@@ -21,7 +20,6 @@ class Solution474 {
                 ch == '1'
             })
         }
-
         val dp = Array(m + 1) { IntArray(n + 1) }
         res.forEach {
             for (i in m downTo it.first) {
@@ -30,8 +28,6 @@ class Solution474 {
                 }
             }
         }
-
-        dp.print()
         return dp[m][n]
     }
 }

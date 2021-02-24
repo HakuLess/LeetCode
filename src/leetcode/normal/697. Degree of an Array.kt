@@ -2,7 +2,6 @@ package leetcode.normal
 
 
 class Solution697 {
-
     fun findShortestSubArray(nums: IntArray): Int {
         val left = hashMapOf<Int, Int>()
         val right = hashMapOf<Int, Int>()
@@ -26,30 +25,4 @@ class Solution697 {
         }
         return ans
     }
-
-//    fun findShortestSubArray(nums: IntArray): Int {
-//        val array = IntArray(50000)
-//        nums.forEach {
-//            array[it]++
-//        }
-//
-//        val list = arrayListOf<Int>()
-//        var temp = 0
-//        for (i in 0 until array.size) {
-//            if (array[i] > temp) {
-//                list.clear()
-//                list.add(i)
-//                temp = array[i]
-//            } else if (array[i] == temp) {
-//                list.add(i)
-//            }
-//        }
-//
-//        var ans = Int.MAX_VALUE
-//        list.forEach {
-//            ans = minOf(nums.lastIndexOf(it) - nums.indexOf(it), ans)
-//        }
-//
-//        return ans + 1
-//    }
 }

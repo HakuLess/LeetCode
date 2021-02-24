@@ -1,13 +1,13 @@
 package leetcode.normal
 
-fun flipAndInvertImage(A: Array<IntArray>): Array<IntArray> {
-
-    val ans = Array(A.size) { IntArray(A[0].size) }
-    for (i in 0 until A.size) {
-        ans[i] = A[i].map {
-            1 - it
-        }.reversed().toIntArray()
-
+class Solution832 {
+    fun flipAndInvertImage(A: Array<IntArray>): Array<IntArray> {
+        A.forEach {
+            it.reverse()
+            for (i in it.indices) {
+                it[i] = 1 - it[i]
+            }
+        }
+        return A
     }
-    return ans
 }

@@ -10,9 +10,9 @@ fun main(args: Array<String>) {
 
 class Solution5687 {
     fun maximumScore(nums: IntArray, multipliers: IntArray): Int {
-        val seen = HashMap<String, Int>()
+        val seen = HashMap<Int, Int>()
         fun dfs(l: Int, r: Int, i: Int): Int {
-            val key = "$l,$r"
+            val key = l * 1000 + r
             if (key in seen) return seen[key]!!
             if (i !in multipliers.indices) return 0
             val ans = maxOf(nums[l] * multipliers[i] + dfs(l + 1, r, i + 1),
@@ -21,8 +21,6 @@ class Solution5687 {
                 seen[key] = it
             }
         }
-        return dfs(0, nums.lastIndex, 0).also {
-//            seen.print()
-        }
+        return dfs(0, nums.lastIndex, 0)
     }
 }
