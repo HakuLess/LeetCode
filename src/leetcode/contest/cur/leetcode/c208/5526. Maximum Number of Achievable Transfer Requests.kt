@@ -29,26 +29,43 @@ fun main(args: Array<String>) {
 
 class Solution5526 {
     fun maximumRequests(n: Int, requests: Array<IntArray>): Int {
-        val cur = IntArray(n)
-        val size = requests.size
+        val m = requests.size
         var ans = 0
-        fun dfs(i: Int, cur: IntArray, set: HashSet<Int>) {
-            println("$i: ${cur.joinToString(", ")}, $set")
-            if (cur.all { it == 0 }) ans = maxOf(ans, set.size)
-            if (i == size) return
-            // not select
-            dfs(i + 1, cur, set)
-
-            // select
-            val clone = cur.clone()
-            clone[requests[i][0]]--
-            clone[requests[i][1]]++
-            val next = HashSet(set)
-            next.add(i)
-            dfs(i + 1, clone, next)
+        for (i in 0 until (1 shl m)) {
+            val state = IntArray(n)
+            for (j in 0 until m) {
+                if (i and (1 shl j) != 0) {
+                    state[requests[j][0]]--
+                    state[requests[j][1]]++
+                }
+            }
+            if (state.all { it == 0 })
+                ans = maxOf(ans, Integer.bitCount(i))
         }
-
-        dfs(0, cur, hashSetOf<Int>())
         return ans
     }
+
+//    fun maximumRequests(n: Int, requests: Array<IntArray>): Int {
+//        val cur = IntArray(n)
+//        val size = requests.size
+//        var ans = 0
+//        fun dfs(i: Int, cur: IntArray, set: HashSet<Int>) {
+//            println("$i: ${cur.joinToString(", ")}, $set")
+//            if (cur.all { it == 0 }) ans = maxOf(ans, set.size)
+//            if (i == size) return
+//            // not select
+//            dfs(i + 1, cur, set)
+//
+//            // select
+//            val clone = cur.clone()
+//            clone[requests[i][0]]--
+//            clone[requests[i][1]]++
+//            val next = HashSet(set)
+//            next.add(i)
+//            dfs(i + 1, clone, next)
+//        }
+//
+//        dfs(0, cur, hashSetOf<Int>())
+//        return ans
+//    }
 }

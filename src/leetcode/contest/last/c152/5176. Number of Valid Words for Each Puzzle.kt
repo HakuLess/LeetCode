@@ -1,5 +1,6 @@
 package leetcode.contest.last.c152
 
+import leetcode.contest.utils.print
 import java.util.ArrayList
 
 
@@ -10,41 +11,34 @@ fun main(args: Array<String>) {
 //        print("$it, ")
 //    }
     s.findNumOfValidWords(arrayOf("apple", "pleas", "please"),
-            arrayOf("aelwxyz", "aelpxyz", "aelpsxy", "saelpxy", "xaelpsy")).forEach {
-        print("$it, ")
-    }
+            arrayOf("aelwxyz", "aelpxyz", "aelpsxy", "saelpxy", "xaelpsy")).joinToString().print()
 }
 
 class Solution5176 {
     fun findNumOfValidWords(words: Array<String>, puzzles: Array<String>): List<Int> {
-        val puz = Array(puzzles.size) { IntArray(2) }
-        for (i in 0 until puzzles.size) {
-            puz[i][0] = puzzles[i][0] - 'a'
-            for (j in 0 until puzzles[i].length) {
-                val bit = 1 shl puzzles[i][j] - 'a'
-                puz[i][1] = puz[i][1] or bit
+        val bitWords = HashMap<Int, Int>()
+        for (i in words.indices) {
+            var num = 0
+            words[i].forEach {
+                num = num or (1 shl (it - 'a'))
             }
+            bitWords[num] = bitWords.getOrDefault(num, 0) + 1
         }
-
-        val wor = IntArray(words.size)
-        for (i in 0 until words.size) {
-            for (j in 0 until words[i].length) {
-                val bit = 1 shl words[i][j] - 'a'
-                wor[i] = wor[i] or bit
+        val result = ArrayList<Int>()
+        puzzles.forEach { puzzle ->
+            val start = 1 shl (puzzle[0] - 'a')
+            var bitPuzzle = 0
+            puzzle.forEach {
+                bitPuzzle = bitPuzzle or (1 shl (it - 'a'))
             }
-        }
-
-        val res = ArrayList<Int>()
-        for (i in 0..puz.lastIndex) {
-            var count = 0
-            for (j in wor.indices) {
-                if (puz[i][1] or wor[j] != puz[i][1]) continue
-                if (wor[j] and (1 shl puz[i][0]) != 0) {
-                    count++
-                }
+            var ans = 0
+            var j = bitPuzzle
+            while (j > 0) {
+                if (start and j == start) ans += bitWords.getOrDefault(j, 0)
+                j = (j - 1) and bitPuzzle
             }
-            res.add(count)
+            result.add(ans)
         }
-        return res
+        return result
     }
 }
