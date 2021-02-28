@@ -2,6 +2,7 @@ package leetcode.contest.cur.leetcode.c230
 
 import leetcode.contest.utils.print
 import leetcode.contest.utils.toGrid
+import java.util.*
 
 fun main(args: Array<String>) {
     val s = Solution5692()
@@ -14,21 +15,46 @@ fun main(args: Array<String>) {
 
 class Solution5692 {
     fun getCollisionTimes(cars: Array<IntArray>): DoubleArray {
+        val n = cars.size
         val ans = DoubleArray(cars.size) { -1.0 }
-        val sp = cars.map { it[1] }.toIntArray()
-        for (i in cars.lastIndex - 1 downTo 0) {
-            val (p, s) = cars[i]
-            if (s <= sp[i + 1])
-                continue
-            for (j in i + 1 until cars.size) {
-                val (tp, ts) = cars[j]
-                if (ans[j] == -1.0 || p + s * ans[j] >= tp + ts * ans[j]) {
-                    ans[i] = (tp - p).toDouble() / (s - ts)
-                    sp[i] = sp[j]
-                    break
-                }
+        val st = Stack<Int>()
+
+        fun calc(i: Int): Double {
+            return (cars[st.peek()][0] - cars[i][0]).toDouble() / (cars[i][1] - cars[st.peek()][1])
+        }
+
+        for (i in n - 1 downTo 0) {
+            while (st.isNotEmpty() &&
+                    ans[st.peek()] > 0 &&
+                    (cars[i][1] <= cars[st.peek()][1] || calc(i) > ans[st.peek()])) {
+                st.pop()
             }
+            if (st.isEmpty() || cars[i][1] <= cars[st.peek()][1]) {
+                ans[i] = -1.0
+            } else {
+                ans[i] = calc(i)
+            }
+            st.push(i)
         }
         return ans
     }
+
+//    fun getCollisionTimes(cars: Array<IntArray>): DoubleArray {
+//        val ans = DoubleArray(cars.size) { -1.0 }
+//        val sp = cars.map { it[1] }.toIntArray()
+//        for (i in cars.lastIndex - 1 downTo 0) {
+//            val (p, s) = cars[i]
+//            if (s <= sp[i + 1])
+//                continue
+//            for (j in i + 1 until cars.size) {
+//                val (tp, ts) = cars[j]
+//                if (ans[j] == -1.0 || p + s * ans[j] >= tp + ts * ans[j]) {
+//                    ans[i] = (tp - p).toDouble() / (s - ts)
+//                    sp[i] = sp[j]
+//                    break
+//                }
+//            }
+//        }
+//        return ans
+//    }
 }
