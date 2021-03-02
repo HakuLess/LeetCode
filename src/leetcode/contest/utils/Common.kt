@@ -45,7 +45,7 @@ fun IntArray.lis(): Int {
 /**
  * Longest Common SubSequence
  * */
-fun <T> lcs(v1: List<T>, v2: List<T>, m: Int, n: Int): Int {
+fun <T> lcs(v1: List<T>, v2: List<T>, m: Int = v1.size, n: Int = v2.size): Int {
     val dp = Array(m + 1) { IntArray(n + 1) }
 
     /* Following steps build L[m+1][n+1] in bottom up fashion. Note
@@ -61,4 +61,22 @@ fun <T> lcs(v1: List<T>, v2: List<T>, m: Int, n: Int): Int {
         }
     }
     return dp[m][n]
+}
+
+/**
+ * @param s Sub
+ * @param t Target
+ * */
+fun isSubsequence(s: String, t: String): Boolean {
+    var x = 0
+    var y = 0
+    while (x < s.length && y < t.length) {
+        if (s[x] == t[y]) {
+            x++
+            y++
+        } else {
+            y++
+        }
+    }
+    return x == s.length
 }

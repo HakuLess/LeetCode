@@ -23,10 +23,8 @@ class Solution1717 {
             }
             return st.joinToString("")
         }
-        val a = if (x >= y) 'a' else 'b'
-        val b = if (x >= y) 'b' else 'a'
-        val big = if (x >= y) x else y
-        val small = if (x >= y) y else x
+        val (a, b) = if (x >= y) Pair('a', 'b') else Pair('b', 'a')
+        val (big, small) = if (x >= y) Pair(x, y) else Pair(y, x)
         val next = dfs(s, b, a, big)
         dfs(next, a, b, small)
         return ans

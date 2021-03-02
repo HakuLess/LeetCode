@@ -13,7 +13,6 @@ class Solution1718 {
     fun constructDistancedSequence(n: Int): IntArray {
         val res = IntArray(n * 2 - 1)
         val visited = BooleanArray(n + 1)
-
         fun dfs(pos: Int): Boolean {
             if (pos >= n * 2 - 1) {
                 return true

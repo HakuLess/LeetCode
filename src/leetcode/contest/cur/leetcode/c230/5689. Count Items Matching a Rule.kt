@@ -6,8 +6,7 @@ class Solution5689 {
             when (ruleKey) {
                 "type" -> it[0] == ruleValue
                 "color" -> it[1] == ruleValue
-                "name" -> it[2] == ruleValue
-                else -> false
+                else -> it[2] == ruleValue
             }
         }
     }

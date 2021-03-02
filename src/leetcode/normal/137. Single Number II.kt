@@ -1,6 +1,5 @@
 package leetcode.normal
 
-// todo study
 class Solution137 {
     fun singleNumber(nums: IntArray): Int {
         val count = IntArray(32)

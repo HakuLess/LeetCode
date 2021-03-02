@@ -12,7 +12,6 @@ class Solution392 {
                 y++
             }
         }
-
         return x == s.length
     }
 }

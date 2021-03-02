@@ -1,8 +1,6 @@
 package leetcode.contest.cur.leetcode.c222
 
 import leetcode.contest.utils.print
-import java.util.*
-import kotlin.collections.ArrayList
 
 fun main(args: Array<String>) {
     val s = Solution5643()
@@ -17,27 +15,48 @@ fun main(args: Array<String>) {
 
 class Solution5643 {
     fun waysToSplit(nums: IntArray): Int {
-        val mod = 1000000007L
-        val n: Int = nums.size
-        val preSum = IntArray(n + 1)
-        val map = TreeMap<Int, ArrayList<Int>>()
-        for (i in 0 until n) {
-            preSum[i + 1] = preSum[i] + nums[i]
-            map[preSum[i + 1]] = map.getOrDefault(preSum[i + 1], arrayListOf())
-            map[preSum[i + 1]]!!.add(i)
+        val mod = 1000000007
+        val sum = IntArray(nums.size + 1)
+        for (i in nums.indices)
+            sum[i + 1] = sum[i] + nums[i]
+        var result = 0
+        var l = 2
+        var r = 3
+        for (i in 1 until nums.size - 1) {
+            l = maxOf(l, i + 1)
+            while (l < nums.size && sum[l] - sum[i] < sum[i])
+                l++
+            r = maxOf(r, i + 1)
+            while (r + 1 <= nums.size && sum.last() - sum[r] >= sum[r] - sum[i])
+                r++
+            if (l <= r)
+                result = (result + r - l) % mod
         }
-        val sum = preSum.last()
-        var left = 0
-        var ans = 0L
-        for (i in 0 until n - 2) {
-            left += nums[i]
-            val mid = map.ceilingEntry(left * 2)?.value?.first() ?: continue
-            val right = map.floorEntry((sum + left) / 2)?.value?.last() ?: continue
-            if (right < mid) continue
-            ans += minOf(right, n - 2) - maxOf(i + 1, mid) + 1
-        }
-        return (ans % mod).toInt()
+        return result
     }
+
+//    fun waysToSplit(nums: IntArray): Int {
+//        val mod = 1000000007L
+//        val n: Int = nums.size
+//        val preSum = IntArray(n + 1)
+//        val map = TreeMap<Int, ArrayList<Int>>()
+//        for (i in 0 until n) {
+//            preSum[i + 1] = preSum[i] + nums[i]
+//            map[preSum[i + 1]] = map.getOrDefault(preSum[i + 1], arrayListOf())
+//            map[preSum[i + 1]]!!.add(i)
+//        }
+//        val sum = preSum.last()
+//        var left = 0
+//        var ans = 0L
+//        for (i in 0 until n - 2) {
+//            left += nums[i]
+//            val mid = map.ceilingEntry(left * 2)?.value?.first() ?: continue
+//            val right = map.floorEntry((sum + left) / 2)?.value?.last() ?: continue
+//            if (right < mid) continue
+//            ans += minOf(right, n - 2) - maxOf(i + 1, mid) + 1
+//        }
+//        return (ans % mod).toInt()
+//    }
 
 //    fun waysToSplit(nums: IntArray): Int {
 //        val n: Int = nums.size
