@@ -80,3 +80,21 @@ fun isSubsequence(s: String, t: String): Boolean {
     }
     return x == s.length
 }
+
+/**
+ * Current String is a SubSequence Of Target String
+ * @param target Target String
+ * */
+fun String.isSubSeqOf(target: String): Boolean {
+    var x = 0
+    var y = 0
+    while (x < this.length && y < target.length) {
+        if (this[x] == target[y]) {
+            x++
+            y++
+        } else {
+            y++
+        }
+    }
+    return x == this.length
+}

@@ -2,17 +2,15 @@ package leetcode.normal
 
 class Solution338 {
     fun countBits(num: Int): IntArray {
-        val dp = IntArray(num + 1)
+        val arr = IntArray(num + 1)
+        arr[0] = 0
         for (i in 1..num) {
-            if (dp[i] == 0) {
-                dp[i] = dp[i - 1] + 1
-            }
-            var c = i * 2
-            while (c <= num) {
-                dp[c] = dp[i]
-                c *= 2
+            if (i % 2 == 1) {
+                arr[i] = arr[i - 1] + 1
+            } else {
+                arr[i] = arr[i / 2]
             }
         }
-        return dp
+        return arr
     }
 }

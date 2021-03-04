@@ -5,21 +5,18 @@ import kotlin.math.abs
 
 class Solution110 {
     fun isBalanced(root: TreeNode?): Boolean {
-        if (root == null) {
-            return true
+        fun dfs(root: TreeNode?): Int {
+            if (root == null) {
+                return 0
+            }
+            val leftHeight = dfs(root.left)
+            val rightHeight = dfs(root.right)
+            return if (leftHeight == -1 || rightHeight == -1 || abs(leftHeight - rightHeight) > 1) {
+                -1
+            } else {
+                maxOf(leftHeight, rightHeight) + 1
+            }
         }
-        return if (abs(getDepth(root.left, 0) - getDepth(root.right, 0)) > 1) {
-            false
-        } else {
-            isBalanced(root.left) && isBalanced(root.right)
-        }
-    }
-
-    private fun getDepth(root: TreeNode?, depth: Int): Int {
-        if (root == null) {
-            return depth
-        }
-        return maxOf(getDepth(root.left, depth + 1),
-                getDepth(root.right, depth + 1))
+        return dfs(root) >= 0
     }
 }
