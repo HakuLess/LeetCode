@@ -1,0 +1,105 @@
+package leetcode.contest.utils
+
+import java.util.*
+import kotlin.collections.ArrayList
+
+class Trie<T> {
+    class TrieNode<T>(val init: T? = null) {
+        val value: T? = init
+        val children: ArrayList<TrieNode<T>> = arrayListOf()
+        var isEnd = false
+    }
+
+    val root = TrieNode<T>()
+
+    /**
+     * insert value
+     * */
+    fun insert(value: Array<T>) {
+        fun dfs(node: TrieNode<T>, depth: Int) {
+            if (depth == value.size) node.isEnd = true
+            if (depth !in value.indices) return
+            if (!node.children.map { it.value }.contains(value[depth])) {
+                node.children.add(TrieNode<T>(value[depth]))
+            }
+            val next = node.children.first { it.value == value[depth] }
+            dfs(next, depth + 1)
+        }
+        dfs(root, 0)
+    }
+}
+
+fun <T> Trie<T>.print() {
+    fun dfs(node: Trie.TrieNode<T>, cur: ArrayList<T>) {
+        if (node.isEnd) println(cur.joinToString(""))
+        node.value?.let {
+            cur.add(node.value)
+        }
+        if (node.children.isEmpty()) {
+            println(cur.joinToString(""))
+            return
+        }
+        node.children.forEach {
+            dfs(it, cur.clone() as ArrayList<T>)
+        }
+    }
+    dfs(this.root, arrayListOf())
+}
+
+fun Trie<Int>.insertInt(key: Int) {
+    var temp = this.root
+    for (i in 31 downTo 0) {
+        val curBit = (key and (1 shl i)).let { if (it > 0) 1 else 0 }
+        val item = temp.children.firstOrNull { it.value == curBit }
+        if (item == null)
+            temp.children.add(Trie.TrieNode(curBit))
+        temp = temp.children.first { it.value == curBit }
+    }
+}
+
+/**
+ * https://www.geeksforgeeks.org/maximum-possible-xor-every-element-array-another-array/
+ * */
+fun Trie<Int>.maxXor(key: Int): Int {
+    if (root.children.isEmpty()) return -1
+    var temp = root
+    var cur = 0
+    for (i in 31 downTo 0) {
+        cur *= 2
+        val curBit = (key and (1 shl i)).let { if (it > 0) 1 else 0 }
+        temp = if (temp.children.firstOrNull { it.value == 1 - curBit } != null)
+            temp.children.first { it.value == 1 - curBit }
+        else
+            temp.children.first { it.value == curBit }
+        cur += curBit xor temp.value!!
+    }
+    return cur
+}
+
+fun Trie<Int>.printInt() {
+    fun dfs(node: Trie.TrieNode<Int>, cur: Int) {
+        if (node.children.isEmpty()) {
+            println(cur)
+            return
+        }
+        node.children.forEach {
+            dfs(it, cur * 2 + (it.value ?: 0))
+        }
+    }
+    dfs(this.root, 0)
+}
+
+//fun <T> Trie<T>.print() {
+//    val queue: Queue<Trie.TrieNode<T>> = LinkedList<Trie.TrieNode<T>>()
+//    queue.add(this.root)
+//    var step = 0
+//    while (queue.isNotEmpty()) {
+//        val size = queue.size
+//        step++
+//        for (i in 0 until size) {
+//            val item = queue.poll()
+////            println("level: $step, ${item.value}: ${item.children.map { it.value }.joinToString()}")
+//            queue.addAll(item.children)
+//        }
+//    }
+//}

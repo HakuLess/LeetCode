@@ -14,20 +14,22 @@ fun main(args: Array<String>) {
 
 class Solution5638 {
     fun eatenApples(apples: IntArray, days: IntArray): Int {
-        val pq = PriorityQueue<Pair<Int, Int>>(compareBy { it.first })
+        val pq = PriorityQueue<IntArray>(compareBy { it[0] })
         var ans = 0
         var i = 0
         while (i in apples.indices || pq.isNotEmpty()) {
-            while (pq.isNotEmpty() && pq.peek().first <= i) {
+            while (pq.isNotEmpty() && pq.peek()[0] <= i) {
                 pq.poll()
             }
             if (i in apples.indices && apples[i] != 0) {
-                pq.offer(Pair(i + days[i], apples[i]))
+                pq.offer(intArrayOf(i + days[i], apples[i]))
             }
             if (pq.isNotEmpty()) {
-                val item = pq.poll()
-                if (item.second > 1) {
-                    pq.offer(Pair(item.first, item.second - 1))
+                val item = pq.peek()
+                if (item[1] > 1) {
+                    item[1]--
+                } else {
+                    pq.poll()
                 }
                 ans++
             }
