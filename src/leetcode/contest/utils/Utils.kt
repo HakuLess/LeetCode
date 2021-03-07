@@ -391,3 +391,7 @@ fun IntArray.toAllSubSet(): HashSet<Int> {
     }
     return set
 }
+
+fun String.isPalindrome(): Boolean {
+    return this == this.reversed()
+}
