@@ -1,6 +1,5 @@
 package leetcode.contest.utils
 
-import java.util.*
 import kotlin.collections.ArrayList
 
 class Trie<T> {
@@ -26,6 +25,23 @@ class Trie<T> {
             dfs(next, depth + 1)
         }
         dfs(root, 0)
+    }
+
+    fun <T> search(target: Array<T>): Boolean {
+        fun <T> dfs(node: TrieNode<T>, i: Int): Boolean {
+            if (i in target.indices) {
+                if (target[i] != node.value)
+                    return false
+            }
+            if (i == target.lastIndex) return node.isEnd
+            node.children.forEach {
+                if (dfs(it, i + 1)) {
+                    return true
+                }
+            }
+            return false
+        }
+        return dfs(root, -1)
     }
 }
 

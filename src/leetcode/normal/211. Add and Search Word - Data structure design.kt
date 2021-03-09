@@ -19,14 +19,14 @@ class WordDictionary() {
     }
 
     fun search(word: String): Boolean {
-        fun dfs(node: Trie.TrieNode<Char>, i: Int, isEnd: Boolean = false): Boolean {
+        fun dfs(node: Trie.TrieNode<Char>, i: Int): Boolean {
             if (i in word.indices) {
                 if (word[i] != node.value && word[i] != '.')
                     return false
             }
             if (i == word.lastIndex) return node.isEnd
             node.children.forEach {
-                if (dfs(it, i + 1, node.isEnd)) {
+                if (dfs(it, i + 1)) {
                     return true
                 }
             }

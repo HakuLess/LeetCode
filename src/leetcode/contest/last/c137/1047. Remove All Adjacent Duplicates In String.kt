@@ -13,21 +13,12 @@ class Solution1047 {
     fun removeDuplicates(S: String): String {
         val stack = Stack<Char>()
         S.forEach {
-            if (stack.isEmpty()) {
+            if (stack.isEmpty() || stack.peek() != it) {
                 stack.push(it)
             } else {
-                if (stack.peek() == it) {
-                    stack.pop()
-                } else {
-                    stack.push(it)
-                }
+                stack.pop()
             }
         }
-
-        val result = StringBuilder()
-        while (stack.isNotEmpty()) {
-            result.append(stack.pop())
-        }
-        return result.toString().reversed()
+        return stack.joinToString("")
     }
 }

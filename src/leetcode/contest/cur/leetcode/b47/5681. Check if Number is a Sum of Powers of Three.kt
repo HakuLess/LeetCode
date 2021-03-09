@@ -9,12 +9,16 @@ fun main(args: Array<String>) {
 }
 class Solution5681 {
     fun checkPowersOfThree(n: Int): Boolean {
-        val cur = arrayListOf<Int>()
-        var c = 1
-        for (i in 0 until 14) {
-            cur.add(c)
-            c *= 3
-        }
-        return n in cur.toIntArray().toAllSubSet()
+        return "2" !in n.toString(3)
     }
+
+//    fun checkPowersOfThree(n: Int): Boolean {
+//        val cur = arrayListOf<Int>()
+//        var c = 1
+//        for (i in 0 until 14) {
+//            cur.add(c)
+//            c *= 3
+//        }
+//        return n in cur.toIntArray().toAllSubSet()
+//    }
 }
