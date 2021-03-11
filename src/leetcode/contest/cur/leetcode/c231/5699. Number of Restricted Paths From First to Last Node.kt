@@ -20,9 +20,7 @@ class Solution5699 {
         edges.forEach {
             graph.addEdge(it[0], it[1], it[2])
         }
-
         val dis = graph.dijkstra(n)
-
         val seen = HashMap<Int, Long>()
         fun dfs(node: Int): Long {
             if (node in seen) return seen[node]!!

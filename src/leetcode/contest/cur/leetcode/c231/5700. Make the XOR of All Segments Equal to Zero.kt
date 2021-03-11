@@ -9,28 +9,28 @@ fun main(args: Array<String>) {
 
 class Solution5700 {
     fun minChanges(nums: IntArray, k: Int): Int {
-        var c = 0
-        for (i in 0 until k) {
-            c = c xor nums[i]
+        val group = Array<HashMap<Int, Int>>(k) { hashMapOf() }
+        for (i in nums.indices) {
+            val value = nums[i]
+            group[i % k][value] = group[i % k].getOrDefault(value, 0) + 1
         }
-        var ans = Int.MAX_VALUE
-        val tmp = IntArray(k)
+        val max = 1024
+        val dp = Array<IntArray>(k) { IntArray(max) }
         for (i in 0 until k) {
-            for (i in 0 until k) {
-                tmp[i] = nums[i]
-            }
-            var cur = 0
-            if (tmp[i] != (c xor nums[i])) {
-                cur++
-            }
-            tmp[i] = c xor nums[i]
-            for (i in 0 until nums.size) {
-                if (nums[i] != nums[i % k]) {
-                    cur++
+            val sum = group[i].values.sum()
+            if (i == 0) {
+                for (j in 0 until max) {
+                    dp[i][j] = sum - group[i].getOrDefault(j, 0)
+                }
+            } else {
+                dp[i].fill(dp[i - 1].min()!! + sum)
+                group[i].forEach { (key, value) ->
+                    for (pre in 0 until max) {
+                        dp[i][pre xor key] = minOf(dp[i][pre xor key], dp[i - 1][pre] + sum - value)
+                    }
                 }
             }
-            ans = minOf(ans, cur)
         }
-        return ans
+        return dp[k - 1][0]
     }
 }
