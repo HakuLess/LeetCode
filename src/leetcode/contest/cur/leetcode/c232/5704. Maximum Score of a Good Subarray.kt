@@ -15,9 +15,8 @@ class Solution5704 {
             if (i == k) min[k] = nums[k]
             else min[i] = minOf(min[i + 1], nums[i])
         }
-        for (i in k until nums.size) {
-            if (i == k) min[k] = nums[k]
-            else min[i] = minOf(min[i - 1], nums[i])
+        for (i in k + 1 until nums.size) {
+            min[i] = minOf(min[i - 1], nums[i])
         }
         var ans = 0
         var l = 0

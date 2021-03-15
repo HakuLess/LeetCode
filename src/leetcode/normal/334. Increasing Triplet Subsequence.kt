@@ -8,20 +8,17 @@ class Solution334 {
         val minArray = IntArray(nums.size)
         val maxArray = IntArray(nums.size)
         var min = nums[0]
-        for (i in 0 until nums.size) {
+        for (i in nums.indices) {
             min = minOf(nums[i], min)
             minArray[i] = min
         }
         var max = nums[nums.lastIndex]
-        for (i in nums.lastIndex downTo 0) {
+        for (i in nums.indices.reversed()) {
             max = maxOf(nums[i], max)
             maxArray[i] = max
         }
-        for (i in 1 until nums.lastIndex) {
-            if (nums[i] > minArray[i] && nums[i] < maxArray[i]) {
-                return true
-            }
+        return (1 until nums.lastIndex).any {
+            nums[it] > minArray[it] && nums[it] < maxArray[it]
         }
-        return false
     }
 }

@@ -1,12 +1,9 @@
 package leetcode.normal
 
-fun isPowerOfThree(n: Int): Boolean {
-    if (n <= 0) {
-        return false
-    }
-    return if (n == 1) {
-        true
-    } else {
-        (n % 3 == 0) && isPowerOfThree(n / 3)
+class Solution326 {
+    fun isPowerOfThree(n: Int): Boolean {
+        return n > 0
+                && n.toString(3).count { it == '1' } == 1
+                && n.toString(3).count { it == '2' } == 0
     }
 }
