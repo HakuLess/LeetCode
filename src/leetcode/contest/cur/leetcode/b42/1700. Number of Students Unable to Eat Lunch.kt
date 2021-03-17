@@ -1,10 +1,8 @@
 package leetcode.contest.cur.leetcode.b42
 
-import leetcode.contest.utils.toArrayList
-
 class Solution1700 {
     fun countStudents(students: IntArray, sandwiches: IntArray): Int {
-        val cur = students.toArrayList()
+        val cur = ArrayList(students.toList())
         sandwiches.forEach {
             if (it in cur) {
                 cur.remove(it)

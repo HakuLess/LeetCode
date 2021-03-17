@@ -10,9 +10,9 @@ fun main(args: Array<String>) {
 
 class Solution72 {
     fun minDistance(word1: String, word2: String): Int {
-        val seen = HashMap<Pair<Int, Int>, Int>()
+        val seen = HashMap<Int, Int>()
         fun dfs(i: Int, j: Int): Int {
-            val key = Pair(i, j)
+            val key = i * 1000 + j
             if (key in seen) {
                 return seen[key]!!
             }
