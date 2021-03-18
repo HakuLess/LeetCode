@@ -2,11 +2,14 @@ package leetcode.contest.cur.leetcode.b42
 
 import leetcode.contest.utils.print
 import leetcode.contest.utils.toIntArray
+import kotlin.math.abs
 
 fun main(args: Array<String>) {
     val s = Solution5624()
-    s.minMoves("[1,0,0,1,0,1]".toIntArray(), 2).print()
-    s.minMoves("[0,1,1,0,1,0]".toIntArray(), 2).print()
+    s.minMoves("[1,0,0,1,0,1]".toIntArray(), 3).print()
+    s.minMoves("[1,0,0,1,0,1,1,1,0,1,1]".toIntArray(), 7).print()
+    s.minMoves("[0,1,0,0,1,1,0,1,0,1,1,1,1,0,1,0]".toIntArray(), 7).print()
+//    s.minMoves("[0,1,1,0,1,0]".toIntArray(), 2).print()
 }
 
 class Solution5624 {
@@ -20,11 +23,15 @@ class Solution5624 {
             }
             if (l.size < k) {
                 l.add(i)
-                val mid = l[(l.size - 1) / 2]
-                cur += (i - mid) - (l.size / 2)
+                if (l.size == k) {
+                    val mid = l[k / 2]
+                    l.forEachIndexed { index, it ->
+                        cur += abs(it - mid) - abs(k / 2 - index)
+                    }
+                }
             } else {
                 ans = minOf(ans, cur)
-                var mid = l[l.size / 2]
+                var mid = l[k / 2]
                 l.add(i)
                 cur += i - mid
 
