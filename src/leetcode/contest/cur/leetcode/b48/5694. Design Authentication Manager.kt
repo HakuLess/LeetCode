@@ -14,7 +14,6 @@ class AuthenticationManager(val timeToLive: Int) {
         } else {
             map.remove(tokenId)
         }
-        println(map.size)
     }
 
     fun countUnexpiredTokens(currentTime: Int): Int {
