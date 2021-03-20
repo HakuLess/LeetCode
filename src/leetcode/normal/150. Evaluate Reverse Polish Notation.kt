@@ -2,35 +2,32 @@ package leetcode.normal
 
 import java.util.*
 
-fun evalRPN(tokens: Array<String>): Int {
-    val stackData = Stack<Int>()
-    var ans = 0
-
-    tokens.forEach {
-        if (it == "+" || it == "-" || it == "*" || it == "/") {
+class Solution150 {
+    fun evalRPN(tokens: Array<String>): Int {
+        val stack = Stack<Int>()
+        tokens.forEach {
             when (it) {
                 "+" -> {
-                    ans = stackData.pop() + stackData.pop()
+                    stack.push(stack.pop() + stack.pop())
                 }
                 "-" -> {
-                    val data1 = stackData.pop()
-                    val data2 = stackData.pop()
-                    ans = data2 - data1
+                    val data1 = stack.pop()
+                    val data2 = stack.pop()
+                    stack.push(data2 - data1)
                 }
                 "*" -> {
-                    ans = stackData.pop() * stackData.pop()
+                    stack.push(stack.pop() * stack.pop())
                 }
                 "/" -> {
-                    val data1 = stackData.pop()
-                    val data2 = stackData.pop()
-                    ans = data2 / data1
+                    val data1 = stack.pop()
+                    val data2 = stack.pop()
+                    stack.push(data2 / data1)
+                }
+                else -> {
+                    stack.push(it.toInt())
                 }
             }
-            stackData.push(ans)
-        } else {
-            stackData.push(Integer.parseInt(it))
         }
+        return stack.peek()
     }
-
-    return stackData.peek()
 }
