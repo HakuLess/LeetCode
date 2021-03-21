@@ -7,6 +7,7 @@ class Trie<T> {
         val value: T? = init
         val children: ArrayList<TrieNode<T>> = arrayListOf()
         var isEnd = false
+        var cnt = 0
     }
 
     val root = TrieNode<T>()
@@ -73,6 +74,10 @@ fun Trie<Int>.insertInt(key: Int) {
     }
 }
 
+fun Trie<Int>.smaller() {
+
+
+}
 /**
  * https://www.geeksforgeeks.org/maximum-possible-xor-every-element-array-another-array/
  * */
