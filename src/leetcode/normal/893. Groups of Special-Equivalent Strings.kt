@@ -1,31 +1,24 @@
 package leetcode.normal
 
-import java.lang.StringBuilder
+import leetcode.contest.utils.print
 
-fun numSpecialEquivGroups(A: Array<String>): Int {
-    val hashSet = hashSetOf<Pair<String, String>>()
-    A.map {
-        val str0 = StringBuilder()
-        val str1 = StringBuilder()
-        for (i in 0 until it.length) {
-            if (i % 2 == 0) {
-                str0.append(it[i])
-            } else {
-                str1.append(it[i])
+fun main(args: Array<String>) {
+    val s = Solution893()
+    s.numSpecialEquivGroups(arrayOf("abcd", "cdab", "cbad", "xyzz", "zzxy", "zzyx")).print()
+}
+
+class Solution893 {
+    fun numSpecialEquivGroups(A: Array<String>): Int {
+        return A.map {
+            val first = IntArray(26)
+            val second = IntArray(26)
+            it.forEachIndexed { index, c ->
+                if (index % 2 == 0)
+                    first[c - 'a']++
+                else
+                    second[c - 'a']++
             }
-        }
-        val c0 = str0.toString().toCharArray()
-        val c1 = str1.toString().toCharArray()
-        c0.sort()
-        c1.sort()
-
-        Pair(String(c0), String(c1))
-    }.forEach {
-        hashSet.add(it)
+            first.joinToString(",") + second.joinToString(",")
+        }.toSet().size
     }
-
-    hashSet.forEach {
-        println("${it.first} ${it.second}")
-    }
-    return hashSet.size
 }
