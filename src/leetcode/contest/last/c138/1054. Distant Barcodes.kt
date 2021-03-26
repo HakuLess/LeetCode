@@ -12,33 +12,32 @@ fun main(args: Array<String>) {
 
 class Solution1054 {
     fun rearrangeBarcodes(barcodes: IntArray): IntArray {
-        val pq = PriorityQueue<Pair<Int, Int>>(compareBy { -it.second })
+        val pq = PriorityQueue<IntArray>(compareBy { -it[1] })
         val map = HashMap<Int, Int>()
         barcodes.forEach {
             map[it] = map.getOrDefault(it, 0) + 1
         }
         map.forEach { (t, u) ->
-            pq.offer(Pair(t, u))
+            pq.offer(intArrayOf(t, u))
         }
-
-        var pre = -1
         val ans = ArrayList<Int>()
-
-        for (i in 0 until barcodes.size) {
-            val item = pq.poll()
-            if (item.first != pre) {
-                ans.add(item.first)
-                pre = item.first
-                pq.offer(Pair(item.first, item.second - 1))
+        while (pq.isNotEmpty()) {
+            val first = pq.poll()
+            if (first[0] != ans.lastOrNull()) {
+                ans.add(first[0])
+                if (first[1] > 1) {
+                    pq.offer(intArrayOf(first[0], first[1] - 1))
+                }
             } else {
                 val sec = pq.poll()
-                pq.offer(item)
-                pq.offer(Pair(sec.first, sec.second - 1))
-                pre = sec.first
-                ans.add(sec.first)
+                ans.toIntArray().print()
+                ans.add(sec[0])
+                if (sec[1] > 1) {
+                    pq.offer(intArrayOf(sec[0], sec[1] - 1))
+                }
+                pq.offer(first)
             }
         }
-
         return ans.toIntArray()
     }
 }
