@@ -13,7 +13,7 @@ object L {
     operator fun <T> get(vararg a: T) = listOf(*a)
 }
 
-fun fastPower(base: Long, pow: Long, m: Long = 1000000007L): Long {
+fun quickPower(base: Long, pow: Long, m: Long = 1000000007L): Long {
     var res = 1L
     var a = base
     var b = pow

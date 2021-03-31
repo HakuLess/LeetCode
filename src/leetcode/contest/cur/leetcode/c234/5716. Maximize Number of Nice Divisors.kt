@@ -1,6 +1,6 @@
 package leetcode.contest.cur.leetcode.c234
 
-import leetcode.contest.utils.fastPower
+import leetcode.contest.utils.quickPower
 import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
@@ -19,13 +19,13 @@ class Solution5716 {
         val c = primeFactors / 3
         when (primeFactors % 3) {
             1 -> {
-                ans = fastPower(3, (c - 1).toLong(), mod) * 4
+                ans = quickPower(3, (c - 1).toLong(), mod) * 4
             }
             2 -> {
-                ans = fastPower(3, (c).toLong(), mod) * 2
+                ans = quickPower(3, (c).toLong(), mod) * 2
             }
             0 -> {
-                ans = fastPower(3, (c).toLong(), mod)
+                ans = quickPower(3, (c).toLong(), mod)
             }
         }
         return (ans % mod).toInt()

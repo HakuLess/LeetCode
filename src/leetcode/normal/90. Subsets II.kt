@@ -1,8 +1,5 @@
 package leetcode.normal
 
-fun main(args: Array<String>) {
-}
-
 class Solution90 {
     fun subsetsWithDup(nums: IntArray): List<List<Int>> {
         nums.sort()
@@ -24,21 +21,4 @@ class Solution90 {
         }
         return res
     }
-//    fun subsetsWithDup(nums: IntArray): List<List<Int>> {
-//        nums.sort()
-//        val result = arrayListOf<ArrayList<Int>>()
-//        result.add(arrayListOf())
-//
-//        for (element in nums) {
-//            val temp = ArrayList(result)
-//            for (j in 0 until temp.size) {
-//                temp[j] = ArrayList(temp[j])
-//            }
-//            temp.forEach {
-//                it.add(element)
-//            }
-//            result.addAll(temp)
-//        }
-//        return result.distinct()
-//    }
 }

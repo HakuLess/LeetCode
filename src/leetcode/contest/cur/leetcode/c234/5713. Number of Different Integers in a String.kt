@@ -9,15 +9,13 @@ class Solution5713 {
         for (i in word.indices) {
             if (word[i] in '0'..'9') {
                 cur += word[i]
-            } else {
+            }
+            if (word[i] !in '0'..'9' || i == word.lastIndex) {
                 cur.toBigIntegerOrNull()?.let {
                     ans.add(it)
                 }
                 cur = ""
             }
-        }
-        cur.toBigIntegerOrNull()?.let {
-            ans.add(it)
         }
         return ans.size
     }

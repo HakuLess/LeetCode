@@ -13,32 +13,10 @@ fun main(args: Array<String>) {
 
 class Solution520 {
     fun detectCapitalUse(word: String): Boolean {
-        var lower = false
-        for (i in 0 until word.length) {
-            if (i == 0) {
-                if (word[i].isLowerCase()) {
-                    lower = true
-                }
-            } else if (i == 1) {
-                if (word[i].isLowerCase()) {
-                    lower = true
-                } else {
-                    if (lower) {
-                        return false
-                    }
-                }
-            } else {
-                if (lower) {
-                    if (word[i].isUpperCase()) {
-                        return false
-                    }
-                } else {
-                    if (word[i].isLowerCase()) {
-                        return false
-                    }
-                }
-            }
+        if (word.length <= 1) return true
+        val c = word[1].isLowerCase() || word[0].isLowerCase()
+        return (1..word.lastIndex).all {
+            word[it].isLowerCase() == c
         }
-        return true
     }
 }
