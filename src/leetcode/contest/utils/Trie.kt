@@ -1,7 +1,5 @@
 package leetcode.contest.utils
 
-import kotlin.collections.ArrayList
-
 class Trie<T> {
     class TrieNode<T>(val init: T? = null) {
         val value: T? = init
@@ -10,7 +8,7 @@ class Trie<T> {
         var cnt = 0
     }
 
-    val root = TrieNode<T>()
+    var root = TrieNode<T>()
 
     /**
      * insert value
@@ -46,38 +44,39 @@ class Trie<T> {
     }
 }
 
-fun <T> Trie<T>.print() {
-    fun dfs(node: Trie.TrieNode<T>, cur: ArrayList<T>) {
-        if (node.isEnd) println(cur.joinToString(""))
-        node.value?.let {
-            cur.add(node.value)
-        }
-        if (node.children.isEmpty()) {
-            println(cur.joinToString(""))
-            return
-        }
-        node.children.forEach {
-            dfs(it, cur.clone() as ArrayList<T>)
-        }
-    }
-    dfs(this.root, arrayListOf())
-}
-
-fun Trie<Int>.insertInt(key: Int) {
+fun Trie<Int>.insertInt(n: Int) {
     var temp = this.root
     for (i in 31 downTo 0) {
-        val curBit = (key and (1 shl i)).let { if (it > 0) 1 else 0 }
-        val item = temp.children.firstOrNull { it.value == curBit }
+        val x: Int = (n shr i) and 1
+        val item = temp.children.firstOrNull { it.value == x }
         if (item == null)
-            temp.children.add(Trie.TrieNode(curBit))
-        temp = temp.children.first { it.value == curBit }
+            temp.children.add(Trie.TrieNode(x))
+        temp = temp.children.first { it.value == x }
+        temp.cnt++
     }
 }
 
-fun Trie<Int>.smaller() {
-
-
+fun Trie<Int>.smaller(n: Int, k: Int): Int {
+    var count = 0
+    var node: Trie.TrieNode<Int>? = this.root
+    for (i in 31 downTo 0) {
+        if (node == null) {
+            return count
+        }
+        val x: Int = (n shr i) and 1
+        val y: Int = (k shr i) and 1
+        if (y == 1) {
+            if (node.children.firstOrNull { it.value == x } != null) {
+                count += node.children.first { it.value == x }.cnt
+            }
+            node = node.children.firstOrNull { it.value == 1 - x }
+        } else {
+            node = node.children.firstOrNull { it.value == x }
+        }
+    }
+    return count
 }
+
 /**
  * https://www.geeksforgeeks.org/maximum-possible-xor-every-element-array-another-array/
  * */
@@ -110,17 +109,19 @@ fun Trie<Int>.printInt() {
     dfs(this.root, 0)
 }
 
-//fun <T> Trie<T>.print() {
-//    val queue: Queue<Trie.TrieNode<T>> = LinkedList<Trie.TrieNode<T>>()
-//    queue.add(this.root)
-//    var step = 0
-//    while (queue.isNotEmpty()) {
-//        val size = queue.size
-//        step++
-//        for (i in 0 until size) {
-//            val item = queue.poll()
-////            println("level: $step, ${item.value}: ${item.children.map { it.value }.joinToString()}")
-//            queue.addAll(item.children)
-//        }
-//    }
-//}
+fun <T> Trie<T>.print() {
+    fun dfs(node: Trie.TrieNode<T>, cur: ArrayList<T>) {
+        if (node.isEnd) println(cur.joinToString(""))
+        node.value?.let {
+            cur.add(node.value)
+        }
+        if (node.children.isEmpty()) {
+            println(cur.joinToString(""))
+            return
+        }
+        node.children.forEach {
+            dfs(it, cur.clone() as ArrayList<T>)
+        }
+    }
+    dfs(this.root, arrayListOf())
+}

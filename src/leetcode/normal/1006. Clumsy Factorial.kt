@@ -12,9 +12,9 @@ fun main(args: Array<String>) {
 
 class Solution1006 {
     fun clumsy(N: Int): Int {
-        val ans = when (N) {
+        return when (N) {
             1 -> 1
-            2 -> 2
+            2 -> 2 * 1
             3 -> 3 * 2 / 1
             4 -> 4 * 3 / 2 + 1
             5 -> 5 * 4 / 3 + 2 - 1
@@ -25,7 +25,5 @@ class Solution1006 {
                 N * (N - 1) / (N - 2) + (N - 3) - (N - 4) * (N - 5) / (N - 6) * 2 + clumsy(N - 4)
             }
         }
-
-        return ans
     }
 }

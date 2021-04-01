@@ -11,51 +11,23 @@ fun main(args: Array<String>) {
 
 class Solution5711 {
     fun maxValue(n: Int, index: Int, maxSum: Int): Int {
-        fun check(c: Long): Boolean? {
-            var min = 0L
-            var max = 0L
-            if (c < index + 1) {
-                min += (c + 1) * c / 2 + (index + 1 - c)
-            } else {
-                min += (c + c - index) * (index + 1) / 2
-            }
-            max += (c + c + index) * (index + 1) / 2
-//            min.print()
-            if (n - index < c) {
-//                println("$c $n $index: ${(c + c - n + index + 1)}")
-                min += (c + c - n + index + 1) * (n - index) / 2
-            } else {
-                min += (c + 1) * c / 2 + (n - index - c)
-            }
-            min -= c
-//            println("$c $n $index: ${(c + c + n - index - 1) * (n - index) / 2}")
-            max += (c + c + n - index - 1) * (n - index) / 2
-            max -= c
-            return (if (maxSum in min..max) {
-                true
-            } else if (maxSum < min) {
-                false
-            } else {
-                null
-            }).also {
-//                println("$c: $min $max $it")
-            }
+        fun sum(start: Int, count: Int): Long {
+            if (count == 0) return 0L
+            val minCount = minOf(start, count)
+            var sum = start * minCount.toLong() - (minCount - 1) * minCount.toLong() / 2
+            if (count > minCount) sum += count - minCount
+            return sum
         }
 
-        var left = 1
-        var right = maxSum
-        while (left + 1 < right) {
-            val mid = (left + right).ushr(1)
-            when(check(mid.toLong())) {
-                null -> left = mid
-                true -> left = mid
-                else -> right = mid
-            }
+        var l = 1
+        var r = maxSum - n + 1
+        while (l < r) {
+            val mid = l + (r - l + 1) / 2
+            val sumLeft = sum(mid - 1, index)
+            val sumRight = sum(mid, n - index)
+            if (sumLeft + sumRight <= maxSum) l = mid
+            else r = mid - 1
         }
-        return if (check(right.toLong()) == true) {
-            right
-        } else {
-            left
-        }
+        return l
     }
 }

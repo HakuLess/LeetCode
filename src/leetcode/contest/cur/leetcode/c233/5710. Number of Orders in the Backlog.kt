@@ -32,8 +32,6 @@ class Solution5710 {
                     buy.offer(intArrayOf(buyItem[0], buyItem[1] - sellItem[1], buyItem[2]))
                 }
             }
-            sell.joinToString { "s ${it[1]}" }.print()
-            buy.joinToString { "b ${it[1]}" }.print()
         }
         val mod = 1000000007L
         var ans = 0L
