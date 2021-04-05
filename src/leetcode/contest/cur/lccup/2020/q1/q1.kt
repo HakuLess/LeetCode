@@ -1,4 +1,4 @@
-package leetcode.contest.cur.`2020`.q1
+package leetcode.contest.cur.lccup.`2020`.q1
 
 class Solutionq1 {
     fun minCount(coins: IntArray): Int {
