@@ -1,9 +1,5 @@
 package leetcode.contest.last.c166
 
-fun main(args: Array<String>) {
-    val s = Solution5280()
-
-}
 class Solution5280 {
     fun groupThePeople(groupSizes: IntArray): List<List<Int>> {
         val hashMap = HashMap<Int, ArrayList<Int>>()
