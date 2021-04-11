@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c233
+package leetcode.contest.last.c233
 
 class Solution5709 {
     fun maxAscendingSum(nums: IntArray): Int {

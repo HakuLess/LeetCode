@@ -56,6 +56,9 @@ fun Trie<Int>.insertInt(n: Int) {
     }
 }
 
+/**
+ * https://www.geeksforgeeks.org/count-pairs-having-bitwise-xor-less-than-k-from-given-array/
+ * */
 fun Trie<Int>.smaller(n: Int, k: Int): Int {
     var count = 0
     var node: Trie.TrieNode<Int>? = this.root

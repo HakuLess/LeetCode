@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c233
+package leetcode.contest.last.c233
 
 import leetcode.contest.utils.Trie
 import leetcode.contest.utils.insertInt

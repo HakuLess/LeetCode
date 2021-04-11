@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c234
+package leetcode.contest.last.c234
 
 import leetcode.contest.utils.quickPower
 import leetcode.contest.utils.print

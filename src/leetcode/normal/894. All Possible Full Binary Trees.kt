@@ -8,9 +8,7 @@ class Solution894 {
         if (map.containsKey(N)) {
             return map[N]!!
         }
-
         val ans = arrayListOf<TreeNode>()
-
         if (N == 1) {
             ans.add(TreeNode(0))
         } else {
@@ -26,9 +24,7 @@ class Solution894 {
                 }
             }
         }
-
         map[N] = ans
-
         return map[N]!!
     }
 }
