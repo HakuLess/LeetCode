@@ -14,6 +14,13 @@ import leetcode.contest.utils.TreeNode
  */
 class Solutionq5 {
     fun minimalExecTime(root: TreeNode?): Double {
+        fun dfs(root: TreeNode?): Double {
+            if (root == null) {
+                return 0.0
+            }
+            return dfs(root.left) + dfs(root.right) + root.`val`
+        }
+
         if (root == null) {
             return 0.0
         }
@@ -22,14 +29,7 @@ class Solutionq5 {
 
         var ans = left
         ans = maxOf(ans, right)
-        ans = maxOf(ans, (getSum(root.left) + getSum(root.right)) / 2)
+        ans = maxOf(ans, (dfs(root.left) + dfs(root.right)) / 2)
         return ans + root.`val`
-    }
-
-    private fun getSum(root: TreeNode?): Double {
-        if (root == null) {
-            return 0.0
-        }
-        return getSum(root.left) + getSum(root.right) + root.`val`
     }
 }

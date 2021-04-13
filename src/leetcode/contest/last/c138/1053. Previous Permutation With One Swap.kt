@@ -13,6 +13,13 @@ fun main(args: Array<String>) {
 
 class Solution1053 {
     fun prevPermOpt1(A: IntArray): IntArray {
+
+        fun swap(i: Int, j: Int) {
+            val temp = A[i]
+            A[i] = A[j]
+            A[j] = temp
+        }
+
         var last = -1
         for (i in A.lastIndex downTo 1) {
             if (A[i] < A[i - 1]) {
@@ -25,18 +32,12 @@ class Solution1053 {
         }
         for (j in A.lastIndex downTo last) {
             if (A[j] < A[last]) {
-                swap(A, j, last)
+                swap(j, last)
                 return A
             }
         }
 
-        swap(A, last - 1, last)
+        swap(last - 1, last)
         return A
-    }
-
-    fun swap(A: IntArray, index1: Int, index2: Int) {
-        val temp = A[index1]
-        A[index1] = A[index2]
-        A[index2] = temp
     }
 }

@@ -3,7 +3,7 @@ package leetcode.normal
 class Solution357 {
     fun countNumbersWithUniqueDigits(n: Int): Int {
         return when (n) {
-            0 -> 0
+            0 -> 1
             1 -> 10
             2 -> 9 * 9 + countNumbersWithUniqueDigits(2 - 1)
             else -> {

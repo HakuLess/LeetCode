@@ -8,7 +8,6 @@ class Solution263 {
         var temp = num
         var flag = true
         while (flag) {
-            println(temp)
             when {
                 temp % 2 == 0 -> temp /= 2
                 temp % 3 == 0 -> temp /= 3
