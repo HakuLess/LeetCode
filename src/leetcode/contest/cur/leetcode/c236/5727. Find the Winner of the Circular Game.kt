@@ -10,17 +10,23 @@ fun main(args: Array<String>) {
 
 class Solution5727 {
     fun findTheWinner(n: Int, k: Int): Int {
-        val l = ArrayList<Int>()
-        for (i in 1..n) {
-            l.add(i)
+        var p = 0
+        for (i in 2..n) {
+            p = (p + k) % i
         }
-        var cur = 0
-        while (l.size != 1) {
-            cur = (cur + k - 1) % l.size
-//            println("remove ${l[cur]}")
-            l.removeAt(cur)
-//            cur = (cur + 1) % l.size
-        }
-        return l.first()
+        return p + 1
     }
+
+//    fun findTheWinner(n: Int, k: Int): Int {
+//        val l = ArrayList<Int>()
+//        for (i in 1..n) {
+//            l.add(i)
+//        }
+//        var cur = 0
+//        while (l.size != 1) {
+//            cur = (cur + k - 1) % l.size
+//            l.removeAt(cur)
+//        }
+//        return l.first()
+//    }
 }
