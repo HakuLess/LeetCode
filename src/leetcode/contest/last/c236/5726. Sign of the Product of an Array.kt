@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c236
+package leetcode.contest.last.c236
 
 class Solution5726 {
     fun arraySign(nums: IntArray): Int {

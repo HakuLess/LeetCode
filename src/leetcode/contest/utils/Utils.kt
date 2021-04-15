@@ -26,15 +26,15 @@ fun quickPower(base: Long, pow: Long, m: Long = 1000000007L): Long {
     return res
 }
 
-fun gcd(a: Int, b: Int): Int {
+tailrec fun gcd(a: Int, b: Int): Int {
     return if (b == 0) a else gcd(b, a % b)
 }
 
-fun gcd(a: Long, b: Long): Long {
+tailrec fun gcd(a: Long, b: Long): Long {
     return if (b == 0L) a else gcd(b, a % b)
 }
 
-fun gcd(a: BigInteger, b: BigInteger): BigInteger {
+tailrec fun gcd(a: BigInteger, b: BigInteger): BigInteger {
     return if (b == BigInteger.ZERO) a else gcd(b, a % b)
 }
 

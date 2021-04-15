@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c235
+package leetcode.contest.last.c235
 
 class Solution5722 {
     fun truncateSentence(s: String, k: Int): String {

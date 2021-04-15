@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c235
+package leetcode.contest.last.c235
 
 class Solution5723 {
     fun findingUsersActiveMinutes(logs: Array<IntArray>, k: Int): IntArray {
@@ -8,7 +8,7 @@ class Solution5723 {
             map[it[0]]!!.add(it[1])
         }
         val ans = IntArray(k)
-        map.forEach { i, set ->
+        map.forEach { (i, set) ->
             if (set.size in ans.indices) {
                 ans[set.size - 1]++
             }

@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c235
+package leetcode.contest.last.c235
 
 import leetcode.contest.utils.print
 import java.util.*
@@ -23,9 +23,9 @@ class Solution5724 {
         var res = ans
         for (i in nums1.indices) {
             if (ts.ceiling(nums2[i]) != null)
-                res = minOf(res, ans - abs(nums1[i] - nums2[i]) + abs(ts.ceiling(nums2[i]) - nums2[i]))
+                res = minOf(res, ans - abs(nums1[i] - nums2[i]) + abs(ts.ceiling(nums2[i])!! - nums2[i]))
             if (ts.floor(nums2[i]) != null)
-                res = minOf(res, ans - abs(nums1[i] - nums2[i]) + abs(ts.floor(nums2[i]) - nums2[i]))
+                res = minOf(res, ans - abs(nums1[i] - nums2[i]) + abs(ts.floor(nums2[i])!! - nums2[i]))
         }
         return (res % mod).toInt()
     }
