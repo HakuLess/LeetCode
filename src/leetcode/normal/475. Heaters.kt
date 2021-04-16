@@ -1,28 +1,20 @@
 package leetcode.normal
 
-import leetcode.contest.utils.print
+import java.util.*
 
-
-fun main(args: Array<String>) {
-    findRadius(intArrayOf(1, 5), intArrayOf(2)).print()
-}
-
-fun findRadius(houses: IntArray, heaters: IntArray): Int {
-    houses.sort()
-    heaters.sort()
-
-    var hid = 0
-    var tid = 0
-    var radius = 0
-    while (hid < houses.size) {
-        while (tid < heaters.lastIndex &&
-                Math.abs(houses[hid] - heaters[tid + 1]) <= Math.abs(houses[hid] - heaters[tid])) {
-            tid++
+class Solution475 {
+    fun findRadius(houses: IntArray, heaters: IntArray): Int {
+        houses.sort()
+        val ts = TreeSet<Long>()
+        ts.addAll(heaters.map { it.toLong() })
+        ts.add(Long.MAX_VALUE / 2)
+        ts.add(Long.MIN_VALUE / 2)
+        var ans = 0L
+        houses.map { it.toLong() }.forEach {
+            val left = ts.floor(it)!!
+            val right = ts.ceiling(it)!!
+            ans = maxOf(ans, minOf(it - left, right - it))
         }
-        val minRadius = Math.abs(houses[hid] - heaters[tid])
-        radius = maxOf(radius, minRadius)
-        hid++
+        return ans.toInt()
     }
-
-    return radius
 }
