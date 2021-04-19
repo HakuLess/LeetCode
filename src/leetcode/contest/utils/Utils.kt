@@ -1,13 +1,9 @@
 package leetcode.contest.utils
 
 import leetcode.learn.TNode
-import java.lang.StringBuilder
 import java.math.BigInteger
 import java.util.*
 import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
-import kotlin.collections.HashSet
-import kotlin.math.abs
 
 object L {
     operator fun <T> get(vararg a: T) = listOf(*a)
@@ -407,4 +403,33 @@ fun IntArray.toAllSubSet(): HashSet<Int> {
 
 fun String.isPalindrome(): Boolean {
     return this == this.reversed()
+}
+
+// 乘法逆元计算
+fun getFac(n: Int, mod: Long = 1000000007L): Pair<LongArray, LongArray> {
+    val fac = LongArray(n + 1)
+    fac[0] = 1
+    val invFac = LongArray(n + 1)
+    invFac[0] = 1
+    for (i in 1..n) {
+        fac[i] = fac[i - 1] * i % mod
+        invFac[i] = inv(fac[i], mod)
+    }
+    return Pair(fac, invFac)
+}
+
+fun fexp(x: Long, y: Long, mod: Long): Long {
+    var x: Long = x
+    var y: Long = y
+    var ans: Long = 1
+    while (y != 0L) {
+        if (y and 1 != 0L) ans = ans * x % mod
+        x = x * x % mod
+        y = y shr 1
+    }
+    return ans
+}
+
+fun inv(x: Long, mod: Long = 1000000007L): Long {
+    return fexp(x, mod - 2, mod)
 }

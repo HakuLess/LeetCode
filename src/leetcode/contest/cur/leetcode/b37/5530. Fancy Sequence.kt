@@ -1,18 +1,17 @@
 package leetcode.contest.cur.leetcode.b37
 
-import java.math.BigInteger
-
+import leetcode.contest.utils.inv
 
 class Fancy() {
 
     var l = arrayListOf<Long>()
-    val add = arrayListOf<BigInteger>()
-    val mul = arrayListOf<BigInteger>()
-    val mod = 1000000007L.toBigInteger()
+    val add = arrayListOf<Long>()
+    val mul = arrayListOf<Long>()
+    val mod = 1000000007L
 
     init {
-        add.add(0L.toBigInteger())
-        mul.add(1L.toBigInteger())
+        add.add(0L)
+        mul.add(1L)
     }
 
     fun append(`val`: Int) {
@@ -22,19 +21,19 @@ class Fancy() {
     }
 
     fun addAll(inc: Int) {
-        add[0] = (add[0] + inc.toBigInteger())
+        add[0] = (add[0] + inc) % mod
     }
 
     fun multAll(m: Int) {
-        add[0] = (add[0] * m.toBigInteger())
-        mul[0] = (mul[0] * m.toBigInteger())
+        add[0] = (add[0] * m) % mod
+        mul[0] = (mul[0] * m) % mod
     }
 
     fun getIndex(idx: Int): Int {
         if (idx !in l.indices) return -1
-        val mul = mul[0] / mul[idx + 1]
-        val inc = add[0] - (add[idx + 1] * mul)
-        return ((l[idx].toBigInteger() * mul + inc) % mod).toInt()
+        val mul = mul[0] * inv(mul[idx + 1]) % mod
+        val inc = (add[0] - (add[idx + 1] * mul) + mod) % mod
+        return ((l[idx] * mul + inc + mod) % mod).toInt()
     }
 
 }
