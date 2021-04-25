@@ -1,7 +1,7 @@
 package leetcode.contest.cur.leetcode.b50
 
+import leetcode.contest.utils.getFac
 import leetcode.contest.utils.print
-import java.math.BigInteger
 
 fun main(args: Array<String>) {
     val s = Solution5720()
@@ -9,54 +9,36 @@ fun main(args: Array<String>) {
 //    s.makeStringSorted("cab").print()
 //    s.makeStringSorted("bac").print()
 //    s.makeStringSorted("cdbea").print()
-    s.makeStringSorted("aabaa").print()
-    s.makeStringSorted("cdbea").print()
-    s.makeStringSorted("leetcodeleetcodeleetcode").print()
-    s.makeStringSorted("mvxwnroyyttrkmilzcotwxmutmgerapwruvpipuzyunppbohiiahwifyljdhuwgrxkvrsynyvvjzfiyshafrrnkdhdzoizramicykpwfhomlcrpyeukiqdzmbcsoxniwwnqxxccnkfryqapjynfntdlmmrqrmpaeqtohommzphdnatrgvefvcpxwkyrahrmdagfdxdwbpgmosdsiwyqbhpvjvteaizsfobqxtddetcgrrjmbaetekdwmykbeysmsairqptueltrnnlnqovsfpnrcveebpqwajfpatchdfysrgbinptwpudqkvknjmffidmxrnqsekxjstvondnktkaceblkggagxduubxrdotayemdumezpdxgwgdaergwlgihskjwfggclpxucsjmlrtgihnfvpygfmakmouiqxgbarxoodxggykccakcifipmsyxntvdognhifybykfhgcogywndsgglzssymrradsgpseqksbbpywtkkvcxrrjrwiollpyamqhosegrmatgxjvimqmeyxmxxuujxefrudkuklbadeowgvduhefkkatejophaoefyyhyjpynjyqcyhrwyeeoqmjojglqzzhsonzwhkgwlqtuwartcqmzertrgdhmsxynpgwikhiiuwqcphmadtmzuxzeqvyaqidvtzggmiontdkxyznojimdwjkrmqxzwjkpqjaiwmrxzxilkjbgnpernkksouqbsvefrgpnsyqncdflrbldzischmrhufsaacqwjzhctqeqkzlrobwihldfeppdezzimepuorzrjkltygpzajeuazpvishqdeyhxacylbdftojtfipzdouqeorqzwujksqtezvacuyhmenlbcxbdtdiogqbqnslttlugmwbwogfvlznvnfoguzjknjpaqjnmyaqkwnpacavnyfpxbfvsaplcaqvvhypsztyiplkhmzzlamxnqpyealqhwygsgnjyabdagrtovshyulabkdviktpdgxrxtarflmljjhbxoyhdtyqzesivfiuvgzcqkameoxgbqsmnbzvnbspqdkoecnjzeolbxhxzptuanhipndsgtrhnnefohxcwyyullokuplbblyqmgpxquhuuqluzheivphtibsqgtwxkhhcsdcdmmaxwgcmieygybqbdxogqxtkfkhvfenmqfdxgmnudohegfnbzsqtufymbbjqkxqexyoaisrvsnlduacofpabwtianvjtymflrejxyexqvxmkqtesnvwoizotmbcemnnfzohhxqdtysahcapsoegmlfiujskljwyueunuzkftavwvxvydbiokxusgrvblrvnfmjivbsqvjzoyjzlpkbekigephxcmkhovkdltzweqvvcduocbcsjmoniuevltyvkowgnfnekptcfylhfjiluthsxuburqprcjdjwopsnmxazmideswrvswntxxyidbaunmdtoxvtkoiuifxxlqramvgvaiowdnsmobtqkypeklckstlhbaahluurbozryjtzdwxsuxexknbsvkkqyrsmmzkrfzqzbfdyezdcoplvdvzauclnbigvnrvnwxtuyghuvbbnpgdjmntskgdoppmclbfsdvhicegzwzmuhkliqhqmdavcwrfumosxzyvglnodzzlkviuhebtstjrilxaxvqyohulqzgktzxncujhbckvtrdgtwebemqacsueujorucftyngmrnpskgwxxnsgzqiysigmfksyjryntnqoslzuyeoivndspgmmtrbpphbmpezbkildfwehespqvqnrskbgkisqupnxlgcngwmoeghpulgoepxblmlentbyltdyyacnkeevgqqpyyzinshqsvkheuotabhjjlfjmzfyyttrjqpwmay").print()
+//    s.makeStringSorted("aabaa").print()
+//    s.makeStringSorted("cdbea").print()
+//    s.makeStringSorted("leetcodeleetcodeleetcode").print()
+//    s.makeStringSorted("mvxwnroyyttrkmilzcotwxmutmgerapwruvpipuzyunppbohiiahwifyljdhuwgrxkvrsynyvvjzfiyshafrrnkdhdzoizramicykpwfhomlcrpyeukiqdzmbcsoxniwwnqxxccnkfryqapjynfntdlmmrqrmpaeqtohommzphdnatrgvefvcpxwkyrahrmdagfdxdwbpgmosdsiwyqbhpvjvteaizsfobqxtddetcgrrjmbaetekdwmykbeysmsairqptueltrnnlnqovsfpnrcveebpqwajfpatchdfysrgbinptwpudqkvknjmffidmxrnqsekxjstvondnktkaceblkggagxduubxrdotayemdumezpdxgwgdaergwlgihskjwfggclpxucsjmlrtgihnfvpygfmakmouiqxgbarxoodxggykccakcifipmsyxntvdognhifybykfhgcogywndsgglzssymrradsgpseqksbbpywtkkvcxrrjrwiollpyamqhosegrmatgxjvimqmeyxmxxuujxefrudkuklbadeowgvduhefkkatejophaoefyyhyjpynjyqcyhrwyeeoqmjojglqzzhsonzwhkgwlqtuwartcqmzertrgdhmsxynpgwikhiiuwqcphmadtmzuxzeqvyaqidvtzggmiontdkxyznojimdwjkrmqxzwjkpqjaiwmrxzxilkjbgnpernkksouqbsvefrgpnsyqncdflrbldzischmrhufsaacqwjzhctqeqkzlrobwihldfeppdezzimepuorzrjkltygpzajeuazpvishqdeyhxacylbdftojtfipzdouqeorqzwujksqtezvacuyhmenlbcxbdtdiogqbqnslttlugmwbwogfvlznvnfoguzjknjpaqjnmyaqkwnpacavnyfpxbfvsaplcaqvvhypsztyiplkhmzzlamxnqpyealqhwygsgnjyabdagrtovshyulabkdviktpdgxrxtarflmljjhbxoyhdtyqzesivfiuvgzcqkameoxgbqsmnbzvnbspqdkoecnjzeolbxhxzptuanhipndsgtrhnnefohxcwyyullokuplbblyqmgpxquhuuqluzheivphtibsqgtwxkhhcsdcdmmaxwgcmieygybqbdxogqxtkfkhvfenmqfdxgmnudohegfnbzsqtufymbbjqkxqexyoaisrvsnlduacofpabwtianvjtymflrejxyexqvxmkqtesnvwoizotmbcemnnfzohhxqdtysahcapsoegmlfiujskljwyueunuzkftavwvxvydbiokxusgrvblrvnfmjivbsqvjzoyjzlpkbekigephxcmkhovkdltzweqvvcduocbcsjmoniuevltyvkowgnfnekptcfylhfjiluthsxuburqprcjdjwopsnmxazmideswrvswntxxyidbaunmdtoxvtkoiuifxxlqramvgvaiowdnsmobtqkypeklckstlhbaahluurbozryjtzdwxsuxexknbsvkkqyrsmmzkrfzqzbfdyezdcoplvdvzauclnbigvnrvnwxtuyghuvbbnpgdjmntskgdoppmclbfsdvhicegzwzmuhkliqhqmdavcwrfumosxzyvglnodzzlkviuhebtstjrilxaxvqyohulqzgktzxncujhbckvtrdgtwebemqacsueujorucftyngmrnpskgwxxnsgzqiysigmfksyjryntnqoslzuyeoivndspgmmtrbpphbmpezbkildfwehespqvqnrskbgkisqupnxlgcngwmoeghpulgoepxblmlentbyltdyyacnkeevgqqpyyzinshqsvkheuotabhjjlfjmzfyyttrjqpwmay").print()
 }
 
 class Solution5720 {
     fun makeStringSorted(s: String): Int {
         val mod = 1000000007L
-        return ((GFG.lexRank(s) - 1) % mod).toInt()
-    }
-}
+        val n = s.length
 
-internal object GFG {
-    val mod = 1000000007L.toBigInteger()
+        // 乘法逆元
+        val (fac, invFac) = getFac(n)
 
-    val seen = HashMap<BigInteger, BigInteger>()
-
-    fun fac(n: BigInteger): BigInteger {
-        if (n in seen) return seen[n]!!
-        return (if (n == BigInteger.ZERO || n == BigInteger.ONE) BigInteger.ONE else (n * fac(n - BigInteger.ONE))).also {
-            seen[n] = it
-        }
-    }
-
-    fun lexRank(s: String): Int {
-        val n = s.length.toLong()
-        var t_count: BigInteger = BigInteger.ONE
+        val cnt = IntArray(26)
+        for (c in s) cnt[c - 'a']++
+        var ans = 0L
         for (i in 0 until n) {
-            var less_than: Long = 0
-            for (j in i + 1 until n) {
-                if (s[i.toInt()] > s[j.toInt()]) {
-                    less_than += 1
+            for (j in 0 until s[i] - 'a') {
+                if (cnt[j] == 0) continue
+                cnt[j]--
+                var tot = fac[n - 1 - i]
+                for (k in 0..25) {
+                    tot = tot * invFac[cnt[k]] % mod
                 }
+                ans = (ans + tot) % mod
+                cnt[j]++
             }
-            val d_count = IntArray(26)
-            for (j in i until n) {
-                val c = s[j.toInt()] - 'a'
-                d_count[c]++
-            }
-            var d_fac: BigInteger = 1L.toBigInteger()
-            for (ele in d_count) {
-                d_fac *= fac(ele.toBigInteger())
-            }
-            t_count += ((fac((n - i - 1).toBigInteger()) * less_than.toBigInteger()) / d_fac).mod(mod)
-            t_count = t_count.mod(mod)
+            cnt[s[i] - 'a']--
         }
-        return t_count.mod(mod).toInt()
+        return ans.toInt()
     }
 }
-
