@@ -20,7 +20,7 @@ class Solution1124 {
         }
 
         var ans = 0
-        for (i in 0 until hours.size) {
+        for (i in hours.indices) {
             var all = 0
             var cur = -1
             for (j in i until hours.size) {

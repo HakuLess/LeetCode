@@ -10,15 +10,12 @@ fun main(args: Array<String>) {
 
 class Solution594 {
     fun findLHS(nums: IntArray): Int {
-        if (nums.isEmpty()) {
-            return 0
-        }
         val map = hashMapOf<Int, Int>()
-        for (i in 0 until nums.size) {
+        for (i in nums.indices) {
             map[nums[i]] = map.getOrDefault(nums[i], 0) + 1
         }
         var max = 0
-        map.forEach { t, u ->
+        map.forEach { (t, u) ->
             if (map.containsKey(t + 1)) {
                 max = maxOf(u + map[t + 1]!!, max)
             }
