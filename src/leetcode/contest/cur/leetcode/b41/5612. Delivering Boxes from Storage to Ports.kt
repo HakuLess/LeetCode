@@ -1,9 +1,6 @@
 package leetcode.contest.cur.leetcode.b41
 
-import javafx.scene.text.FontWeight
 import leetcode.contest.utils.print
-import java.util.*
-import kotlin.collections.HashMap
 
 fun main(args: Array<String>) {
     val s = Solution5612()

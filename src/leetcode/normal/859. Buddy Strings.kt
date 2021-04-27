@@ -1,31 +1,21 @@
 package leetcode.normal
 
 class Solution859 {
-    fun buddyStrings(A: String, B: String): Boolean {
-        if (A.length != B.length) {
+    fun buddyStrings(a: String, b: String): Boolean {
+        if (a == b) return a.any { b.count { c -> c == it } >= 2 }
+        if (a.length != b.length) {
             return false
         }
-        if (A.length < 2) {
-            return false
-        }
-
-        val diffA = arrayListOf<Char>()
-        val diffB = arrayListOf<Char>()
-        for (i in 0 until A.length) {
-            if (A[i] != B[i]) {
-                diffA.add(A[i])
-                diffB.add(B[i])
+        val c = arrayListOf<Int>()
+        for (i in a.indices) {
+            if (a[i] != b[i]) {
+                c.add(i)
             }
         }
-
-        return if (diffA.size != 2 && diffA.size != 0) {
-            false
-        } else if (diffA.size == 2) {
-            diffA[0] == diffB[1] && diffB[1] == diffA[0]
-        } else {
-            A.toCharArray().distinct().size < A.length
-        }
-
-
+        if (c.size != 2) return false
+        val arr = a.toCharArray()
+        arr[c[0]] = a[c[1]]
+        arr[c[1]] = a[c[0]]
+        return b == arr.joinToString("")
     }
 }
