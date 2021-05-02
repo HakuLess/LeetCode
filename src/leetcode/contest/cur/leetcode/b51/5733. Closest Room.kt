@@ -24,25 +24,13 @@ class Solution5733 {
                 cur++
             }
             val key = it.joinToString(",")
-            val a = ts.ceiling(it[0])
-            val b = ts.floor(it[0])
-            if (a == null && b == null) {
-                ans[key] = -1
-            } else if (a == null && b != null) {
-                ans[key] = b
-            } else if (a != null && b == null) {
-                ans[key] = a
-            } else {
-                if (abs(a - it[0]) == abs(b - it[0])) {
-                    ans[key] = minOf(a, b)
-                } else {
-                    if (abs(a - it[0]) < abs(b - it[0])) {
-                        ans[key] = a
-                    } else {
-                        ans[key] = b
-                    }
-                }
-            }
+            val a = ts.floor(it[0])
+            val b = ts.ceiling(it[0])
+            ans[key] = if (a == null && b == null) -1
+            else if (a == null) b!!
+            else if (b == null) a
+            else if (abs(a - it[0]) <= abs(b - it[0])) a
+            else b
         }
         return queries.map { ans[it.joinToString(",")]!! }.toIntArray()
     }
