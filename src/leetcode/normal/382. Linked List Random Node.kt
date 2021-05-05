@@ -25,10 +25,10 @@ class Solution382(head: ListNode?) {
     fun getRandom(): Int {
         val next = Random().nextInt(c)
         for (i in 0..next) {
-            if (n != null && n!!.next != null) {
-                n = n!!.next
+            n = if (n != null && n!!.next != null) {
+                n!!.next
             } else {
-                n = start
+                start
             }
         }
         return n!!.`val`

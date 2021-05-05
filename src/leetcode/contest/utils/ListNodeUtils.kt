@@ -36,7 +36,7 @@ fun ListNode?.print() {
     println()
 }
 
-inline fun ListNode?.count(): Int {
+fun ListNode?.count(): Int {
     var c = 0
     var p: ListNode? = this ?: return 0
     while (p != null) {
