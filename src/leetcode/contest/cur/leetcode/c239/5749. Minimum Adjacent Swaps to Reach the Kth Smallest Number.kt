@@ -14,25 +14,20 @@ fun main(args: Array<String>) {
 class Solution5749 {
     fun getMinSwaps(num: String, k: Int): Int {
         val n = num.map { it - '0' }.toIntArray()
-//        n.print()
         for (i in 0 until k) {
             nextPermutation(n)
         }
         val start = num.map { it - '0' }.toIntArray()
         var ans = 0
-//        n.print()
         for (i in n.indices) {
             for (j in i until n.size) {
                 if (start[i] == n[j]) {
                     ans += j - i
-//                    println("$j - $i")
                     for (t in j - 1 downTo i) {
-//                        println("swap")
                         val tmp = n[t]
                         n[t] = n[t + 1]
                         n[t + 1] = tmp
                     }
-//                    n.print()
                     break
                 }
             }

@@ -16,7 +16,6 @@ class Solution451 {
         s.forEach {
             map[it] = map.getOrDefault(it, 0) + 1
         }
-        return s.toCharArray().sortedWith(compareBy({ map[it] }, { it }))
-                .joinToString("").reversed()
+        return s.toCharArray().sortedWith(compareBy({ map[it] }, { it })).joinToString("").reversed()
     }
 }
