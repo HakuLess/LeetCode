@@ -5,11 +5,9 @@ import java.util.*
 
 class Solution515 {
     fun largestValues(root: TreeNode?): List<Int> {
-
         if (root == null) {
             return emptyList()
         }
-
         val ans = arrayListOf<Int>()
         val queue: Queue<TreeNode> = LinkedList()
         queue.add(root)
@@ -28,7 +26,6 @@ class Solution515 {
             }
             ans.add(max)
         }
-
         return ans
     }
 }
