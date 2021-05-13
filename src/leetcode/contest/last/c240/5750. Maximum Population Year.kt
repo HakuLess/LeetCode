@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c240
+package leetcode.contest.last.c240
 
 class Solution5750 {
     fun maximumPopulation(logs: Array<IntArray>): Int {

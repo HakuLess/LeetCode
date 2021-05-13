@@ -1,13 +1,9 @@
-package leetcode.contest.cur.leetcode.c240
+package leetcode.contest.last.c240
 
 import leetcode.contest.utils.Graph
 import leetcode.contest.utils.print
 import leetcode.contest.utils.toGrid
 import leetcode.contest.utils.topologicalSort
-import java.util.*
-import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
-import kotlin.collections.HashSet
 
 fun main(args: Array<String>) {
     val s = Solution5753()

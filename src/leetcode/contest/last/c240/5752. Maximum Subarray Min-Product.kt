@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c240
+package leetcode.contest.last.c240
 
 import leetcode.contest.utils.print
 import java.util.*

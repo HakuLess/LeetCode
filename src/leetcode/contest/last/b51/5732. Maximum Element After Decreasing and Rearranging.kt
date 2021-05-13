@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b51
+package leetcode.contest.last.b51
 
 class Solution5732 {
     fun maximumElementAfterDecrementingAndRearranging(arr: IntArray): Int {
@@ -7,6 +7,6 @@ class Solution5732 {
         for (i in 1 until arr.size) {
             arr[i] = minOf(arr[i], arr[i - 1] + 1)
         }
-        return arr.max()!!
+        return arr.last()
     }
 }
