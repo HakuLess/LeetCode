@@ -2,8 +2,8 @@ package leetcode.contest.cur.leetcode.c241
 
 class FindSumPairs(val nums1: IntArray, val nums2: IntArray) {
 
-    val map1 = HashMap<Int, Int>()
-    val map2 = HashMap<Int, Int>()
+    private val map1 = HashMap<Int, Int>()
+    private val map2 = HashMap<Int, Int>()
 
     init {
         nums1.forEach {
@@ -22,7 +22,7 @@ class FindSumPairs(val nums1: IntArray, val nums2: IntArray) {
 
     fun count(tot: Int): Int {
         var ans = 0
-        map1.forEach { v, c ->
+        map1.forEach { (v, c) ->
             ans += map2.getOrDefault(tot - v, 0) * c
         }
         return ans
