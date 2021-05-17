@@ -1,7 +1,6 @@
-package leetcode.contest.cur.leetcode.c239
+package leetcode.contest.last.c239
 
 import leetcode.contest.utils.print
-import leetcode.contest.utils.toIntArray
 
 fun main(args: Array<String>) {
     val s = Solution5749()

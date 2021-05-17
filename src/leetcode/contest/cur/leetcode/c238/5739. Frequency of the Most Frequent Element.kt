@@ -14,15 +14,12 @@ class Solution5739 {
         for (i in nums.indices) {
             preSum[i + 1] = preSum[i] + nums[i]
         }
-        preSum.print()
         var ans = 0
         var i = 0
         for (j in nums.indices) {
             while (nums[j] * (j - i + 1) - (preSum[j + 1] - preSum[i]) > k) {
-                println("$j, $i : ${nums[j] * (j - i + 1) - (preSum[j + 1] - preSum[i])}")
                 i++
             }
-            println("$j, $i : ${nums[j] * (j - i + 1) - (preSum[j + 1] - preSum[i])}")
             ans = maxOf(ans, j - i + 1)
         }
         return ans
