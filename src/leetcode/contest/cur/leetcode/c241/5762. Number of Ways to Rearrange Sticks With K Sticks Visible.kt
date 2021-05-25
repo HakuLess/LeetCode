@@ -36,12 +36,4 @@ class Solution5762 {
         }
         return (dfs(n, k) % (mod)).toInt()
     }
-
-//    fun Int.factorial(): BigInteger {
-//        if (this in seen) return seen[this]!!
-//        println(this)
-//        var res = 1.toBigInteger()
-//        for (i in 1..this) res *= i.toBigInteger()
-//        return res
-//    }
 }

@@ -1,17 +1,45 @@
 package leetcode.normal
 
-import java.lang.StringBuilder
+import leetcode.contest.utils.print
+
+fun main(args: Array<String>) {
+    val s = Solution804()
+    s.uniqueMorseRepresentations(arrayOf("gin", "zen", "gig", "msg")).print()
+}
 
 class Solution804 {
     fun uniqueMorseRepresentations(words: Array<String>): Int {
-        val dic = arrayOf(".-", "-...", "-.-.", "-..", "", "..-.", "--.", "....", "", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--..")
+        val dic = arrayOf(
+            ".-",
+            "-...",
+            "-.-.",
+            "-..",
+            ".",
+            "..-.",
+            "--.",
+            "....",
+            "..",
+            ".---",
+            "-.-",
+            ".-..",
+            "--",
+            "-.",
+            "---",
+            ".--.",
+            "--.-",
+            ".-.",
+            "...",
+            "-",
+            "..-",
+            "...-",
+            ".--",
+            "-..-",
+            "-.--",
+            "--.."
+        )
         val set = hashSetOf<String>()
         words.forEach {
-            val str = StringBuilder()
-            it.forEach {
-                str.append(dic[it - 'a'])
-            }
-            set.add(str.toString())
+            set.add(it.map { dic[it - 'a'] }.joinToString(""))
         }
         return set.size
     }
