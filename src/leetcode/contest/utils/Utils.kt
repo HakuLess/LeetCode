@@ -188,6 +188,16 @@ fun IntArray.print() {
     println(this.joinToString(", "))
 }
 
+// 第0位为0，第1位为arr[0]，第2位为arr[0] + arr[1]
+// 前缀和
+fun IntArray.preSumArray(): LongArray {
+    val preSum = LongArray(this.size + 1)
+    for (i in this.indices) {
+        preSum[i + 1] = preSum[i] + this[i]
+    }
+    return preSum
+}
+
 fun DoubleArray.print() {
     println(this.joinToString(", "))
 }
@@ -207,8 +217,8 @@ fun Boolean.print() {
 }
 
 class Interval(
-        var start: Int = 0,
-        var end: Int = 0
+    var start: Int = 0,
+    var end: Int = 0
 )
 
 fun Interval.print() {
@@ -225,8 +235,8 @@ class TreeNode(var `val`: Int = 0) {
  * 倍增法，后缀数组
  * */
 class Suffix(
-        var index: Int,
-        var rank: IntArray
+    var index: Int,
+    var rank: IntArray
 )
 
 class SuffixArray(private val str: String) {
