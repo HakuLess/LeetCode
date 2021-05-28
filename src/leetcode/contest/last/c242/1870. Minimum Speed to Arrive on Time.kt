@@ -1,8 +1,7 @@
-package leetcode.contest.cur.leetcode.c242
+package leetcode.contest.last.c242
 
 import leetcode.contest.utils.print
 import kotlin.math.ceil
-import kotlin.math.floor
 
 fun main(args: Array<String>) {
     val s = Solution1870()
@@ -11,14 +10,13 @@ fun main(args: Array<String>) {
 
 class Solution1870 {
     fun minSpeedOnTime(dist: IntArray, hour: Double): Int {
-        if (hour < dist.size - 1) return -1
+        if (hour <= dist.size - 1) return -1
         fun check(mid: Int): Boolean {
             var ans = 0.0
             dist.forEach {
                 ans = ceil(ans)
                 ans += it.toDouble() / mid
             }
-            println("$mid : $ans")
             return ans <= hour
         }
 

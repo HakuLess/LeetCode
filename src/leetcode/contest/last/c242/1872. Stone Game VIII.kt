@@ -1,7 +1,6 @@
-package leetcode.contest.cur.leetcode.c242
+package leetcode.contest.last.c242
 
 import leetcode.contest.utils.preSumArray
-import leetcode.contest.utils.print
 
 class Solution1872 {
     fun stoneGameVIII(stones: IntArray): Int {

@@ -1,7 +1,6 @@
-package leetcode.contest.cur.leetcode.c242
+package leetcode.contest.last.c242
 
 import leetcode.contest.utils.print
-import java.util.*
 import kotlin.collections.ArrayList
 
 fun main(args: Array<String>) {
@@ -16,21 +15,21 @@ class Solution1871 {
         for (i in s.indices) {
             if (s[i] == '0') l.add(i)
         }
-        val pq = PriorityQueue<Pair<Int, Int>>(compareBy { it.first })
-        pq.offer(Pair(minJump, maxJump))
+        val list = ArrayList<Pair<Int, Int>>()
+        list.add(Pair(minJump, maxJump))
         for (i in 1 until l.size) {
-            if (pq.isEmpty()) return false
-            while (l[i] > pq.peek().second) {
-                pq.poll()
-                if (pq.isEmpty()) return false
+            if (list.isEmpty()) return false
+            while (l[i] > list[0].second) {
+                list.removeAt(0)
+                if (list.isEmpty()) return false
             }
-            if (l[i] < pq.peek().first) {
+            if (l[i] < list[0].first) {
                 continue
             } else {
                 if (l[i] == s.lastIndex) {
                     return true
                 }
-                pq.offer(Pair(l[i] + minJump, l[i] + maxJump))
+                list.add(Pair(l[i] + minJump, l[i] + maxJump))
             }
         }
         return false
