@@ -99,6 +99,22 @@ fun Trie<Int>.maxXor(key: Int): Int {
     return cur
 }
 
+fun Trie<Int>.minXor(key: Int): Int {
+    if (root.children.isEmpty()) return -1
+    var temp = root
+    var cur = 0
+    for (i in 31 downTo 0) {
+        cur *= 2
+        val curBit = (key and (1 shl i)).let { if (it > 0) 1 else 0 }
+        temp = if (temp.children.firstOrNull { it.value == curBit } != null)
+            temp.children.first { it.value == curBit }
+        else
+            temp.children.first { it.value == 1 - curBit }
+        cur += curBit xor temp.value!!
+    }
+    return cur
+}
+
 fun Trie<Int>.printInt() {
     fun dfs(node: Trie.TrieNode<Int>, cur: Int) {
         if (node.children.isEmpty()) {
