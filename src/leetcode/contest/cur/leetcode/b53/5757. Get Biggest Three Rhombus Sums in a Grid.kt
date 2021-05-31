@@ -46,7 +46,6 @@ class Solution5757 {
                     val x3 = Pair(i + k, j - k)
                     val x4 = Pair(i + 2 * k, j)
                     if (valid(x1) && valid(x2) && valid(x3) && valid(x4)) {
-//                        println("$x1 $x2 $x3 $x4")
                         cal(x1, k)
                     }
                 }

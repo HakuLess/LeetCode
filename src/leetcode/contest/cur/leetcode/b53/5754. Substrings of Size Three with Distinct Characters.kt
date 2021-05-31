@@ -10,16 +10,10 @@ fun main(args: Array<String>) {
 
 class Solution5754 {
     fun countGoodSubstrings(s: String): Int {
-        if (s.length < 2) return 0
         var ans = 0
-        val arr = IntArray(26)
-        for (i in s.indices) {
-            arr[s[i] - 'a']++
-            arr.print()
-            if (arr.all { it == 0 || it == 1 } && arr.sum() == 3) ans++
-            if (i - 2 >= 0) {
-                arr[s[i - 2] - 'a']--
-            }
+        for (i in 0 until s.length - 2) {
+            if (s[i] != s[i + 1] && s[i + 1] != s[i + 2] && s[i] != s[i + 2])
+                ans++
         }
         return ans
     }
