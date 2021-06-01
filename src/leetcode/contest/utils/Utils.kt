@@ -188,6 +188,12 @@ fun IntArray.print() {
     println(this.joinToString(", "))
 }
 
+fun IntArray.swap(index0: Int, index1: Int) {
+    val tmp = this[index0]
+    this[index0] = this[index1]
+    this[index1] = tmp
+}
+
 // 第0位为0，第1位为arr[0]，第2位为arr[0] + arr[1]
 // 前缀和
 fun IntArray.preSumArray(): LongArray {

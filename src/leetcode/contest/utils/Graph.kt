@@ -1,8 +1,6 @@
 package leetcode.contest.utils
 
 import java.util.*
-import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
 
 class Graph(val n: Int) {
 
@@ -114,4 +112,78 @@ fun Graph.topologicalSort(): ArrayList<Int> {
         ans.add(i)
     }
     return ans
+}
+
+/**
+ * 参考资料
+ * http://elmagnifico.tech/2018/01/24/BipartiteGraph-Max-Weight/
+ * https://www.cnblogs.com/fzl194/p/8834847.html
+ *
+ * 二分图带权最大匹配
+ * */
+fun Graph.km(): Int {
+    // n为总点数，m为两个分组的点的数量
+    val m = n / 2
+
+    val match = IntArray(m) { -1 }
+    val lval = IntArray(m)
+    val rval = IntArray(m)
+
+    for (i in 0 until m) {
+        // 使用右侧第一个点初始化左侧集合值）
+        lval[i] = weight[i]!![m]!!
+        for (j in m + 1 until n) {
+            // 最大化可行顶标
+            lval[i] = maxOf(lval[i], weight[i]!![j]!!)
+        }
+    }
+
+    // 左右点集合访问状态
+    val ls = BooleanArray(m)
+    val rs = BooleanArray(m)
+
+    fun dfs(u: Int): Boolean {
+        ls[u] = true
+        for (v in 0 until m) {
+            if (!rs[v] && lval[u] + rval[v] == weight[u]!![v + m]) {
+                rs[v] = true
+                if (match[v] == -1 || dfs(match[v])) {
+                    match[v] = u
+                    return true
+                }
+            }
+        }
+        return false
+    }
+
+    // 遍历左顶点，寻找最大匹配
+    for (u in 0 until m) {
+        while (true) {
+            // 清空之前的状态
+            ls.fill(false)
+            rs.fill(false)
+
+            if (dfs(u)) break
+            var d = Int.MAX_VALUE
+            for (i in 0 until m)
+                if (ls[i])
+                    for (j in 0 until m)
+                        if (!rs[j])
+                            d = minOf(d, lval[i] + rval[j] - weight[i]!![m + j]!!)
+
+            // 更新顶点权值，直到完美匹配
+            for (i in 0 until m) {
+                if (ls[i])
+                    lval[i] -= d
+                if (rs[i])
+                    rval[i] += d
+            }
+        }
+    }
+
+    var res = 0
+    for (i in 0 until m) {
+        res += weight[match[i]]!![i + m]!!
+    }
+    return res
 }

@@ -1,38 +1,26 @@
 package leetcode.normal
 
-import java.util.*
+import kotlin.collections.ArrayList
 
 class Solution682 {
     fun calPoints(ops: Array<String>): Int {
-        val stack = Stack<Int>()
-        var ans = 0
+        val list = ArrayList<Int>()
         ops.forEach {
-            println(ans)
             when (it) {
                 "C" -> {
-                    val item = stack.pop()
-                    ans -= item
+                    list.removeAt(list.lastIndex)
                 }
                 "D" -> {
-                    val item = stack.peek() * 2
-                    stack.push(item)
-                    ans += item
+                    list.add(list.last() * 2)
                 }
                 "+" -> {
-                    val item = stack.pop()
-                    var score = stack.peek()
-                    stack.push(item)
-                    score += stack.peek()
-                    stack.push(score)
-                    ans += score
+                    list.add(list.last() + list[list.lastIndex - 1])
                 }
                 else -> {
-                    val item = Integer.parseInt(it)
-                    stack.push(item)
-                    ans += item
+                    list.add(it.toInt())
                 }
             }
         }
-        return ans
+        return list.sum()
     }
 }
