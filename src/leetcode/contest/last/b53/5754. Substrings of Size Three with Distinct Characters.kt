@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b53
+package leetcode.contest.last.b53
 
 import leetcode.contest.utils.print
 

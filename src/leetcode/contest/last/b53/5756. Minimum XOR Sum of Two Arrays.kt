@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b53
+package leetcode.contest.last.b53
 
 import leetcode.contest.utils.print
 import leetcode.contest.utils.swap
@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
 
 class Solution5756 {
     // 模拟退火算法 玄学 最小值
-    // Simulated annealing
+    // Simulated Annealing
     fun minimumXORSum(nums1: IntArray, nums2: IntArray): Int {
         val eps = 1e-5
         val delta = 0.98

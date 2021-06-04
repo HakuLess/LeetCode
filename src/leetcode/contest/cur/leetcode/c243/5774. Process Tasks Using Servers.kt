@@ -22,7 +22,9 @@ class Solution5774 {
         val ans = ArrayList<Int>()
         var ts = 0
         for (i in tasks.indices) {
+            // 记录当前已到达的时间
             ts = maxOf(ts, i)
+            // 能出队的尽量都出队
             while (doing.isNotEmpty() && doing.peek().third <= ts) {
                 val it = doing.poll()
                 ready.offer(Triple(it.first, it.second, 0))

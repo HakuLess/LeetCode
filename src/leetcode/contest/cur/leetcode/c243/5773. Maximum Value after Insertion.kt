@@ -10,37 +10,25 @@ fun main(args: Array<String>) {
 
 class Solution5773 {
     fun maxValue(n: String, x: Int): String {
-        val neg = n[0] == '-'
-        val ans = StringBuilder()
-        var add = false
-        if (neg) {
-            for (i in n.indices) {
-                if (i == 0) {
-                    ans.append(n[i])
-                    continue
-                }
-                if (n[i] - '0' > x && !add) {
-                    ans.append(x)
-                    ans.append(n[i])
-                    add = true
-                } else {
-                    ans.append(n[i])
-                }
+        val sb = StringBuilder(n)
+        var isNeg = false
+        for (i in sb.indices) {
+            if (sb[i] == '-') {
+                isNeg = true
+                continue
             }
-        } else {
-            for (i in n.indices) {
-                if (n[i] - '0' < x && !add) {
-                    ans.append(x)
-                    ans.append(n[i])
-                    add = true
-                } else {
-                    ans.append(n[i])
+            if (isNeg) {
+                if (x < sb[i] - '0') {
+                    sb.insert(i, x)
+                    return sb.toString()
+                }
+            } else {
+                if (x > sb[i] - '0') {
+                    sb.insert(i, x)
+                    return sb.toString()
                 }
             }
         }
-        if (!add) {
-            ans.append(x)
-        }
-        return ans.toString()
+        return sb.append(x).toString()
     }
 }

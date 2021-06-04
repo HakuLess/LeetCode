@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b53
+package leetcode.contest.last.b53
 
 class Solution5755 {
     fun minPairSum(nums: IntArray): Int {
