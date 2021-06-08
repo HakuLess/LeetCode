@@ -204,6 +204,40 @@ fun IntArray.preSumArray(): LongArray {
     return preSum
 }
 
+fun IntArray.biLastIndexOf(func: (Int) -> Boolean): Int {
+    var left = 0
+    var right = this.lastIndex
+    while (left + 1 < right) {
+        val mid = (left + right).ushr(1)
+        when {
+            func(this[mid]) -> left = mid
+            else -> right = mid
+        }
+    }
+    return when {
+        func(this[right]) -> right
+        func(this[left]) -> left
+        else -> -1
+    }
+}
+
+fun IntArray.biFirstIndexOf(func: (Int) -> Boolean): Int {
+    var left = 0
+    var right = this.lastIndex
+    while (left + 1 < right) {
+        val mid = (left + right).ushr(1)
+        when {
+            func(this[mid]) -> right = mid
+            else -> left = mid
+        }
+    }
+    return when {
+        func(this[left]) -> left
+        func(this[right]) -> right
+        else -> -1
+    }
+}
+
 fun DoubleArray.print() {
     println(this.joinToString(", "))
 }

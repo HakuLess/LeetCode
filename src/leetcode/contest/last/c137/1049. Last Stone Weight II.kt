@@ -1,7 +1,6 @@
 package leetcode.contest.last.c137
 
 import leetcode.contest.utils.print
-import kotlin.math.abs
 
 fun main(args: Array<String>) {
     val s = Solution1049()
@@ -10,39 +9,37 @@ fun main(args: Array<String>) {
 }
 
 class Solution1049 {
+    // 动态规划 DP
     fun lastStoneWeightII(stones: IntArray): Int {
-        var set = hashSetOf<Int>()
-        stones.forEach {
-            if (set.isEmpty()) {
-                set.add(it)
-                set.add(-it)
-            } else {
-                val temp = hashSetOf<Int>()
-                set.forEach { item ->
-                    temp.add(item - it)
-                    temp.add(it + item)
-                }
-                set = temp
+        val sum = stones.sum()
+        // 尽量找到 sum / 2 的总和，转换为0、1背包
+        val m = sum / 2
+        val dp = BooleanArray(m + 1)
+        dp[0] = true
+        for (weight in stones) {
+            for (j in m downTo weight) {
+                dp[j] = dp[j] || dp[j - weight]
             }
         }
-        val ans = set.sortedBy { abs(it) }
-        return abs(ans[0])
+        return sum - 2 * dp.lastIndexOf(true)
     }
+
 //    fun lastStoneWeightII(stones: IntArray): Int {
-//        val sum = stones.sum()
-//        val array = BooleanArray(sum + 1)
-//        array[0] = true
-//        var ans = sum
-//        for (stone in stones) {
-//            var j = sum
-//            while (j - stone >= 0) {
-//                array[j] = array[j] || array[j - stone]
-//                if (array[j]) {
-//                    ans = minOf(ans, abs(j - (sum - j)))
+//        var set = hashSetOf<Int>()
+//        stones.forEach {
+//            if (set.isEmpty()) {
+//                set.add(it)
+//                set.add(-it)
+//            } else {
+//                val temp = hashSetOf<Int>()
+//                set.forEach { item ->
+//                    temp.add(item - it)
+//                    temp.add(it + item)
 //                }
-//                j--
+//                set = temp
 //            }
 //        }
-//        return ans
+//        val ans = set.sortedBy { abs(it) }
+//        return abs(ans[0])
 //    }
 }
