@@ -12,7 +12,8 @@ class Solution5779 {
     fun minWastedSpace(packages: IntArray, boxes: Array<IntArray>): Int {
         val mod = 1000000007L
         packages.sort()
-        val preSum = packages.preSumArray()
+//        val sum = packages.sumOf { it.toLong() }
+        val sum = packages.map { it.toLong() }.sum()
         var ans = Long.MAX_VALUE
         for (i in boxes.indices) {
             val it = boxes[i].sorted()
@@ -23,11 +24,11 @@ class Solution5779 {
             var tmp = 0L
             it.forEach {
                 val index = packages.biLastIndexOf { item -> item <= it }
-                tmp += (index - preIndex + 1) * it.toLong() - (preSum[index + 1] - preSum[preIndex])
+                tmp += (index - preIndex + 1) * it.toLong()
                 preIndex = index + 1
                 if (preIndex == packages.size) return@forEach
             }
-            ans = minOf(ans, tmp)
+            ans = minOf(ans, tmp - sum)
         }
         return if (ans == Long.MAX_VALUE) -1 else (ans % mod).toInt()
     }

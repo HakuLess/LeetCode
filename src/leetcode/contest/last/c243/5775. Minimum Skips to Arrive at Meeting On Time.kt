@@ -1,8 +1,8 @@
-package leetcode.contest.cur.leetcode.c243
+package leetcode.contest.last.c243
 
 import kotlin.math.ceil
 
-// DP
+// DP i为通过的站点数，j为跳过休息次数，值为到达当前点的最小时间
 class Solution5775 {
     fun minSkips(dist: IntArray, speed: Int, hoursBefore: Int): Int {
         val eps = 1e-8

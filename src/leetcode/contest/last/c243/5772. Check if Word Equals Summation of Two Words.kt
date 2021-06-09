@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c243
+package leetcode.contest.last.c243
 
 class Solution5772 {
     fun isSumEqual(firstWord: String, secondWord: String, targetWord: String): Boolean {
