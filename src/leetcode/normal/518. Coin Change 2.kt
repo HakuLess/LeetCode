@@ -13,14 +13,11 @@ class Solution518 {
     fun change(amount: Int, coins: IntArray): Int {
         val dp = IntArray(amount + 1) { 0 }
         dp[0] = 1
-
         for (i in coins.indices) {
             for (j in coins[i]..dp.lastIndex) {
                 dp[j] += dp[j - coins[i]]
             }
-            dp.print()
         }
-
         return dp[amount]
     }
 }

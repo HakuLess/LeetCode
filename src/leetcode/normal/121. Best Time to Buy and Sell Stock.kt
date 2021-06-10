@@ -11,13 +11,11 @@ fun main(args: Array<String>) {
 class Solution121 {
     fun maxProfit(prices: IntArray): Int {
         var min = Integer.MAX_VALUE
-        var max = 0
+        var ans = 0
         for (i in prices.indices) {
-            if (prices[i] < min)
-                min = prices[i]
-            else if (prices[i] - min > max)
-                max = prices[i] - min
+            min = minOf(min, prices[i])
+            ans = maxOf(ans, prices[i] - min)
         }
-        return max
+        return ans
     }
 }
