@@ -83,13 +83,15 @@ fun isSubsequence(s: String, t: String): Boolean {
 
 /**
  * Current String is a SubSequence Of Target String
+ *
  * @param target Target String
+ * @param skip target remove some chars
  * */
-fun String.isSubSeqOf(target: String): Boolean {
+fun String.isSubSeqOf(target: String, skip: BooleanArray = BooleanArray(target.length)): Boolean {
     var x = 0
     var y = 0
     while (x < this.length && y < target.length) {
-        if (this[x] == target[y]) {
+        if (this[x] == target[y] && !skip[y]) {
             x++
             y++
         } else {
