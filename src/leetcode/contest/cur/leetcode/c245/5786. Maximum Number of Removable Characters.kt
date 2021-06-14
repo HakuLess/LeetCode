@@ -2,6 +2,7 @@ package leetcode.contest.cur.leetcode.c245
 
 import leetcode.contest.utils.isSubSeqOf
 import leetcode.contest.utils.print
+import java.lang.StringBuilder
 
 fun main(args: Array<String>) {
     val s = Solution5786()
@@ -12,18 +13,18 @@ fun main(args: Array<String>) {
 class Solution5786 {
     fun maximumRemovals(s: String, p: String, removable: IntArray): Int {
         fun check(k: Int): Boolean {
-            val mark = BooleanArray(s.length)
-            for (i in 0 until k) {
-                mark[removable[i]] = true
+            // 教训：String操作要用StringBuilder
+            val str = StringBuilder(s)
+            removable.take(k).forEach {
+                str.setCharAt(it, ' ')
             }
-            return p.isSubSeqOf(s, mark)
+            return p.isSubSeqOf(str.toString())
         }
 
         var left = 0
         var right = removable.size
         while (left + 1 < right) {
             val mid = (left + right).ushr(1)
-
             when {
                 check(mid) -> left = mid
                 else -> right = mid
@@ -35,4 +36,30 @@ class Solution5786 {
             left
         }
     }
+
+//    fun maximumRemovals(s: String, p: String, removable: IntArray): Int {
+//        fun check(k: Int): Boolean {
+//            val mark = BooleanArray(s.length)
+//            for (i in 0 until k) {
+//                mark[removable[i]] = true
+//            }
+//            return p.isSubSeqOf(s, mark)
+//        }
+//
+//        var left = 0
+//        var right = removable.size
+//        while (left + 1 < right) {
+//            val mid = (left + right).ushr(1)
+//
+//            when {
+//                check(mid) -> left = mid
+//                else -> right = mid
+//            }
+//        }
+//        return if (check(right)) {
+//            right
+//        } else {
+//            left
+//        }
+//    }
 }
