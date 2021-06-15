@@ -11,58 +11,44 @@ fun main(args: Array<String>) {
 
 class Solution5787 {
     fun earliestAndLatest(n: Int, firstPlayer: Int, secondPlayer: Int): IntArray {
-        fun step(min: Boolean): Int {
-            var cur = arrayListOf<Int>()
-            for (i in 1..n) cur.add(i)
-            var step = 0
-            while (cur.isNotEmpty()) {
-                step++
-                cur.joinToString().print()
-                val next = arrayListOf<Int>()
-                for (i in 0 until cur.size / 2) {
-                    if (cur[i] == firstPlayer && cur[cur.lastIndex - i] == secondPlayer) return step
-                    if (cur[i] == firstPlayer || cur[i] == secondPlayer) {
-                        next.add(cur[i])
-                    } else if (cur[cur.lastIndex - i] == firstPlayer || cur[cur.lastIndex - i] == secondPlayer) {
-                        next.add(cur[cur.lastIndex - i])
-                    } else if (cur[i] in firstPlayer..secondPlayer && cur[cur.lastIndex - i] in firstPlayer..secondPlayer) {
-                        next.add(cur[i])
-                    } else if (cur[i] !in firstPlayer..secondPlayer && cur[cur.lastIndex - i] in firstPlayer..secondPlayer) {
-                        if (min) {
-                            next.add(cur[cur.lastIndex - i])
-                        } else {
-                            next.add(cur[i])
-                        }
-                    } else if (cur[i] in firstPlayer..secondPlayer && cur[cur.lastIndex - i] !in firstPlayer..secondPlayer) {
-                        if (min) {
-                            next.add(cur[i])
-                        } else {
-                            next.add(cur[cur.lastIndex - i])
-                        }
-                    } else {
-                        if ((1..100).random() >= 50) {
-                            next.add(cur[i])
-                        } else {
-                            next.add(cur[cur.lastIndex - i])
-                        }
-                    }
-                }
-                if (cur.size % 2 == 1) {
-                    next.add(cur[cur.size / 2])
-                }
-                cur = next
-                cur.sort()
+        var max = 0
+        var min = 100
+
+        val arr = ArrayList<Int>()
+        for (i in 1..n) arr.add(i)
+
+        fun dfs(left: ArrayList<Int>, right: ArrayList<Int>, step: Int) {
+            if (left.isEmpty()) {
+                dfs(ArrayList(right.sorted()), arrayListOf(), step + 1)
+                return
             }
-            return -1
+            if (left.size == 1) {
+                right.add(left[0])
+                dfs(ArrayList(right.sorted()), arrayListOf(), step + 1)
+                return
+            }
+            val a = left.removeAt(0)
+            val b = left.removeAt(left.lastIndex)
+            if (a == firstPlayer && b == secondPlayer) {
+                min = minOf(min, step)
+                max = maxOf(max, step)
+                return
+            } else if (a == firstPlayer || a == secondPlayer) {
+                right.add(a)
+                dfs(ArrayList(left), ArrayList(right), step)
+            } else if (b == firstPlayer || b == secondPlayer) {
+                right.add(b)
+                dfs(ArrayList(left), ArrayList(right), step)
+            } else {
+                right.add(a)
+                dfs(ArrayList(left), ArrayList(right), step)
+                right.remove(a)
+                right.add(b)
+                dfs(ArrayList(left), ArrayList(right), step)
+            }
         }
 
-        var a = 100
-        var b = 0
-        repeat(100) {
-            val (p, q) = intArrayOf(step(true), step(false))
-            a = minOf(a, p)
-            b = maxOf(b, q)
-        }
-        return intArrayOf(a, b)
+        dfs(arr, arrayListOf<Int>(), 1)
+        return intArrayOf(min, max)
     }
 }

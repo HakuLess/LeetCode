@@ -36,30 +36,4 @@ class Solution5786 {
             left
         }
     }
-
-//    fun maximumRemovals(s: String, p: String, removable: IntArray): Int {
-//        fun check(k: Int): Boolean {
-//            val mark = BooleanArray(s.length)
-//            for (i in 0 until k) {
-//                mark[removable[i]] = true
-//            }
-//            return p.isSubSeqOf(s, mark)
-//        }
-//
-//        var left = 0
-//        var right = removable.size
-//        while (left + 1 < right) {
-//            val mid = (left + right).ushr(1)
-//
-//            when {
-//                check(mid) -> left = mid
-//                else -> right = mid
-//            }
-//        }
-//        return if (check(right)) {
-//            right
-//        } else {
-//            left
-//        }
-//    }
 }

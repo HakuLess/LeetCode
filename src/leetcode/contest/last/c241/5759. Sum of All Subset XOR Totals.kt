@@ -1,6 +1,4 @@
-package leetcode.contest.cur.leetcode.c241
-
-import kotlin.math.pow
+package leetcode.contest.last.c241
 
 // https://www.geeksforgeeks.org/sum-xor-possible-subsets/
 class Solution5759 {

@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c237
+package leetcode.contest.last.c237
 
 class Solution5735 {
     fun maxIceCream(costs: IntArray, coins: Int): Int {

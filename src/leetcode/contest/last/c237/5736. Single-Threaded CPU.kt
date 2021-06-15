@@ -1,8 +1,9 @@
-package leetcode.contest.cur.leetcode.c237
+package leetcode.contest.last.c237
 
 import java.util.*
 
 class Solution5736 {
+    // 任务队列执行
     fun getOrder(tasks: Array<IntArray>): IntArray {
         val queue = PriorityQueue<Triple<Long, Long, Int>>(compareBy { it.first })
         for (i in tasks.indices) {

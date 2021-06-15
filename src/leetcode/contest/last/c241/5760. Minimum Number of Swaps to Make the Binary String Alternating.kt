@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c241
+package leetcode.contest.last.c241
 
 import leetcode.contest.utils.print
 

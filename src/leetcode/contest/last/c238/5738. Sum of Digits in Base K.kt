@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c238
+package leetcode.contest.last.c238
 
 class Solution5738 {
     fun sumBase(n: Int, k: Int): Int {
