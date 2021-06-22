@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c246
+package leetcode.contest.last.c246
 
 import leetcode.contest.utils.print
 import leetcode.contest.utils.toGrid
@@ -7,18 +7,20 @@ import kotlin.collections.ArrayList
 
 fun main(args: Array<String>) {
     val s = Solution5791()
-    s.countSubIslands("[[1,1,1,0,0],[0,1,1,1,1],[0,0,0,0,0],[1,0,0,0,0],[1,1,0,1,1]]".toGrid(),
-            "[[1,1,1,0,0],[0,0,1,1,1],[0,1,0,0,0],[1,0,1,1,0],[0,1,0,1,0]]".toGrid()).print()
+    s.countSubIslands(
+        "[[1,1,1,0,0],[0,1,1,1,1],[0,0,0,0,0],[1,0,0,0,0],[1,1,0,1,1]]".toGrid(),
+        "[[1,1,1,0,0],[0,0,1,1,1],[0,1,0,0,0],[1,0,1,1,0],[0,1,0,1,0]]".toGrid()
+    ).print()
 }
 
 class Solution5791 {
     fun countSubIslands(grid1: Array<IntArray>, grid2: Array<IntArray>): Int {
         // 方向
         val ori = arrayOf(
-                intArrayOf(-1, 0),
-                intArrayOf(0, -1),
-                intArrayOf(0, 1),
-                intArrayOf(1, 0)
+            intArrayOf(-1, 0),
+            intArrayOf(0, -1),
+            intArrayOf(0, 1),
+            intArrayOf(1, 0)
         )
 
         fun bfs(i: Int, j: Int): ArrayList<IntArray> {
@@ -48,9 +50,7 @@ class Solution5791 {
         for (i in grid2.indices) {
             for (j in grid2[0].indices) {
                 if (grid2[i][j] == 1) {
-                    val land = bfs(i, j).also {
-//                        it.map { it.joinToString(",") }.joinToString(";").print()
-                    }
+                    val land = bfs(i, j)
                     if (land.all { grid1[it[0]][it[1]] == 1 })
                         ans++
                 }

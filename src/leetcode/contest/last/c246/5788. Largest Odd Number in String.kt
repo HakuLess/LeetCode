@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c246
+package leetcode.contest.last.c246
 
 import leetcode.contest.utils.print
 
@@ -9,14 +9,11 @@ fun main(args: Array<String>) {
 
 class Solution5788 {
     fun largestOddNumber(num: String): String {
-        if (num.all { (it - '0') % 2 == 0 }) return ""
-        var last = 0
-        for (i in num.indices) {
+        for (i in num.indices.reversed()) {
             if ((num[i] - '0') % 2 == 1) {
-                last = i
-                println(last)
+                return num.substring(0, i + 1)
             }
         }
-        return num.substring(0, last + 1)
+        return ""
     }
 }

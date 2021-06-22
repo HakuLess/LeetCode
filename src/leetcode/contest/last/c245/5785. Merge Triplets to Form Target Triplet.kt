@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c245
+package leetcode.contest.last.c245
 
 class Solution5785 {
     fun mergeTriplets(triplets: Array<IntArray>, target: IntArray): Boolean {

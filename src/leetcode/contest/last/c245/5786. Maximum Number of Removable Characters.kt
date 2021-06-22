@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c245
+package leetcode.contest.last.c245
 
 import leetcode.contest.utils.isSubSeqOf
 import leetcode.contest.utils.print

@@ -1,40 +1,22 @@
 package leetcode.contest.cur.leetcode.b54
 
+import leetcode.contest.utils.sum
+import leetcode.contest.utils.toMatrix
+
 class Solution5202 {
     fun largestMagicSquare(grid: Array<IntArray>): Int {
         var ans = 0
         val m = grid.size
         val n = grid[0].size
+        val matrix = grid.toMatrix()
         fun cal(i: Int, j: Int, k: Int) {
-            var sum = 0L
-            for (x in i..(i + k)) {
-                sum += grid[x][j]
+            val sum = matrix.sum(from = Pair(i, j), to = Pair(i + k, j))
+            for (c in 0..k) {
+                if (sum != matrix.sum(from = Pair(i, j + c), to = Pair(i + k, j + c))) return
+                if (sum != matrix.sum(from = Pair(i + c, j), to = Pair(i + c, j + k))) return
             }
-            for (x in i..(i + k)) {
-                var cmp = 0L
-                for (y in j..(j + k)) {
-                    cmp += grid[x][y]
-                }
-                if (cmp != sum) return
-            }
-            for (y in j..(j + k)) {
-                var cmp = 0L
-                for (x in i..(i + k)) {
-                    cmp += grid[x][y]
-                }
-                if (cmp != sum) return
-            }
-            var cmp = 0L
-            for (t in 0..k) {
-                cmp += grid[i + t][j + t]
-            }
-            if (cmp != sum) return
-
-            cmp = 0L
-            for (t in 0..k) {
-                cmp += grid[i + t][j + k - t]
-            }
-            if (cmp != sum) return
+            if (sum != matrix.sum(from = Pair(i, j), to = Pair(i + k, j + k))) return
+            if (sum != matrix.sum(from = Pair(i + k, j), to = Pair(i, j + k))) return
             ans = maxOf(ans, k)
         }
 

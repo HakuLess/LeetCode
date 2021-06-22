@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c246
+package leetcode.contest.last.c246
 
 import leetcode.contest.utils.SegmentTree
 import leetcode.contest.utils.print
