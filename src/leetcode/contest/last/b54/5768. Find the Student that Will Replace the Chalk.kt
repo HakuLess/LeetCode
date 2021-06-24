@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b54
+package leetcode.contest.last.b54
 
 class Solution5768 {
     fun chalkReplacer(chalk: IntArray, k: Int): Int {

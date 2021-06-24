@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b54
+package leetcode.contest.last.b54
 
 class Solution5767 {
     fun isCovered(ranges: Array<IntArray>, left: Int, right: Int): Boolean {

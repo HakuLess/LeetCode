@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b54
+package leetcode.contest.last.b54
 
 import leetcode.contest.utils.sum
 import leetcode.contest.utils.toMatrix
