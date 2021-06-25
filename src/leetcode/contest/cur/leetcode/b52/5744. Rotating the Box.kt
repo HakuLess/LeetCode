@@ -18,7 +18,6 @@ class Solution5744 {
         val n = box.size
         val m = box[0].size
 
-//        box.print()
         for (i in 0 until n) {
             val tmp = arrayListOf<Int>()
             for (j in m - 1 downTo 0) {
