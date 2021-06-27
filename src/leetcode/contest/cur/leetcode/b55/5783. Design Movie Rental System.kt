@@ -16,9 +16,7 @@ class MovieRentingSystem(n: Int, entries: Array<IntArray>) {
 
     init {
         entries.forEach {
-            l.add(Movie(it[0], it[1], it[2], false))
-        }
-        l.forEach {
+            val it = Movie(it[0], it[1], it[2], false)
             map[it.id] = map.getOrDefault(it.id, PriorityQueue<Movie>(compareBy({ it.price }, { it.shop })))
             map[it.id]!!.add(it)
             rentMap[Pair(it.shop, it.id)] = it
