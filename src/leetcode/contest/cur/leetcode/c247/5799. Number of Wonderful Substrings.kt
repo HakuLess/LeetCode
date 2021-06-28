@@ -9,6 +9,7 @@ fun main(args: Array<String>) {
     s.wonderfulSubstrings("aabb").print()
 }
 
+// TAG: 状态压缩 二进制 xor
 class Solution5799 {
     fun wonderfulSubstrings(word: String): Long {
         val state = IntArray(1 shl 10)

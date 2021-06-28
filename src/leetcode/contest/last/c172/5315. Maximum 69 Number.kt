@@ -2,20 +2,10 @@ package leetcode.contest.last.c172
 
 class Solution5315 {
     fun maximum69Number (num: Int): Int {
-        val s = num.toString()
-        if (s.all { it == '9' }) {
-            return num
+        val s = StringBuilder(num.toString())
+        s.indexOf('6').let {
+            if (it != -1) s[it] = '9'
         }
-        var ans = ""
-        var first = true
-        for (i in s.indices) {
-            if (s[i] == '6' && first) {
-                ans += '9'
-                first = false
-            } else {
-                ans += s[i]
-            }
-        }
-        return ans.toInt()
+        return s.toString().toInt()
     }
 }

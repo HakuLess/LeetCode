@@ -1,5 +1,7 @@
 package leetcode.normal
 
+// todo
+// TAG: 质数
 class Solution762 {
     fun countPrimeSetBits(L: Int, R: Int): Int {
         var ans = 0

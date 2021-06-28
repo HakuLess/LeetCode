@@ -12,6 +12,7 @@ fun main(args: Array<String>) {
     s.waysToBuildRooms(intArrayOf(-1, 0, 0, 0, 0)).print()
 }
 
+// TAG: 排列数 乘法逆元
 class Solution5204 {
     val mod = 1000000007L
 
