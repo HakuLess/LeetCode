@@ -1,10 +1,15 @@
 package leetcode.contest.utils
 
-class SegmentTree<T>(val start: Int = 0,
-                     val end: Int = 0,
-                     var value: T? = null,
-                     private var lazy: T? = null,
-                     val merge: (a: T, b: T) -> T) {
+/**
+ * 线段树工具类
+ * */
+class SegmentTree<T>(
+    val start: Int = 0,
+    val end: Int = 0,
+    var value: T? = null,
+    private var lazy: T? = null,
+    val merge: (a: T, b: T) -> T
+) {
 
     var left: SegmentTree<T>? = null
     var right: SegmentTree<T>? = null

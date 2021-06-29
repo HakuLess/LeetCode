@@ -1,5 +1,10 @@
 package leetcode.contest.utils
 
+/**
+ * 字符串操作相关工具类
+ * */
+
+
 fun kmpSearch(pat: String, txt: String, func: (Int) -> Unit) {
     val m = pat.length
     val n = txt.length

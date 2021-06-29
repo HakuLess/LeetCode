@@ -1,5 +1,8 @@
 package leetcode.contest.utils
 
+/**
+ * 支持排序的多集合
+ * */
 class MultiSet<T : Comparable<T>>(private val sumBy: (T) -> Int = { 0 }) {
 
     private val valueList = ArrayList<T>()

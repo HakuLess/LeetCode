@@ -11,6 +11,7 @@ fun main(args: Array<String>) {
     s.kthSmallestPath(intArrayOf(15, 15), 1).print()
 }
 
+// todo not finish
 class Solution5600 {
     fun kthSmallestPath(destination: IntArray, k: Int): String {
         return GFG.Ksmallest(destination[1], destination[0], (k - 1).toBigInteger(), StringBuilder()).toString()

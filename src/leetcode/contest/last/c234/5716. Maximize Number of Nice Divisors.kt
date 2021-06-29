@@ -18,15 +18,9 @@ class Solution5716 {
         var ans = 1L
         val c = primeFactors / 3
         when (primeFactors % 3) {
-            1 -> {
-                ans = quickPower(3, (c - 1).toLong(), mod) * 4
-            }
-            2 -> {
-                ans = quickPower(3, (c).toLong(), mod) * 2
-            }
-            0 -> {
-                ans = quickPower(3, (c).toLong(), mod)
-            }
+            1 -> ans = quickPower(3, (c - 1).toLong(), mod) * 4
+            2 -> ans = quickPower(3, (c).toLong(), mod) * 2
+            0 -> ans = quickPower(3, (c).toLong(), mod)
         }
         return (ans % mod).toInt()
     }

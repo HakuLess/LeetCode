@@ -1,40 +1,24 @@
 package leetcode.normal
 
-import leetcode.contest.utils.print
+import java.util.*
 
 class Solution204 {
     fun countPrimes(n: Int): Int {
-        if (n == 1 || n == 2) {
-            return 0
-        }
-        var result = 0
+        val primes = ArrayList<Int>()
+        val isPrime = IntArray(n) { 1 }
         for (i in 2 until n) {
-            if (isPrime(i)) {
-                i.print()
-                result++
+            if (isPrime[i] == 1) {
+                primes.add(i)
+            }
+            var j = 0
+            while (j < primes.size && i * primes[j] < n) {
+                isPrime[i * primes[j]] = 0
+                if (i % primes[j] == 0) {
+                    break
+                }
+                ++j
             }
         }
-        return result
-    }
-
-    fun isPrime(n: Int): Boolean {
-        if (n == 2) {
-            return true
-        }
-        val j = getMaxInt(n)
-        for (i in 2..j) {
-            if (n % i == 0) {
-                return false
-            }
-        }
-        return true
-    }
-
-    fun getMaxInt(n: Int): Int {
-        var result = 1
-        while (result * result < n) {
-            result++
-        }
-        return result
+        return primes.size
     }
 }

@@ -9,39 +9,6 @@ object L {
     operator fun <T> get(vararg a: T) = listOf(*a)
 }
 
-fun quickPower(base: Long, pow: Long, m: Long = 1000000007L): Long {
-    var res = 1L
-    var a = base
-    var b = pow
-    while (b > 0) {
-        if (b and 1L != 0L)
-            res = res * a % m
-        a = a * a % m
-        b = b shr 1
-    }
-    return res
-}
-
-tailrec fun gcd(a: Int, b: Int): Int {
-    return if (b == 0) a else gcd(b, a % b)
-}
-
-tailrec fun gcd(a: Long, b: Long): Long {
-    return if (b == 0L) a else gcd(b, a % b)
-}
-
-tailrec fun gcd(a: BigInteger, b: BigInteger): BigInteger {
-    return if (b == BigInteger.ZERO) a else gcd(b, a % b)
-}
-
-fun lcm(a: Long, b: Long): Long {
-    return a / gcd(a, b) * b
-}
-
-fun lcm(a: BigInteger, b: BigInteger): BigInteger {
-    return a / gcd(a, b) * b
-}
-
 fun Array<Suffix>.printSuffix() {
     this.forEachIndexed { index, suffix ->
         println("$index: ${suffix.index}")
