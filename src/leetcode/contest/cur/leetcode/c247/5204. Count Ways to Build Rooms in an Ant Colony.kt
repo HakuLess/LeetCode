@@ -1,64 +1,47 @@
 package leetcode.contest.cur.leetcode.c247
 
+import leetcode.contest.utils.C
 import leetcode.contest.utils.Graph
+import leetcode.contest.utils.fac
 import leetcode.contest.utils.print
 import java.util.*
 import kotlin.collections.HashMap
 
 fun main(args: Array<String>) {
     val s = Solution5204()
-    s.waysToBuildRooms(intArrayOf(-1, 0, 1)).print()
-    s.waysToBuildRooms(intArrayOf(-1, 0, 0, 1, 2)).print()
+//    s.waysToBuildRooms(intArrayOf(-1, 0, 1)).print()
+//    s.waysToBuildRooms(intArrayOf(-1, 0, 0, 1, 2)).print()
     s.waysToBuildRooms(intArrayOf(-1, 0, 0, 0, 0)).print()
+    C(4, 2).print()
+//    C(6, 3).print()
 }
 
 // TAG: 排列数 乘法逆元
 class Solution5204 {
-    val mod = 1000000007L
-
     fun waysToBuildRooms(prevRoom: IntArray): Int {
-        val cur = LongArray(prevRoom.size) { 1L }
+        val mod = 1000000007L
+        val (fac, inv) = fac(prevRoom.size)
+
+        // 构造树
         val g = Graph(prevRoom.size)
         for (i in prevRoom.indices) {
             if (prevRoom[i] == -1) continue
             g.addEdgeOri(prevRoom[i], i)
         }
 
-        val queue: Queue<Int> = LinkedList<Int>()
-        queue.add(0)
-        val map = HashMap<Long, Long>()
-        var step = 0L
-        while (queue.isNotEmpty()) {
-            step++
-            map[step] = queue.size.toLong()
-            val size = queue.size
-            for (i in 0 until size) {
-                val item = queue.poll()
-                g.adj[item].forEach {
-                    queue.offer(it)
-                }
-            }
-        }
+        val dp = LongArray(prevRoom.size) { 1 }
+        val count = IntArray(prevRoom.size) { 0 }
 
-        println(map)
-        var ans = 0L
-        var route = 1L
-        map.forEach { l, l2 ->
-            if (l == step) {
-                ans = getFac(l2) * route % mod
-            } else {
-                route = route * getFac(l2) % mod
+        fun dfs(u: Int) {
+            g.adj[u].forEach {
+                dfs(it)
+                count[u] += count[it]
+                dp[u] = (dp[u] * dp[it] % mod * inv[count[it]]) % mod
             }
+            dp[u] = dp[u] * fac[count[u]] % mod
+            count[u]++
         }
-        return ans.toInt()
-    }
-
-    fun getFac(i: Long): Long {
-        var ans = 1L
-        for (j in 1..i) {
-            ans *= j
-            ans %= mod
-        }
-        return ans
+        dfs(0)
+        return dp[0].toInt()
     }
 }

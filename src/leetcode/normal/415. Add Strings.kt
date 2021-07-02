@@ -4,55 +4,16 @@ import java.lang.StringBuilder
 
 class Solution415 {
     fun addStrings(num1: String, num2: String): String {
-        var isAdd = false
-        val l1 = num1.length
-        val l2 = num2.length
-        val s1 = if (l1 < l2) {
-            num1.reversed()
-        } else {
-            num2.reversed()
-        }
-        val s2 = if (l1 < l2) {
-            num2.reversed()
-        } else {
-            num1.reversed()
-        }
-
+        var carry = 0
+        var i = num1.length - 1
+        var j = num2.length - 1
         val sb = StringBuilder()
-        for (i in s1.indices) {
-            val it = (s1[i] - '0') + (s2[i] - '0') + if (isAdd) {
-                1
-            } else {
-                0
-            }
-
-            isAdd = if (it >= 10) {
-                sb.append(it - 10)
-                true
-            } else {
-                sb.append(it)
-                false
-            }
+        while (i >= 0 || j >= 0 || carry != 0) {
+            val v1 = if (i >= 0) num1[i--] - '0' else 0
+            val v2 = if (j >= 0) num2[j--] - '0' else 0
+            sb.append((v1 + v2 + carry) % 10)
+            carry = (v1 + v2 + carry) / 10
         }
-
-        for (j in s1.length until s2.length) {
-            val it = (s2[j] - '0') + if (isAdd) {
-                1
-            } else {
-                0
-            }
-            isAdd = if (it >= 10) {
-                sb.append(it - 10)
-                true
-            } else {
-                sb.append(it)
-                false
-            }
-        }
-        if (isAdd) {
-            sb.append('1')
-        }
-
-        return sb.toString().reversed()
+        return sb.reverse().toString()
     }
 }

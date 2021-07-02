@@ -11,6 +11,48 @@ import java.util.ArrayList
  * 素数
  * */
 
+// 阶乘
+// 乘法逆元计算
+fun fac(n: Int, mod: Long = 1000000007L): Pair<LongArray, LongArray> {
+    val fac = LongArray(n + 1)
+    fac[0] = 1
+    val invFac = LongArray(n + 1)
+    invFac[0] = 1
+    for (i in 1..n) {
+        fac[i] = fac[i - 1] * i % mod
+        invFac[i] = inv(fac[i], mod)
+    }
+    // first: 阶乘数
+    // second: 乘法逆元
+    // 乘以a的阶乘，使用*fac[a]
+    // 除以a的阶乘，使用*invFac[a]
+    return Pair(fac, invFac)
+}
+
+fun fexp(x: Long, y: Long, mod: Long): Long {
+    var x: Long = x
+    var y: Long = y
+    var ans: Long = 1
+    while (y != 0L) {
+        if (y and 1 != 0L) ans = ans * x % mod
+        x = x * x % mod
+        y = y shr 1
+    }
+    return ans
+}
+
+fun inv(x: Long, mod: Long = 1000000007L): Long {
+    return fexp(x, mod - 2, mod)
+}
+
+// 组合
+fun C(n: Int, m: Int, mod: Long = 1000000007L): Long {
+    return fac(n, mod).let {
+        it.first[n] * it.second[m] % mod
+    }
+}
+
+
 // 线性筛出法
 // 获取0..N的素数的个数
 fun Int.countPrime(): Int {
