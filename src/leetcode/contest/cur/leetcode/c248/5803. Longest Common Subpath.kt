@@ -7,36 +7,47 @@ fun main(args: Array<String>) {
     s.longestCommonSubpath(5, "[[0,1,2,3,4],[2,3,4],[4,0,1,2,3]]".toGrid()).print()
 }
 
+// todo
 class Solution5803 {
+    // TODO 后缀数组解法
+
+    // HashCode
     fun longestCommonSubpath(n: Int, paths: Array<IntArray>): Int {
-        var ans = 0
-        paths.sortBy { it.size }
-        val ori = paths[0]
-
-        fun check(a: Int, b: Int): Boolean {
-            val s = ori.toList().subList(a, b)
-            if (paths.all {
-                        s.joinToString(prefix = ",", separator = ",", postfix = ",") in it.joinToString(prefix = ",", separator = ",", postfix = ",")
-                    }) {
-                ans = maxOf(ans, s.size)
-                return true
-            }
-            return false
-        }
-
-        for (a in ori.indices) {
-            var left = a + 1
-            var right = ori.size
-            while (left + 1 < right) {
-                val mid = (left + right).ushr(1)
-                when {
-                    check(left, mid) -> left = mid
-                    else -> right = mid
+        fun check(k: Int): Boolean {
+            val base = 97755331L
+            val mod = 2112291799028938709L
+            val multi = quickPower(base, (k - 1).toLong(), mod)
+            val map = HashMap<Long, Int>()
+            for (path in paths) {
+                var cur = 0L
+                val seen = hashSetOf<Long>()
+                for (i in 0 until k) {
+                    cur = (cur * base + path[i]) % mod
+                    seen.add(cur)
+                }
+                map[cur] = map.getOrDefault(cur, 0) + 1
+                for (i in k until path.size) {
+                    cur = ((cur - path[i - k] * multi) * base + path[i]) % mod
+                    if (cur !in seen) {
+                        map[cur] = map.getOrDefault(cur, 0) + 1
+                        seen.add(cur)
+                    }
                 }
             }
-            check(a, left)
-            check(a, right)
+            return map.values.max()!! == paths.size
         }
-        return ans
+
+        var left = 0
+        var right = paths.map { it.size }.min()!!
+        while (left + 1 < right) {
+            val mid = (left + right).ushr(1)
+            when {
+                check(mid) -> left = mid
+                else -> right = mid
+            }
+        }
+        return if (check(right))
+            right
+        else left
     }
 }
