@@ -12,18 +12,17 @@ fun main(args: Array<String>) {
 }
 
 class Solution930 {
-
-    fun numSubarraysWithSum(A: IntArray, S: Int): Int {
-        val dp = IntArray(A.size + 1)
-        for (i in A.indices) {
-            dp[i + 1] = dp[i] + A[i]
+    fun numSubarraysWithSum(nums: IntArray, goal: Int): Int {
+        val dp = IntArray(nums.size + 1)
+        for (i in nums.indices) {
+            dp[i + 1] = dp[i] + nums[i]
         }
 
         val count = HashMap<Int, Int>()
         var ans = 0
         for (c in dp) {
             ans += count.getOrDefault(c, 0)
-            count[c + S] = count.getOrDefault(c + S, 0) + 1
+            count[c + goal] = count.getOrDefault(c + goal, 0) + 1
         }
         return ans
     }

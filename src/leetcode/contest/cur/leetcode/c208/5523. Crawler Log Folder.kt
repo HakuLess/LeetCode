@@ -1,21 +1,14 @@
 package leetcode.contest.cur.leetcode.c208
 
-import java.util.*
-
 class Solution5523 {
     fun minOperations(logs: Array<String>): Int {
-        val st = Stack<String>()
+        var ans = 0
         for (log in logs) {
-            if (log == "../") {
-                if (st.isNotEmpty()) {
-                    st.pop()
-                }
-            } else if (log == "./") {
-                continue
-            } else {
-                st.push(log)
+            when {
+                log == "../" -> ans = maxOf(0, ans - 1)
+                log != "./" -> ans++
             }
         }
-        return st.size
+        return ans
     }
 }
