@@ -24,12 +24,13 @@ fun main(args: Array<String>) {
         suf.add(0, maxOf(suf.firstOrNull() ?: Long.MIN_VALUE / 2, it.second))
     }
 
+    val result = ArrayList<Long>()
     for (t in c) {
         if (t <= a[0]) {
-            println(maxOf(b[0] - t, suf[0]))
+            result.add(maxOf(b[0] - t, suf[0]))
             continue
         } else if (t >= a.last()) {
-            println(maxOf(b.last() - t, pre.last()))
+            result.add(maxOf(b.last() - t, pre.last()))
             continue
         }
 
@@ -41,6 +42,7 @@ fun main(args: Array<String>) {
         if (index in suf.indices)
             ans = maxOf(ans, suf[index])
         ans = maxOf(ans, b[index] - t)
-        println(ans)
+        result.add(ans)
     }
+    println(result.joinToString(" "))
 }
