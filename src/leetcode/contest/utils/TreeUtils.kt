@@ -67,3 +67,18 @@ fun <T> Array<T>.toTree(): TreeNode? {
 
     return root
 }
+
+/**
+ * 判断二叉树是否为二叉搜索树
+ * 严格大于小于（禁止等于）
+ * */
+fun TreeNode?.isBST(): Boolean {
+    if (this == null) return false
+    fun dfs(node: TreeNode?, up: Int, down: Int): Boolean {
+        if (node == null) return true
+//        println("${node.`val`} in $down..$up")
+        if (node.`val` <= down || node.`val` >= up) return false
+        return dfs(node.left, minOf(up, node.`val`), down) && dfs(node.right, up, maxOf(down, node.`val`))
+    }
+    return dfs(this.left, this.`val`, Int.MIN_VALUE) && dfs(this.right, Int.MAX_VALUE, this.`val`)
+}

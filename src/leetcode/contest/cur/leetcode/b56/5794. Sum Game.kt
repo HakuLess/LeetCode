@@ -10,7 +10,6 @@ fun main(args: Array<String>) {
 }
 
 // 恶心题目
-// todo 待提交
 // 从Bob能赢的一点点希望入手
 class Solution5794 {
     fun sumGame(num: String): Boolean {
