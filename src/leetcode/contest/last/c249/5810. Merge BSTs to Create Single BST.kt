@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c249
+package leetcode.contest.last.c249
 
 import leetcode.contest.utils.TreeNode
 import leetcode.contest.utils.count
@@ -21,19 +21,16 @@ class Solution5810 {
             it.count()
         }
         val mapRoot = hashMapOf<Int, TreeNode>()
-        val mapLeaf = hashMapOf<Int, TreeNode>()
         val set = hashSetOf<Int>()
         trees.forEach {
             set.add(it.`val`)
             mapRoot[it.`val`] = it
             arr[it.`val`]++
             it.left?.let {
-                mapLeaf[it.`val`] = it
                 set.add(it.`val`)
                 arr[it.`val`]--
             }
             it.right?.let {
-                mapLeaf[it.`val`] = it
                 set.add(it.`val`)
                 arr[it.`val`]--
             }

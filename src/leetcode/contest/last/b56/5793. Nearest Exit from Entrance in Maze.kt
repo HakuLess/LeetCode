@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b56
+package leetcode.contest.last.b56
 
 import java.util.*
 import kotlin.collections.HashSet
@@ -13,14 +13,14 @@ class Solution5793 {
         )
         val queue: Queue<Pair<Int, Int>> = LinkedList<Pair<Int, Int>>()
         queue.add(Pair(entrance[0], entrance[1]))
-        var step = 0
+        var step = -1
         val seen = HashSet<Pair<Int, Int>>()
+        seen.add(Pair(entrance[0], entrance[1]))
         while (queue.isNotEmpty()) {
             val size = queue.size
             step++
             for (i in 0 until size) {
                 val item = queue.poll()
-                seen.add(item)
                 if ((item.first == 0 || item.first == maze.lastIndex)
                         && !(item.first == entrance[0] && item.second == entrance[1])) return step
                 if ((item.second == 0 || item.second == maze[0].lastIndex)
@@ -32,6 +32,7 @@ class Solution5793 {
                             && next.second in maze[0].indices
                             && maze[next.first][next.second] == '.') {
                         queue.offer(next)
+                        seen.add(next)
                     }
                 }
             }

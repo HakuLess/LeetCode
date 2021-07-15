@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b56
+package leetcode.contest.last.b56
 
 class Solution5792 {
     fun countTriples(n: Int): Int {

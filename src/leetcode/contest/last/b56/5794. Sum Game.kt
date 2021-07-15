@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b56
+package leetcode.contest.last.b56
 
 import leetcode.contest.utils.print
 
@@ -19,6 +19,6 @@ class Solution5794 {
         var b = 0
         for (i in 0 until n / 2) if (num[i] == '?') a++ else x += num[i] - '0'
         for (i in n / 2 until n) if (num[i] == '?') b++ else x -= num[i] - '0'
-        return if ((a + b) % 2 == 1) true else (x - 9 * b + (a + b) / 2 * 9 != 0)
+        return if ((a + b) % 2 == 1) true else (x != (b - a) / 2 * 9)
     }
 }

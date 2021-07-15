@@ -17,11 +17,10 @@ class Solution1104 {
         while (cur != 0) {
             ans.add(cur)
             val level = find(cur)
-            println("$cur ${level.first} ${level.second}")
-            if (level.second % 2 == 0) {
-                cur = level.first / 4 + (level.first - cur - 1) / 2
+            cur = if (level.second % 2 == 0) {
+                level.first / 4 + (level.first - cur - 1) / 2
             } else {
-                cur = level.first / 2 - (cur - level.first / 2) / 2  - 1
+                level.first / 2 - (cur - level.first / 2) / 2  - 1
             }
         }
         return ans.reversed()
