@@ -1,5 +1,6 @@
 package leetcode.contest.cur.leetcode.b41
 
+// 数学
 class Solution1685 {
     fun getSumAbsoluteDifferences(nums: IntArray): IntArray {
         val n = nums.size

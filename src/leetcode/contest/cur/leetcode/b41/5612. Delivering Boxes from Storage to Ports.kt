@@ -4,13 +4,16 @@ import leetcode.contest.utils.print
 
 fun main(args: Array<String>) {
     val s = Solution5612()
-    s.boxDelivering(arrayOf(
+    s.boxDelivering(
+        arrayOf(
             intArrayOf(1, 1),
             intArrayOf(2, 1),
             intArrayOf(1, 1)
-    ), 2, 3, 3).print()
+        ), 2, 3, 3
+    ).print()
 //    [[2, 4], [2, 5], [3, 1], [3, 2], [3, 7], [3, 1], [4, 4], [1, 3], [5, 2]], portsCount = 5, maxBoxes = 5, maxWeight = 7
-    s.boxDelivering(arrayOf(
+    s.boxDelivering(
+        arrayOf(
             intArrayOf(2, 4),
             intArrayOf(2, 5),
             intArrayOf(3, 1),
@@ -20,10 +23,13 @@ fun main(args: Array<String>) {
             intArrayOf(4, 4),
             intArrayOf(1, 3),
             intArrayOf(5, 2)
-    ), 5, 5, 7).print()
+        ), 5, 5, 7
+    ).print()
 }
 
 // todo not finish
+// 单调队列
+// 尝试用DFS处理下
 class Solution5612 {
     fun boxDelivering(boxes: Array<IntArray>, portsCount: Int, maxBoxes: Int, maxWeight: Int): Int {
         var w = boxes[0][1]
@@ -34,6 +40,7 @@ class Solution5612 {
         var cost = 2
         var i = 0
         var j = 1
+        // i 是 left, j 是 right
         while (j in boxes.indices) {
             b++
             w += boxes[j][1]
