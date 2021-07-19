@@ -11,6 +11,6 @@ class Solution5185 {
                 count = 0
             }
         }
-        return count >= 3
+        return false
     }
 }

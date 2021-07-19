@@ -1,11 +1,13 @@
 package leetcode.contest.utils
 
 class Trie<T> {
-    class TrieNode<T>(val init: T? = null) {
+    /**
+     * @param cnt 记录当前点的值，用于Remove操作
+     * */
+    class TrieNode<T>(val init: T? = null, var cnt: Int = 0) {
         val value: T? = init
         val children: ArrayList<TrieNode<T>> = arrayListOf()
         var isEnd = false
-        var cnt = 0
     }
 
     var root = TrieNode<T>()
@@ -44,15 +46,26 @@ class Trie<T> {
     }
 }
 
+fun Trie<Int>.removeInt(n: Int) {
+    var temp = this.root
+    for (i in 31 downTo 0) {
+        val x: Int = (n shr i) and 1
+        val item = temp.children.first { it.value == x }
+        item.cnt--
+        temp = item
+    }
+}
+
 fun Trie<Int>.insertInt(n: Int) {
     var temp = this.root
     for (i in 31 downTo 0) {
         val x: Int = (n shr i) and 1
         val item = temp.children.firstOrNull { it.value == x }
         if (item == null)
-            temp.children.add(Trie.TrieNode(x))
+            temp.children.add(Trie.TrieNode(x, 1))
+        else
+            item.cnt++
         temp = temp.children.first { it.value == x }
-        temp.cnt++
     }
 }
 
@@ -90,10 +103,10 @@ fun Trie<Int>.maxXor(key: Int): Int {
     for (i in 31 downTo 0) {
         cur *= 2
         val curBit = (key and (1 shl i)).let { if (it > 0) 1 else 0 }
-        temp = if (temp.children.firstOrNull { it.value == 1 - curBit } != null)
-            temp.children.first { it.value == 1 - curBit }
+        temp = if (temp.children.firstOrNull { it.value == 1 - curBit && it.cnt != 0 } != null)
+            temp.children.first { it.value == 1 - curBit && it.cnt != 0 }
         else
-            temp.children.first { it.value == curBit }
+            temp.children.first { it.value == curBit && it.cnt != 0 }
         cur += curBit xor temp.value!!
     }
     return cur
