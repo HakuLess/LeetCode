@@ -119,10 +119,10 @@ fun Trie<Int>.minXor(key: Int): Int {
     for (i in 31 downTo 0) {
         cur *= 2
         val curBit = (key and (1 shl i)).let { if (it > 0) 1 else 0 }
-        temp = if (temp.children.firstOrNull { it.value == curBit } != null)
-            temp.children.first { it.value == curBit }
+        temp = if (temp.children.firstOrNull { it.value == curBit && it.cnt != 0 } != null)
+            temp.children.first { it.value == curBit && it.cnt != 0 }
         else
-            temp.children.first { it.value == 1 - curBit }
+            temp.children.first { it.value == 1 - curBit && it.cnt != 0 }
         cur += curBit xor temp.value!!
     }
     return cur
