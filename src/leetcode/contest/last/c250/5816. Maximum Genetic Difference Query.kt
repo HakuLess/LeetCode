@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c250
+package leetcode.contest.last.c250
 
 import leetcode.contest.utils.*
 import kotlin.collections.ArrayList

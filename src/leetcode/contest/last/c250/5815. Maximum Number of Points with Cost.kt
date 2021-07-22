@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c250
+package leetcode.contest.last.c250
 
 class Solution5815 {
     // 左侧、右侧数组

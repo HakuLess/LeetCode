@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c250
+package leetcode.contest.last.c250
 
 class Solution5161 {
     fun canBeTypedWords(text: String, brokenLetters: String): Int {

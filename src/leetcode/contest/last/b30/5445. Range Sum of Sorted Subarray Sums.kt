@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b30
+package leetcode.contest.last.b30
 
 import leetcode.contest.utils.print
 
@@ -13,16 +13,13 @@ class Solution5445 {
         val sum = arrayListOf<Long>()
         for (i in nums.indices) {
             sum.add(nums[i].toLong())
-//            println("add i ${nums[i]}")
             var cur = nums[i]
             for (j in i + 1..nums.lastIndex) {
                 cur += nums[j]
                 sum.add(cur.toLong())
-//                println("add cur $cur")
             }
         }
         sum.sort()
-//        sum.joinToString(" ").print()
         var ans = 0L
         for (i in left - 1 until right) {
             ans = (ans + sum[i]) % mod
