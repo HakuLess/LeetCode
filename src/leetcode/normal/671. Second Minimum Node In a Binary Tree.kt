@@ -7,7 +7,7 @@ class Solution671 {
     fun findSecondMinimumValue(root: TreeNode?): Int {
         val queue: Queue<TreeNode?> = LinkedList()
         queue.add(root)
-        var ans = Pair(Int.MAX_VALUE, Int.MAX_VALUE)
+        var ans = Pair(Long.MAX_VALUE, Long.MAX_VALUE)
 
         while (queue.isNotEmpty()) {
             val size = queue.size
@@ -18,21 +18,21 @@ class Solution671 {
                 } else {
                     queue.add(item.left)
                     queue.add(item.right)
-                    if (item.`val` == ans.first || item.`val` == ans.second) {
+                    if (item.`val`.toLong() == ans.first || item.`val`.toLong() == ans.second) {
                         continue
                     }
                     if (item.`val` < ans.first) {
-                        ans = Pair(item.`val`, ans.first)
+                        ans = Pair(item.`val`.toLong(), ans.first)
                     } else if (item.`val` < ans.second) {
-                        ans = Pair(ans.first, item.`val`)
+                        ans = Pair(ans.first, item.`val`.toLong())
                     }
                 }
             }
         }
-        return if (ans.second == Int.MAX_VALUE) {
+        return if (ans.second == Long.MAX_VALUE) {
             -1
         } else {
-            ans.second
+            ans.second.toInt()
         }
     }
 }

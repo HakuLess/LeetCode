@@ -13,7 +13,6 @@ class Solution1154 {
         val c = Calendar.getInstance()
         val a = date.split("-")
         c.set(a[0].toInt(), a[1].toInt() - 1, a[2].toInt())
-
         return c.get(Calendar.DAY_OF_YEAR)
     }
 }

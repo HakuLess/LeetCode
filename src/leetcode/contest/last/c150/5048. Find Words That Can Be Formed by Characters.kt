@@ -9,27 +9,20 @@ fun main(args: Array<String>) {
 
 class Solution5048 {
     fun countCharacters(words: Array<String>, chars: String): Int {
-        var ans = 0
-        val map = hashMapOf<Char, Int>()
+        val c = IntArray(26)
         chars.forEach {
-            map[it] = map.getOrDefault(it, 0) + 1
+            c[it - 'a']++
         }
-        words.forEach {
-            ans += isAns(it, map)
-        }
-        return ans
-    }
-
-    private fun isAns(word: String, map: HashMap<Char, Int>): Int {
-        val t = hashMapOf<Char, Int>()
-        word.forEach {
-            t[it] = t.getOrDefault(it, 0) + 1
-        }
-        for (item in t) {
-            if (!map.containsKey(item.key) || map[item.key]!! < item.value) {
-                return 0
+        return words.map {
+            val cur = IntArray(26)
+            it.forEach {
+                cur[it - 'a']++
             }
-        }
-        return word.length
+            Pair(cur, it.length)
+        }.filter {
+            ((0..25).all { index ->
+                it.first[index] <= c[index]
+            })
+        }.sumBy { it.second }
     }
 }
