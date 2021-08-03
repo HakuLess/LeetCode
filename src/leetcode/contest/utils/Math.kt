@@ -9,6 +9,7 @@ import java.util.ArrayList
  * 排列组合数
  * 快速幂
  * 素数
+ * 全排列
  * */
 
 // 阶乘
@@ -115,4 +116,25 @@ fun lcm(a: Long, b: Long): Long {
 
 fun lcm(a: BigInteger, b: BigInteger): BigInteger {
     return a / gcd(a, b) * b
+}
+
+// 无重复数组，全排列
+fun IntArray.permute(): List<List<Int>> {
+    val ans = ArrayList<List<Int>>()
+    fun backtrack(nums: IntArray, tracker: ArrayList<Int>) {
+        if (tracker.size == nums.size) {
+            ans.add(ArrayList(tracker))
+            return
+        }
+        for (num in nums) {
+            if (tracker.contains(num)) {
+                continue
+            }
+            tracker.add(num)
+            backtrack(nums, tracker)
+            tracker.remove(num)
+        }
+    }
+    backtrack(this, arrayListOf())
+    return ans
 }

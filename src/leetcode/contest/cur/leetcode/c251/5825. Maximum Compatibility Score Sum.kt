@@ -1,5 +1,6 @@
 package leetcode.contest.cur.leetcode.c251
 
+import leetcode.contest.utils.permute
 import leetcode.contest.utils.print
 import leetcode.contest.utils.toGrid
 
@@ -10,32 +11,9 @@ fun main(args: Array<String>) {
 
 class Solution5825 {
     fun maxCompatibilitySum(students: Array<IntArray>, mentors: Array<IntArray>): Int {
-
-        val ans = ArrayList<List<Int>>()
-
-        fun backtrack(nums: IntArray, tracker: ArrayList<Int>) {
-            if (tracker.size == nums.size) {
-                ans.add(ArrayList(tracker))
-                return
-            }
-            for (num in nums) {
-                if (tracker.contains(num)) {
-                    continue
-                }
-                tracker.add(num)
-                backtrack(nums, tracker)
-                tracker.remove(num)
-            }
-        }
-
-        fun permute(nums: IntArray): List<List<Int>> {
-            backtrack(nums, arrayListOf())
-            return ans
-        }
-
         var res = 0
         val source = IntArray(students.size) { i -> i }
-        permute(source).forEach {
+        source.permute().forEach {
             var tmp = 0
             for (i in it.indices) {
                 for (j in students[0].indices) {

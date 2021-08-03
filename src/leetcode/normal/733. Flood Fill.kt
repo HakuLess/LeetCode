@@ -6,22 +6,21 @@ class Solution733 {
         if (target == newColor) {
             return image
         }
-        dfs(image, sr, sc, target, newColor)
+        fun dfs(sr: Int, sc: Int) {
+            if (sr < 0 || sc < 0 || sr >= image.size || sc >= image[0].size) {
+                return
+            }
+            if (image[sr][sc] == target) {
+                image[sr][sc] = newColor
+            } else {
+                return
+            }
+            dfs(sr - 1, sc)
+            dfs(sr + 1, sc)
+            dfs(sr, sc - 1)
+            dfs(sr, sc + 1)
+        }
+        dfs(sr, sc)
         return image
-    }
-
-    private fun dfs(image: Array<IntArray>, sr: Int, sc: Int, target: Int, newColor: Int) {
-        if (sr < 0 || sc < 0 || sr >= image.size || sc >= image[0].size) {
-            return
-        }
-        if (image[sr][sc] == target) {
-            image[sr][sc] = newColor
-        } else {
-            return
-        }
-        dfs(image, sr - 1, sc, target, newColor)
-        dfs(image, sr + 1, sc, target, newColor)
-        dfs(image, sr, sc - 1, target, newColor)
-        dfs(image, sr, sc + 1, target, newColor)
     }
 }

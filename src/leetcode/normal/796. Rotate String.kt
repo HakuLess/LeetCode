@@ -1,11 +1,10 @@
 package leetcode.normal
 
 class Solution796 {
-    fun rotateString(A: String, B: String): Boolean {
-        if (A.length != B.length) {
+    fun rotateString(s: String, goal: String): Boolean {
+        if (s.length != goal.length) {
             return false
         }
-        val sb = "$A$A"
-        return sb.indexOf(B) >= 0
+        return goal in "$s$s"
     }
 }
