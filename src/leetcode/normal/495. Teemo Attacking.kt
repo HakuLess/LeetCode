@@ -10,24 +10,11 @@ fun main(args: Array<String>) {
 
 class Solution495 {
     fun findPoisonedDuration(timeSeries: IntArray, duration: Int): Int {
-        if (timeSeries.isEmpty()) {
-            return 0
-        }
+        if (timeSeries.isEmpty()) return 0
         var ans = 0
-        var start = timeSeries[0]
-        var end = start + duration
-
-        for (i in 1 until timeSeries.size) {
-            if (timeSeries[i] <= end) {
-                end = timeSeries[i] + duration
-            } else {
-                ans += end - start
-                start = timeSeries[i]
-                end = timeSeries[i] + duration
-            }
+        for (i in 0 until timeSeries.lastIndex) {
+            ans += minOf(timeSeries[i + 1] - timeSeries[i], duration)
         }
-        ans += end - start
-
-        return ans
+        return ans + duration
     }
 }
