@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b57
+package leetcode.contest.last.b57
 
 import leetcode.contest.utils.print
 import java.util.*
