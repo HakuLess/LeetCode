@@ -2,6 +2,7 @@ package leetcode.contest.utils
 
 import java.util.*
 
+// n为包含节点数
 class Graph(val n: Int) {
 
     // 图中边（可以有方向）
