@@ -13,6 +13,7 @@ fun main(args: Array<String>) {
 }
 
 class Solution5841 {
+    // 最长非递增子序列
     fun longestObstacleCourseAtEachPosition(obstacles: IntArray): IntArray {
         val ts = TreeSet<Int>()
         val map = HashMap<Int, Int>().toSortedMap()
