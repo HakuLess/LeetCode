@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c253
+package leetcode.contest.last.c253
 
 class Solution5838 {
     fun isPrefixString(s: String, words: Array<String>): Boolean {

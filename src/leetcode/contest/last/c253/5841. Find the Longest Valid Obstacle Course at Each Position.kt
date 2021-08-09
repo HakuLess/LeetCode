@@ -1,9 +1,8 @@
-package leetcode.contest.cur.leetcode.c253
+package leetcode.contest.last.c253
 
+import leetcode.contest.utils.biFirstIndexOf
 import leetcode.contest.utils.print
-import java.util.*
 import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
 
 fun main(args: Array<String>) {
     val s = Solution5841()
@@ -15,23 +14,20 @@ fun main(args: Array<String>) {
 class Solution5841 {
     // 最长非递增子序列
     fun longestObstacleCourseAtEachPosition(obstacles: IntArray): IntArray {
-        val ts = TreeSet<Int>()
-        val map = HashMap<Int, Int>().toSortedMap()
         val ans = ArrayList<Int>()
+        val cur = ArrayList<Int>()
         obstacles.forEach {
-            val lst = ts.floor(it)
-            var len = 1
-            if (lst != null) {
-                len = map[lst]!! + 1
-                var ceil = ts.ceiling(it)
-                while (ceil != null && map[ceil]!! < len) {
-                    ts.remove(ceil)
-                    ceil = ts.ceiling(ceil + 1)
+            // 若要严格递增，这里>改为>=
+            val index = cur.biFirstIndexOf { c -> c > it }
+            ans.add(
+                if (index == -1) {
+                    cur.add(it)
+                    cur.size
+                } else {
+                    cur[index] = it
+                    index + 1
                 }
-            }
-            map[it] = len
-            ts.add(it)
-            ans.add(len)
+            )
         }
         return ans.toIntArray()
     }

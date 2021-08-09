@@ -10,6 +10,7 @@ import java.util.ArrayList
  * 快速幂
  * 素数
  * 全排列
+ * 二分查找
  * */
 
 // 阶乘
@@ -137,4 +138,65 @@ fun IntArray.permute(): List<List<Int>> {
     }
     backtrack(this, arrayListOf())
     return ans
+}
+
+/**
+ * 二分查找，找到第一个满足条件的Index
+ * 若整个列表都没有满足的，返回-1
+ * */
+fun <T> ArrayList<T>.biFirstIndexOf(func: (T) -> Boolean): Int {
+    if (this.isEmpty()) return -1
+    var left = 0
+    var right = this.lastIndex
+    while (left + 1 < right) {
+        val mid = (left + right).ushr(1)
+        when {
+            func(this[mid]) -> right = mid
+            else -> left = mid
+        }
+    }
+    return when {
+        func(this[left]) -> left
+        func(this[right]) -> right
+        else -> -1
+    }
+}
+
+/**
+ * 二分查找，找到最后一个满足条件的Index
+ * 若整个列表都没有满足的，返回-1
+ * */
+fun <T> ArrayList<T>.biLastIndexOf(func: (T) -> Boolean): Int {
+    if (this.isEmpty()) return -1
+    var left = 0
+    var right = this.lastIndex
+    while (left + 1 < right) {
+        val mid = (left + right).ushr(1)
+        when {
+            func(this[mid]) -> left = mid
+            else -> right = mid
+        }
+    }
+    return when {
+        func(this[right]) -> right
+        func(this[left]) -> left
+        else -> -1
+    }
+}
+
+fun IntArray.biFirstIndexOf(func: (Int) -> Boolean): Int {
+    var left = 0
+    var right = this.lastIndex
+    while (left + 1 < right) {
+        val mid = (left + right).ushr(1)
+        when {
+            func(this[mid]) -> right = mid
+            else -> left = mid
+        }
+    }
+    return when {
+        func(this[left]) -> left
+        func(this[right]) -> right
+        else -> -1
+    }
 }
