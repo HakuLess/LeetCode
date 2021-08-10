@@ -11,6 +11,7 @@ import java.util.ArrayList
  * 素数
  * 全排列
  * 二分查找
+ * 回文字符串（Manacher算法）
  * */
 
 // 阶乘
@@ -199,4 +200,29 @@ fun IntArray.biFirstIndexOf(func: (Int) -> Boolean): Int {
         func(this[right]) -> right
         else -> -1
     }
+}
+
+// 马拉车算法，O(n)获取回文最大半径
+fun manacher(s: String): IntArray {
+    val n = s.length
+    var i = 0
+    var j = -1
+    var mx = -1
+    // 以i为中心的回文最大长度，存放的是半径值
+    val len = IntArray(n)
+    while (i < n) {
+        if (i > mx)
+            len[i] = 0
+        else
+            len[i] = minOf(len[2 * j - i], mx - i)
+        // 中心扩展
+        while (i - len[i] - 1 >= 0 && i + len[i] + 1 < n && s[i - len[i] - 1] == s[i + len[i] + 1])
+            ++len[i]
+        if (i + len[i] > mx) {
+            mx = i + len[i]
+            j = i
+        }
+        i++
+    }
+    return len
 }

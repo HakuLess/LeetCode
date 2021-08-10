@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.b58
+package leetcode.contest.last.b58
 
 import java.lang.StringBuilder
 
