@@ -1,31 +1,41 @@
 package leetcode.normal
 
+import leetcode.contest.utils.manacher
+import leetcode.contest.utils.print
+import java.lang.StringBuilder
+
+fun main(args: Array<String>) {
+    val s = Solution5()
+    s.longestPalindrome("babad").print()
+    s.longestPalindrome("cbbd").print()
+    s.longestPalindrome("ab").print()
+    s.longestPalindrome("a").print()
+}
+
 class Solution5 {
+    // 最长回文子字符串
+    // 马拉车 Manacher
     fun longestPalindrome(s: String): String {
-        if (s.isEmpty()) {
-            return ""
+        val sb = StringBuilder()
+        sb.append('#')
+        s.forEach {
+            sb.append(it)
+            sb.append('#')
         }
-        var start = 0
-        var end = 0
-        for (i in s.indices) {
-            val len1 = expandAroundCenter(s, i, i)
-            val len2 = expandAroundCenter(s, i, i + 1)
-            val len = maxOf(len1, len2)
-            if (len > end - start) {
-                start = i - (len - 1) / 2
-                end = i + len / 2
+        val manacher = manacher(sb.toString())
+        var center = 0
+        var max = 1
+        for (i in manacher.indices) {
+            if (manacher[i] > max) {
+                center = i
+                max = manacher[i]
             }
         }
-        return s.substring(start, end + 1)
-    }
-
-    private fun expandAroundCenter(s: String, left: Int, right: Int): Int {
-        var l = left
-        var r = right
-        while (l >= 0 && r < s.length && s[l] == s[r]) {
-            l--
-            r++
+//        sb.toString().print()
+//        println("$center $max")
+        if (max == 1) {
+            return sb[1].toString()
         }
-        return r - l - 1
+        return sb.substring(center - max, center + max).filter { it != '#' }
     }
 }
