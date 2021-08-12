@@ -13,7 +13,7 @@ class Solution473 {
         if (nums.size < 4) return false
         val sum = nums.sum()
         if (sum % 4 != 0) return false
-        if (nums.max()!! > sum / 4) return false
+        if (nums.maxOrNull()!! > sum / 4) return false
 
         val n = nums.size
         val arr = IntArray(1 shl n)

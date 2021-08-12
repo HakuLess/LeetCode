@@ -26,7 +26,7 @@ class MinStack() {
         return data.last()
     }
 
-    fun getMin(): Int {
+    fun getminOrNull(): Int {
         return minList.last()
     }
 

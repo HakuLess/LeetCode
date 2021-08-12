@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
 class Solution5564 {
     fun createSortedArray(instructions: IntArray): Int {
         val mod = 1000000007L
-        val max = instructions.max()!!
+        val max = instructions.maxOrNull()!!
         val root = SegmentTree<Int>(
                 start = 0,
                 end = max,

@@ -54,7 +54,7 @@ class Solution5563 {
 //
 //        val mod = 1000000007L
 //        var left = 0
-//        var right = inventory.max()!!
+//        var right = inventory.maxOrNull()!!
 //        while (left + 1 < right) {
 //            val mid = (left + right).ushr(1)
 //            when {

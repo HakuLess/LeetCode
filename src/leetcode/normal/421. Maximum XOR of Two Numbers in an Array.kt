@@ -25,7 +25,7 @@ class Solution421 {
     }
 
 //    fun findMaximumXOR(nums: IntArray): Int {
-//        val maxNum = nums.max()!!
+//        val maxNum = nums.maxOrNull()!!
 //        val l = Integer.toBinaryString(maxNum).length
 //        val n = nums.size
 //        val bitmask = 1 shl l

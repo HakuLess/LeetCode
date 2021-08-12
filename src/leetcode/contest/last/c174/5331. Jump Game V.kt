@@ -35,7 +35,7 @@ class Solution5331 {
             dp[it.first] = max
         }
         dp.print()
-        return dp.max()!!
+        return dp.maxOrNull()!!
     }
 
 //    fun maxJumps(arr: IntArray, d: Int): Int {
@@ -44,7 +44,7 @@ class Solution5331 {
 //            helper(arr, dp, i, d)
 //        }
 ////        dp.print()
-//        return dp.max()!!
+//        return dp.maxOrNull()!!
 //    }
 //
 //    private fun helper(arr: IntArray, dp: IntArray, cur: Int, d: Int): Int {

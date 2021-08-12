@@ -30,7 +30,7 @@ class Solution5180 {
             }
             dq.addLast(i)
         }
-        return dp.max()!!
+        return dp.maxOrNull()!!
     }
 
 //    var n = intArrayOf()
@@ -39,9 +39,9 @@ class Solution5180 {
 //        n = nums
 //        helper(0, k)
 //        if (nums.all { it <= 0 }) {
-//            return nums.max()!!
+//            return nums.maxOrNull()!!
 //        }
-//        return seen.maxBy { it.value }!!.value
+//        return seen.maxByOrNull { it.value }!!.value
 //    }
 //
 //    private fun helper(cur: Int, k: Int): Int {

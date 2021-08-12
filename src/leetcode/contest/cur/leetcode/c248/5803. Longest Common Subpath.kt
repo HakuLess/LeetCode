@@ -34,11 +34,11 @@ class Solution5803 {
                     }
                 }
             }
-            return map.values.max()!! == paths.size
+            return map.values.maxOrNull()!! == paths.size
         }
 
         var left = 0
-        var right = paths.map { it.size }.min()!!
+        var right = paths.map { it.size }.minOrNull()!!
         while (left + 1 < right) {
             val mid = (left + right).ushr(1)
             when {

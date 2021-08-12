@@ -18,6 +18,6 @@ class Solution5233 {
                 }
             }
         }
-        return dp.max()!!
+        return dp.maxOrNull()!!
     }
 }

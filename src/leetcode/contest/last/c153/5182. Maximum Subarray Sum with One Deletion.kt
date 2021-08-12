@@ -18,7 +18,7 @@ class Solution5182 {
         }
 
         if (arr.all { it <= 0 }) {
-            return arr.max()!!
+            return arr.maxOrNull()!!
         }
 
         return getMax(arr)
@@ -51,6 +51,6 @@ class Solution5182 {
         }
         dp.print()
         dp2.print()
-        return maxOf(dp.max()!!, dp2.max()!!)
+        return maxOf(dp.maxOrNull()!!, dp2.maxOrNull()!!)
     }
 }

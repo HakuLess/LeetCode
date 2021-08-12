@@ -12,5 +12,5 @@ fun main(args: Array<String>) {
                 a.removeAt(i)
         }
     }
-    println(arr.indexOf(a.min()!!) + 1)
+    println(arr.indexOf(a.minOrNull()!!) + 1)
 }

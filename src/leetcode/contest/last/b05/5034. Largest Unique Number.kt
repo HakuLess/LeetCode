@@ -6,6 +6,6 @@ class Solution5034 {
             A.count {
                 it == t
             } == 1
-        }.max() ?: -1
+        }.maxOrNull() ?: -1
     }
 }

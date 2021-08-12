@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
 
 class Solution5111 {
     fun maximizeSweetness(sweetness: IntArray, K: Int): Int {
-        var left = sweetness.min()!!
+        var left = sweetness.minOrNull()!!
         var right = sweetness.sum()
         while (left + 1 < right) {
             val mid = (left + right).ushr(1)

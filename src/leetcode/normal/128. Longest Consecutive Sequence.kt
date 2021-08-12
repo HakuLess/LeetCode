@@ -25,6 +25,6 @@ class Solution128 {
             val key = ufs.typedFind(it)
             map[key] = map.getOrDefault(key, 0) + 1
         }
-        return map.maxBy { it.value }!!.value
+        return map.maxByOrNull { it.value }!!.value
     }
 }

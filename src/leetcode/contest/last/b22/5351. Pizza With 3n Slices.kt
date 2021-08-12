@@ -45,7 +45,7 @@ class Solution5351 {
 //        var ans = 0
 //
 //        if (slices.size == 3) {
-//            ans = slices.max()!!
+//            ans = slices.maxOrNull()!!
 //            seen[slices.joinToString(",")] = ans
 //            return ans
 //        }

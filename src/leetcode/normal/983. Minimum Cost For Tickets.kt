@@ -10,7 +10,7 @@ class Solution983 {
                         prices.getOrElse(i - 1) { 0 } + costs[0],
                         prices.getOrElse(i - 7) { 0 } + costs[1],
                         prices.getOrElse(i - 30) { 0 } + costs[2]
-                ).min()!!
+                ).minOrNull()!!
             } else {
                 prices[i] = prices[i - 1]
             }

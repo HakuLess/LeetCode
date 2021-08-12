@@ -17,6 +17,6 @@ class Solution53 {
         for (i in 1 until nums.size) {
             dp[i] = maxOf(dp[i - 1] + nums[i], nums[i])
         }
-        return dp.max()!!
+        return dp.maxOrNull()!!
     }
 }

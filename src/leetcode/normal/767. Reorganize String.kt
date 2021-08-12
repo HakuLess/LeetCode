@@ -16,7 +16,7 @@ class Solution767 {
             map[it] = map.getOrDefault(it, 0) + 1
         }
 
-        if (map.values.max()!! > (S.length + 1) / 2) {
+        if (map.values.maxOrNull()!! > (S.length + 1) / 2) {
             return ""
         }
 

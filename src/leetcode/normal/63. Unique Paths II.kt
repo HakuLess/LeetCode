@@ -7,7 +7,7 @@ class Solution63 {
         }
 
         if (obstacleGrid.size == 1) {
-            return if (obstacleGrid[0].max()!! > 0) {
+            return if (obstacleGrid[0].maxOrNull()!! > 0) {
                 0
             } else {
                 1

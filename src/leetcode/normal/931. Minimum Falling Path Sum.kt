@@ -23,6 +23,6 @@ class Solution931 {
                 matrix[i][j] += A[i][j]
             }
         }
-        return matrix[x - 1].min()!!
+        return matrix[x - 1].minOrNull()!!
     }
 }

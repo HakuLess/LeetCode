@@ -38,6 +38,6 @@ class Solution396 {
 //            }
 //        }
 //        ans.print()
-//        return ans.max()!!
+//        return ans.maxOrNull()!!
 //    }
 }

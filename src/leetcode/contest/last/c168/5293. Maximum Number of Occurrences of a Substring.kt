@@ -28,7 +28,7 @@ class Solution5293 {
         if (map.isEmpty()) {
             return 0
         }
-        return map.values.max()!!
+        return map.values.maxOrNull()!!
     }
 
     private fun check(s: String): Int {

@@ -22,7 +22,7 @@ class Solution5071 {
                 return -1
             }
         }
-        return ans.min()!!
+        return ans.minOrNull()!!
     }
 
     private fun filter(a: IntArray, b: IntArray): IntArray {

@@ -24,8 +24,8 @@ fun main(args: Array<String>) {
                 c[j] += dp[i][j]
             }
         }
-//        println("${r.max()} ${r.min()} ${c.max()} ${c.min()}")
-        val ans = (r.max()!! - r.min()!!) * (r.max()!! - r.min()!!) + (c.max()!! - c.min()!!) * (c.max()!! - c.min()!!)
+//        println("${r.maxOrNull()} ${r.minOrNull()} ${c.maxOrNull()} ${c.minOrNull()}")
+        val ans = (r.maxOrNull()!! - r.minOrNull()!!) * (r.maxOrNull()!! - r.minOrNull()!!) + (c.maxOrNull()!! - c.minOrNull()!!) * (c.maxOrNull()!! - c.minOrNull()!!)
         println(ans)
         for (i in 0 until n) {
             println(dp[i].joinToString(""))

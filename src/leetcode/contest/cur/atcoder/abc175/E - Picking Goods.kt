@@ -23,5 +23,5 @@ fun main(args: Array<String>) {
                 dp[i][j][k] = maxOf(dp[i][j][k], dp[i][j][k - 1] + matrix[i][j])
         }
     }
-    println(dp.last().last().max()!!)
+    println(dp.last().last().maxOrNull()!!)
 }

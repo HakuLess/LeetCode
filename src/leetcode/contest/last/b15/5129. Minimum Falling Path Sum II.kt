@@ -28,7 +28,7 @@ class Solution5129 {
                 dp[i][j] = min + arr[i][j]
             }
         }
-        return dp[n - 1].min()!!
+        return dp[n - 1].minOrNull()!!
     }
 
 //    var min = Int.MAX_VALUE

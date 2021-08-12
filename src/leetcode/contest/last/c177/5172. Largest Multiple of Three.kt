@@ -30,7 +30,7 @@ class Solution5172 {
 
         } else if (sum % 3 == 1) {
             if (d1.isNotEmpty()) {
-                ans.remove(d1.min()!!)
+                ans.remove(d1.minOrNull()!!)
             } else if (d2.size >= 2) {
                 d2.sort()
                 ans.remove(d2[0])
@@ -40,7 +40,7 @@ class Solution5172 {
             }
         } else if (sum % 3 == 2) {
             if (d2.isNotEmpty()) {
-                ans.remove(d2.min()!!)
+                ans.remove(d2.minOrNull()!!)
             } else if (d1.size >= 2) {
                 d1.sort()
                 ans.remove(d1[0])

@@ -9,7 +9,7 @@ class Solution807 {
         val ver = IntArray(grid.size)
         for (i in hor.indices) {
             for (j in ver.indices) {
-                ver[j] = grid[j].max()!!
+                ver[j] = grid[j].maxOrNull()!!
                 hor[i] = maxOf(hor[i], grid[j][i])
             }
         }

@@ -18,6 +18,6 @@ class Solution5189 {
         }
         l /= 2
         o /= 2
-        return intArrayOf(b, a, l, o, n).min()!!
+        return intArrayOf(b, a, l, o, n).minOrNull()!!
     }
 }

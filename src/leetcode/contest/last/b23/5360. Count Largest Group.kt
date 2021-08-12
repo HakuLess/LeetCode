@@ -19,7 +19,7 @@ class Solution5360 {
             map[sum] = map.getOrDefault(sum, 0) + 1
         }
         map.printInt()
-        val max = map.maxBy { it.value }!!.value
+        val max = map.maxByOrNull { it.value }!!.value
         return map.count { it.value == max }
     }
 }

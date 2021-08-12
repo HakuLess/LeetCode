@@ -19,6 +19,6 @@ class Solution1072 {
             map[a1.toString()] = map.getOrDefault(a1.toString(), 0) + 1
         }
 
-        return map.values.max()!!
+        return map.values.maxOrNull()!!
     }
 }

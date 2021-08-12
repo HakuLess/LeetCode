@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
 class Solution5281 {
     fun smallestDivisor(nums: IntArray, threshold: Int): Int {
         var left = 1
-        var right = nums.max()!!
+        var right = nums.maxOrNull()!!
         while (left + 1 < right) {
             val mid = (left + right).ushr(1)
             when {

@@ -26,7 +26,7 @@ class Solution1111 {
             }
         }
 
-        val max = ans.max()!!
+        val max = ans.maxOrNull()!!
         val res = ans.map {
             if (it > max / 2) {
                 1

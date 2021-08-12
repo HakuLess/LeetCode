@@ -14,5 +14,5 @@ fun main(args: Array<String>) {
             minPrice[j] = minOf(minPrice[j], minOf(price[i], minPrice[i]))
         }
     }
-    println((0 until n).map { i -> if (minPrice[i] == Int.MAX_VALUE) Int.MIN_VALUE else price[i] - minPrice[i] }.max()!!)
+    println((0 until n).map { i -> if (minPrice[i] == Int.MAX_VALUE) Int.MIN_VALUE else price[i] - minPrice[i] }.maxOrNull()!!)
 }

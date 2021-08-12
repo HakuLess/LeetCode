@@ -55,7 +55,7 @@ class Solution5521 {
                 seen["$x,$y"] = it
             }
         }
-        val ans = (dfs(0, 0)!!.toList().max()!! % mod).toInt()
+        val ans = (dfs(0, 0)!!.toList().maxOrNull()!! % mod).toInt()
         if (ans < 0) return -1
         return ans
     }

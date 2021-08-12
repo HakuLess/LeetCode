@@ -22,7 +22,7 @@ class Solution969 {
                 end--
                 cur.removeAt(cur.lastIndex)
             } else {
-                val maxIndex = cur.indexOf(cur.max())
+                val maxIndex = cur.indexOf(cur.maxOrNull())
                 ans.add(maxIndex + 1)
                 ans.add(cur.size)
                 cur.subList(0, maxIndex + 1).reverse()

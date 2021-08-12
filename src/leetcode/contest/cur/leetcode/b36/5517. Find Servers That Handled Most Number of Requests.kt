@@ -33,7 +33,7 @@ class Solution5517 {
                 ans[cur] += 1
             }
         }
-        val max = ans.max()
+        val max = ans.maxOrNull()
         val res = arrayListOf<Int>()
         for (i in ans.indices) {
             if (ans[i] == max) {

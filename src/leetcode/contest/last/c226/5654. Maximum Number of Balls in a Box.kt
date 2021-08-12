@@ -7,6 +7,6 @@ class Solution5654 {
             val k = i.toString().sumBy { it - '0' }
             map[k] = map.getOrDefault(k, 0) + 1
         }
-        return map.values.max()!!
+        return map.values.maxOrNull()!!
     }
 }

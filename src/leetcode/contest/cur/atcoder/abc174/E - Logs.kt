@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
     }
 
     var l = 1
-    var r = arr.max()!!
+    var r = arr.maxOrNull()!!
     while (l <= r) {
         val mid = l + (r - l) / 2
         if (check(mid)) {

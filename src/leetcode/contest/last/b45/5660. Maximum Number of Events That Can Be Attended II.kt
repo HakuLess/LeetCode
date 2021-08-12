@@ -46,6 +46,6 @@ class Solution5660 {
 //            }
 //            cur = next
 //        }
-//        return cur.values.max()!!
+//        return cur.values.maxOrNull()!!
 //    }
 }

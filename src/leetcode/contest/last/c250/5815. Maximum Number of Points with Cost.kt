@@ -27,6 +27,6 @@ class Solution5815 {
             dp = next
         }
 
-        return dp.max()!!
+        return dp.maxOrNull()!!
     }
 }

@@ -20,7 +20,7 @@ class Solution5678 {
         }
 
         var left = 1
-        var right = nums.max()!!
+        var right = nums.maxOrNull()!!
         while (left + 1 < right) {
             val mid = (left + right).ushr(1)
             when {

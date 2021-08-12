@@ -23,6 +23,6 @@ class Solution1733 {
                 arr[it]++
             }
         }
-        return study.size - arr.max()!!
+        return study.size - arr.maxOrNull()!!
     }
 }

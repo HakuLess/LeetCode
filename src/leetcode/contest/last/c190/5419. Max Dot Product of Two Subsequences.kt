@@ -40,10 +40,10 @@ class Solution5419 {
 //
 //    fun maxDotProduct(nums1: IntArray, nums2: IntArray): Int {
 //        if (nums1.all { it > 0 } && nums2.all { it < 0 }) {
-//            return nums1.min()!! * nums2.max()!!
+//            return nums1.minOrNull()!! * nums2.maxOrNull()!!
 //        }
 //        if (nums1.all { it < 0 } && nums2.all { it > 0 }) {
-//            return nums2.min()!! * nums1.max()!!
+//            return nums2.minOrNull()!! * nums1.maxOrNull()!!
 //        }
 //        return helper(nums1, nums2, 0, 0)
 //    }

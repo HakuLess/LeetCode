@@ -13,11 +13,11 @@ fun main(args: Array<String>) {
             return arrayListOf()
         }
         val ans = arrayListOf<Pair<Int, Int>>()
-        if (array.last() == array.max()) {
+        if (array.last() == array.maxOrNull()) {
             array.removeAt(array.lastIndex)
             return getAns(array)
         }
-        val max = array.max()!!
+        val max = array.maxOrNull()!!
         val index = array.indexOf(max)
         ans.add(Pair(index, array.lastIndex))
         array[index] = array.last()

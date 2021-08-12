@@ -20,6 +20,6 @@ class Solution554 {
             }
             map.remove(cur)
         }
-        return wall.size - (map.values.max() ?: 0)
+        return wall.size - (map.values.maxOrNull() ?: 0)
     }
 }

@@ -15,7 +15,7 @@ class Solution508 {
             return key
         }
         dfs(root)
-        val max = map.maxBy { it.value }?.value
+        val max = map.maxByOrNull { it.value }?.value
         return map.filter { it.value == max }.map {
             it.key
         }.toIntArray()

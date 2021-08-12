@@ -7,7 +7,7 @@ class Solution5682 {
             val cur = IntArray(26)
             for (j in i until s.length) {
                 cur[s[j] - 'a']++
-                ans += cur.filter { it != 0 }.max()!! - cur.filter { it != 0 }.min()!!
+                ans += cur.filter { it != 0 }.maxOrNull()!! - cur.filter { it != 0 }.minOrNull()!!
             }
         }
         return ans

@@ -22,7 +22,7 @@ class Solution5509 {
             if (cur != i) {
                 val s = cost.slice(IntRange(i, cur))
 //                println(s.joinToString(", "))
-                ans += s.sum() - s.max()!!
+                ans += s.sum() - s.maxOrNull()!!
             }
             i = cur + 1
         }

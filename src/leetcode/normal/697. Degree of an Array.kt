@@ -17,7 +17,7 @@ class Solution697 {
         }
 
         var ans = nums.size
-        val degree = count.values.max()!!
+        val degree = count.values.maxOrNull()!!
         for (x in count.keys) {
             if (count[x] == degree) {
                 ans = minOf(ans, right[x]!! - left[x]!! + 1)

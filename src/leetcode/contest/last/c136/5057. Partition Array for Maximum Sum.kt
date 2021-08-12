@@ -37,14 +37,14 @@ class Solution5057 {
 //        }
 //
 //        return if (K >= A.size) {
-//            hashMap[A.size] = A.size * A.max()!!
-//            A.size * A.max()!!
+//            hashMap[A.size] = A.size * A.maxOrNull()!!
+//            A.size * A.maxOrNull()!!
 //        } else {
 //            var max = 0
 //            val list = arrayListOf<Int>()
 //            for (i in 0 until K) {
 //                list.add(A[i])
-//                max = maxOf(list.max()!! * list.size
+//                max = maxOf(list.maxOrNull()!! * list.size
 //                        + maxSumAfterPartitioning(A.slice(IntRange(i + 1, A.lastIndex)).toIntArray(), K), max)
 //            }
 //            hashMap[A.size] = max

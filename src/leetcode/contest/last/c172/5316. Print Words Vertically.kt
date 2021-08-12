@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 class Solution5316 {
     fun printVertically(s: String): List<String> {
         val ans = ArrayList<CharArray>()
-        val max = s.split(' ').maxBy { it.length }!!.length
+        val max = s.split(' ').maxByOrNull { it.length }!!.length
 
         for (i in 0 until max) {
             ans.add(CharArray(s.split(' ').size) { ' ' })

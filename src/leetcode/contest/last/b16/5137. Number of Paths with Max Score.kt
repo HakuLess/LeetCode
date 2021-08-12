@@ -48,7 +48,7 @@ class Solution5137 {
                     val v1 = dp[i - 1][j]
                     val v2 = dp[i][j - 1]
 
-                    val max = listOf(v0, v1, v2).maxBy { it.first }!!.first
+                    val max = listOf(v0, v1, v2).maxByOrNull { it.first }!!.first
                     var sec = 0
                     var fir = 0
                     listOf(v0, v1, v2).filter {

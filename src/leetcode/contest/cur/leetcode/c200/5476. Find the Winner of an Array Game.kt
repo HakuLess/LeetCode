@@ -2,7 +2,7 @@ package leetcode.contest.cur.leetcode.c200
 
 class Solution5476 {
     fun getWinner(arr: IntArray, k: Int): Int {
-        if (k > arr.size) return arr.max()!!
+        if (k > arr.size) return arr.maxOrNull()!!
         val l = ArrayList<Int>()
         l.addAll(arr.toList())
         var cur = 0

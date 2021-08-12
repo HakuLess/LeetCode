@@ -5,10 +5,10 @@ class Solution1170 {
         val a = IntArray(queries.size)
         val b = IntArray(words.size)
         for (i in a.indices) {
-            a[i] = queries[i].count { it == queries[i].min() }
+            a[i] = queries[i].count { it == queries[i].minOrNull() }
         }
         for (i in b.indices) {
-            b[i] = words[i].count { it == words[i].min() }
+            b[i] = words[i].count { it == words[i].minOrNull() }
         }
         val ans = arrayListOf<Int>()
         a.forEach { t ->

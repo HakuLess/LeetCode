@@ -14,6 +14,6 @@ class Solution5561 {
             else
                 arr[i] = arr[i / 2] + arr[i / 2 + 1]
         }
-        return arr.max()!!
+        return arr.maxOrNull()!!
     }
 }

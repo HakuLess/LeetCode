@@ -52,6 +52,6 @@ fun main(args: Array<String>) {
             }
             map[seen[i]!!] = map.getOrDefault(seen[i], 0) + 1
         }
-        println(map.maxBy { it.value }!!.value)
+        println(map.maxByOrNull { it.value }!!.value)
     }
 }

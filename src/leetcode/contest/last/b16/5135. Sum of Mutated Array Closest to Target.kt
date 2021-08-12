@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
 class Solution5135 {
     fun findBestValue(arr: IntArray, target: Int): Int {
         if (arr.sum() <= target) {
-            return arr.max()!!
+            return arr.maxOrNull()!!
         }
         var left = 0
         var right = 100000

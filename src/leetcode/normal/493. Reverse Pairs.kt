@@ -31,8 +31,8 @@ class Solution493 {
 //        }
         var ans = 0
         nums.forEach {
-            ans += root.query(root, map.getOrDefault(it.toLong() * 2 + 1, 0), map.values.max()!!).also {
-//                println("l: ${map.getOrDefault(it.toLong() * 2 + 1, 0)}, r: ${map.values.max()}")
+            ans += root.query(root, map.getOrDefault(it.toLong() * 2 + 1, 0), map.values.maxOrNull()!!).also {
+//                println("l: ${map.getOrDefault(it.toLong() * 2 + 1, 0)}, r: ${map.values.maxOrNull()}")
             }
             val cur = map.getOrDefault(it.toLong(), 0)
             root.update(root, cur, root.query(root, cur, cur) + 1)

@@ -29,5 +29,5 @@ fun main(args: Array<String>) {
         val key = find(i)
         ans[key] = ans.getOrDefault(key, 0) + 1
     }
-    println(ans.map { it.value }.max())
+    println(ans.map { it.value }.maxOrNull())
 }

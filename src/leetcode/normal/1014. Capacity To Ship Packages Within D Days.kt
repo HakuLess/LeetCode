@@ -25,7 +25,7 @@ class Solution1014 {
             return ans
         }
 
-        var left = weights.max()!!
+        var left = weights.maxOrNull()!!
         var right = weights.sum()
         while (left < right) {
             val mid = left + (right - left) / 2

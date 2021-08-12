@@ -30,6 +30,6 @@ class Solution120 {
                 }
             }
         }
-        return dp.min()!!
+        return dp.minOrNull()!!
     }
 }

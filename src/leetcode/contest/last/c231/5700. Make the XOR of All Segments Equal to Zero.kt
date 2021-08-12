@@ -23,7 +23,7 @@ class Solution5700 {
                     dp[i][j] = sum - group[i].getOrDefault(j, 0)
                 }
             } else {
-                dp[i].fill(dp[i - 1].min()!! + sum)
+                dp[i].fill(dp[i - 1].minOrNull()!! + sum)
                 group[i].forEach { (key, value) ->
                     for (pre in 0 until max) {
                         dp[i][pre xor key] = minOf(dp[i][pre xor key], dp[i - 1][pre] + sum - value)

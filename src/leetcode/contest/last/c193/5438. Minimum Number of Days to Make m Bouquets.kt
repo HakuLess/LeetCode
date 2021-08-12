@@ -22,8 +22,8 @@ class Solution5438 {
             return false
         }
 
-        var left = bloomDay.min()!!
-        var right = bloomDay.max()!!
+        var left = bloomDay.minOrNull()!!
+        var right = bloomDay.maxOrNull()!!
         while (left + 1 < right) {
             val mid = (left + right).ushr(1)
             when {

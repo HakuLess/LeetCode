@@ -72,7 +72,7 @@ class Solution5632 {
 //            if (i == j) return 0
 //            return (dis.getOrDefault(i, arrayListOf()).map { value ->
 //                maxOf(value.second, dfs(value.first, j))
-//            }.min() ?: Int.MAX_VALUE).also {
+//            }.minOrNull() ?: Int.MAX_VALUE).also {
 //                seen[key] = it
 //            }
 //        }

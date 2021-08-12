@@ -39,7 +39,7 @@ class Solution5338 {
                 val b = helper(root.right, 2) + 1
                 val c = helper(root.left, 0)
                 val d = helper(root.right, 0)
-                ans = intArrayOf(a, b, c, d).max()!!
+                ans = intArrayOf(a, b, c, d).maxOrNull()!!
             }
             1 -> {
                 ans = helper(root.right, 2) + 1

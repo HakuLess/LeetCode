@@ -28,7 +28,7 @@ class Solution329 {
                     dfs(x - 1, y, matrix[x][y]),
                     dfs(x, y + 1, matrix[x][y]),
                     dfs(x, y - 1, matrix[x][y])
-            ).max()!!).also {
+            ).maxOrNull()!!).also {
                 seen[Triple(x, y, cur)] = it
 //                println("set $x, $y with $it")
                 ans = maxOf(ans, it)

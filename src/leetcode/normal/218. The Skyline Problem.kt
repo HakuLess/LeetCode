@@ -105,7 +105,7 @@ class Solution218 {
 //            }
 //        }
 //        if (ans.lastOrNull()!![1] != 0)
-//            ans.add(arrayListOf(buildings.maxBy { it[1] }!![1], 0))
+//            ans.add(arrayListOf(buildings.maxByOrNull { it[1] }!![1], 0))
 //        return ans
 //    }
 }

@@ -12,6 +12,6 @@ fun main(args: Array<String>) {
             else
                 arr[index]
         }
-        println(dp.max())
+        println(dp.maxOrNull())
     }
 }

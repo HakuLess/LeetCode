@@ -18,7 +18,7 @@ class Solution416 {
             return false
         }
         val target = nums.sum() / 2
-        if (nums.max()!! > target) {
+        if (nums.maxOrNull()!! > target) {
             return false
         }
         val dp = BooleanArray(target + 1)

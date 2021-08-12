@@ -53,7 +53,7 @@ class Solution5342 {
 //    fun maxEvents(events: Array<IntArray>): Int {
 //
 //        var c = clone(events)
-//        var cur = c.minBy { it[0] }!![0]
+//        var cur = c.minByOrNull { it[0] }!![0]
 //        var ans = 0
 //        while (c.isNotEmpty()) {
 //            c = ArrayList(c.filter { it[1] >= cur })
@@ -73,7 +73,7 @@ class Solution5342 {
 //            if (c.isEmpty()) {
 //                return ans
 //            }
-//            cur = maxOf(cur + 1, c.minBy { it[0] }!![0])
+//            cur = maxOf(cur + 1, c.minByOrNull { it[0] }!![0])
 //        }
 //        return ans
 //    }
@@ -90,7 +90,7 @@ class Solution5342 {
 //                max = if (c.isEmpty()) {
 //                    maxOf(max, 1)
 //                } else {
-//                    maxOf(max, 1 + helper(c.toTypedArray(), maxOf(1 + cur, c.minBy { it[0] }!![0])))
+//                    maxOf(max, 1 + helper(c.toTypedArray(), maxOf(1 + cur, c.minByOrNull { it[0] }!![0])))
 //                }
 //                c.add(ints)
 //            }

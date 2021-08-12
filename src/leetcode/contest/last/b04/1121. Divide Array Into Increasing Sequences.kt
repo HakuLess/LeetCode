@@ -33,7 +33,7 @@ class Solution1121 {
         nums.forEach {
             map[it] = map.getOrDefault(it, 0) + 1
         }
-        if (map.values.max()!! * K > nums.size) {
+        if (map.values.maxOrNull()!! * K > nums.size) {
             return false
         }
         return true

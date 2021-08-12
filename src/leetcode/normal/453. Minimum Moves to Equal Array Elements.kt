@@ -5,7 +5,7 @@ class Solution453 {
         if (nums.isEmpty()) {
             return 0
         }
-        val min = nums.min()!!
+        val min = nums.minOrNull()!!
         return nums.sumBy { it - min }
     }
 }

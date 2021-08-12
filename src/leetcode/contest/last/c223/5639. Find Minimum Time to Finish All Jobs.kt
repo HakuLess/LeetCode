@@ -42,11 +42,11 @@ class Solution5639 {
             val state = IntArray(k)
             for (i in jobs.indices) {
                 // 每次将任务分配给当前任务最少的人
-                val index = state.indexOfFirst { it == state.min()!! }
+                val index = state.indexOfFirst { it == state.minOrNull()!! }
                 state[index] += jobs[i]
             }
-            ans = minOf(ans, state.max()!!)
-            return state.max()!!
+            ans = minOf(ans, state.maxOrNull()!!)
+            return state.maxOrNull()!!
         }
 
         fun sa() {

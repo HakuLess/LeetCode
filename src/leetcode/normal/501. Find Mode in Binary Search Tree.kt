@@ -21,7 +21,7 @@ class Solution501 {
                 queue.add(item.right)
             }
         }
-        val max = map.values.max()!!
+        val max = map.values.maxOrNull()!!
         val ans = arrayListOf<Int>()
         map.forEach { (t, u) ->
             if (max == u) {

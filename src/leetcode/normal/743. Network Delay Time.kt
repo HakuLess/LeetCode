@@ -17,7 +17,7 @@ class Solution743 {
             graph.addEdgeOri(it[0] - 1, it[1] - 1, it[2])
         }
         val ans = graph.dijkstra(K - 1)
-        return ans.max()!!.let {
+        return ans.maxOrNull()!!.let {
             if (it >= Int.MAX_VALUE / 2) -1
             else it
         }

@@ -20,6 +20,6 @@ class Solution565 {
         for (i in nums.indices) {
             dfs(i, hashSetOf<Int>())
         }
-        return seen.values.max()!!
+        return seen.values.maxOrNull()!!
     }
 }

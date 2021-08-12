@@ -14,14 +14,14 @@ class Solution5356 {
     }
 
     private fun check(matrix: Array<IntArray>, x: Int, y: Int): Boolean {
-        if (matrix[x][y] != matrix[x].min()!!) {
+        if (matrix[x][y] != matrix[x].minOrNull()!!) {
             return false
         }
         val cmp = arrayListOf<Int>()
         matrix.forEach {
             cmp.add(it[y])
         }
-        if (matrix[x][y] != cmp.max()) {
+        if (matrix[x][y] != cmp.maxOrNull()) {
             return false
         }
         return true

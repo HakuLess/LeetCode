@@ -16,7 +16,7 @@ class Solution914 {
         val list = deck.groupBy { it }.map {
             it.value.size
         }
-        var min = list.min()!!
+        var min = list.minOrNull()!!
         list.forEach {
             if (gcd(it, min) == 1) {
                 return false

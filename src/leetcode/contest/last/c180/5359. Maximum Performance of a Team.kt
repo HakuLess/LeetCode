@@ -62,7 +62,7 @@ class Solution5359 {
 //                }
 //            }
 //
-//            val result = cur.sumBy { it.first }.toLong() * tmp.minBy { it.second }!!.second.toLong()
+//            val result = cur.sumBy { it.first }.toLong() * tmp.minByOrNull { it.second }!!.second.toLong()
 //            seen[list[i].second] = result
 //            ans = maxOf(result, ans)
 //        }

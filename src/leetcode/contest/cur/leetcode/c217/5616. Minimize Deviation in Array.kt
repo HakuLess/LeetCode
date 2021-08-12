@@ -28,7 +28,7 @@ class Solution5616 {
     }
 //    fun minimumDeviation(nums: IntArray): Int {
 //        val a = ArrayList(nums.sorted())
-//        var ans = nums.max()!! - nums.min()!!
+//        var ans = nums.maxOrNull()!! - nums.minOrNull()!!
 //        while (a[0] % 2 != 0) {
 //            val cur = a[0] * 2
 //            a.removeAt(0)

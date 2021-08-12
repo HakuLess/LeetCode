@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
 class Solution5481 {
     fun minOperations(nums: IntArray): Int {
         var ans = 0
-        val max = nums.max()!!
+        val max = nums.maxOrNull()!!
         if (max == 0) return 0
         val l = (ln(max.toDouble()) / ln(2.0)).toInt()
         nums.forEach {

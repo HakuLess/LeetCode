@@ -23,7 +23,7 @@ class Solution410 {
             return times <= m
         }
 
-        var left = nums.max()!!
+        var left = nums.maxOrNull()!!
         var right = nums.sum()
         while (left < right) {
             val mid = left + (right - left) / 2

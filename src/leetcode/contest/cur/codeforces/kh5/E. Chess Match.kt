@@ -7,8 +7,8 @@ fun main(args: Array<String>) {
         val a = readLine()!!.split(" ").map { it.toInt() }
         val b = readLine()!!.split(" ").map { it.toInt() }
 
-        val min = minOf(a.min()!!, b.min()!!)
-        val max = maxOf(a.max()!!, b.max()!!)
+        val min = minOf(a.minOrNull()!!, b.minOrNull()!!)
+        val max = maxOf(a.maxOrNull()!!, b.maxOrNull()!!)
 
         fun checkMid(mid: Int): Boolean {
             val aa = ArrayList(a.sorted())
