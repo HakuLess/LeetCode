@@ -1,7 +1,7 @@
 package leetcode.contest.utils
 
 import java.math.BigInteger
-import java.util.ArrayList
+import java.util.*
 
 /**
  * 数学相关操作
@@ -89,6 +89,28 @@ fun quickPower(base: Long, pow: Long, m: Long = 1000000007L): Long {
         if (b and 1L != 0L)
             res = res * a % m
         a = a * a % m
+        b = b shr 1
+    }
+    return res
+}
+
+fun quickPower(base: BigInteger, pow: BigInteger, m: Long = 1000000007L): BigInteger {
+    var res = 1L.toBigInteger()
+    var a = base
+    var b = pow
+    while (b > 0.toBigInteger()) {
+        if (b and 1L.toBigInteger() != 0L.toBigInteger()) {
+            if (m == -1L) {
+                res = (res * a)
+            } else {
+                res = (res * a).mod(m.toBigInteger())
+            }
+        }
+        if (m == -1L) {
+            a = (a * a)
+        } else {
+            a = (a * a).mod(m.toBigInteger())
+        }
         b = b shr 1
     }
     return res

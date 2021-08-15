@@ -12,8 +12,9 @@ class Solution5512 {
         }
 
         fun check(x: Int, y: Int, u: Int, v: Int): Boolean {
-            return arr[x][u] > arr[x][y] && arr[u][x]>arr[u][v]
+            return arr[x][u] > arr[x][y] && arr[u][x] > arr[u][v]
         }
+
         val set = HashSet<Int>()
         for (i in pairs.indices) {
             for (j in i + 1 until pairs.size) {
