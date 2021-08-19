@@ -10,12 +10,10 @@ fun main(args: Array<String>) {
 
 class Solution5844 {
     fun minNonZeroProduct(p: Int): Int {
-        val mod = 1000000007L.toBigInteger()
-        // 3
-        val n = (quickPower(2L.toBigInteger(), p.toLong().toBigInteger(), -1) - 1.toBigInteger()) / 2.toBigInteger()
-        // 6
-        val m = quickPower(2L.toBigInteger(), p.toLong().toBigInteger(), -1) - 2L.toBigInteger()
-        val ans = quickPower(m, n) * (quickPower(2L.toBigInteger(), p.toLong().toBigInteger()) - 1L.toBigInteger())
-        return (ans % mod).toInt()
+        val mod = 1000000007L
+        val a = (1L shl p) - 1L
+        val b = a - 1L
+        val c = b / 2L
+        return (((a % mod) * quickPower(b % mod, c)) % mod).toInt()
     }
 }

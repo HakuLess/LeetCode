@@ -2,23 +2,18 @@ package leetcode.normal
 
 class Solution551 {
     fun checkRecord(s: String): Boolean {
-        var aNum = 0
-        var lNum = 0
+        var a = 0
+        var l = 0
         s.forEach {
-            if (it == 'A') {
-                aNum++
-                lNum = 0
-                if (aNum > 1) {
-                    return false
+            when (it) {
+                'A' -> {
+                    a++
+                    l = 0
                 }
-            } else if (it == 'L') {
-                lNum++
-                if (lNum > 2) {
-                    return false
-                }
-            } else {
-                lNum = 0
+                'L' -> l++
+                else -> l = 0
             }
+            if (a == 2 || l == 3) return false
         }
         return true
     }
