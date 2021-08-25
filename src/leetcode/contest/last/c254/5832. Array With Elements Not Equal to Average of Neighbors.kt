@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c254
+package leetcode.contest.last.c254
 
 class Solution5832 {
     fun rearrangeArray(nums: IntArray): IntArray {

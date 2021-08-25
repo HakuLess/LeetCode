@@ -1,4 +1,4 @@
-package leetcode.contest.cur.leetcode.c254
+package leetcode.contest.last.c254
 
 class Solution5843 {
     fun numOfStrings(patterns: Array<String>, word: String): Int {
